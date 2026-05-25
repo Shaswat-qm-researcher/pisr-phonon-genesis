@@ -1,0 +1,121 @@
+ 
+ +---------------------------------------------------------------+
+ |         VASPKIT Standard Edition 1.3.5 (03 Jul. 2022)         |
+ |            Running VASPKIT Under Command-Line Mode            |
+ +---------------------------------------------------------------+
+ -->> (01) Reading INPUT.in File...
+ +-------------------------- Warm Tips --------------------------+
+         See some examples in vaspkit/examples/elastic,   
+   Require the fully-relaxed and standardized Conventional cell.
+ +---------------------------------------------------------------+
+ -->> (02) Reading Structural Parameters from POSCAR File...
+ -->> (03) Calculating Fitting Coefficients of Energy vs. Strain.
+  -->> Current directory:  Fitting Precision 
+        C11_C12_I Folder:  0.651E-04
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+       C11_C22_II Folder:  0.441E-08
+              C33 Folder:  0.181E-07
+              C44 Folder:  0.494E-06
+  C11_C12_C13_C33 Folder:  0.656E-04
+  C11_C12_C14_C44 Folder:  0.363E-07
+ +-------------------------- Summary ----------------------------+
+ Crystal Class: -3m
+ Space Group: P-3m1
+ Crystal System: Trigonal/Rhombohedral I system                         
+ Including Point group classes: 32, 3m, -32/m        
+ There are 6 independent elastic constants         
+    C11  C12  C13  C14    0    0           
+    C12  C11  C13 -C14    0    0           
+    C13  C13  C33    0    0    0           
+    C14 -C14    0  C44    0    0           
+      0    0    0    0  C44  C14           
+      0    0    0    0  C14  C66           
+ 
+ Stiffness Tensor C_ij (in GPa):
+    480.000    153.501    155.288      0.683      0.000      0.000
+    153.501    480.000    155.288     -0.683      0.000      0.000
+    155.288    155.288    503.362      0.000      0.000      0.000
+      0.683     -0.683      0.000    177.837      0.000      0.000
+      0.000      0.000      0.000      0.000    177.837      0.683
+      0.000      0.000      0.000      0.000      0.683    163.249
+ 
+ Compliance Tensor S_ij (in GPa^{-1}):
+   0.002461  -0.000602  -0.000574  -0.000012   0.000000   0.000000
+  -0.000602   0.002461  -0.000574   0.000012   0.000000   0.000000
+  -0.000574  -0.000574   0.002341   0.000000   0.000000   0.000000
+  -0.000012   0.000012   0.000000   0.005623   0.000000   0.000000
+   0.000000   0.000000   0.000000   0.000000   0.005623  -0.000024
+   0.000000   0.000000   0.000000   0.000000  -0.000024   0.006126
+ 
+ Anisotropic mechanical properties of bulk singlecrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |    Min    |    Max    | Anisotropy|
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |  259.190  |  279.375  |    1.078  |
+ |  Young's Modulus E (GPa)  |  406.239  |  433.899  |    1.068  |
+ |  Shear Modulus G (GPa)    |  163.217  |  177.869  |    1.090  |
+ |  Poisson's Ratio v        |    0.212  |    0.255  |    1.207  |
+ |  Linear compressibility   |    1.193  |    1.286  |    1.078  |
+ +---------------------------------------------------------------+
+ Linear compressibility beta is in unit of TPa^-1
+ References:
+ [1] Marmier A, Comput. Phys. Commun. 181, 2102–2115 (2010) 
+ [2] Gaillac R, J. Phys. Condens. Matter 28, 275201 (2016) 
+ 
+ Average mechanical properties of bulk polycrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |   Voigt   |   Reuss   |    Hill   |
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |   265.72  |  265.586  |  265.655  |
+ |  Young's Modulus E (GPa)  |   421.18  |  420.592  |  420.886  |
+ |  Shear Modulus G (GPa)    |   170.40  |  170.134  |  170.269  |
+ |  Poisson's Ratio v        |     0.24  |    0.236  |    0.236  |
+ |  P-wave Modulus (GPa)     |   492.93  |  492.432  |  492.681  |
+ |  Pugh's Ratio (B/G)       |     1.56  |    1.561  |    1.560  |
+ | Vickers Hardness (GPa)[6] |    20.82  |   20.772  |   20.798  |
+ | Vickers Hardness (GPa)[7] |    21.10  |   21.051  |   21.076  |
+ +---------------------------------------------------------------+
+ Pugh's Ratio (B/G):   1.56        --> Brittle region (< 1.75)
+ Cauchy Pressure Pc (GPa):   -24.3 --> Metallic-like bonding (< 0)
+ Kleinman’s parameter:   0.56      --> Bond Streching dominated (> 0.5)
+ Universal Elastic Anisotropy:   0.01
+ Chung-Buessem Anisotropy:     0.0
+ Isotropic Poisson's Ratio:   0.24
+ Longitudinal wave velocity (m/s):   9904.062
+ Transverse wave velocity (m/s):   5822.353
+ Average wave velocity (m/s):   6453.417
+ Debye temperature (K):   891.6
+ References:
+ [1] Voigt W, Lehrbuch der Kristallphysik (1928)
+ [2] Reuss A, Z. Angew. Math. Mech. 9 49-58 (1929)
+ [3] Hill R, Proc. Phys. Soc. A 65 349-54 (1952)
+ [4] Debye temperature J. Phys. Chem. Solids 24, 909-917 (1963)
+ [5] Elastic wave velocities calculated using Navier's equation
+ [6] Chen X-Q, Intermetallics 19, 1275 (2011)
+ [7] Tian Y-J, Int. J. Refract. Hard Met. 33, 93–106 (2012)
+ 
+ Eigenvalues of the stiffness matrix (in GPa):
+ Eigenvalue lamda_1 =   163.217 > 0 meeted.
+ Eigenvalue lamda_2 =   177.831 > 0 meeted.
+ Eigenvalue lamda_3 =   177.869 > 0 meeted.
+ Eigenvalue lamda_4 =   326.505 > 0 meeted.
+ Eigenvalue lamda_5 =   339.385 > 0 meeted.
+ Eigenvalue lamda_6 =   797.479 > 0 meeted.
+ 
+ Elastic stability criteria as seen in PRB 90, 224104 (2014).
+ Criteria (i) C11 - C12 > 0 meeted.
+ Criteria (ii) C13^2 < 0.5*C33(C11 + C12) meeted.
+ Criteria (iii) C14^2 < 0.5*C44*(C11-C12) meeted.
+ Criteria (iv) C44 > 0 is meeted.
+ This Structure is Mechanically Stable.
+ +---------------------------------------------------------------+
+ -->> (04) Written ELASTIC_TENSOR File!
+ +---------------------------------------------------------------+
+ |                          * CITATIONS *                        |
+ | When using VASPKIT in your research PLEASE cite the paper:    |
+ | [1] V. WANG, N. XU, J.-C. LIU, G. TANG, W.-T. GENG, VASPKIT: A|
+ | User-Friendly Interface Facilitating High-Throughput Computing|
+ | and Analysis Using VASP Code, Computer Physics Communications |
+ | 267, 108033, (2021), DOI: 10.1016/j.cpc.2021.108033           |
+ +---------------------------------------------------------------+

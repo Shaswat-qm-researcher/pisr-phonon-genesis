@@ -44,6 +44,22 @@ $$\Theta_D \;=\; f\!\left(G_{VRH},\; E,\; V_{\mathrm{atom}},\; \rho\right)$$
 
 Every step — from feature selection to the final regression formula — is transparent, auditable, and grounded in condensed-matter physics. The framework is demonstrated on **Debye temperature** ($\Theta_D$) and extends naturally to **specific heat** ($C_v$) and **lattice thermal conductivity** ($\kappa$).
 
+
+<p align="center">
+  <img src="pipeline.png" 
+       alt="PI-SR based Material Discovery"
+       style="
+         width: 85%;
+         border-radius: 16px;
+         opacity: 0.89;
+         box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+       "
+       onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 32px rgba(0,0,0,0.2)';"
+       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 18px 24px rgba(0,0,0,0.15)';"
+  />
+</p>
+
 ---
 
 ## Three Pillars of the XAI Framework
@@ -115,7 +131,6 @@ PCA Interpretable Clustering
       v
 Interpretable Scaling Relations + Materials Design Rules
 ```
-
 ---
 
 ## Target Properties

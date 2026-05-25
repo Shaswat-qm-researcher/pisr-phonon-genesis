@@ -1,0 +1,23 @@
+High-symmetry points (in fractional coordinates).
+   0.0000000000   0.0000000000   0.0000000000     GAMMA
+  -0.5000000000   0.5000000000   0.0000000000     Y_2
+   0.5000000000  -0.5000000000   0.0000000000     Y_4
+   0.0000000000   0.0000000000   0.5000000000     A
+  -0.5000000000   0.5000000000   0.5000000000     M_2
+   0.5000000000   0.0000000000   0.0000000000     V
+   0.0000000000   0.5000000000   0.0000000000     V_2
+   0.0000000000   0.5000000000   0.5000000000     L_2
+   0.3577627409   0.3577627409   0.0000000000     C
+  -0.3577627409   0.6422372591   0.0000000000     C_2
+   0.6422372591  -0.3577627409   0.0000000000     C_4
+  -0.3040365515   0.6959634485   0.5000000000     D
+   0.3040365515   0.3040365515   0.5000000000     D_2
+  -0.5177672764   0.5177672764   0.0712743793     E
+  -0.4822327236   0.4822327236   0.9287256207     E_2
+   0.4822327236  -0.4822327236   0.0712743793     E_4
+ 
+ 
+If you use this module, please cite the following work:
+[1] V. Wang, N. Xu, J.-C. Liu, G. Tang, W.-T. Geng, VASPKIT: A User-friendly Interface Facilitating High-throughput Computing and Analysis Using VASP Code, Computer Physics Communications 267, 108033 (2021).
+[2] A. Togo and I. Tanaka, Spglib: a software library for crystal symmetry search, arXiv:1808.015900.
+[3] Y. Hinuma, G. Pizzi, Y. Kumagai, F. Oba, I. Tanaka, Band structure diagram paths based on crystallography, Computational Materials Science 128, 140 (2017).

@@ -1,0 +1,146 @@
+ 
+ +---------------------------------------------------------------+
+ |         VASPKIT Standard Edition 1.3.5 (03 Jul. 2022)         |
+ |            Running VASPKIT Under Command-Line Mode            |
+ +---------------------------------------------------------------+
+ -->> (01) Reading INPUT.in File...
+ +-------------------------- Warm Tips --------------------------+
+         See some examples in vaspkit/examples/elastic,   
+   Require the fully-relaxed and standardized Conventional cell.
+ +---------------------------------------------------------------+
+ -->> (02) Reading Structural Parameters from POSCAR File...
+ -->> (03) Calculating Fitting Coefficients of Energy vs. Strain.
+  -->> Current directory:  Fitting Precision 
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+              C11 Folder:  0.319E-08
+              C22 Folder:  0.786E-09
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+              C33 Folder:  0.537E-09
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+              C44 Folder:  0.774E-10
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+              C55 Folder:  0.784E-12
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+              C66 Folder:  0.289E-08
+      C11_C12_C22 Folder:  0.482E-09
+      C11_C13_C33 Folder:  0.336E-08
+      C11_C14_C44 Folder:  0.199E-08
+      C11_C15_C55 Folder:  0.179E-08
+      C11_C16_C66 Folder:  0.214E-08
+      C22_C23_C33 Folder:  0.736E-08
+      C22_C24_C44 Folder:  0.981E-09
+      C22_C25_C55 Folder:  0.707E-09
+      C22_C26_C66 Folder:  0.430E-08
+      C33_C34_C44 Folder:  0.314E-09
+      C33_C35_C55 Folder:  0.168E-09
+      C33_C36_C66 Folder:  0.258E-08
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+      C44_C45_C55 Folder:  0.350E-10
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+      C44_C46_C66 Folder:  0.267E-08
+ WARNING! The Unstrained Structure Has Non-Zero Elastic-Energy. 
+ I Strongly Suggest You Reperform Structure Optimization Again. 
+      C55_C56_C66 Folder:  0.276E-08
+ +-------------------------- Summary ----------------------------+
+ Crystal Class: 1
+ Space Group: P1
+ Crystal System: Triclinic                  
+ Including Point group classes: 1, -1        
+ There are 21 independent elastic constants
+    C11  C12  C13  C14  C15  C16   
+    C12  C22  C23  C24  C25  C26   
+    C13  C23  C33  C34  C35  C36   
+    C14  C24  C34  C44  C45  C46   
+    C15  C25  C35  C45  C55  C56   
+    C16  C26  C36  C46  C56  C66   
+ 
+ Stiffness Tensor C_ij (in GPa):
+    527.451    115.703     94.213     -0.061     -0.197     -0.675
+    115.703    525.798     94.747     -0.012     -0.253      0.907
+     94.213     94.747    419.607     -0.117     -0.308     -1.311
+     -0.061     -0.012     -0.117    227.166      0.009     -0.153
+     -0.197     -0.253     -0.308      0.009    227.455     -0.035
+     -0.675      0.907     -1.311     -0.153     -0.035    206.250
+ 
+ Compliance Tensor S_ij (in GPa^{-1}):
+   0.002047  -0.000383  -0.000373   0.000000   0.000001   0.000006
+  -0.000383   0.002054  -0.000378  -0.000000   0.000001  -0.000013
+  -0.000373  -0.000378   0.002552   0.000001   0.000003   0.000017
+   0.000000  -0.000000   0.000001   0.004402  -0.000000   0.000003
+   0.000001   0.000001   0.000003  -0.000000   0.004396   0.000001
+   0.000006  -0.000013   0.000017   0.000003   0.000001   0.004849
+ 
+ Anisotropic mechanical properties of bulk singlecrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |    Min    |    Max    | Anisotropy|
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |  185.035  |  259.066  |    1.400  |
+ |  Young's Modulus E (GPa)  |  391.803  |  502.653  |    1.283  |
+ |  Shear Modulus G (GPa)    |  185.997  |  227.455  |    1.223  |
+ |  Poisson's Ratio v        |    0.064  |    0.193  |    3.005  |
+ |  Linear compressibility   |    1.287  |    1.801  |    1.400  |
+ +---------------------------------------------------------------+
+ Linear compressibility beta is in unit of TPa^-1
+ References:
+ [1] Marmier A, Comput. Phys. Commun. 181, 2102–2115 (2010) 
+ [2] Gaillac R, J. Phys. Condens. Matter 28, 275201 (2016) 
+ 
+ Average mechanical properties of bulk polycrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |   Voigt   |   Reuss   |    Hill   |
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |   231.35  |  228.041  |  229.697  |
+ |  Young's Modulus E (GPa)  |   483.76  |  478.640  |  481.198  |
+ |  Shear Modulus G (GPa)    |   210.05  |  208.072  |  209.063  |
+ |  Poisson's Ratio v        |     0.15  |    0.150  |    0.151  |
+ |  P-wave Modulus (GPa)     |   511.43  |  505.470  |  508.447  |
+ |  Pugh's Ratio (B/G)       |     1.10  |    1.096  |    1.099  |
+ | Vickers Hardness (GPa)[6] |    37.37  |   37.378  |   37.373  |
+ | Vickers Hardness (GPa)[7] |    36.33  |   36.294  |   36.313  |
+ +---------------------------------------------------------------+
+ Pugh's Ratio (B/G):   1.10        --> Brittle region (< 1.75)
+ Cauchy Pressure Pc (GPa):  -111.5 --> Metallic-like bonding (< 0)
+ Kleinman’s parameter:   0.42      --> Bonding Bending dominated (< 0.5)
+ Universal Elastic Anisotropy:   0.06
+ Chung-Buessem Anisotropy:     0.0
+ Isotropic Poisson's Ratio:   0.15
+ Longitudinal wave velocity (m/s):  10758.977
+ Transverse wave velocity (m/s):   6899.002
+ Average wave velocity (m/s):   7578.028
+ Debye temperature (K):  1097.8
+ References:
+ [1] Voigt W, Lehrbuch der Kristallphysik (1928)
+ [2] Reuss A, Z. Angew. Math. Mech. 9 49-58 (1929)
+ [3] Hill R, Proc. Phys. Soc. A 65 349-54 (1952)
+ [4] Debye temperature J. Phys. Chem. Solids 24, 909-917 (1963)
+ [5] Elastic wave velocities calculated using Navier's equation
+ [6] Chen X-Q, Intermetallics 19, 1275 (2011)
+ [7] Tian Y-J, Int. J. Refract. Hard Met. 33, 93–106 (2012)
+ 
+ Eigenvalues of the stiffness matrix (in GPa):
+ Eigenvalue lamda_1 =   206.232 > 0 meeted.
+ Eigenvalue lamda_2 =   227.167 > 0 meeted.
+ Eigenvalue lamda_3 =   227.454 > 0 meeted.
+ Eigenvalue lamda_4 =   357.032 > 0 meeted.
+ Eigenvalue lamda_5 =   410.935 > 0 meeted.
+ Eigenvalue lamda_6 =   704.906 > 0 meeted.
+ 
+ Elastic stability criteria as seen in PRB 90, 224104 (2014).
+ This Structure is Mechanically Stable.
+ +---------------------------------------------------------------+
+ -->> (04) Written ELASTIC_TENSOR File!
+ +---------------------------------------------------------------+
+ |                          * CITATIONS *                        |
+ | When using VASPKIT in your research PLEASE cite the paper:    |
+ | [1] V. WANG, N. XU, J.-C. LIU, G. TANG, W.-T. GENG, VASPKIT: A|
+ | User-Friendly Interface Facilitating High-Throughput Computing|
+ | and Analysis Using VASP Code, Computer Physics Communications |
+ | 267, 108033, (2021), DOI: 10.1016/j.cpc.2021.108033           |
+ +---------------------------------------------------------------+

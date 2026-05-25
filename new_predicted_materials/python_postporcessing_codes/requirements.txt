@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────────────
+# Requirements for:
+#   • cv_comparison_pub.py      (Cv vs T: Phonopy / SISSO / Debye)
+#   • plot_phonon_publication.py (Phonon dispersion + PDOS)
+#
+# Install:
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# Core numerics
+numpy>=1.24
+scipy>=1.10
+
+# Plotting
+matplotlib>=3.7
+
+# YAML parser (thermal_properties.yaml, etc.)
+PyYAML>=6.0
+
+# Excel source-data export
+openpyxl>=3.1
+
+# TIFF output with LZW compression (cv_comparison_pub.py)
+Pillow>=9.5
+
+# Phonopy – force constants, band structure, PDOS
+phonopy>=2.20

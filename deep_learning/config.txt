@@ -1,0 +1,48 @@
+# =============================================================================
+# DNN TRAINING CONFIGURATION
+# Lines starting with # are comments and are ignored.
+# Format:  key = value
+# =============================================================================
+
+# --- DATA ---
+file_path     = C:/DNN_input_data.xlsx  # Add input file location
+sheet_name    = Debye_temperature       # For Excel file, enter sheet name
+drop_columns  =                         # Enter any column to drop
+input_columns = SM, YM, VPA, D          # Enter input columns
+output_column = DT                      # Enter target property columns
+output_latex  = $\Theta_{D}$            # Latex symbol for target
+
+# --- OUTPUT ---
+save_dir  = C:/DNN_Results              # File location to save outputs
+save_name = run_01_test                 # Prefix to save files 
+
+# --- HYPERPARAMETER MODE ---
+# manual  ->  uses manual_params below
+# auto    ->  runs GridSearchCV (slower; request more CPUs in job script)
+mode = manual
+
+# --- MANUAL HYPERPARAMETERS ---
+hidden_layers = 512, 256, 128
+learning_rate = 0.001
+epochs        = 1000
+batch_size    = 256
+random_state  = 42
+
+# --- AUTO / GRID SEARCH ---
+auto_n_jobs        = -1
+auto_random_state  = 42
+auto_hidden_layers =
+    8
+    16
+    32
+    64
+    128
+    256
+    128, 64
+    256, 128
+    512, 256
+    512, 256, 128
+    1024, 512, 256
+auto_learning_rate = 0.0001, 0.001, 0.01
+auto_batch_size    = 32, 64, 128, 256
+auto_epochs        = 1000, 1500, 2000

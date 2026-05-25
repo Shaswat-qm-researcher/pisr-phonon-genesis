@@ -1,0 +1,119 @@
+ 
+ +---------------------------------------------------------------+
+ |         VASPKIT Standard Edition 1.3.5 (03 Jul. 2022)         |
+ |            Running VASPKIT Under Command-Line Mode            |
+ +---------------------------------------------------------------+
+ -->> (01) Reading INPUT.in File...
+ +-------------------------- Warm Tips --------------------------+
+         See some examples in vaspkit/examples/elastic,   
+   Require the fully-relaxed and standardized Conventional cell.
+ +---------------------------------------------------------------+
+ -->> (02) Reading Structural Parameters from POSCAR File...
+ -->> (03) Calculating Fitting Coefficients of Energy vs. Strain.
+  -->> Current directory:  Fitting Precision 
+          C11_C12 Folder:  0.215E-06
+              C66 Folder:  0.374E-09
+              C33 Folder:  0.637E-07
+              C44 Folder:  0.181E-09
+  C11_C12_C13_C33 Folder:  0.349E-06
+      C11_C13_C33 Folder:  0.182E-06
+ +-------------------------- Summary ----------------------------+
+ Crystal Class: 4/mmm
+ Space Group: P4/mbm
+ Crystal System: Tetragonal I                            
+ Including Point group classes: 422, 4mm, -42m, 4/m2/m/2/m
+ There are 6 independent elastic constants              
+    C11  C12  C13    0    0    0                
+    C12  C11  C13    0    0    0                
+    C13  C13  C33    0    0    0                
+      0    0    0  C44    0    0                
+      0    0    0    0  C44    0                
+      0    0    0    0    0  C66                
+ 
+ Stiffness Tensor C_ij (in GPa):
+    520.885    159.034    161.462      0.000      0.000      0.000
+    159.034    520.885    161.462      0.000      0.000      0.000
+    161.462    161.462    564.901      0.000      0.000      0.000
+      0.000      0.000      0.000    240.463      0.000      0.000
+      0.000      0.000      0.000      0.000    240.463      0.000
+      0.000      0.000      0.000      0.000      0.000    232.815
+ 
+ Compliance Tensor S_ij (in GPa^{-1}):
+   0.002233  -0.000531  -0.000486   0.000000   0.000000   0.000000
+  -0.000531   0.002233  -0.000486   0.000000   0.000000   0.000000
+  -0.000486  -0.000486   0.002048   0.000000   0.000000   0.000000
+   0.000000   0.000000   0.000000   0.004159   0.000000   0.000000
+   0.000000   0.000000   0.000000   0.000000   0.004159   0.000000
+   0.000000   0.000000   0.000000   0.000000   0.000000   0.004295
+ 
+ Anisotropic mechanical properties of bulk singlecrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |    Min    |    Max    | Anisotropy|
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |  274.264  |  309.946  |    1.130  |
+ |  Young's Modulus E (GPa)  |  447.893  |  560.254  |    1.251  |
+ |  Shear Modulus G (GPa)    |  180.925  |  240.463  |    1.329  |
+ |  Poisson's Ratio v        |    0.114  |    0.272  |    2.393  |
+ |  Linear compressibility   |    1.075  |    1.215  |    1.130  |
+ +---------------------------------------------------------------+
+ Linear compressibility beta is in unit of TPa^-1
+ References:
+ [1] Marmier A, Comput. Phys. Commun. 181, 2102–2115 (2010) 
+ [2] Gaillac R, J. Phys. Condens. Matter 28, 275201 (2016) 
+ 
+ Average mechanical properties of bulk polycrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |   Voigt   |   Reuss   |    Hill   |
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |   285.62  |  285.209  |  285.415  |
+ |  Young's Modulus E (GPa)  |   520.84  |  514.651  |  517.750  |
+ |  Shear Modulus G (GPa)    |   217.73  |  214.571  |  216.150  |
+ |  Poisson's Ratio v        |     0.20  |    0.199  |    0.198  |
+ |  P-wave Modulus (GPa)     |   575.93  |  571.303  |  573.615  |
+ |  Pugh's Ratio (B/G)       |     1.31  |    1.329  |    1.320  |
+ | Vickers Hardness (GPa)[6] |    30.62  |   29.827  |   30.222  |
+ | Vickers Hardness (GPa)[7] |    30.55  |   29.786  |   30.167  |
+ +---------------------------------------------------------------+
+ Pugh's Ratio (B/G):   1.32        --> Brittle region (< 1.75)
+ Cauchy Pressure Pc (GPa):   -81.4 --> Metallic-like bonding (< 0)
+ Kleinman’s parameter:   0.54      --> Bond Streching dominated (> 0.5)
+ Universal Elastic Anisotropy:   0.08
+ Chung-Buessem Anisotropy:     0.0
+ Isotropic Poisson's Ratio:   0.20
+ Longitudinal wave velocity (m/s):   9792.687
+ Transverse wave velocity (m/s):   6011.313
+ Average wave velocity (m/s):   6634.724
+ Debye temperature (K):   996.0
+ References:
+ [1] Voigt W, Lehrbuch der Kristallphysik (1928)
+ [2] Reuss A, Z. Angew. Math. Mech. 9 49-58 (1929)
+ [3] Hill R, Proc. Phys. Soc. A 65 349-54 (1952)
+ [4] Debye temperature J. Phys. Chem. Solids 24, 909-917 (1963)
+ [5] Elastic wave velocities calculated using Navier's equation
+ [6] Chen X-Q, Intermetallics 19, 1275 (2011)
+ [7] Tian Y-J, Int. J. Refract. Hard Met. 33, 93–106 (2012)
+ 
+ Eigenvalues of the stiffness matrix (in GPa):
+ Eigenvalue lamda_1 =   232.815 > 0 meeted.
+ Eigenvalue lamda_2 =   240.463 > 0 meeted.
+ Eigenvalue lamda_3 =   240.463 > 0 meeted.
+ Eigenvalue lamda_4 =   361.851 > 0 meeted.
+ Eigenvalue lamda_5 =   386.937 > 0 meeted.
+ Eigenvalue lamda_6 =   857.882 > 0 meeted.
+ 
+ Elastic stability criteria as seen in PRB 90, 224104 (2014).
+ Criteria (i) C11 > |C12| meeted.
+ Criteria (ii) 2*C13^2 < C33(C11 + C12) meeted.
+ Criteria (iii) C44 > 0 meeted.
+ Criteria (iii) C66 > 0 meeted.
+ This Structure is Mechanically Stable.
+ +---------------------------------------------------------------+
+ -->> (04) Written ELASTIC_TENSOR File!
+ +---------------------------------------------------------------+
+ |                          * CITATIONS *                        |
+ | When using VASPKIT in your research PLEASE cite the paper:    |
+ | [1] V. WANG, N. XU, J.-C. LIU, G. TANG, W.-T. GENG, VASPKIT: A|
+ | User-Friendly Interface Facilitating High-Throughput Computing|
+ | and Analysis Using VASP Code, Computer Physics Communications |
+ | 267, 108033, (2021), DOI: 10.1016/j.cpc.2021.108033           |
+ +---------------------------------------------------------------+

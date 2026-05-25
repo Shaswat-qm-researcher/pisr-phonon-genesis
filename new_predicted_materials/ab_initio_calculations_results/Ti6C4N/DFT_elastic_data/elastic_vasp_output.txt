@@ -1,0 +1,134 @@
+ 
+ +---------------------------------------------------------------+
+ |         VASPKIT Standard Edition 1.3.5 (03 Jul. 2022)         |
+ |            Running VASPKIT Under Command-Line Mode            |
+ +---------------------------------------------------------------+
+ -->> (01) Reading INPUT.in File...
+ +-------------------------- Warm Tips --------------------------+
+         See some examples in vaspkit/examples/elastic,   
+   Require the fully-relaxed and standardized Conventional cell.
+ +---------------------------------------------------------------+
+ -->> (02) Reading Structural Parameters from POSCAR File...
+ -->> (03) Calculating Fitting Coefficients of Energy vs. Strain.
+  -->> Current directory:  Fitting Precision 
+              C11 Folder:  0.243E-08
+              C22 Folder:  0.451E-08
+              C33 Folder:  0.315E-08
+              C44 Folder:  0.245E-08
+              C55 Folder:  0.409E-09
+              C66 Folder:  0.843E-09
+      C11_C12_C22 Folder:  0.121E-08
+      C22_C23_C13 Folder:  0.115E-07
+      C11_C13_C33 Folder:  0.120E-09
+      C11_C15_C55 Folder:  0.519E-09
+      C22_C25_C55 Folder:  0.683E-08
+      C33_C35_C55 Folder:  0.105E-07
+      C44_C46_C66 Folder:  0.792E-09
+ +-------------------------- Summary ----------------------------+
+ Crystal Class: 2/m
+ Space Group: C2/m
+ Crystal System: Monoclinic                
+ Including Point group classes: m, 2, 2/m   
+ There are 13 independent elastic constants
+    C11  C12  C13    0  C15    0   
+    C12  C22  C23    0  C25    0   
+    C13  C23  C33    0  C35    0   
+      0    0    0  C44    0  C46   
+    C15  C25  C35    0  C55    0   
+      0    0    0  C46    0  C66   
+ 
+ Stiffness Tensor C_ij (in GPa):
+    417.858     99.431    125.381      0.000    -16.225      0.000
+     99.431    424.162    114.214      0.000     22.274      0.000
+    125.381    114.214    425.919      0.000     -0.891      0.000
+      0.000      0.000      0.000    165.931      0.000     16.454
+    -16.225     22.274     -0.891      0.000    174.512      0.000
+      0.000      0.000      0.000     16.454      0.000    153.071
+ 
+ Compliance Tensor S_ij (in GPa^{-1}):
+   0.002720  -0.000473  -0.000673   0.000000   0.000310   0.000000
+  -0.000473   0.002642  -0.000570   0.000000  -0.000384   0.000000
+  -0.000673  -0.000570   0.002699   0.000000   0.000024   0.000000
+   0.000000   0.000000   0.000000   0.006092   0.000000  -0.000655
+   0.000310  -0.000384   0.000024   0.000000   0.005808   0.000000
+   0.000000   0.000000   0.000000  -0.000655   0.000000   0.006603
+ 
+ Anisotropic mechanical properties of bulk singlecrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |    Min    |    Max    | Anisotropy|
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |  208.418  |  229.816  |    1.103  |
+ |  Young's Modulus E (GPa)  |  350.123  |  436.620  |    1.247  |
+ |  Shear Modulus G (GPa)    |  141.837  |  185.592  |    1.308  |
+ |  Poisson's Ratio v        |    0.122  |    0.283  |    2.316  |
+ |  Linear compressibility   |    1.450  |    1.599  |    1.103  |
+ +---------------------------------------------------------------+
+ Linear compressibility beta is in unit of TPa^-1
+ References:
+ [1] Marmier A, Comput. Phys. Commun. 181, 2102–2115 (2010) 
+ [2] Gaillac R, J. Phys. Condens. Matter 28, 275201 (2016) 
+ 
+ Average mechanical properties of bulk polycrystal:
+ +---------------------------------------------------------------+
+ |   Mechanical Properties   |   Voigt   |   Reuss   |    Hill   |
+ +---------------------------------------------------------------+
+ |  Bulk Modulus B (GPa)     |   216.22  |  216.039  |  216.130  |
+ |  Young's Modulus E (GPa)  |   386.24  |  382.134  |  384.192  |
+ |  Shear Modulus G (GPa)    |   160.63  |  158.536  |  159.583  |
+ |  Poisson's Ratio v        |     0.20  |    0.205  |    0.204  |
+ |  P-wave Modulus (GPa)     |   430.40  |  427.421  |  428.908  |
+ |  Pugh's Ratio (B/G)       |     1.35  |    1.363  |    1.354  |
+ | Vickers Hardness (GPa)[6] |    24.32  |   23.729  |   24.026  |
+ | Vickers Hardness (GPa)[7] |    23.92  |   23.370  |   23.644  |
+ +---------------------------------------------------------------+
+ Pugh's Ratio (B/G):   1.35        --> Brittle region (< 1.75)
+ Cauchy Pressure Pc (GPa):   -66.5 --> Metallic-like bonding (< 0)
+ Kleinman’s parameter:   0.45      --> Bonding Bending dominated (< 0.5)
+ Universal Elastic Anisotropy:   0.07
+ Chung-Buessem Anisotropy:     0.0
+ Isotropic Poisson's Ratio:   0.20
+ Longitudinal wave velocity (m/s):   9481.607
+ Transverse wave velocity (m/s):   5783.538
+ Average wave velocity (m/s):   6387.492
+ Debye temperature (K):   853.8
+ References:
+ [1] Voigt W, Lehrbuch der Kristallphysik (1928)
+ [2] Reuss A, Z. Angew. Math. Mech. 9 49-58 (1929)
+ [3] Hill R, Proc. Phys. Soc. A 65 349-54 (1952)
+ [4] Debye temperature J. Phys. Chem. Solids 24, 909-917 (1963)
+ [5] Elastic wave velocities calculated using Navier's equation
+ [6] Chen X-Q, Intermetallics 19, 1275 (2011)
+ [7] Tian Y-J, Int. J. Refract. Hard Met. 33, 93–106 (2012)
+ 
+ Eigenvalues of the stiffness matrix (in GPa):
+ Eigenvalue lamda_1 =   141.836 > 0 meeted.
+ Eigenvalue lamda_2 =   169.587 > 0 meeted.
+ Eigenvalue lamda_3 =   177.166 > 0 meeted.
+ Eigenvalue lamda_4 =   294.944 > 0 meeted.
+ Eigenvalue lamda_5 =   328.821 > 0 meeted.
+ Eigenvalue lamda_6 =   649.099 > 0 meeted.
+ 
+ Elastic stability criteria as seen in PRB 90, 224104 (2014).
+ Criteria (1) C11 > 0 meeted.
+ Criteria (2) C22 > 0 meeted.
+ Criteria (3) C33 > 0 meeted.
+ Criteria (4) C44 > 0 meeted.
+ Criteria (5) C55 > 0 meeted.
+ Criteria (6) C66 > 0 meeted.
+ Criteria (vii) [C11 + C22 + C33 + 2*(C12 + C13 + C23)] > 0 meeted.
+ Criteria (viii) C33*C55 - C35^2 > 0 meeted.
+ Criteria (ix) C44*C66 - C46^2 > 0 meeted.
+ Criteria (x) C22 + C33 - 2*C23  > 0 meeted.
+ Criteria (xi) C22*(C33*C55 - C35^2) + 2*C23*C25*C35 - (C23^2)*C55 - (C25^2)*C33 > 0 meeted.
+ Criteria (xii) 2*[C15*C25*(C33*C12 - C13*C23) + C15*C35*(C22*C13 - C12*C23) + C25*C35*(C11*C23 - C12*C13)] - [C15*C15*(C22*C33 - C23^2) + C25*C25*(C11*C33 - C13^2) + C35*C35*(C11*C22 - C12^2)] + C55*g > 0 meeted.
+ This Structure is Mechanically Stable.
+ +---------------------------------------------------------------+
+ -->> (04) Written ELASTIC_TENSOR File!
+ +---------------------------------------------------------------+
+ |                          * CITATIONS *                        |
+ | When using VASPKIT in your research PLEASE cite the paper:    |
+ | [1] V. WANG, N. XU, J.-C. LIU, G. TANG, W.-T. GENG, VASPKIT: A|
+ | User-Friendly Interface Facilitating High-Throughput Computing|
+ | and Analysis Using VASP Code, Computer Physics Communications |
+ | 267, 108033, (2021), DOI: 10.1016/j.cpc.2021.108033           |
+ +---------------------------------------------------------------+

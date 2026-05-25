@@ -1,0 +1,19 @@
+ISTART =  0            (Read existing wavefunction; if there)
+LREAL  =  .FALSE.          (Projection operators: automatic)
+PREC   =  Accurate        (Precision level)
+ENCUT  = 550
+LWAVE  = .FALSE.        (Write WAVECAR or not)
+LCHARG = .FALSE.        (Write CHGCAR or not)
+ADDGRID= .TRUE.        (Increase grid; helps GGA convergence)
+ISPIN  = 1
+ISMEAR =  0           (Gaussian smearing: 0; metals:1)
+SIGMA  =  0.01
+IALGO  =  38
+NELM   =  200           (Max electronic SCF steps)
+NELMIN =  4            (Min electronic SCF steps)
+EDIFF  =  1E-08        (SCF energy convergence; in eV)
+IBRION =  -1            (Algorithm: 0-MD; 1-Quasi-New; 2-CG)
+
+NCORE  = 4
+
+KSPACING = 0.2

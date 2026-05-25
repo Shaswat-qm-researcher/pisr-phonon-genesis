@@ -1,0 +1,25 @@
+# Electronic convergence
+PREC    = Accurate
+ENCUT   = 550            # Same as your relaxation
+EDIFF   = 1E-08          # Same as your relaxation
+NELMIN  = 5              # Minimum electronic steps (helps DFPT stability)
+LREAL   = .FALSE.        # MUST be FALSE for DFPT — no real-space projection
+LWAVE   = .TRUE.        (Write WAVECAR or not)
+LCHARG  = .FALSE.        (Write CHGCAR or not)
+# DFPT settings
+IBRION  = 7              # Density Functional Perturbation Theory
+LEPSILON = .TRUE.        # Compute Born charges + dielectric tensor
+NSW     = 1   
+ISYM = -1           # DFPT needs NSW=1 (single "ionic" step that does all perturbations)
+
+# Algorithm
+IALGO   = 38             # Recommended for DFPT (Davidson blocked)
+
+# Smearing — MUST be 0 for insulators with LEPSILON
+ISMEAR  = 0              # Gaussian smearing (NOT tetrahedron, NOT Methfessel-Paxton)
+SIGMA   = 0.05
+
+KPAR = 4           
+NWRITE = 3               # needed for psot-processing eigenvectors
+
+KSPACING = 0.2
