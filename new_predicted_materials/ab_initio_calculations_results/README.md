@@ -1,6 +1,6 @@
 # ab\_initio\_calculations\_results
 
-[← Main README](../README.md) · [python\_postprocessing\_codes →](../python_postprocessing_codes/README.md)
+[← Main README](../README.md) · [python\_postprocessing\_codes →](../python_postporcessing_codes/README.md)
 
 First-principles calculation files for all 26 predicted compounds. Each compound folder follows a consistent three-module layout: 
 - OQMD source structures 
