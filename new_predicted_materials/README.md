@@ -7,7 +7,7 @@ This repository contains **ab initio validation data and related post-processing
 > **[Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery](https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/)**
 
 <p align="center">
-  <img src="./workflow.png" alt="Workflow Overview" width="700"/>
+  <img src="./Workflow.png" alt="Workflow" width="700"/>
 </p>
 
 ---
