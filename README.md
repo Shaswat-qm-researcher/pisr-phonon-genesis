@@ -78,30 +78,33 @@ Real materials do not behave uniformly across property space. CRA partitions the
 ## Repository Structure
 
 ```
-Physics-Informed-Symbolic-Regression.../
+📁 Physics-Informed-Symbolic-Regression.../
 │
-├── data/                          # Shared raw datasets (Materials Project + AFLOW)
+├── 📁 data/                              # Shared raw datasets (Materials Project + AFLOW)
 │
-├── correlation-matrix-generator/  # Feature screening and Pearson correlation maps
-│   └── README.md                  ← configuration and usage
+├── 📁 correlation-matrix-generator/      # Feature screening and Pearson correlation maps
+│   └── 📄 README.md                      ← configuration and usage
 │
-├── pls_feature_selection/         # PLS latent-variable feature selection
-│   └── README.md                  ← configuration and usage
+├── 📁 pls_feature_selection/             # PLS latent-variable feature selection
+│   └── 📄 README.md                      ← configuration and usage
 │
-├── sisso_symbolic_regression/     # SISSO descriptor construction and regression
-│   └── README.md                  ← configuration and usage
+├── 📁 sisso_symbolic_regression/         # SISSO descriptor construction and regression
+│   └── 📄 README.md                      ← configuration and usage
 │
-├── pca-interpretable-clustering/  # PCA-based chemical class clustering
-│   └── README.md                  ← configuration and usage
+├── 📁 pca-interpretable-clustering/      # PCA-based chemical class clustering
+│   └── 📄 README.md                      ← configuration and usage
 │
-├── critical-regime-analysis/      # CRA dominance and tunability analysis
-│   └── README.md                  ← configuration and usage
+├── 📁 deep_learning/                     # DNN benchmark against SISSO descriptors
+│   └── 📄 README.md                      ← configuration and usage
 │
-├── assets/
-│   └── logo.png                   # Repository header image
+├── 📁 critical-regime-analysis/          # CRA dominance and tunability analysis
+│   └── 📄 README.md                      ← configuration and usage
 │
-├── LICENSE
-└── README.md                      ← you are here
+├── 📁 assets/
+│   └── 🖼️  logo.png                       # Repository header image
+│
+├── 📄 LICENSE
+└── 📄 README.md                          ← you are here
 ```
 
 > **Each sub-folder has its own `README.md`** that documents input files, required library versions, step-by-step usage instructions, and a description of every output produced. Start there when working with any individual module.
