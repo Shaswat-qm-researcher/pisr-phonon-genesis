@@ -40,7 +40,7 @@ Most machine learning models for materials property prediction are black boxes �
 
 It implements a fully **explainable AI (XAI)** pipeline that moves from high-dimensional DFT descriptor spaces to compact, physically interpretable symbolic equations of the form:
 
-$$\Theta_D \;=\; f\!\left(G_{VRH},\; E,\; V_{\mathrm{atom}},\; \rho\right)$$
+$$\Theta_D = f\ \left(G_{VRH},\ E,\ V_{\mathrm{atom}},\ \rho\right)$$
 
 Every step — from feature selection to the final regression formula — is transparent, auditable, and grounded in condensed-matter physics. The framework is demonstrated on **Debye temperature** ($\Theta_D$) and extends naturally to **specific heat** ($C_v$) and **lattice thermal conductivity** ($\kappa$).
 
