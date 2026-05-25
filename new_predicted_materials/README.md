@@ -33,7 +33,7 @@ NEW_PREDICTED_MATERIALS/
 
 **→ Jump to:** 
 [ab\_initio\_calculations\_results](./ab_initio_calculations_results/README.md) 
-[python\_postprocessing\_codes](./python_postprocessing_codes/README.md)
+[python\_postprocessing\_codes](./python_postporcessing_codes/README.md)
 
 ---
 
