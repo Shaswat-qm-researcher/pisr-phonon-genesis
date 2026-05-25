@@ -71,7 +71,7 @@ PLS (Partial Least Squares) and PCA (Principal Component Analysis) compress the 
 [SISSO (Sure Independence Screening and Sparsifying Operator)](https://github.com/renwuli/SISSO) is used to search the space of mathematical expressions and return the **sparsest, most predictive analytical formula**. The result is not a neural network weight matrix — it is a human-readable equation that a physicist can interpret, test, and extend.
 
 ### 3 — Critical Regime Analysis (CRA)
-Real materials do not behave uniformly across property space. CRA partitions the dataset into LOW / MID / HIGH regimes and computes **dominance scores** (standardised regression coefficients × incremental R²) to identify *which descriptor controls the property in which regime*. This directly answers the question: *"What should I tune to increase $\Theta_D$ in a high-stiffness carbide?"* -- Which is solved by our tunability analysis.
+Real materials do not behave uniformly across property space. CRA partitions the dataset into LOW / MID / HIGH regimes and computes **dominance scores** (standardised regression coefficients × incremental R²) to identify *which descriptor controls the property in which regime*. This directly answers the question: *"What should I tune to increase* $\Theta_D$ *in a high-stiffness carbide?"* -- Which is solved by our tunability analysis.
 
 ---
 
