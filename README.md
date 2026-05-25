@@ -98,7 +98,7 @@ Physics-Informed-Symbolic-Regression.../
 │   └── README.md                  ← configuration and usage
 │
 ├── assets/
-│   └── banner.png                 # Repository header image
+│   └── logo.png                   # Repository header image
 │
 ├── LICENSE
 └── README.md                      ← you are here
