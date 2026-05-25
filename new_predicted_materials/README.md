@@ -117,7 +117,7 @@ Full elastic, thermodynamic, and structural data for all compounds are in [`pred
 | Source | Details |
 |---|---|
 | Crystal structures | [Open Quantum Materials Database (OQMD)](http://oqmd.org); Entry IDs listed in the xlsx |
-| DFT code | VASP 5.x; PAW pseudopotentials (see [`psudo_potentials_details.xlsx`](./ab_initio_calculations_results/psudo_potentials_details.xlsx)) |
+| DFT code | VASP 5.x; PAW pseudopotentials (see [`psudo_potentials_details.xlsx`](./ab_initio_calculations_results/psudo_potentials_details.csv)) |
 | Phonon code | [Phonopy](https://phonopy.github.io/phonopy/) 2.x; finite-displacement method (most compounds) or DFPT (BeB₁₂N₂ triclinic) |
 | SISSO model | Parent repository — symbolic regression trained on DFT materials descriptors |
 
