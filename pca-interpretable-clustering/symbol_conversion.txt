@@ -1,0 +1,75 @@
+# -------------------------------
+# Feature Definitions
+# -------------------------------
+# NE        : Number of Elements
+# NA        : Number of Atoms
+# BGAP      : Electronic Band Gap
+# EPA       : Total Energy Per Atom
+# FEPA      : Formation Energy Per Atom
+# EFMR      : Fermi Energy
+# TM        : Total Magnetization
+# MSITE     : Number of Unique Magnetic Sites
+# ASPIN     : Atomic Spin
+# V         : Volume
+# VPA       : Volume Per Atom
+# D         : Mass Density
+# PR        : Poisson's Ratio
+# ANI       : Elastic Anisotropy
+# BM        : Bulk Modulus (Voigt–Reuss–Hill)
+# SM        : Shear Modulus (Voigt–Reuss–Hill)
+# YM        : Young's Modulus (Voigt–Reuss–Hill)
+# PUGR      : Pugh's Ratio (G/B)
+# IPUGR     : Inverse Pugh's Ratio (B/G)
+# ENPA      : Enthalpy Per Atom
+# vm        : Mean Speed of Sound
+# vl        : Longitudinal Speed of Sound
+# vs        : Transverse Speed of Sound
+# DT_AGL    : Debye Temperature (AFLOW database)
+# DT_A_AGL  : Acoustic Debye Temperature
+# DT        : Debye Temperature (Materials Project)
+# Cp_300    : Heat Capacity at Constant Pressure (300 K)
+# Cv_300    : Heat Capacity at Constant Volume (300 K)
+# TC_300    : Lattice Thermal Conductivity (300 K)
+# TEX_300   : Thermal Expansion Coefficient (300 K)
+# VIB_EN_300: Vibrational Entropy per Atom (300 K)
+# VIB_FE_300: Vibrational Free Energy per Atom (300 K)
+# gruneisen : Grüneisen Parameter
+# -------------------------------
+NE = $N_E$ 
+NA = $N_A$
+BGAP = $E_g$
+EPA = $E_\mathrm{atom}$	
+FEPA = $\Delta H_f$
+EFMR = $E_F$
+TM = $M_{total}$
+MSITE = $N_\mathrm{mag}$
+ASPIN = $\hat{S}_\mathrm{atom}$
+V = $V$
+VPA = $V_\mathrm{atom}$
+D = $\rho$		 
+PR = $\nu$
+ANI = $A$
+BM = $B_{VRH}$
+SM = $G_{VRH}$
+YM = $E$
+PUGR = $G/B$
+IPUGR = $B/G$
+ENPA = $H_\mathrm{atom}$
+vm = $v_m$
+vl = $v_l$
+vs = $v_t$
+DT_AGL = $\Theta_D$
+DT_A_AGL = $\Theta_{D,a}$
+DT = $\Theta_D$
+Cp_300 = $C_p$
+Cv_300 = $C_v$
+TC_300 = $\kappa$
+TEX_300 = $\alpha$
+VIB_EN_300 = $S_\mathrm{atom}^\mathrm{vib}$
+VIB_FE_300 = $F_\mathrm{atom}^\mathrm{vib}$
+gruneisen = $\gamma$
+Term_Moduli = $(G_{{VRH}}+E)/E^{1/2}$
+Term_Interatomic_spacing = $V_{atom}^{-1/3}$
+Term_Mass_density = $\rho^{-1/2}$
+DT_mean =  $\Theta_D^{\mu}$
+DT_CV% = $\Theta_D^{CV}$

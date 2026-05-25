@@ -1,0 +1,85 @@
+# ============================================================
+# symbol_conversion_html.txt
+# HTML symbol definitions for Plotly interactive hover labels
+# Format : KEY = HTML_symbol
+# Supports: <sub>, <sup>, Unicode characters
+# Usage  : Loaded exclusively by plot_scatter_interactive()
+#          via the _sym_html SymbolConverter instance.
+#          All other plots use the plain symbol_conversion.txt
+# ============================================================
+# -------------------------------
+# Feature Definitions
+# -------------------------------
+# NE        : Number of Elements
+# NA        : Number of Atoms
+# BGAP      : Electronic Band Gap
+# EPA       : Total Energy Per Atom
+# FEPA      : Formation Energy Per Atom
+# EFMR      : Fermi Energy
+# TM        : Total Magnetization
+# MSITE     : Number of Unique Magnetic Sites
+# ASPIN     : Atomic Spin
+# V         : Volume
+# VPA       : Volume Per Atom
+# D         : Mass Density
+# PR        : Poisson's Ratio
+# ANI       : Elastic Anisotropy
+# BM        : Bulk Modulus (Voigt–Reuss–Hill)
+# SM        : Shear Modulus (Voigt–Reuss–Hill)
+# YM        : Young's Modulus (Voigt–Reuss–Hill)
+# PUGR      : Pugh's Ratio (G/B)
+# IPUGR     : Inverse Pugh's Ratio (B/G)
+# ENPA      : Enthalpy Per Atom
+# vm        : Mean Speed of Sound
+# vl        : Longitudinal Speed of Sound
+# vs        : Transverse Speed of Sound
+# DT_AGL    : Debye Temperature (AFLOW database)
+# DT_A_AGL  : Acoustic Debye Temperature
+# DT        : Debye Temperature (Materials Project)
+# Cp_300    : Heat Capacity at Constant Pressure (300 K)
+# Cv_300    : Heat Capacity at Constant Volume (300 K)
+# TC_300    : Lattice Thermal Conductivity (300 K)
+# TEX_300   : Thermal Expansion Coefficient (300 K)
+# VIB_EN_300: Vibrational Entropy per Atom (300 K)
+# VIB_FE_300: Vibrational Free Energy per Atom (300 K)
+# gruneisen : Grüneisen Parameter
+
+
+NE        = N<sub>E</sub>              
+NA        = N<sub>A</sub>              
+BGAP      = E<sub>g</sub>              
+EPA       = E<sub>atom</sub>           
+FEPA      = ΔH<sub>f</sub>           
+EFMR      = E<sub>F</sub>            
+TM        = M<sub>total</sub>         
+MSITE     = N<sub>mag</sub>           
+ASPIN     = Ŝ<sub>atom</sub>          
+V         = V                           
+VPA       = V<sub>atom</sub>           
+D         = ρ                          
+PR        = ν                          
+ANI       = A                          
+BM        = B<sub>VRH</sub>            
+SM        = G<sub>VRH</sub>            
+YM        = E                          
+PUGR      = G/B                        
+IPUGR     = B/G                        
+ENPA      = H<sub>atom</sub>           
+vm        = v<sub>m</sub>              
+vl        = v<sub>l</sub>              
+vs        = v<sub>t</sub>              
+DT_AGL    = Θ<sub>D</sub>             
+DT_A_AGL  = Θ<sub>D,a</sub>          
+DT        = Θ<sub>D</sub>             
+Cp_300    = C<sub>p</sub>             
+Cv_300    = C<sub>v</sub>             
+TC_300    = κ                           
+TEX_300   = α                           
+VIB_EN_300 = S<sub>atom</sub><sup>vib</sup>   
+VIB_FE_300 = F<sub>atom</sub><sup>vib</sup>   
+gruneisen = γ                           
+Term_Moduli              = (G<sub>VRH</sub>+E)/E<sup>1/2</sup>   
+Term_Interatomic_spacing = V<sub>atom</sub><sup>-1/3</sup>        
+Term_Mass_density        = ρ<sup>-1/2</sup>                       
+DT_mean   = Θ<sub>D</sub><sup>μ</sup>      
+DT_CV%    = Θ<sub>D</sub><sup>CV</sup>     

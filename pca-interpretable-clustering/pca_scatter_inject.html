@@ -1,0 +1,906 @@
+<!-- ============================================================
+     pca_scatter_inject_v4.html
+     Fixes vs v3:
+       1. Plotly native buttons (Show All / Reset / Full Extent / Zoom)
+          replaced with dark glass equivalents via DOM mutation
+       2. Legend panel moved down so it never overlaps controls
+       3. Fully responsive — works on mobile, tablet, laptop, wide desktop
+          (layout shifts from fixed→relative on narrow viewports)
+       4. KaTeX removed — replaced with a pure Unicode/HTML symbol map
+          that works inside Plotly's sandboxed hover DOM
+       5. Axes/tick font driven by Plotly layout update (serif)
+
+     Python loader:
+         inject_path = "/path/to/pca_scatter_inject_v4.html"
+         with open(inject_path, 'r', encoding='utf-8') as _fh:
+             INJECT = _fh.read().replace('{base_fname}', base_fname)
+         html = html.replace('</body>', INJECT + '\n</body>')
+     ============================================================ -->
+
+<!-- jsPDF only — KaTeX removed, using Unicode symbol map instead -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap">
+
+<style>
+/* ── Design tokens ───────────────────────────────────────────────────── */
+:root {
+  /* Light glass — export dock, legend, spinner, toast */
+  --gl-bg      : rgba(255, 255, 255, 0.97);
+  --gl-border  : rgba(170,158,138,0.50);
+  --gl-blur    : blur(18px);
+  --gl-shadow  : 0 4px 20px rgba(50,40,20,0.14), 0 1px 3px rgba(50,40,20,0.08);
+
+  /* Dark glass — Plotly control buttons */
+  --dk-bg      : rgba(18,22,30,0.91);
+  --dk-border  : rgba(70,85,115,0.70);
+  --dk-blur    : blur(14px);
+  --dk-shadow  : 0 4px 16px rgba(0,0,0,0.45);
+  --dk-text    : #d8e2f0;
+  --dk-text-dim: #7a8aa0;
+  --dk-accent  : #5a9cf5;
+  --dk-hover   : rgba(90,156,245,0.15);
+  --dk-active  : rgba(90,156,245,0.28);
+
+  /* Shared ink */
+  --ink        : #1a1612;
+  --ink-2      : #38322a;
+  --ink-dim    : #7a7060;
+  --accent     : #2a6db5;
+  --accent-dim : rgba(42,109,181,0.13);
+  --success    : #2d7a3a;
+  --warn       : #b56a1a;
+  --rule       : rgba(140,125,105,0.30);
+
+  --mono  : 'DM Mono', 'Courier New', monospace;
+  --sans  : 'Inter', 'DM Sans', system-ui, sans-serif;
+  --serif : 'Inter', 'DM Sans', system-ui, sans-serif;
+
+  --r-sm  : 4px;
+  --r-md  : 7px;
+  --r-lg  : 11px;
+}
+
+/* ── Responsive dock wrapper ─────────────────────────────────────────── */
+/*
+   On wide screens (≥900px): fixed to right edge, stacked vertically.
+   On narrow screens (<900px): fixed to bottom, horizontal strip.
+*/
+#pca-dock {
+  position      : fixed;
+  z-index       : 9000;
+  display       : flex;
+  gap           : 6px;
+}
+
+@media (min-width: 900px) {
+  #pca-dock {
+    flex-direction : column;
+    right          : 20px;
+    top            : 80%;
+    transform      : translateY(-50%);
+    align-items    : flex-end;
+  }
+}
+@media (max-width: 899px) {
+  #pca-dock {
+    flex-direction : row;
+    flex-wrap      : wrap;
+    left           : 8px;
+    right          : 8px;
+    bottom         : 10px;
+    top            : auto;
+    transform      : none;
+    justify-content: flex-end;
+  }
+}
+
+/* ── Light glass card base ───────────────────────────────────────────── */
+.pca-glass {
+  background      : var(--gl-bg);
+  backdrop-filter : var(--gl-blur);
+  -webkit-backdrop-filter: var(--gl-blur);
+  border          : 1px solid var(--gl-border);
+  border-radius   : var(--r-md);
+  box-shadow      : var(--gl-shadow);
+}
+
+/* ── Dark glass card base ────────────────────────────────────────────── */
+.pca-dark {
+  background      : var(--dk-bg);
+  backdrop-filter : var(--dk-blur);
+  -webkit-backdrop-filter: var(--dk-blur);
+  border          : 1px solid var(--dk-border);
+  border-radius   : var(--r-md);
+  box-shadow      : var(--dk-shadow);
+}
+
+/* ── Export trigger ──────────────────────────────────────────────────── */
+#pca-export-trigger {
+  font-family  : var(--sans);
+  font-size    : 11.5px;
+  font-weight  : 600;
+  letter-spacing: 0.03em;
+  color        : var(--ink);
+  padding      : 7px 13px 7px 10px;
+  cursor       : pointer;
+  display      : flex;
+  align-items  : center;
+  gap          : 7px;
+  transition   : border-color 0.15s, box-shadow 0.15s;
+  white-space  : nowrap;
+  user-select  : none;
+  border       : 1px solid var(--gl-border);
+  border-radius: var(--r-md);
+  background   : var(--gl-bg);
+  backdrop-filter: var(--gl-blur);
+  -webkit-backdrop-filter: var(--gl-blur);
+  box-shadow   : var(--gl-shadow);
+}
+#pca-export-trigger:hover {
+  border-color : var(--accent);
+  box-shadow   : 0 0 0 2px var(--accent-dim), var(--gl-shadow);
+}
+#pca-export-trigger:active { transform: translateY(1px); }
+#pca-export-trigger .btn-icon {
+  width:14px; height:14px; color:var(--accent); flex-shrink:0;
+}
+#pca-export-trigger .btn-chevron {
+  margin-left:2px; font-size:9px; color:var(--ink-dim);
+  transition: transform 0.2s;
+}
+#pca-export-trigger.open .btn-chevron { transform: rotate(180deg); }
+
+/* ── Export menu ─────────────────────────────────────────────────────── */
+#pca-export-menu {
+  display       : none;
+  flex-direction: column;
+  padding       : 5px;
+  gap           : 2px;
+}
+#pca-export-menu.open { display: flex; }
+
+.pca-menu-label {
+  font-family   : var(--mono);
+  font-size     : 9px;
+  font-weight   : 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color         : var(--ink-dim);
+  padding       : 4px 8px 2px;
+}
+.pca-fmt-btn {
+  font-family  : var(--sans);
+  font-size    : 11.5px;
+  font-weight  : 500;
+  color        : var(--ink-2);
+  background   : transparent;
+  border       : none;
+  border-radius: var(--r-sm);
+  padding      : 6px 10px;
+  cursor       : pointer;
+  display      : flex;
+  align-items  : center;
+  gap          : 9px;
+  transition   : background 0.12s, color 0.12s;
+  text-align   : left;
+  white-space  : nowrap;
+  width        : 100%;
+}
+.pca-fmt-btn:hover  { background: rgba(42,109,181,0.09); color: var(--accent); }
+.pca-fmt-btn:active { background: rgba(42,109,181,0.20); }
+.fmt-ext {
+  font-family   : var(--mono);
+  font-size     : 10px;
+  font-weight   : 500;
+  letter-spacing: 0.06em;
+  color         : var(--accent);
+  background    : var(--accent-dim);
+  border        : 1px solid rgba(42,109,181,0.22);
+  border-radius : 3px;
+  padding       : 1px 5px;
+  min-width     : 36px;
+  text-align    : center;
+  flex-shrink   : 0;
+}
+.pca-divider { height:1px; background:var(--rule); margin:3px 5px; }
+
+/* ── Dark control buttons panel ──────────────────────────────────────── */
+#pca-controls {
+  display       : flex;
+  flex-direction: column;
+  gap           : 4px;
+  padding       : 8px;
+  background    : var(--gl-bg);
+  backdrop-filter: var(--gl-blur);
+  -webkit-backdrop-filter: var(--gl-blur);
+  border        : 1px solid var(--gl-border);
+  border-radius : var(--r-md);
+  box-shadow    : var(--gl-shadow);
+}
+@media (max-width: 899px) {
+  #pca-controls { flex-direction: row; flex-wrap: wrap; padding: 6px; }
+}
+
+.pca-ctrl-btn {
+  font-family  : var(--sans);
+  font-size    : 11px;
+  font-weight  : 500;
+  color        : var(--ink-2);
+  background   : transparent;
+  border       : none;
+  border-radius: var(--r-sm);
+  padding      : 5px 10px;
+  cursor       : pointer;
+  text-align   : left;
+  white-space  : nowrap;
+  transition   : background 0.12s, color 0.12s;
+  letter-spacing: 0.01em;
+}
+.pca-ctrl-btn:hover  { background: rgba(42,109,181,0.09); color: var(--accent); }
+.pca-ctrl-btn:active { background: rgba(42,109,181,0.20); }
+
+/* zoom dropdown inside light panel */
+#pca-zoom-select {
+  font-family  : var(--sans);
+  font-size    : 11px;
+  color        : var(--ink-2);
+  background   : rgba(255,255,255,0.80);
+  border       : 1px solid var(--gl-border);
+  border-radius: var(--r-sm);
+  padding      : 4px 8px;
+  cursor       : pointer;
+  outline      : none;
+  width        : 100%;
+  margin-top   : 2px;
+}
+#pca-zoom-select option { background: #ffffff; color: var(--ink-2); }
+
+/* ── Legend panel ────────────────────────────────────────────────────── */
+#pca-legend-panel {
+  position      : fixed;
+  z-index       : 8500;
+  padding       : 10px 12px 12px;
+  display       : none;
+  min-width     : 180px;
+  max-width     : 240px;
+}
+/* Wide: top-right below toolbar */
+@media (min-width: 900px) {
+  #pca-legend-panel {
+    right : 20px;
+    top   : 90px;
+  }
+}
+/* Narrow: top-left */
+@media (max-width: 899px) {
+  #pca-legend-panel {
+    left  : 8px;
+    top   : 8px;
+    right : auto;
+    max-width: 180px;
+  }
+}
+
+#pca-legend-title {
+  font-family   : var(--sans);
+  font-size     : 12px;
+  font-weight   : 600;
+  font-style    : normal;
+  color         : var(--ink);
+  letter-spacing: 0.02em;
+  margin-bottom : 7px;
+  padding-bottom: 5px;
+  border-bottom : 1px solid var(--rule);
+}
+.pca-legend-row {
+  display      : flex;
+  align-items  : center;
+  gap          : 8px;
+  padding      : 3px 3px;
+  cursor       : pointer;
+  border-radius: var(--r-sm);
+  transition   : background 0.12s;
+  user-select  : none;
+}
+.pca-legend-row:hover   { background: rgba(42,109,181,0.07); }
+.pca-legend-row.hidden  { opacity: 0.32; }
+/* ── Legend checkbox ─────────────────────────────────────────────────── */
+.pca-legend-cb {
+  appearance         : none;
+  -webkit-appearance : none;
+  width              : 28px;
+  height             : 15px;
+  flex-shrink        : 0;
+  border             : 1.5px solid var(--gl-border);
+  border-radius      : 999px;
+  background         : rgba(140,125,105,0.20);
+  cursor             : pointer;
+  position           : relative;
+  transition         : background 0.18s, border-color 0.18s;
+}
+.pca-legend-cb::after {
+  content       : '';
+  position      : absolute;
+  left          : 2px;
+  top           : 1.5px;
+  width         : 9px;
+  height        : 9px;
+  border-radius : 50%;
+  background    : #aaa;
+  transition    : transform 0.18s, background 0.18s;
+}
+.pca-legend-cb:checked {
+  background   : var(--row-color, var(--accent));
+  border-color : var(--row-color, var(--accent));
+}
+.pca-legend-cb:checked::after {
+  transform  : translateX(13px);
+  background : #fff;
+}
+.pca-legend-marker {
+  width:14px; height:14px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+}
+.pca-legend-label {
+  font-family: var(--sans);
+  font-size  : 11px;
+  color      : var(--ink-2);
+  flex       : 1;
+  line-height: 1.3;
+  cursor       : pointer;
+}
+
+/* ── Spinner ─────────────────────────────────────────────────────────── */
+#pca-spinner {
+  display        : none;
+  position       : fixed;
+  inset          : 0;
+  background     : rgba(255, 253, 249, 0.80);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items    : center;
+  z-index        : 99999;
+}
+#pca-spinner-inner {
+  background   : var(--gl-bg);
+  backdrop-filter: var(--gl-blur);
+  -webkit-backdrop-filter: var(--gl-blur);
+  border       : 1px solid var(--gl-border);
+  border-radius: var(--r-lg);
+  padding      : 28px 42px;
+  display      : flex;
+  flex-direction: column;
+  align-items  : center;
+  gap          : 12px;
+  box-shadow   : var(--gl-shadow);
+}
+.spinner-ring {
+  width:34px; height:34px;
+  border:1.5px solid var(--rule);
+  border-top:1.5px solid var(--accent);
+  border-radius:50%;
+  animation: spin 0.75s cubic-bezier(0.4,0,0.6,1) infinite;
+}
+@keyframes spin { to { transform:rotate(360deg); } }
+#pca-spinner-fmt {
+  font-family:var(--mono); font-size:14px; color:var(--accent); letter-spacing:0.1em;
+}
+#pca-spinner-label {
+  font-family:var(--mono); font-size:9.5px; color:var(--ink-dim); letter-spacing:0.15em;
+}
+
+/* ── Toast ───────────────────────────────────────────────────────────── */
+#pca-toast {
+  position    : fixed;
+  bottom      : 24px;
+  left        : 50%;
+  transform   : translateX(-50%) translateY(10px);
+  background  : var(--gl-bg);
+  backdrop-filter: var(--gl-blur);
+  -webkit-backdrop-filter: var(--gl-blur);
+  border      : 1px solid var(--gl-border);
+  border-left : 3px solid var(--success);
+  border-radius: var(--r-md);
+  padding     : 9px 20px;
+  font-family : var(--mono);
+  font-size   : 24px;
+  color       : var(--ink-2);
+  box-shadow  : var(--gl-shadow);
+  opacity     : 0;
+  transition  : opacity 0.25s, transform 0.25s;
+  z-index     : 99998;
+  pointer-events: none;
+  white-space : nowrap;
+}
+#pca-toast.show  { opacity:1; transform:translateX(-50%) translateY(0); }
+#pca-toast.error { border-left-color: var(--warn); }
+
+/* ── Hide Plotly's native legend and native updatemenus ──────────────── */
+.legend        { display: none !important; }
+/* We hide Plotly's updatemenus layer — our JS removes them from layout  */
+</style>
+
+<!-- ── Export dock ──────────────────────────────────────────────────────── -->
+<div id="pca-dock">
+
+  <!-- Export button + menu -->
+  <button id="pca-export-trigger"
+          onclick="toggleExportMenu(event)"
+          aria-haspopup="true" aria-expanded="false">
+    <svg class="btn-icon" viewBox="0 0 16 16" fill="none"
+         stroke="currentColor" stroke-width="1.7"
+         stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 2v8M5 7l3 3 3-3"/>
+      <rect x="2" y="11" width="12" height="3" rx="1"/>
+    </svg>
+    Export
+    <span class="btn-chevron">▾</span>
+  </button>
+
+  <div id="pca-export-menu" class="pca-glass" role="menu">
+    <div class="pca-menu-label">Format</div>
+    <button class="pca-fmt-btn" onclick="runExport('png')"  role="menuitem"><span class="fmt-ext">PNG</span>Raster · print</button>
+    <button class="pca-fmt-btn" onclick="runExport('svg')"  role="menuitem"><span class="fmt-ext">SVG</span>Vector · web</button>
+    <button class="pca-fmt-btn" onclick="runExport('jpeg')" role="menuitem"><span class="fmt-ext">JPG</span>Compressed</button>
+    <div class="pca-divider"></div>
+    <button class="pca-fmt-btn" onclick="runExport('pdf')"  role="menuitem"><span class="fmt-ext">PDF</span>A4 landscape</button>
+  </div>
+
+  <!-- Dark control panel (replaces Plotly native buttons) -->
+  <div id="pca-controls" class="pca-glass">
+    <button class="pca-ctrl-btn" onclick="pcaShowAll()">◉ &nbsp;Show All</button>
+    <button class="pca-ctrl-btn" onclick="pcaResetAxes()">⟳ &nbsp;Reset Axes</button>
+    <button class="pca-ctrl-btn" onclick="pcaFullExtent()">⤢ &nbsp;Full Extent</button>
+    <select id="pca-zoom-select" onchange="pcaZoom(this.value)">
+      <option value="" disabled selected>🔍 Zoom preset</option>
+      <option value="2">🔍 ×2</option>
+      <option value="4">🔍 ×4</option>
+      <option value="8">🔍 ×8</option>
+    </select>
+  </div>
+
+</div>
+
+<!-- ── Legend panel ─────────────────────────────────────────────────────── -->
+<div id="pca-legend-panel" class="pca-glass">
+  <div id="pca-legend-title">Category</div>
+  <div id="pca-legend-rows"></div>
+</div>
+
+<!-- ── Spinner ──────────────────────────────────────────────────────────── -->
+<div id="pca-spinner" role="status" aria-live="polite">
+  <div id="pca-spinner-inner">
+    <div class="spinner-ring"></div>
+    <div id="pca-spinner-fmt"></div>
+    <div id="pca-spinner-label">RENDERING</div>
+  </div>
+</div>
+
+<!-- ── Toast ────────────────────────────────────────────────────────────── -->
+<div id="pca-toast"></div>
+
+<script>
+'use strict';
+var _PCA_FNAME = '{base_fname}';
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SYMBOL MAP — Unicode / HTML replacements for LaTeX-style expressions
+   Python wraps symbols in $...$ in hover text.
+   This map converts them to readable Unicode without KaTeX.
+   ═══════════════════════════════════════════════════════════════════════ */
+var _SYM = {
+  /* Greek */
+  'alpha':'α','beta':'β','gamma':'γ','delta':'δ','epsilon':'ε',
+  'zeta':'ζ','eta':'η','theta':'θ','Theta':'Θ','iota':'ι',
+  'kappa':'κ','lambda':'λ','mu':'μ','nu':'ν','xi':'ξ',
+  'pi':'π','rho':'ρ','sigma':'σ','tau':'τ','phi':'φ',
+  'chi':'χ','psi':'ψ','omega':'ω','Omega':'Ω','Delta':'Δ',
+  /* Physics/materials */
+  'mu_B':'μ_B','Theta_D':'Θ_D','theta_D':'Θ_D',
+  'rho':'ρ','gamma_G':'γ_G','nu':'ν',
+  /* Superscripts */
+  '^2':'²','^3':'³','^-1':'⁻¹','^{-1}':'⁻¹',
+  '^{300}':'^300','^300':'^300',
+  /* Subscripts (approximate) */
+  '_vrh':'_vrh','_atom':'_atom','_D':'_D',
+  /* Angstrom */
+  'AA':'Å','\\AA':'Å',
+  /* Common symbols */
+  'times':'×','cdot':'·','pm':'±','approx':'≈',
+  'infty':'∞','partial':'∂','nabla':'∇',
+};
+
+/* Convert $expr$ to unicode — handles \cmd, \cmd_sub, cmd^sup */
+function _latexToUnicode(expr) {
+  expr = expr.trim();
+
+  /* strip outer $ if passed with them */
+  expr = expr.replace(/^\$|\$$/g, '');
+
+  /* \mathrm{X} → X */
+  expr = expr.replace(/\\mathrm\{([^}]+)\}/g, '$1');
+  expr = expr.replace(/\\text\{([^}]+)\}/g, '$1');
+  expr = expr.replace(/\\mathbf\{([^}]+)\}/g, '$1');
+  expr = expr.replace(/\\mathit\{([^}]+)\}/g, '$1');
+
+  /* direct map for full expression */
+  if (_SYM[expr]) return _SYM[expr];
+
+  /* replace \command sequences */
+  expr = expr.replace(/\\([A-Za-z]+)/g, function(_, cmd) {
+    return _SYM[cmd] || _SYM['\\' + cmd] || cmd;
+  });
+
+  /* superscripts ^{...} and ^x */
+  expr = expr.replace(/\^\{([^}]+)\}/g, function(_, s) {
+    return _supStr(s);
+  });
+  expr = expr.replace(/\^([A-Za-z0-9\-])/g, function(_, s) {
+    return _supStr(s);
+  });
+
+  /* subscripts _{...} and _x */
+  expr = expr.replace(/\_\{([^}]+)\}/g, function(_, s) { return '_' + s; });
+  expr = expr.replace(/\_([A-Za-z0-9])/g, function(_, s) { return '_' + s; });
+
+  /* strip remaining braces */
+  expr = expr.replace(/[{}]/g, '');
+
+  return expr;
+}
+
+var _supMap = {'0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵',
+               '6':'⁶','7':'⁷','8':'⁸','9':'⁹',
+               'a':'ᵃ','b':'ᵇ','c':'ᶜ','d':'ᵈ','e':'ᵉ',
+               'f':'ᶠ','g':'ᵍ','h':'ʰ','i':'ⁱ','j':'ʲ',
+               'k':'ᵏ','l':'ˡ','m':'ᵐ','n':'ⁿ','o':'ᵒ',
+               'p':'ᵖ','r':'ʳ','s':'ˢ','t':'ᵗ','u':'ᵘ',
+               'v':'ᵛ','w':'ʷ','x':'ˣ','y':'ʸ','z':'ᶻ',
+               '-':'⁻','+':'⁺','=':'⁼','(':'⁽',')':'⁾'};
+function _supStr(s) {
+  return s.split('').map(function(c){ return _supMap[c] || c; }).join('');
+}
+
+/* Process all $...$ spans in an HTML string — safe regex approach */
+function _processSymbols(html) {
+  return html.replace(/\$([^$<>]{1,80})\$/g, function(_, expr) {
+    return '<span style="font-style:italic">' + _latexToUnicode(expr) + '</span>';
+  });
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   PLOTLY SETUP — remove native updatemenus, apply serif font to layout
+   ═══════════════════════════════════════════════════════════════════════ */
+(function initPlotly() {
+  var gd = document.querySelector('.plotly-graph-div');
+  if (!gd || !gd.layout) { setTimeout(initPlotly, 300); return; }
+
+  /* Remove Plotly's native control buttons */
+  Plotly.relayout(gd, { updatemenus: [] });
+
+  /* Apply clean readable font to axes, ticks, legend text */
+  Plotly.relayout(gd, {
+    'font.family'      : 'Inter, DM Sans, system-ui, sans-serif',
+    'font.size'        : 20,
+    'xaxis.tickfont'   : { family: 'Inter, DM Sans, system-ui, sans-serif', size: 25 },
+    'yaxis.tickfont'   : { family: 'Inter, DM Sans, system-ui, sans-serif', size: 25 },
+    'xaxis.title.font' : { family: 'Inter, DM Sans, system-ui, sans-serif', size: 28 },
+    'yaxis.title.font' : { family: 'Inter, DM Sans, system-ui, sans-serif', size: 28 },
+    'xaxis.linewidth': 1.5,
+    'xaxis.linecolor': '#000000',
+    'xaxis.showline': true,
+    'xaxis.mirror': true,
+    'yaxis.linewidth': 1.5,
+    'yaxis.linecolor': '#000000',
+    'yaxis.showline': true,
+    'yaxis.mirror': true,
+    'xaxis.gridwidth': 1, 
+    'yaxis.gridwidth': 1,
+    'xaxis.gridcolor': 'rgba(0,0,0,0.10)',
+    'yaxis.gridcolor': 'rgba(0,0,0,0.10)',
+    'title.font': { size: 25, color: '#000000', family: 'Inter, DM Sans, system-ui, sans-serif' },
+    'title.pad': { t: 10, b: 16 },
+    'legend.font': { size: 14, color: '#000' },
+    'legend.title.font': { size: 14, color: '#000' },
+    'legend.bordercolor': '#aaa',
+    'legend.borderwidth': 0.5,
+    'hoverlabel.font.color': '#000',
+    'hoverlabel.bordercolor': '#ccc',
+    'paper_bgcolor': '#ffffff',
+  });
+
+  /* Store axis extents for controls */
+  window._pcaLayout = gd.layout;
+})();
+
+/* ─── Control button actions ─────────────────────────────────────────── */
+function _gd() { return document.querySelector('.plotly-graph-div'); }
+
+function pcaShowAll() {
+  var gd = _gd(); if (!gd) return;
+  Plotly.restyle(gd, { visible: gd.data.map(function() { return true; }) });
+  var allRows = document.querySelectorAll('.pca-legend-row');
+  Array.prototype.forEach.call(allRows, function(r) {
+    r.classList.remove('hidden');
+    var cb = r.querySelector('.pca-legend-cb');
+    if (cb) cb.checked = true;
+  });
+}
+
+function pcaResetAxes() {
+  var gd = _gd(); if (!gd) return;
+  Plotly.relayout(gd, { 'xaxis.autorange': true, 'yaxis.autorange': true });
+}
+
+function pcaFullExtent() {
+  var gd = _gd(); if (!gd) return;
+  var xs = [], ys = [];
+  gd.data.forEach(function(t) {
+    if (t.x) xs = xs.concat(t.x);
+    if (t.y) ys = ys.concat(t.y);
+  });
+  if (!xs.length) return;
+  var pad = 0.6;
+  Plotly.relayout(gd, {
+    'xaxis.range': [Math.min.apply(null,xs)-pad, Math.max.apply(null,xs)+pad],
+    'yaxis.range': [Math.min.apply(null,ys)-pad, Math.max.apply(null,ys)+pad],
+  });
+}
+
+function pcaZoom(factor) {
+  factor = parseFloat(factor); if (!factor) return;
+  var gd = _gd(); if (!gd) return;
+  var xs = [], ys = [];
+  gd.data.forEach(function(t) {
+    if (t.x) xs = xs.concat(t.x);
+    if (t.y) ys = ys.concat(t.y);
+  });
+  var xMid = (Math.max.apply(null,xs) + Math.min.apply(null,xs)) / 2;
+  var yMid = (Math.max.apply(null,ys) + Math.min.apply(null,ys)) / 2;
+  var xSpan = (Math.max.apply(null,xs) - Math.min.apply(null,xs)) / (factor * 2);
+  var ySpan = (Math.max.apply(null,ys) - Math.min.apply(null,ys)) / (factor * 2);
+  Plotly.relayout(gd, {
+    'xaxis.range': [xMid - xSpan, xMid + xSpan],
+    'yaxis.range': [yMid - ySpan, yMid + ySpan],
+  });
+  document.getElementById('pca-zoom-select').value = '';
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   LEGEND
+   ═══════════════════════════════════════════════════════════════════════ */
+function markerSVG(symbol, color) {
+  var s = 14, h = 7;
+  var shapes = {
+    'circle'       : '<circle cx="7" cy="7" r="4.5" fill="'+color+'" stroke="#333" stroke-width="0.9"/>',
+    'square'       : '<rect x="2.5" y="2.5" width="9" height="9" fill="'+color+'" stroke="#333" stroke-width="0.9"/>',
+    'diamond'      : '<polygon points="7,1.5 12.5,7 7,12.5 1.5,7" fill="'+color+'" stroke="#333" stroke-width="0.9"/>',
+    'triangle-up'  : '<polygon points="7,1.5 13,12.5 1,12.5" fill="'+color+'" stroke="#333" stroke-width="0.9"/>',
+    'triangle-down': '<polygon points="1,1.5 13,1.5 7,12.5" fill="'+color+'" stroke="#333" stroke-width="0.9"/>',
+    'star'         : '<polygon points="7,1 8.8,5.5 13.5,5.5 9.8,8.4 11.2,13 7,10.2 2.8,13 4.2,8.4 0.5,5.5 5.2,5.5" fill="'+color+'" stroke="#333" stroke-width="0.7"/>',
+    'cross'        : '<path d="M5,2 H9 V5 H12 V9 H9 V12 H5 V9 H2 V5 H5 Z" fill="'+color+'" stroke="#333" stroke-width="0.7"/>',
+    'x'            : '<line x1="2" y1="2" x2="12" y2="12" stroke="'+color+'" stroke-width="2.5" stroke-linecap="round"/><line x1="12" y1="2" x2="2" y2="12" stroke="'+color+'" stroke-width="2.5" stroke-linecap="round"/>',
+  };
+  var inner = shapes[symbol] || shapes['circle'];
+  return '<svg width="14" height="14" viewBox="0 0 14 14">' + inner + '</svg>';
+}
+
+(function buildLegend() {
+  var gd = _gd();
+  if (!gd || !gd.data || !gd.data.length) { setTimeout(buildLegend, 500); return; }
+  console.log('buildLegend: found', gd.data.length, 'traces');
+  var panel = document.getElementById('pca-legend-panel');
+  var rows  = document.getElementById('pca-legend-rows');
+  rows.innerHTML = '';
+
+  gd.data.forEach(function(trace, idx) {
+    if (!trace.name) return;
+    var color  = (trace.marker && trace.marker.color) || '#888';
+    var symbol = (trace.marker && trace.marker.symbol) || 'circle';
+
+    var row = document.createElement('div');
+    row.className    = 'pca-legend-row';
+    row.dataset.idx  = idx;
+
+    /* ── checkbox ── */
+    var cb = document.createElement('input');
+    cb.type      = 'checkbox';
+    cb.className = 'pca-legend-cb';
+    cb.checked   = true;
+    cb.id        = 'pca-cb-' + idx;
+    cb.style.setProperty('--row-color', color);
+    var mk  = document.createElement('div');
+    mk.className = 'pca-legend-marker';
+    mk.innerHTML = markerSVG(symbol, color);
+
+    var lbl = document.createElement('label');
+    lbl.className   = 'pca-legend-label';
+    lbl.htmlFor     = 'pca-cb-' + idx;
+    lbl.textContent = trace.name;
+
+    row.appendChild(cb);
+    row.appendChild(mk);
+    row.appendChild(lbl);
+    rows.appendChild(row);
+
+    /* central toggle — drives both visual state and Plotly */
+    function toggleTrace(visible) {
+      cb.checked = visible;
+      row.classList.toggle('hidden', !visible);
+      Plotly.restyle(gd, { visible: visible ? true : 'legendonly' }, [idx]);
+    }
+
+    /* checkbox change (direct click on the box) */
+    cb.addEventListener('change', function() { toggleTrace(cb.checked); });
+
+        row.addEventListener('click', function(e) {
+      if (e.target === cb || e.target === lbl) return;
+      toggleTrace(!cb.checked);
+    });
+
+    /* double-click: isolate this trace / restore all */
+    row.addEventListener('dblclick', function(e) {
+      e.preventDefault();
+      var allCbs = rows.querySelectorAll('.pca-legend-cb');
+      /* if any OTHER trace is currently visible, we isolate this one */
+      var isolate = Array.from(allCbs).some(function(c, j) {
+        return j !== idx && c.checked;
+      });
+      allCbs.forEach(function(c, j) {
+        var show = isolate ? (j === idx) : true;
+        c.checked = show;
+        c.closest('.pca-legend-row').classList.toggle('hidden', !show);
+        Plotly.restyle(gd, { visible: show ? true : 'legendonly' }, [j]);
+      });
+    });
+  });
+
+  panel.style.display = 'block';
+})();
+
+/* ═══════════════════════════════════════════════════════════════════════
+   HOVER SYMBOL RENDERING — pure DOM, no KaTeX
+   Watches for Plotly hover boxes and converts $...$ to Unicode
+   ═══════════════════════════════════════════════════════════════════════ */
+(function watchHover() {
+  function processEl(el) {
+    if (!el || el._pcaSymDone) return;
+    var txt = el.innerHTML || '';
+    if (!txt.includes('$')) return;
+    el._pcaSymDone = true;
+    try {
+      el.innerHTML = _processSymbols(txt);
+    } catch(e) { /* read-only node */ }
+  }
+
+  function walkNode(node) {
+    if (!node) return;
+    /* Plotly hover boxes are .hovertext g elements */
+    if (node.classList && (
+        node.classList.contains('hovertext') ||
+        node.classList.contains('hoverlayer') ||
+        node.tagName === 'g')) {
+      var textEls = node.querySelectorAll ? node.querySelectorAll('text, tspan') : [];
+      Array.prototype.forEach.call(textEls, processEl);
+      processEl(node);
+    }
+    /* Also catch plain div hover (some Plotly versions) */
+    if (node.classList && node.classList.contains('hovertext')) {
+      processEl(node);
+    }
+    if (node.querySelectorAll) {
+      var all = node.querySelectorAll('.hovertext, .hoverlayer');
+      Array.prototype.forEach.call(all, function(el) {
+        var inner = el.querySelectorAll('text, tspan, div');
+        Array.prototype.forEach.call(inner, processEl);
+      });
+    }
+  }
+
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(m) {
+      m.addedNodes.forEach(function(node) { walkNode(node); });
+      /* also handle attribute/text changes */
+      if (m.target) walkNode(m.target);
+    });
+  });
+
+  observer.observe(document.body, {
+    childList : true,
+    subtree   : true,
+    attributes: false,
+  });
+
+  /* Initial pass in case hover is already present */
+  walkNode(document.body);
+})();
+
+/* ═══════════════════════════════════════════════════════════════════════
+   EXPORT
+   ═══════════════════════════════════════════════════════════════════════ */
+function showToast(msg, isError) {
+  var t = document.getElementById('pca-toast');
+  t.textContent = msg;
+  t.className   = isError ? 'error' : '';
+  void t.offsetWidth;
+  t.classList.add('show');
+  clearTimeout(t._tid);
+  t._tid = setTimeout(function() { t.classList.remove('show'); }, 3200);
+}
+
+function toggleExportMenu(evt) {
+  evt.stopPropagation();
+  var menu = document.getElementById('pca-export-menu');
+  var btn  = document.getElementById('pca-export-trigger');
+  var open = menu.classList.toggle('open');
+  btn.classList.toggle('open', open);
+  btn.setAttribute('aria-expanded', String(open));
+}
+document.addEventListener('click', function(e) {
+  var menu = document.getElementById('pca-export-menu');
+  var btn  = document.getElementById('pca-export-trigger');
+  if (!menu.contains(e.target) && !btn.contains(e.target)) {
+    menu.classList.remove('open');
+    btn.classList.remove('open');
+    btn.setAttribute('aria-expanded','false');
+  }
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    document.getElementById('pca-export-menu').classList.remove('open');
+    document.getElementById('pca-export-trigger').classList.remove('open');
+  }
+});
+
+var _FMT = { png:'PNG', svg:'SVG', jpeg:'JPEG', pdf:'PDF' };
+function showSpinner(fmt) {
+  document.getElementById('pca-spinner-fmt').textContent = _FMT[fmt]||fmt.toUpperCase();
+  document.getElementById('pca-spinner').style.display = 'flex';
+}
+function hideSpinner() { document.getElementById('pca-spinner').style.display = 'none'; }
+
+function prepareCleanLayout(gd) {
+  var bg    = gd.layout.paper_bgcolor || '#FAFAFA';
+  var title = (gd.layout.title && gd.layout.title.text) || '';
+  return Plotly.relayout(gd, { paper_bgcolor:'#ffffff', 'title.text':'' })
+    .then(function() {
+      return function() {
+        return Plotly.relayout(gd, { paper_bgcolor:bg, 'title.text':title });
+      };
+    });
+}
+
+function runExport(fmt) {
+  document.getElementById('pca-export-menu').classList.remove('open');
+  document.getElementById('pca-export-trigger').classList.remove('open');
+  if (fmt === 'pdf') { exportPDF(); return; }
+  var gd = _gd(); showSpinner(fmt);
+  prepareCleanLayout(gd).then(function(restore) {
+    Plotly.downloadImage(gd, { format:fmt, filename:_PCA_FNAME, width:1400, height:680, scale:1 })
+      .then(function() { restore(); showToast('Saved as ' + _FMT[fmt]); })
+      .catch(function(e) { console.error(e); restore(); showToast('Export failed', true); })
+      .finally(hideSpinner);
+  });
+}
+
+function exportPDF() {
+  var gd = _gd(); showSpinner('pdf');
+  prepareCleanLayout(gd).then(function(restore) {
+    Plotly.toImage(gd, { format:'png', width:1400, height:680, scale:2 })
+      .then(function(url) {
+        restore();
+        var W=297, H=210, m=10, iW=W-2*m, iH=iW*(680/1500);
+        var doc = new window.jspdf.jsPDF({ orientation:'landscape', unit:'mm', format:'a4', compress:true });
+        doc.addImage(url,'PNG',m,(H-iH)/2,iW,iH,'','FAST');
+        doc.save(_PCA_FNAME+'.pdf');
+        showToast('Saved as PDF');
+      })
+      .catch(function(e) { console.error(e); showToast('PDF export failed', true); })
+      .finally(hideSpinner);
+  });
+}
+</script>

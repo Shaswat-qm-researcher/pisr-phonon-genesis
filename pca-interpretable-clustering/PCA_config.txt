@@ -1,0 +1,67 @@
+# =============================================================================
+# PCA ANALYSIS CONFIGURATION
+# Edit this file, then run:  python pca_analysis_hpc.py
+# =============================================================================
+
+# --- INPUT DATA ---
+# Full path to the folder containing your classified .xlsx files.
+# Each file should represent one material category (e.g. Oxide.xlsx, Nitride.xlsx).
+data_folder = C:/classified_data
+
+# Files to load (optional).
+# Leave blank to load ALL .xlsx files found in data_folder.
+# Use serial numbers (e.g. 1,3,5) or exact filenames (e.g. Oxide.xlsx, Nitride.xlsx).
+# Serial numbers correspond to the alphabetical order of files in the folder.
+file_subset =
+
+# --- FEATURE COLUMNS ---
+# Columns to use as PCA input features.
+# Leave blank to use ALL default feature columns: SM, YM, VPA, D, DT
+# Use serial numbers (e.g. 1,3,5) or column names (e.g. SM,YM,DT).
+# Available defaults: [1] SM  [2] YM  [3] VPA  [4] D  [5] DT
+feature_columns =
+
+# --- PARALLEL PROCESSING ---
+# Number of virtual CPU cores to use for parallel data loading.
+# Set to 1 for safe sequential execution (recommended on shared HPC nodes).
+# Set to the number of cores available for maximum speed.
+# On SLURM, this is automatically capped to SLURM_CPUS_PER_TASK.
+n_cpus = 1
+
+# --- OUTPUT ---
+# Folder where all figures, Excel files, and logs will be saved.
+# A subfolder named /PCA will be created automatically inside this directory.
+# Leave blank to save in the same folder as the script.
+save_dir = C:/
+
+# Base filename for all output files (no extension, no spaces recommended).
+# All saved files will be prefixed with this name.
+# Example: "Debye_temperature" -> Debye_temperature_PCA_Scatter.png, etc.
+save_name = pca_results
+
+# --- SYMBOL CONVERSION FILE ---
+# Path to a symbol_conversion.txt file that maps column keys to display labels.
+# Accepts: a full file path OR a folder path (auto-detects symbol_conversion.txt inside).
+# Leave blank to use built-in defaults: SM->G_vrh, YM->E, VPA->V_atom, D->rho, DT->Theta_D
+symbol_file = C:/symbol_conversion.txt
+
+# --- INTERACTIVE SCATTER PLOT ---
+# Whether to generate an interactive HTML scatter plot (requires plotly).
+# Options: yes / no
+interactive_scatter = yes
+
+# Path to pca_scatter_inject.html (custom UI injected into the interactive plot).
+# Accepts: a full file path OR a folder path (auto-detects pca_scatter_inject.html inside).
+# Leave blank to skip injection (interactive plot is still saved, just without the custom panel).
+inject_file = C:/pca_scatter_inject.html
+
+# Path to symbol_conversion_html.txt for hover-label symbols in the interactive plot.
+# Accepts: a full file path OR a folder path (auto-detects symbol_conversion_html.txt inside).
+# Leave blank to reuse the main symbol_file mapping above.
+symbol_file_html = C:/symbol_conversion_html.txt
+
+# --- SCATTER PLOT LABELS ---
+# Whether to annotate each data point with its chemical formula on the static scatter plot.
+# Useful for small datasets; can be very cluttered for large ones (>500 materials).
+# Options: yes / no
+show_labels = no

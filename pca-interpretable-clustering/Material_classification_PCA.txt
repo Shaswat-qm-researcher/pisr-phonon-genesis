@@ -1,0 +1,16 @@
+# =============================================================================
+# MATERIAL CLASSIFICATION CONFIGURATION
+# Edit this file, then run:  python material_classification_hpc.py
+# =============================================================================
+
+# --- INPUT DATA ---
+file_path  = C:/PCA_data_unclassified.csv   # Full path to your data file
+sheet_name =  		                    # Excel sheet name; leave blank for CSV or first sheet
+
+# --- OUTPUT ---
+output_dir = C:\classified_data\            # Folder where classified Excel files are saved
+
+# --- FORMULA / SPECIES COLUMN ---
+# Name of the column containing chemical formulas or species lists.
+# Leave blank to let the script auto-detect (looks for: species, formula, composition).
+formula_column =
