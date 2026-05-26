@@ -46,8 +46,8 @@ This demonstration walks through the XAI-Symbolic Regression pipeline applied to
 
 <p align="center">
   <video width="85%" controls style="border-radius: 16px; box-shadow: 0 8px 28px rgba(0,0,0,0.18);">
-    <source src="Explainable_ML_for_Design.mp4" type="video/mp4">
-    <a href="Explainable_ML_for_Design.mp4">Download video</a>
+    <source src="./Explainable_ML_for_Design.mp4" type="video/mp4">
+    <a href="./Explainable_ML_for_Design.mp4">Download video</a>
   </video>
 </p>
 
