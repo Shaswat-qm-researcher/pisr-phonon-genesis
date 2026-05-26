@@ -45,10 +45,9 @@ This demonstration walks through the XAI-Symbolic Regression pipeline applied to
 </p>
 
 <p align="center">
-  <video width="85%" controls style="border-radius: 16px; box-shadow: 0 8px 28px rgba(0,0,0,0.18);">
-    <source src="./Explainable_ML_for_Design.mp4" type="video/mp4">
-    <a href="./Explainable_ML_for_Design.mp4">Download video</a>
-  </video>
+  <a href="https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/blob/main/Explainable_ML_for_Design.mp4">
+    <img src="https://img.shields.io/badge/▶_Watch_Demo-Explainable_ML_for_Design-blue?style=for-the-badge&logo=github"/>
+  </a>
 </p>
 
 ---
