@@ -34,22 +34,6 @@
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════════
-     VIDEO DEMONSTRATION
-     ═══════════════════════════════════════════════════════════════ -->
-
-<h2 align="center">🎬 Framework in Action</h2>
-
-<p align="center" style="max-width: 680px; margin: 0 auto 1em auto;">
-This demonstration walks through the XAI-Symbolic Regression pipeline applied to <strong>Debye temperature (Θ<sub>D</sub>)</strong> — a fundamental property of lattice dynamics — showing how the framework uses raw elemental features to identify <strong>dominant physical descriptors</strong>, extract compact scaling relations, and translate them into <strong>targeted materials design rules</strong> for high-throughput screening.
-</p>
-
-<p align="center">
-  <img src="https://private-user-images.githubusercontent.com/205766502/598001614-0661535f-ff94-4647-9390-94e7e4c41a7f.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk3Nzg2MDUsIm5iZiI6MTc3OTc3ODMwNSwicGF0aCI6Ii8yMDU3NjY1MDIvNTk4MDAxNjE0LTA2NjE1MzVmLWZmOTQtNDY0Ny05MzkwLTk0ZTdlNGM0MWE3Zi5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUyNlQwNjUxNDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNmI4YjgwMGU4OGUyYWEwZmUzODY1YmFkYjYyNWEyZDMyMWVkMGRkMDlkNjljYTMxNTdhZGQ4YmFkMGNkNzEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9dmlkZW8lMkZtcDQifQ.G4lsFHICVcZe11ZkUyTq2RUBua-Uo8EI7his_VMiO5c" width="85%"/>
-</p>
-
----
-
 ## What This Repository Does
 
 Most machine learning models for materials property prediction are black boxes — they interpolate well but cannot explain *why* a material behaves the way it does. This repository takes a different approach.
