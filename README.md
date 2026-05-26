@@ -34,6 +34,25 @@
 
 ---
 
+<!-- ═══════════════════════════════════════════════════════════════
+     VIDEO DEMONSTRATION
+     ═══════════════════════════════════════════════════════════════ -->
+
+<h2 align="center">🎬 Framework in Action</h2>
+
+<p align="center" style="max-width: 680px; margin: 0 auto 1em auto;">
+This demonstration walks through the XAI-Symbolic Regression pipeline applied to <strong>Debye temperature (Θ<sub>D</sub>)</strong> — a fundamental property of lattice dynamics — showing how the framework uses raw elemental features to identify <strong>dominant physical descriptors</strong>, extract compact scaling relations, and translate them into <strong>targeted materials design rules</strong> for high-throughput screening.
+</p>
+
+<p align="center">
+  <video width="85%" controls style="border-radius: 16px; box-shadow: 0 8px 28px rgba(0,0,0,0.18);">
+    <source src="Explainable_ML_for_Design.mp4" type="video/mp4">
+    <a href="Explainable_ML_for_Design.mp4">Download video</a>
+  </video>
+</p>
+
+---
+
 ## What This Repository Does
 
 Most machine learning models for materials property prediction are black boxes — they interpolate well but cannot explain *why* a material behaves the way it does. This repository takes a different approach.
