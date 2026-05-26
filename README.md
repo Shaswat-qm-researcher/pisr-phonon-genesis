@@ -45,7 +45,7 @@ This demonstration walks through the XAI-Symbolic Regression pipeline applied to
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0661535f-ff94-4647-9390-94e7e4c41a7f" width="85%"/>
+  <img src="https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/issues/1#issue-4521999870" width="85%"/>
 </p>
 
 ---
