@@ -139,50 +139,11 @@ To activate:
 
 ## Workflow Integration
 
-```mermaid
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#ede8fa',
-    'primaryTextColor': '#3b1f8a',
-    'primaryBorderColor': '#7c4dcc',
-    'lineColor': '#c4b5f0',
-    'secondaryColor': '#ffffff',
-    'tertiaryColor': '#ffffff',
-    'fontSize': '20px',
-    'fontFamily': 'Georgia, serif'
-  }
-}}%%
-graph TB
-    subgraph row1[ ]
-        direction TB
-        A[" 📄 setup_environment.py\n──────────────────\nEntry point · Python script"]
-        B["  ✅ Environment Ready  \n──────────────────\nDeps installed · Validated"]
-        C[" 📓 PLS_analysis.ipynb\n──────────────────\nJupyter notebook · Main logic"]
-        D[" 📂 symbol_conversion.txt\n──────────────────\nSymbol mapping · Reference file"]
-        A --> B --> C --> D
-    end
-
-    subgraph row2[ ]
-        direction LR
-
-        E[" ▶ Run Analysis\n──────────────────\nFit PLS model · Compute scores"]
-        F[" 📁 ../results/\n──────────────────\nOutput directory · Final artefacts"]
-       E --> F
-    end
-
-    row1 --> row2
-  
-
-    style A fill:#ede8fa,color:#3b1f8a,stroke:#3b1f8a,stroke-width:4px
-    style B fill:#ede8fa,color:#3b1f8a,stroke:#3b1f8a,stroke-width:4px
-    style C fill:#ede8fa,color:#3b1f8a,stroke:#3b1f8a,stroke-width:4px
-    style D fill:#ede8fa,color:#3b1f8a,stroke:#3b1f8a,stroke-width:4px
-    style E fill:#ede8fa,color:#3b1f8a,stroke:#3b1f8a,stroke-width:4px
-    style F fill:#ede8fa,color:#3b1f8a,stroke:#3b1f8a,stroke-width:4px
-
-    linkStyle default stroke:#3b1f8a,stroke-width:3px
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Shaswat-qm-researcher/pisr-phonon-genesis/main/pls_feature_selection/code_and_config/pls_setup.png"
+       alt="PLS Setup"
+       width="95%">
+</p>
 
 ---
 
