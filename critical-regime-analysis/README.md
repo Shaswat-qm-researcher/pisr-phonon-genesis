@@ -171,7 +171,7 @@ A multi-sheet Excel workbook containing all numerical results:
 **Step 1 — Clone the repository**
 
 ```bash
-git clone https://github.com/Shaswat-qm-researcher/critical-regime-analysis.git
+git clone https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/critical-regime-analysis.git
 cd critical-regime-analysis
 ```
 
@@ -251,8 +251,10 @@ Lines beginning with `#` are treated as comments and ignored.
 
 If you use this code or dataset in your work, please cite the main repository:
 
-> Shaswat, *et al.* Physics-Informed Symbolic Regression for Phonon-Related Property Prediction and Materials Discovery.  
-> GitHub: https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/
+```bibtex
+@article{
+}
+```
 
 Data sourced from:
 - [Materials Project](https://materialsproject.org/) — A. Jain *et al.*, APL Materials 1, 011002 (2013).
