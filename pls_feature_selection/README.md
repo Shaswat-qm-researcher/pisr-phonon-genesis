@@ -19,6 +19,7 @@ This repository provides a complete Partial Least Squares Regression (PLS) frame
 ---
 
 ## Project Workflow
+<img src="https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/edit/main/pls_feature_selection/pls_worflow.png" 
 
 <p align="center">
   <img src="pls_feature_selection/pls_worflow.png" 
