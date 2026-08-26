@@ -21,7 +21,7 @@ This repository provides a complete Partial Least Squares Regression (PLS) frame
 ## Project Workflow
 
 <p align="center">
-  <img src="pls_workflow.png" 
+  <img src="pls_feature_selection/pls_worflow.png" 
        alt="PLS Workflow"
        style="
          width: 95%;
