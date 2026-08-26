@@ -61,7 +61,7 @@ All cleaned files use short abbreviations defined in `symbol_conversion.txt`. Ke
 | `D` | Mass Density | g/cm³ |
 | `VPA` | Atomic volume | Å³/atom |
 
-Full list with LaTeX symbols: [`data/processed/symbol_conversion.txt`](pisr-phonon-genesis/data/processed/symbol_conversion.txt)
+Full list with LaTeX symbols: [`data/processed/symbol_conversion.txt`](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/blob/main/data/processed/symbol_conversion.txt)
 
 ---
 
