@@ -208,7 +208,7 @@ This project is licensed under the MIT License — see [`LICENSE`](LICENSE) for 
 
 If you use **pisr-phonon-genesis** in your research, please cite this repository as:
 
->
->
-
-If you use data from the **Materials Project** or **AFLOW**, please also cite the corresponding references listed in the [Data Sources](#data-sources) section.
+```bibtex
+@article{
+}```
+If you use data from the **Materials Project** or **AFLOW**, please also cite the corresponding references.
