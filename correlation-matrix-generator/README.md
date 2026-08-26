@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 1. Clone the main repository:
 ```bash
-git clone https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/.git
+git clone https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis.git
 cd pisr-phonon-genesis
 ```
 
