@@ -167,8 +167,8 @@ The symbolic descriptors discovered for $\Theta_D$ are validated against DFT-com
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery.git
-cd Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery
+git clone https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis.git
+cd pisr-phonon-genesis
 ```
 
 **2. Set up a Python environment**
