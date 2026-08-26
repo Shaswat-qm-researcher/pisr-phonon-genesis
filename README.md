@@ -210,5 +210,6 @@ If you use **pisr-phonon-genesis** in your research, please cite this repository
 
 ```bibtex
 @article{
-}```
+}
+```
 If you use data from the **Materials Project** or **AFLOW**, please also cite the corresponding references.
