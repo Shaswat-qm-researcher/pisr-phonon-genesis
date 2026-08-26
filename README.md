@@ -14,7 +14,7 @@
 
 <p align="center">
   <em>Bridging the gap between data-driven modeling and physical insight.</em><br>
-  An XAI framework that derives compact, interpretable analytical scaling relations for phonon-related material properties — enabling targeted materials screening with DFT-level validation.
+  PISR-phonon-genesis is an XAI framework that derives compact, interpretable analytical scaling relations for phonon-related material properties — enabling targeted materials screening with DFT-level validation.
 </p>
 
 <p align="center">
@@ -201,3 +201,14 @@ Every module is self-contained with its own data inputs, prompts, and outputs. R
 ## License
 
 This project is licensed under the MIT License — see [`LICENSE`](LICENSE) for details.
+
+---
+
+## Citation
+
+If you use **pisr-phonon-genesis** in your research, please cite this repository as:
+
+>
+>
+
+If you use data from the **Materials Project** or **AFLOW**, please also cite the corresponding references listed in the [Data Sources](#data-sources) section.
