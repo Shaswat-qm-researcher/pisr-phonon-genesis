@@ -23,7 +23,7 @@ where $r_{xy} \in [-1, 1]$:
 📖 [Pearson, K. (1895) Philosophical Transactions of the Royal Society of London. ](https://royalsocietypublishing.org/rsta/article/doi/10.1098/rsta.1896.0007)
 
 > **Note:** This is a sub-repository of the main project:  
-> **[Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery](https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/)**
+> **[pisr-phonon-genesis](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/)**
 ---
 
 ## Features
@@ -83,8 +83,8 @@ pip install -r requirements.txt
 
 1. Clone the main repository:
 ```bash
-git clone https://github.com/yourusername/Physics-Informed-Symbolic-Regression.git
-cd Physics-Informed-Symbolic-Regression/correlation-matrix-generator
+git clone https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/.git
+cd pisr-phonon-genesis
 ```
 
 2. Install dependencies:
