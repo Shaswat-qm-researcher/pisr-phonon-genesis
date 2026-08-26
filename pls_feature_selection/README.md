@@ -20,80 +20,20 @@ This repository provides a complete Partial Least Squares Regression (PLS) frame
 
 ## Project Workflow
 
-```mermaid
-%%{init: {
-  'theme': 'base',
-  'themeVariables': {
-    'primaryColor': '#ede8fa',
-    'primaryTextColor': '#3b1f8a',
-    'primaryBorderColor': '#7c4dcc',
-    'lineColor': '#c4b5f0',
-    'secondaryColor': '#ffffff',
-    'tertiaryColor': '#ffffff',
-    'edgeLabelBackground': '#ffffff',
-    'fontSize': '18px',
-    'fontFamily': 'Georgia, serif'
-  }
-}}%%
-flowchart TD
-    A["Start "]
-    B[" 📂 data/\nLoad Materials Data"]
-    C{" ✅ Data Valid? "}
-    D[" ⚙️ code_and_config/\nLoad Configuration"]
-    E[" 📓 setup_environment.py \n PLS_analysis.ipynb"]
-    F[" 📐 Feature Standardization\nμ = 0 · σ = 1"]
-    G[" 🔧 PLS Model Training\nn_components = 5"]
-    H[" 🔍 GridSearch Optimization\nmax_iter · tol"]
-    I[" 🎯 Feature Selection\n|L| > 0.10 · ΔR² > 0.05"]
-    J[" 📊 Calculate\nExplained Variance"]
-    K[" 🎨 Generate\nVisualizations"]
-    K1[" 📈 Component\nAnalysis Plot"]
-    K2[" 🟪 Loading\nHeatmap"]
-    K3[" 📉 Feature\nContribution Plot"]
-    L[" 💾 results/\nExport Results"]
-    L1[" 📗 Excel Files\nPerformance Metrics"]
-    L2[" 📄 PDF\nFigures"]
-    M{" 🔁 More\nProperties? "}
-    N[" End\nReview Results"]
-
-    A --> B
-    B --> C
-    C -->|" ❌ No "| B
-    C -->|" ✅ Yes "| D
-    D --> E --> F --> G --> H --> I --> J --> K --> L
-    L --> M
-    M -->|" 🔁 Yes "| D
-    M -->|" ✅ No "| N
-
-    K --> K1
-    K --> K2
-    K --> K3
-    L --> L1
-    L --> L2
-
-    style A fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style B fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style C fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style D fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style E fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style F fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style G fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style H fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style I fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style J fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style K fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style K1 fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style K2 fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style K3 fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style L fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style L1 fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style L2 fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style M fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-    style N fill:#ede8fa,color:#3b1f8a,stroke:#7c4dcc,stroke-width:3px
-
-    linkStyle default stroke:#c4b5f0,stroke-width:4px
-```
----
+<p align="center">
+  <img src="pls_workflow.png" 
+       alt="PLS Workflow"
+       style="
+         width: 95%;
+         border-radius: 26px;
+         opacity: 0.89;
+         box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+       "
+       onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 32px rgba(0,0,0,0.2)';"
+       onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 18px 24px rgba(0,0,0,0.15)';"
+  />
+</p>
 
 ## Repository Structure
 
