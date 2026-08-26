@@ -4,8 +4,8 @@ Comparative dataset of thermoelastic and electronic properties for inorganic com
 
 ---
 > **Note:** This is a sub-repository of the main project:  
-> **[Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery](https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/)**
----
+> **[pisr-phonon-genesis](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/)**
+--
 
 ## Folder Structure
 
@@ -61,7 +61,7 @@ All cleaned files use short abbreviations defined in `symbol_conversion.txt`. Ke
 | `D` | Mass Density | g/cm³ |
 | `VPA` | Atomic volume | Å³/atom |
 
-Full list with LaTeX symbols: [`data/processed/symbol_conversion.txt`](Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/data/processed/symbol_conversion.txt)
+Full list with LaTeX symbols: [`data/processed/symbol_conversion.txt`](pisr-phonon-genesis/data/processed/symbol_conversion.txt)
 
 ---
 
