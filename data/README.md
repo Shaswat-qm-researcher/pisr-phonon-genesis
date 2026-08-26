@@ -28,7 +28,7 @@ Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-
 └── README.md
 ```
 
-> For detailed column definitions, data formats, and file sizes see [`DATA_DETAILS.md`](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/data/DATA_DETAILS.md).
+> For detailed column definitions, data formats, and file sizes see [`DATA_DETAILS.md`](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/blob/main/data/DATA_DETAILS.md).
 
 ---
 
