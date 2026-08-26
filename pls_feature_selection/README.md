@@ -15,7 +15,7 @@ This repository provides a complete Partial Least Squares Regression (PLS) frame
 ---
 
 > **Note:** This is a sub-repository of the main project:  
-> **[Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery](https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/)**
+> **[pisr-phonon-genesis](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/)**
 ---
 
 ## Project Workflow
