@@ -4,7 +4,7 @@ This repository contains **ab initio validation data and related post-processing
 
 ---
 > **Note:** This is a sub-repository of the main project:  
-> **[Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery](https://github.com/Shaswat-qm-researcher/Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-Materials-Discovery/)**
+> **[pisr-phonon-genesis](https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis/)**
 
 <p align="center">
   <img src="./WORKFLOW.png" alt="Workflow" width="700"/>
