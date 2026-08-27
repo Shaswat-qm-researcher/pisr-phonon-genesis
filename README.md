@@ -103,6 +103,11 @@ Real materials do not behave uniformly across property space. CRA partitions the
 ├── 📁 assets/
 │   └── 🖼️  logo.png                       # Repository header image
 │
+├── 📁 supporting_information/            # Supporting Excel files and figure for paper
+│   └── 📄 Experimental_Data_Figure_4.xlsx         ← Experimental data source and values
+│   └── 📄 New_Material_Properties_Table_2.xlsx    ← Newly discovered material's properties
+│   └── 🖼️ Interactive_PCA_Scatter_Figure_6c.html  ← Interactive PCA plot
+│
 ├── 📄 LICENSE
 └── 📄 README.md                          ← you are here
 ```
