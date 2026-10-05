@@ -62,6 +62,8 @@ sisso_symbolic_regression/
 
 ### 2. Installation
 
+#### SISSO version: 3.5
+
 ```bash
 # 1. Clone this repo
 git clone https://github.com/yourusername/sisso_symbolic_regression.git
