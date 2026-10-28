@@ -85,6 +85,7 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/Shaswat-qm-researcher/pisr-phonon-genesis.git
 cd pisr-phonon-genesis
+cd correlation-matrix-generator
 ```
 
 2. Install dependencies:
@@ -107,17 +108,25 @@ jupyter notebook correlation_matrix_generator.ipynb
 
 **Before running correlation analysis, drop the following identifier columns:**
 - `auid` (AFLOW Unique ID)
-- `MP_ID` (Materials Project ID)  
+- `MP_ID` (Materials Project ID)
 - `formula` (Chemical formula)
+- `species` (Constituent elements)
+- `is_stable` (Stability flag)
+- `IS_METAL` (Metal flag)
+- `crystal_system` (Crystal system)
+- `spacegroup` (Space group number)
+- `is_magnetic` (Magnetic flag)
+- `ordering` (Magnetic ordering)
+- `debye_temperature_source` (Source of Debye temperature value in material project)
 
-The notebook will prompt you to drop columns in **Step 2**. These non-numeric identifiers should not be included in Pearson correlation calculations.
+The notebook will prompt you to drop columns in **Step 2**. These non-numeric identifiers and categorical labels should not be included in Pearson correlation calculations.
 
 ### Workflow
 
 The tool guides you through 7 interactive steps:
 
 1. **Load Data File** - Select Excel/CSV file from directory
-2. **Column Selection** - Drop identifier columns (`auid`, `MP_ID`, `formula`)
+2. **Column Selection** - Drop identifier and categorical columns (`auid`, `MP_ID`, `formula`, `species`, `is_stable`, `IS_METAL`, `crystal_system`, `spacegroup`, `is_magnetic`, `ordering`, `debye_temperature_source`)
 3. **Label Configuration** - Use column headings or load LaTeX symbols from `symbol_conversion.txt`
 4. **Calculate Correlation** - Pearson correlation coefficients computed automatically
 5. **Dynamic Sizing** - Figure dimensions calculated based on parameter count
@@ -170,8 +179,8 @@ The `results/` folder contains pre-generated outputs:
 
 ## Tips for Best Results
 
-1. **Always drop ID columns** (`auid`, `MP_ID`, `formula`) before correlation analysis.
-2. **Remove non-numeric columns** to avoid calculation errors
+1. **Always drop ID columns** before correlation analysis.
+2. **Remove non-numeric columns** to avoid calculation errors.
 3. **Font size**: Start with 36 and adjust if labels overlap (decrease) or appear small (increase).
 4. **Symbol file**: Keep `symbol_conversion.txt` in the same directory as your data for easy loading.
 5. **Output organization**: Use descriptive file prefixes (e.g., "AFLOW_elastic", "MP_thermal").
@@ -231,8 +240,9 @@ MIT License - See LICENSE file for details
 ## Acknowledgments
 
 - **[Materials Project](https://materialsproject.org)** for DFT-computed materials database
+- **[Materials Project Atomate2 & Pheasy workflow](https://doi.org/10.5281/zenodo.20196564)** for DFT-computed phonon database
 - **[AFLOW Consortium](https://aflow.org)** for high-throughput materials data
 - The open-source Python community for excellent scientific computing libraries
 
 ---
-**Last Updated**: 07-04-2026
+**Last Updated**: 28-10-2026
