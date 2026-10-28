@@ -22,14 +22,23 @@ To view it:
 
 ## `New_Material_Properties_Table_2.xlsx`
 
-This spreadsheet contains DFT- and SISSO-computed properties for a set of candidate structures, organized into four grouped sections:
+This spreadsheet contains OQMD reference data together with DFT- and SISSO-computed properties for a set of candidate structures, organized into five grouped sections:
 
-- **OQMD Reference**: entry identifiers (S.No., formula, OQMD Entry ID, Structure ID), space group (symbol and number), number of atoms, total energy, net magnetic moment, static band gap, atomic volume, molar mass, unit cell mass, energy above hull, and formation energy.
-- **DFT Elastic Constant Calculations**: crystal system and space group, cell volume and density, the full elastic stiffness tensor (C11–C66), Voigt/Reuss/Hill-averaged bulk (B), Young's (E), and shear (G) moduli, Poisson's ratio, Pugh's ratio (G/B) and its inverse, Vickers hardness estimates (two models), longitudinal/transverse/average sound velocities, and the Debye temperature from the Anderson approximation.
-- **DFT Phonopy/DFPT Calculations**: temperature-dependent heat capacity (Cv), entropy, internal energy, and free energy (each given as a temperature → value mapping from 0–1000 K), together with the Debye temperature computed from Phonopy.
-- **SISSO**: the SISSO-predicted Debye temperature, thermal conductivity at 300 K, heat capacity at 300 K (in kB/cell and J/kg·K), and thermal diffusivity at 300 K.
-
-Some entries include multiple rows per formula (e.g., an original relaxed structure and a DFPT-distorted variant), reflecting different structural inputs used in the calculations.
+- **OQMD Reference**: entry identifiers (formula, OQMD Entry ID, Structure ID), space group (symbol and number), number of atoms, total energy (eV/atom), net magnetic moment (μB/atom), static band gap (eV), atomic volume (Å³/atom), molar mass (g/mol), unit cell mass (kg), energy above hull (eV/atom), and formation energy (eV/atom).
+- **DFT Elastic Constant Calculations**:
+  - *Structure*: crystal system, space group and number, initial and relaxed lattice angles (α, β, γ) and lattice parameters (a, b, c), cell volume, atomic volume, and mass density.
+  - *Elastic tensor*: the full 6×6 stiffness matrix (C11–C66, all 36 components).
+  - *Averaged moduli*: Voigt/Reuss/Hill bulk (B), Young's (E), and shear (G) moduli, and Poisson's ratio.
+  - *Ratios*: Pugh's ratio (G/B) and its inverse (B/G), each in Voigt/Reuss/Hill form.
+  - *Hardness and stiffness*: Vickers hardness estimates from two models (labelled 6 and 7), and the pressure-wave (longitudinal) modulus, all in Voigt/Reuss/Hill form.
+  - *Wave speeds*: longitudinal, transverse, and average sound velocities (m/s).
+  - *Debye temperature (Anderson)*: derived from the elastic constants.
+- **DFT Phonopy Calculations**:
+  - *Temperature-dependent properties*: heat capacity (Cv, J/K·mol), entropy (J/K·mol), internal energy (kJ/mol), and free energy (kJ/mol), each given as a temperature → value mapping.
+  - *Debye temperature (Phonopy)*.
+  - *300 K properties*: Cv (J/kg·K), Grüneisen parameter (γ), isothermal bulk modulus (GPa), volumetric thermal expansion (×10⁻⁶ /K), Cp (J/kg·K), and thermal conductivity (W/m·K).
+- **SISSO**: the SISSO-predicted Debye temperature (K), thermal conductivity at 300 K (W/m·K), and heat capacity at 300 K (in k_B/cell and J/kg·K).
+- **DFT + SISSO**: thermal diffusivity at 300 K (m²/s), combining the DFT and SISSO results. Candidates that have a DFT thermal conductivity use that value; all remaining candidates use the SISSO thermal conductivity. Every candidate uses the DFT Cp at 300 K.
 
 ## `Experimental_Data_Figure_4.xlsx`
 
@@ -43,3 +52,6 @@ Contains the experimental and computed data used to build Figure 4, comparing pr
 ---
 
 *If you have trouble opening any file, please contact the corresponding author. *bsomnath@iitk.ac.in
+
+---
+**Last Updated**: 28-10-2026
