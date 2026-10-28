@@ -254,5 +254,9 @@ If you use this code or dataset in your work, please cite:
 > 
 ---
 **Data sourced from:**
-- [Materials Project](https://materialsproject.org/) — A. Jain *et al.*, APL Materials 1, 011002 (2013).
+- [Materials Project](https://materialsproject.org/) 
+- **[Materials Project elastic workflow](https://doi.org/10.1038/sdata.2015.9)** — M. de Jong *et al.*, Sci Data 2, 150009 (2015).
+- **[Materials Project Atomate2 & Pheasy workflow](https://doi.org/10.26434/chemrxiv.15004632/v1)** — H. Sahasrabuddhe *et al.*, ChemRxiv, 0611 (2026).
 - [AFLOW](http://aflow.org/) — S. Curtarolo *et al.*, Computational Materials Science 58, 218 (2012).
+---
+**Last Updated**: 28-10-2026
