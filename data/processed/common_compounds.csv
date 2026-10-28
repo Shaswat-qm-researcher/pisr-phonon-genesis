@@ -1,1098 +1,872 @@
-MP_ID,MP_formula,MP_species,MP_NE,AFLOW_ID,AFLOW_formula,AFLOW_species,AFLOW_NE
-mp-23487,KIO3,"['I', 'K', 'O']",3,aflow:2b14842c370cdf6d,I1K1O3,"['I', 'K', 'O']",3
-mp-4429,CaSiO3,"['Ca', 'O', 'Si']",3,aflow:cc56846288079507,Ca1O3Si1,"['Ca', 'O', 'Si']",3
-mp-118,P,['P'],1,aflow:57cecbf3dc26e974,P1,['P'],1
-mp-9548,GeAs,"['As', 'Ge']",2,aflow:b52900970e966f51,As1Ge1,"['As', 'Ge']",2
-mp-2733,Al8Mo3,"['Al', 'Mo']",2,aflow:2758cc57bfa5c5ea,Al8Mo3,"['Al', 'Mo']",2
-mp-23157,Bi,['Bi'],1,aflow:27bbd51ad4827863,Bi1,['Bi'],1
-mp-352,HfO2,"['Hf', 'O']",2,aflow:fa3bd3969b846c2b,Hf1O2,"['Hf', 'O']",2
-mp-2858,ZrO2,"['O', 'Zr']",2,aflow:50c9df791c600123,O2Zr1,"['O', 'Zr']",2
-mp-557993,BiO2,"['Bi', 'O']",2,aflow:bfbbeb6a9f7e7f5a,Bi1O2,"['Bi', 'O']",2
-mp-24082,Ta2H,"['H', 'Ta']",2,aflow:33d8042193c43c8f,H1Ta2,"['H', 'Ta']",2
-mp-5777,BaTiO3,"['Ba', 'O', 'Ti']",3,aflow:08476bef4ba9f704,Ba1O3Ti1,"['Ba', 'O', 'Ti']",3
-mp-5154,HoNiC2,"['C', 'Ho', 'Ni']",3,aflow:bc59337055eb36e8,C2Ho1Ni1,"['C', 'Ho', 'Ni']",3
-mp-5106,TbCoC2,"['C', 'Co', 'Tb']",3,aflow:ef2a772d79509a04,C2Co1Tb1,"['C', 'Co', 'Tb']",3
-mp-3061,TbNiC2,"['C', 'Ni', 'Tb']",3,aflow:d95968e06facc9bd,C2Ni1Tb1,"['C', 'Ni', 'Tb']",3
-mp-999088,ThCoC2,"['C', 'Co', 'Th']",3,aflow:e00e76841156aae9,C2Co1Th1,"['C', 'Co', 'Th']",3
-mp-974455,Re3Ru,"['Re', 'Ru']",2,aflow:e7c45a3ae6fc7c66,Re3Ru1,"['Re', 'Ru']",2
-mp-433,DyAl,"['Al', 'Dy']",2,aflow:4eab5bfa96c55d55,Al1Dy1,"['Al', 'Dy']",2
-mp-720,TlF,"['F', 'Tl']",2,aflow:41cae372cf494c78,F1Tl1,"['F', 'Tl']",2
-mp-1078278,CrB4,"['B', 'Cr']",2,aflow:71617e3eeffef488,B4Cr1,"['B', 'Cr']",2
-mp-1078253,MnB4,"['B', 'Mn']",2,aflow:81fd9bfaa37455a4,B4Mn1,"['B', 'Mn']",2
-mp-669692,NbPd3,"['Nb', 'Pd']",2,aflow:4a08c90c16ea2eae,Nb1Pd3,"['Nb', 'Pd']",2
-mp-4192,Ca3AsN,"['As', 'Ca', 'N']",3,aflow:d8eb08cc65124290,As1Ca3N1,"['As', 'Ca', 'N']",3
-mp-4438,CaSnO3,"['Ca', 'O', 'Sn']",3,aflow:f20ea6ba64ca6151,Ca1O3Sn1,"['Ca', 'O', 'Sn']",3
-mp-4019,CaTiO3,"['Ca', 'O', 'Ti']",3,aflow:acc2c58523ee6cb1,Ca1O3Ti1,"['Ca', 'O', 'Ti']",3
-mp-4571,CaZrO3,"['Ca', 'O', 'Zr']",3,aflow:26237603f1b44cd0,Ca1O3Zr1,"['Ca', 'O', 'Zr']",3
-mp-567681,CsPbBr3,"['Br', 'Cs', 'Pb']",3,aflow:53122e2feb234908,Br3Cs1Pb1,"['Br', 'Cs', 'Pb']",3
-mp-2955,NaMgF3,"['F', 'Mg', 'Na']",3,aflow:d7f3c7cbcc4978f2,F3Mg1Na1,"['F', 'Mg', 'Na']",3
-mp-2231,SnS,"['S', 'Sn']",2,aflow:77aa555431a169d4,S1Sn1,"['S', 'Sn']",2
-mp-691,SnSe,"['Se', 'Sn']",2,aflow:57b75e00d1aa2af6,Se1Sn1,"['Se', 'Sn']",2
-mp-2879,SrSnO3,"['O', 'Sn', 'Sr']",3,aflow:a81bb2b2c64c9d6f,O3Sn1Sr1,"['O', 'Sn', 'Sr']",3
-mp-4387,SrZrO3,"['O', 'Sr', 'Zr']",3,aflow:c4132aed04864439,O3Sr1Zr1,"['O', 'Sr', 'Zr']",3
-mp-3378,SrHfO3,"['Hf', 'O', 'Sr']",3,aflow:904000e7545dbe41,Hf1O3Sr1,"['Hf', 'O', 'Sr']",3
-mp-22390,SrRuO3,"['O', 'Ru', 'Sr']",3,aflow:d52e440e9529cc6d,O3Ru1Sr1,"['O', 'Ru', 'Sr']",3
-mp-5126,ZnSO4,"['O', 'S', 'Zn']",3,aflow:32900c9d0831cc96,O4S1Zn1,"['O', 'S', 'Zn']",3
-mp-669917,ZrRh,"['Rh', 'Zr']",2,aflow:90e8a1a980d4201c,Rh1Zr1,"['Rh', 'Zr']",2
-mp-569558,AlAu2,"['Al', 'Au']",2,aflow:08167170b6a59946,Al1Au2,"['Al', 'Au']",2
-mp-700,GeSe,"['Ge', 'Se']",2,aflow:736d8e730dd9c794,Ge1Se1,"['Ge', 'Se']",2
-mp-11243,ErAu,"['Au', 'Er']",2,aflow:f61653f3acd74575,Au1Er1,"['Au', 'Er']",2
-mp-1007918,DyAu,"['Au', 'Dy']",2,aflow:bc1e17464cf173cc,Au1Dy1,"['Au', 'Dy']",2
-mp-1007691,HfPt,"['Hf', 'Pt']",2,aflow:67e796f9ad1390a2,Hf1Pt1,"['Hf', 'Pt']",2
-mp-1007666,HoAu,"['Au', 'Ho']",2,aflow:5114e838d863517f,Au1Ho1,"['Au', 'Ho']",2
-mp-11228,YAl,"['Al', 'Y']",2,aflow:53bc333b72a0cbd5,Al1Y1,"['Al', 'Y']",2
-mp-2349,YCd3,"['Cd', 'Y']",2,aflow:f021e2eb09c3c733,Cd3Y1,"['Cd', 'Y']",2
-mp-157,P,['P'],1,aflow:57cecbf3dc26e974,P1,['P'],1
-mp-865166,HfPd5,"['Hf', 'Pd']",2,aflow:7b2d94bf10189f78,Hf1Pd5,"['Hf', 'Pd']",2
-mp-28629,Ta5B6,"['B', 'Ta']",2,aflow:9971b568135d5bf9,B6Ta5,"['B', 'Ta']",2
-mp-569250,VIr,"['Ir', 'V']",2,aflow:1638a35ca98e8127,Ir1V1,"['Ir', 'V']",2
-mp-10910,Al2Ru,"['Al', 'Ru']",2,aflow:942ebb3965166f22,Al2Ru1,"['Al', 'Ru']",2
-mp-8700,K2Au3,"['Au', 'K']",2,aflow:6a88ba550e5d3b86,Au3K2,"['Au', 'K']",2
-mp-10255,Nb3B4,"['B', 'Nb']",2,aflow:8f41f9108042804d,B4Nb3,"['B', 'Nb']",2
-mp-1018151,NbPd2,"['Nb', 'Pd']",2,aflow:d08800926a9f9cb1,Nb1Pd2,"['Nb', 'Pd']",2
-mp-10142,Ta3B4,"['B', 'Ta']",2,aflow:be99dfb51a1405cc,B4Ta3,"['B', 'Ta']",2
-mp-1025170,Ti3B4,"['B', 'Ti']",2,aflow:9bf188e5fb78ea9c,B4Ti3,"['B', 'Ti']",2
-mp-569270,V3B4,"['B', 'V']",2,aflow:da95f17820b9c395,B4V3,"['B', 'V']",2
-mp-952,MoPt2,"['Mo', 'Pt']",2,aflow:cdbe97e96d2d1cf1,Mo1Pt2,"['Mo', 'Pt']",2
-mp-11514,NbPt2,"['Nb', 'Pt']",2,aflow:64e5939b95330a2f,Nb1Pt2,"['Nb', 'Pt']",2
-mp-30835,TaPd2,"['Pd', 'Ta']",2,aflow:1311b90ba3307354,Pd2Ta1,"['Pd', 'Ta']",2
-mp-8535,ErSi2Rh3,"['Er', 'Rh', 'Si']",3,aflow:d0d4eb0ea07a225e,Er1Rh3Si2,"['Er', 'Rh', 'Si']",3
-mp-23485,Ag2HgI4,"['Ag', 'Hg', 'I']",3,aflow:4acd680114f302a1,Ag2Hg1I4,"['Ag', 'Hg', 'I']",3
-mp-7909,Al2CdTe4,"['Al', 'Cd', 'Te']",3,aflow:74c0b1109069d665,Al2Cd1Te4,"['Al', 'Cd', 'Te']",3
-mp-7910,Al2HgTe4,"['Al', 'Hg', 'Te']",3,aflow:9ac7d0ab226ef604,Al2Hg1Te4,"['Al', 'Hg', 'Te']",3
-mp-7908,Al2ZnTe4,"['Al', 'Te', 'Zn']",3,aflow:f271f31b7b56d2c5,Al2Te4Zn1,"['Al', 'Te', 'Zn']",3
-mp-16337,Ga2HgTe4,"['Ga', 'Hg', 'Te']",3,aflow:8a1c8954bd7a16a8,Ga2Hg1Te4,"['Ga', 'Hg', 'Te']",3
-mp-1743,Mo5As4,"['As', 'Mo']",2,aflow:9058b69a69cdda4b,As4Mo5,"['As', 'Mo']",2
-mp-1743,Mo5As4,"['As', 'Mo']",2,aflow:af60a19ee4cb3953,As4Mo5,"['As', 'Mo']",2
-mp-12635,TiAu4,"['Au', 'Ti']",2,aflow:f3528bce37f6d71f,Au4Ti1,"['Au', 'Ti']",2
-mp-2598,Ta5Sb4,"['Sb', 'Ta']",2,aflow:c51285e5e6e00f21,Sb4Ta5,"['Sb', 'Ta']",2
-mp-20459,TiPbO3,"['O', 'Pb', 'Ti']",3,aflow:3b97ae34b7e6d862,O3Pb1Ti1,"['O', 'Pb', 'Ti']",3
-mp-1069604,CaSi3Pt,"['Ca', 'Pt', 'Si']",3,aflow:4b5f9e4adb19ff87,Ca1Pt1Si3,"['Ca', 'Pt', 'Si']",3
-mp-22346,BaGe3Pt,"['Ba', 'Ge', 'Pt']",3,aflow:0869312088931792,Ba1Ge3Pt1,"['Ba', 'Ge', 'Pt']",3
-mp-11879,BaNiSn3,"['Ba', 'Ni', 'Sn']",3,aflow:a98fc872dd915b7f,Ba1Ni1Sn3,"['Ba', 'Ni', 'Sn']",3
-mp-11269,BaSn3Pd,"['Ba', 'Pd', 'Sn']",3,aflow:156ede75c61452f5,Ba1Pd1Sn3,"['Ba', 'Pd', 'Sn']",3
-mp-30433,BaSn3Pt,"['Ba', 'Pt', 'Sn']",3,aflow:131e8de7e237a3e8,Ba1Pt1Sn3,"['Ba', 'Pt', 'Sn']",3
-mp-2914,LaSi3Ir,"['Ir', 'La', 'Si']",3,aflow:cb23330d734db36f,Ir1La1Si3,"['Ir', 'La', 'Si']",3
-mp-30834,SrSn3Pd,"['Pd', 'Sn', 'Sr']",3,aflow:6c37e0e2ec89b24a,Pd1Sn3Sr1,"['Pd', 'Sn', 'Sr']",3
-mp-978987,SrGe3Pd,"['Ge', 'Pd', 'Sr']",3,aflow:74cfc4a2106e68da,Ge3Pd1Sr1,"['Ge', 'Pd', 'Sr']",3
-mp-8311,Si3NiP4,"['Ni', 'P', 'Si']",3,aflow:57eda7013d19d919,Ni1P4Si3,"['Ni', 'P', 'Si']",3
-mp-5782,AlAgS2,"['Ag', 'Al', 'S']",3,aflow:e81fdf58728bbeef,Ag1Al1S2,"['Ag', 'Al', 'S']",3
-mp-20034,CaPb,"['Ca', 'Pb']",2,aflow:92d8c47bba9fe7a3,Ca1Pb1,"['Ca', 'Pb']",2
-mp-1025311,CdAsPt5,"['As', 'Cd', 'Pt']",3,aflow:09ce06dcdb3ef9e0,As1Cd1Pt5,"['As', 'Cd', 'Pt']",3
-mp-1025187,CdPPt5,"['Cd', 'P', 'Pt']",3,aflow:c07cb317ee589630,Cd1P1Pt5,"['Cd', 'P', 'Pt']",3
-mp-505517,BaNb4O6,"['Ba', 'Nb', 'O']",3,aflow:dfd1cf4ad506de91,Ba1Nb4O6,"['Ba', 'Nb', 'O']",3
-mp-11359,Ga2Cu,"['Cu', 'Ga']",2,aflow:9c568924a7b67651,Cu1Ga2,"['Cu', 'Ga']",2
-mp-644280,GaCuPt2,"['Cu', 'Ga', 'Pt']",3,aflow:be4da014690a3d11,Cu1Ga1Pt2,"['Cu', 'Ga', 'Pt']",3
-mp-1025270,GaPPt5,"['Ga', 'P', 'Pt']",3,aflow:25528b361849601b,Ga1P1Pt5,"['Ga', 'P', 'Pt']",3
-mp-1025302,HgPPd5,"['Hg', 'P', 'Pd']",3,aflow:d047bbe542b179c3,Hg1P1Pd5,"['Hg', 'P', 'Pd']",3
-mp-1025212,InAsPt5,"['As', 'In', 'Pt']",3,aflow:9a904c0549818196,As1In1Pt5,"['As', 'In', 'Pt']",3
-mp-1025161,InPPd5,"['In', 'P', 'Pd']",3,aflow:2a1ee1e12784c93d,In1P1Pd5,"['In', 'P', 'Pd']",3
-mp-1025213,InPPt5,"['In', 'P', 'Pt']",3,aflow:0558951a7db02a0b,In1P1Pt5,"['In', 'P', 'Pt']",3
-mp-1025370,InSiPt5,"['In', 'Pt', 'Si']",3,aflow:8bc3f85e7c49bcd2,In1Pt5Si1,"['In', 'Pt', 'Si']",3
-mp-865146,MgAsPt5,"['As', 'Mg', 'Pt']",3,aflow:1cf082788321992c,As1Mg1Pt5,"['As', 'Mg', 'Pt']",3
-mp-1025261,MgPPd5,"['Mg', 'P', 'Pd']",3,aflow:3301d0c6f9cfb671,Mg1P1Pd5,"['Mg', 'P', 'Pd']",3
-mp-15780,MgPPt5,"['Mg', 'P', 'Pt']",3,aflow:633c61cbece8044f,Mg1P1Pt5,"['Mg', 'P', 'Pt']",3
-mp-22924,NaBi,"['Bi', 'Na']",2,aflow:d3618ed7c3ce4ee7,Bi1Na1,"['Bi', 'Na']",2
-mp-945,NiPt,"['Ni', 'Pt']",2,aflow:660d210acd5499cc,Ni1Pt1,"['Ni', 'Pt']",2
-mp-29889,Tl2PdCl4,"['Cl', 'Pd', 'Tl']",3,aflow:84d743b78ac98ce6,Cl4Pd1Tl2,"['Cl', 'Pd', 'Tl']",3
-mp-11873,TlAsPd5,"['As', 'Pd', 'Tl']",3,aflow:cb4224749669c8a3,As1Pd5Tl1,"['As', 'Pd', 'Tl']",3
-mp-1025348,TlPPd5,"['P', 'Pd', 'Tl']",3,aflow:93eea2d34ba1512c,P1Pd5Tl1,"['P', 'Pd', 'Tl']",3
-mp-1025356,ZnAsPt5,"['As', 'Pt', 'Zn']",3,aflow:5db348e13594ac27,As1Pt5Zn1,"['As', 'Pt', 'Zn']",3
-mp-429,ZnNi,"['Ni', 'Zn']",2,aflow:48827b3227344479,Ni1Zn1,"['Ni', 'Zn']",2
-mp-429,ZnNi,"['Ni', 'Zn']",2,aflow:c294c347661840e9,Ni1Zn1,"['Ni', 'Zn']",2
-mp-1025272,ZnPPt5,"['P', 'Pt', 'Zn']",3,aflow:9ab0972f231a4427,P1Pt5Zn1,"['P', 'Pt', 'Zn']",3
-mp-1696,CdPd,"['Cd', 'Pd']",2,aflow:108d4b907ff03a21,Cd1Pd1,"['Cd', 'Pd']",2
-mp-1194,CdPt,"['Cd', 'Pt']",2,aflow:685ad71b4f7bc14f,Cd1Pt1,"['Cd', 'Pt']",2
-mp-11870,Hg2Rh,"['Hg', 'Rh']",2,aflow:734548737c6aa01c,Hg2Rh1,"['Hg', 'Rh']",2
-mp-2685,HgPd,"['Hg', 'Pd']",2,aflow:80c1aa22035c5210,Hg1Pd1,"['Hg', 'Pd']",2
-mp-1670,MnPt,"['Mn', 'Pt']",2,aflow:2853d0b5425aef23,Mn1Pt1,"['Mn', 'Pt']",2
-mp-1359,NbIr,"['Ir', 'Nb']",2,aflow:d11e5747fb179dd4,Ir1Nb1,"['Ir', 'Nb']",2
-mp-1963,NbRh,"['Nb', 'Rh']",2,aflow:6672c8d58bf571b2,Nb1Rh1,"['Nb', 'Rh']",2
-mp-1953,TiAl,"['Al', 'Ti']",2,aflow:24f9d0cd72c1f0e5,Al1Ti1,"['Al', 'Ti']",2
-mp-1235,TiIr,"['Ir', 'Ti']",2,aflow:2de2986ed2aaa8f8,Ir1Ti1,"['Ir', 'Ti']",2
-mp-30493,ZnCdPt2,"['Cd', 'Pt', 'Zn']",3,aflow:d43fa03e0143372f,Cd1Pt2Zn1,"['Cd', 'Pt', 'Zn']",3
-mp-1652,ZnPd,"['Pd', 'Zn']",2,aflow:f4d5b4f82bfad53e,Pd1Zn1,"['Pd', 'Zn']",2
-mp-894,ZnPt,"['Pt', 'Zn']",2,aflow:5d94f15ba424becd,Pt1Zn1,"['Pt', 'Zn']",2
-mp-607111,AlPt3,"['Al', 'Pt']",2,aflow:03988d8bec1cfd41,Al1Pt3,"['Al', 'Pt']",2
-mp-21471,LiFeAs,"['As', 'Fe', 'Li']",3,aflow:b225877890e7d442,As1Fe1Li1,"['As', 'Fe', 'Li']",3
-mp-7859,ZrS,"['S', 'Zr']",2,aflow:4d515949b53a184b,S1Zr1,"['S', 'Zr']",2
-mp-20725,PbO2,"['O', 'Pb']",2,aflow:ae06258781b58bdb,O2Pb1,"['O', 'Pb']",2
-mp-856,SnO2,"['O', 'Sn']",2,aflow:c036327f66d3519f,O2Sn1,"['O', 'Sn']",2
-mp-1018166,AlTc2,"['Al', 'Tc']",2,aflow:2333c0f263184005,Al1Tc2,"['Al', 'Tc']",2
-mp-571350,Ba(AsPd)2,"['As', 'Ba', 'Pd']",3,aflow:df8b242db1e5fd9c,As1Ba1Pd1,"['As', 'Ba', 'Pd']",3
-mp-8818,Ca2ZnN2,"['Ca', 'N', 'Zn']",3,aflow:40c9a9dbe6d94437,Ca2N2Zn1,"['Ca', 'N', 'Zn']",3
-mp-1903,BaAl4,"['Al', 'Ba']",2,aflow:089db02d79e92ef6,Al4Ba1,"['Al', 'Ba']",2
-mp-335,BaGa4,"['Ba', 'Ga']",2,aflow:c67b818b8f839e87,Ba1Ga4,"['Ba', 'Ga']",2
-mp-22687,BaIn4,"['Ba', 'In']",2,aflow:348b8fa1616f2ea1,Ba1In4,"['Ba', 'In']",2
-mp-552098,Bi2SeO2,"['Bi', 'O', 'Se']",3,aflow:bd39fcd8abd8e251,Bi2O2Se1,"['Bi', 'O', 'Se']",3
-mp-8093,Ba2Cd,"['Ba', 'Cd']",2,aflow:0bc4e2ff418c3658,Ba2Cd1,"['Ba', 'Cd']",2
-mp-9321,Ba2HfS4,"['Ba', 'Hf', 'S']",3,aflow:ba6be901fe06b58d,Ba2Hf1S4,"['Ba', 'Hf', 'S']",3
-mp-8094,Ba2Hg,"['Ba', 'Hg']",2,aflow:5d5d9f727e2fbf3a,Ba2Hg1,"['Ba', 'Hg']",2
-mp-9307,Ba2ZnN2,"['Ba', 'N', 'Zn']",3,aflow:8fd289702e4f6b8f,Ba2N2Zn1,"['Ba', 'N', 'Zn']",3
-mp-8335,Ba2ZrO4,"['Ba', 'O', 'Zr']",3,aflow:cc9a5a5a57fa9414,Ba2O4Zr1,"['Ba', 'O', 'Zr']",3
-mp-8937,CrSi2,"['Cr', 'Si']",2,aflow:6fac4436ce11af4d,Cr1Si2,"['Cr', 'Si']",2
-mp-30339,ErAg2,"['Ag', 'Er']",2,aflow:f19f7d6d2d7a3b7f,Ag2Er1,"['Ag', 'Er']",2
-mp-2466,ErAu2,"['Au', 'Er']",2,aflow:4526d8f300eaf61a,Au2Er1,"['Au', 'Er']",2
-mp-2618,DyAg2,"['Ag', 'Dy']",2,aflow:7b84ba6979e466a2,Ag2Dy1,"['Ag', 'Dy']",2
-mp-23484,CsAuCl3,"['Au', 'Cl', 'Cs']",3,aflow:3ea6e14c71841664,Au1Cl3Cs1,"['Au', 'Cl', 'Cs']",3
-mp-13155,Hf2Ag,"['Ag', 'Hf']",2,aflow:bbfa0d883212ae9f,Ag1Hf2,"['Ag', 'Hf']",2
-mp-1018154,Hf2Hg,"['Hf', 'Hg']",2,aflow:f85891c2a99e5be2,Hf2Hg1,"['Hf', 'Hg']",2
-mp-1014231,Hf2Zn,"['Hf', 'Zn']",2,aflow:8edb02477ff643e9,Hf2Zn1,"['Hf', 'Zn']",2
-mp-11387,HfGa3,"['Ga', 'Hf']",2,aflow:a9053c964a25e231,Ga3Hf1,"['Ga', 'Hf']",2
-mp-27731,HfH2,"['H', 'Hf']",2,aflow:68396dc8ff75fb17,H2Hf1,"['H', 'Hf']",2
-mp-2120,HoAg2,"['Ag', 'Ho']",2,aflow:b76039d9d889a419,Ag2Ho1,"['Ag', 'Ho']",2
-mp-990,HoAu2,"['Au', 'Ho']",2,aflow:61be49548ff7b362,Au2Ho1,"['Au', 'Ho']",2
-mp-27207,K2MgCl4,"['Cl', 'K', 'Mg']",3,aflow:88d04db0ca52280a,Cl4K2Mg1,"['Cl', 'K', 'Mg']",3
-mp-31212,K2MgF4,"['F', 'K', 'Mg']",3,aflow:2bc02570aae29c7c,F4K2Mg1,"['F', 'K', 'Mg']",3
-mp-9583,K2ZnF4,"['F', 'K', 'Zn']",3,aflow:55285999858648e4,F4K2Zn1,"['F', 'K', 'Zn']",3
-mp-2367,LaC2,"['C', 'La']",2,aflow:235e67dbb6942937,C2La1,"['C', 'La']",2
-mp-12716,LiTlPd2,"['Li', 'Pd', 'Tl']",3,aflow:1c331e13da810623,Li1Pd2Tl1,"['Li', 'Pd', 'Tl']",3
-mp-601285,MnGaNi2,"['Ga', 'Mn', 'Ni']",3,aflow:cb99d1be4cdd1829,Ga1Mn1Ni2,"['Ga', 'Mn', 'Ni']",3
-mp-5072,Rb2HgO2,"['Hg', 'O', 'Rb']",3,aflow:62d74a601aac5fea,Hg1O2Rb2,"['Hg', 'O', 'Rb']",3
-mp-8861,Rb2MgF4,"['F', 'Mg', 'Rb']",3,aflow:4d347c2e6d4e5228,F4Mg1Rb2,"['F', 'Mg', 'Rb']",3
-mp-10343,Sc2BC2,"['B', 'C', 'Sc']",3,aflow:a784a9c254d3c96e,B1C2Sc2,"['B', 'C', 'Sc']",3
-mp-1018128,ScAg2,"['Ag', 'Sc']",2,aflow:efede5d94aeda377,Ag2Sc1,"['Ag', 'Sc']",2
-mp-1018148,ScAu2,"['Au', 'Sc']",2,aflow:810fafde07d827ec,Au2Sc1,"['Au', 'Sc']",2
-mp-1018149,ScCu2,"['Cu', 'Sc']",2,aflow:b3e48f3f8939997d,Cu2Sc1,"['Cu', 'Sc']",2
-mp-16036,Tb2TeO2,"['O', 'Tb', 'Te']",3,aflow:64014758907b8038,O2Tb2Te1,"['O', 'Tb', 'Te']",3
-mp-30358,TbAg2,"['Ag', 'Tb']",2,aflow:ce620ffad6e99ca9,Ag2Tb1,"['Ag', 'Tb']",2
-mp-570179,TbAu2,"['Au', 'Tb']",2,aflow:d747bd4ffc1c3a31,Au2Tb1,"['Au', 'Tb']",2
-mp-2119,TbC2,"['C', 'Tb']",2,aflow:d97a0bdb9ebbf74f,C2Tb1,"['C', 'Tb']",2
-mp-16250,Th(SiAu)2,"['Au', 'Si', 'Th']",3,aflow:8268c40e2a307c24,Au1Si1Th1,"['Au', 'Si', 'Th']",3
-mp-7523,Th2TeN2,"['N', 'Te', 'Th']",3,aflow:4d95fa3c731857a2,N2Te1Th2,"['N', 'Te', 'Th']",3
-mp-24291,ThH2,"['H', 'Th']",2,aflow:d93c48d123874c8a,H2Th1,"['H', 'Th']",2
-mp-979115,Ti2Ag,"['Ag', 'Ti']",2,aflow:cd218b45a20c9d02,Ag1Ti2,"['Ag', 'Ti']",2
-mp-1018124,Ti2Rh,"['Rh', 'Ti']",2,aflow:97205066b95a758f,Rh1Ti2,"['Rh', 'Ti']",2
-mp-1014229,Ti2Zn,"['Ti', 'Zn']",2,aflow:5041054f48131a6f,Ti2Zn1,"['Ti', 'Zn']",2
-mp-9306,Sr2ZnN2,"['N', 'Sr', 'Zn']",3,aflow:7360abaaae420e0c,N2Sr2Zn1,"['N', 'Sr', 'Zn']",3
-mp-1827,SrGa4,"['Ga', 'Sr']",2,aflow:942bb28649d360da,Ga4Sr1,"['Ga', 'Sr']",2
-mp-2697,SrO2,"['O', 'Sr']",2,aflow:3a8b7ba885be1cf7,O2Sr1,"['O', 'Sr']",2
-mp-1008617,YbAg2,"['Ag', 'Yb']",2,aflow:8e92a5daf4083c8c,Ag2Yb1,"['Ag', 'Yb']",2
-mp-2221,Zr2Ag,"['Ag', 'Zr']",2,aflow:0096426c57ae3f16,Ag1Zr2,"['Ag', 'Zr']",2
-mp-2348,Zr2Au,"['Au', 'Zr']",2,aflow:b7be5681f4e86792,Au1Zr2,"['Au', 'Zr']",2
-mp-1018104,Zr2Cd,"['Cd', 'Zr']",2,aflow:a41ed4d2c3fc119a,Cd1Zr2,"['Cd', 'Zr']",2
-mp-193,Zr2Cu,"['Cu', 'Zr']",2,aflow:d7cf31af15fb72a8,Cu1Zr2,"['Cu', 'Zr']",2
-mp-266,Zr2Pd,"['Pd', 'Zr']",2,aflow:0262e761a2b03f0f,Pd1Zr2,"['Pd', 'Zr']",2
-mp-395,ZrAl3,"['Al', 'Zr']",2,aflow:552d0f6689b9f474,Al3Zr1,"['Al', 'Zr']",2
-mp-24286,ZrH2,"['H', 'Zr']",2,aflow:d0e80731a317f7d6,H2Zr1,"['H', 'Zr']",2
-mp-570578,ZrIn3,"['In', 'Zr']",2,aflow:0637de345cdce557,In3Zr1,"['In', 'Zr']",2
-mp-7188,Al2Os,"['Al', 'Os']",2,aflow:31dd23ac86927f7a,Al2Os1,"['Al', 'Os']",2
-mp-2554,Al3V,"['Al', 'V']",2,aflow:dd93dda0b9957fba,Al3V1,"['Al', 'V']",2
-mp-10909,AlRe2,"['Al', 'Re']",2,aflow:ed75ba31d09c3ba7,Al1Re2,"['Al', 'Re']",2
-mp-1105,BaO2,"['Ba', 'O']",2,aflow:46261cca37eaf3ba,Ba1O2,"['Ba', 'O']",2
-mp-12761,BeAu2,"['Au', 'Be']",2,aflow:da9e30cd2712e2a0,Au2Be1,"['Au', 'Be']",2
-mp-13452,BePd2,"['Be', 'Pd']",2,aflow:859d0f1b6c94e526,Be1Pd2,"['Be', 'Pd']",2
-mp-30383,Hf2Au,"['Au', 'Hf']",2,aflow:b9aa9e3ae8a13d37,Au1Hf2,"['Au', 'Hf']",2
-mp-30581,Hf2Cu,"['Cu', 'Hf']",2,aflow:60bae3d49726c297,Cu1Hf2,"['Cu', 'Hf']",2
-mp-11454,Hf2Pd,"['Hf', 'Pd']",2,aflow:7dc34f909dee2c1f,Hf2Pd1,"['Hf', 'Pd']",2
-mp-568718,HfAl3,"['Al', 'Hf']",2,aflow:c4358a51c19fcdd9,Al3Hf1,"['Al', 'Hf']",2
-mp-12693,Mg2Rh,"['Mg', 'Rh']",2,aflow:d225fa42d1b8aadd,Mg2Rh1,"['Mg', 'Rh']",2
-mp-12742,MgPd3,"['Mg', 'Pd']",2,aflow:fe95068becaf5d8e,Mg1Pd3,"['Mg', 'Pd']",2
-mp-11252,MnAu2,"['Au', 'Mn']",2,aflow:34b1e81ce8d9666d,Au2Mn1,"['Au', 'Mn']",2
-mp-2123,Nb3Au2,"['Au', 'Nb']",2,aflow:3a36523e268b82dc,Au2Nb3,"['Au', 'Nb']",2
-mp-1842,NbAl3,"['Al', 'Nb']",2,aflow:23f797ad294f2dfc,Al3Nb1,"['Al', 'Nb']",2
-mp-2592,Si2Mo,"['Mo', 'Si']",2,aflow:884e7137b28e7dbf,Mo1Si2,"['Mo', 'Si']",2
-mp-1620,Si2W,"['Si', 'W']",2,aflow:2d039e1be6afed3b,Si2W1,"['Si', 'W']",2
-mp-1299,SiPt2,"['Pt', 'Si']",2,aflow:3ea0d57ff7b5eec3,Pt2Si1,"['Pt', 'Si']",2
-mp-742,Ti2Cu,"['Cu', 'Ti']",2,aflow:102ebc4a73bc6c10,Cu1Ti2,"['Cu', 'Ti']",2
-mp-13164,Ti2Pd,"['Pd', 'Ti']",2,aflow:36d63ab952f0878a,Pd1Ti2,"['Pd', 'Ti']",2
-mp-869,TaAl3,"['Al', 'Ta']",2,aflow:75c784b9418b08b5,Al3Ta1,"['Al', 'Ta']",2
-mp-30836,TaPd3,"['Pd', 'Ta']",2,aflow:e3a096724df20a7e,Pd3Ta1,"['Pd', 'Ta']",2
-mp-1019544,BaZrO3,"['Ba', 'O', 'Zr']",3,aflow:7ad05c2450ba8e4c,Ba1O3Zr1,"['Ba', 'O', 'Zr']",3
-mp-4651,SrTiO3,"['O', 'Sr', 'Ti']",3,aflow:1a6896aa3ec13bdf,O3Sr1Ti1,"['O', 'Sr', 'Ti']",3
-mp-1836,TlSe,"['Se', 'Tl']",2,aflow:5ebc0f014499d22b,Se1Tl1,"['Se', 'Tl']",2
-mp-16886,CdAu,"['Au', 'Cd']",2,aflow:a9cd44a3b513cfa5,Au1Cd1,"['Au', 'Cd']",2
-mp-938,GeTe,"['Ge', 'Te']",2,aflow:31d2c50b7eb85972,Ge1Te1,"['Ge', 'Te']",2
-mp-4514,NaNbO3,"['Na', 'Nb', 'O']",3,aflow:457f0854f38e30f3,Na1Nb1O3,"['Na', 'Nb', 'O']",3
-mp-570081,CuI,"['Cu', 'I']",2,aflow:d1fd17e61cdce493,Cu1I1,"['Cu', 'I']",2
-mp-11397,Ga3Ni2,"['Ga', 'Ni']",2,aflow:364819176d015d5e,Ga3Ni2,"['Ga', 'Ni']",2
-mp-21385,In3Ni2,"['In', 'Ni']",2,aflow:6e69637536c49b52,In3Ni2,"['In', 'Ni']",2
-mp-510437,In3Pd2,"['In', 'Pd']",2,aflow:d6c99e9be3bdcc51,In3Pd2,"['In', 'Pd']",2
-mp-1968,La2O3,"['La', 'O']",2,aflow:f8908411c9959986,La2O3,"['La', 'O']",2
-mp-6931,Sr(AlSi)2,"['Al', 'Si', 'Sr']",3,aflow:8023faf5b757d0b6,Al1Si1Sr1,"['Al', 'Si', 'Sr']",3
-mp-569708,TiPt3,"['Pt', 'Ti']",2,aflow:ba3acf5ce3afd378,Pt3Ti1,"['Pt', 'Ti']",2
-mp-1057,Al3Ni2,"['Al', 'Ni']",2,aflow:77177d4fd54105fc,Al3Ni2,"['Al', 'Ni']",2
-mp-7704,Ca(AlSi)2,"['Al', 'Ca', 'Si']",3,aflow:a2be57f97c3c3734,Al1Ca1Si1,"['Al', 'Ca', 'Si']",3
-mp-505825,Cs2PtC2,"['C', 'Cs', 'Pt']",3,aflow:76e523ddd6535395,C2Cs2Pt1,"['C', 'Cs', 'Pt']",3
-mp-905,LaF3,"['F', 'La']",2,aflow:14c14d2e031b6053,F3La1,"['F', 'La']",2
-mp-2331,B2Mo,"['B', 'Mo']",2,aflow:9a121651e9fedde0,B2Mo1,"['B', 'Mo']",2
-mp-753746,Rb2O,"['O', 'Rb']",2,aflow:ed5547e7e4115236,O1Rb2,"['O', 'Rb']",2
-mp-23152,Bi,['Bi'],1,aflow:27bbd51ad4827863,Bi1,['Bi'],1
-mp-104,Sb,['Sb'],1,aflow:462bb5f411a8e076,Sb1,['Sb'],1
-mp-11,As,['As'],1,aflow:a997e20f53ed2acb,As1,['As'],1
-mp-130,P,['P'],1,aflow:57cecbf3dc26e974,P1,['P'],1
-mp-867126,Rb,['Rb'],1,aflow:a16df87dec15ee9c,Rb1,['Rb'],1
-mp-972364,Yb,['Yb'],1,aflow:1cc72a1218ae7cc5,Yb1,['Yb'],1
-mp-468,AlF3,"['Al', 'F']",2,aflow:24f1327f80e631d8,Al1F3,"['Al', 'F']",2
-mp-1070,CdSe,"['Cd', 'Se']",2,aflow:113bf1e066e9b967,Cd1Se1,"['Cd', 'Se']",2
-mp-1070,CdSe,"['Cd', 'Se']",2,aflow:a9ffbcbb530940ef,Cd1Se1,"['Cd', 'Se']",2
-mp-5519,HoGeAu,"['Au', 'Ge', 'Ho']",3,aflow:b12c07ba7501f592,Au1Ge1Ho1,"['Au', 'Ge', 'Ho']",3
-mp-22205,InN,"['In', 'N']",2,aflow:26a5e73a0b625ec0,In1N1,"['In', 'N']",2
-mp-22205,InN,"['In', 'N']",2,aflow:93bd6e64faf1a0ea,In1N1,"['In', 'N']",2
-mp-976280,LiBr,"['Br', 'Li']",2,aflow:20b64628cf74cb53,Br1Li1,"['Br', 'Li']",2
-mp-1018040,MgSe,"['Mg', 'Se']",2,aflow:7625072d0374ea4b,Mg1Se1,"['Mg', 'Se']",2
-mp-1018040,MgSe,"['Mg', 'Se']",2,aflow:be089f53605f184f,Mg1Se1,"['Mg', 'Se']",2
-mp-999540,MnSe,"['Mn', 'Se']",2,aflow:c90aab03829e992f,Mn1Se1,"['Mn', 'Se']",2
-mp-2811,MoN,"['Mo', 'N']",2,aflow:5cfe1d0ba97a5293,Mo1N1,"['Mo', 'N']",2
-mp-2811,MoN,"['Mo', 'N']",2,aflow:a8e94be57170df83,Mo1N1,"['Mo', 'N']",2
-mp-661,AlN,"['Al', 'N']",2,aflow:06c4f5b0f1a49096,Al1N1,"['Al', 'N']",2
-mp-661,AlN,"['Al', 'N']",2,aflow:85aedc4a778b7e60,Al1N1,"['Al', 'N']",2
-mp-672,CdS,"['Cd', 'S']",2,aflow:488147efb71ed55f,Cd1S1,"['Cd', 'S']",2
-mp-672,CdS,"['Cd', 'S']",2,aflow:792df473182fc7a2,Cd1S1,"['Cd', 'S']",2
-mp-804,GaN,"['Ga', 'N']",2,aflow:83b5c0b4f2d8c0f3,Ga1N1,"['Ga', 'N']",2
-mp-2133,ZnO,"['O', 'Zn']",2,aflow:ab12888374d76ba7,O1Zn1,"['O', 'Zn']",2
-mp-2133,ZnO,"['O', 'Zn']",2,aflow:bbe19cfc7071c717,O1Zn1,"['O', 'Zn']",2
-mp-997617,BOs,"['B', 'Os']",2,aflow:b771a4d99e7ddec1,B1Os1,"['B', 'Os']",2
-mp-13272,BaAlGe,"['Al', 'Ba', 'Ge']",3,aflow:e5990f43d042239c,Al1Ba1Ge1,"['Al', 'Ba', 'Ge']",3
-mp-13149,BaAlSi,"['Al', 'Ba', 'Si']",3,aflow:0655bb1b738565e8,Al1Ba1Si1,"['Al', 'Ba', 'Si']",3
-mp-9744,BaAsPd,"['As', 'Ba', 'Pd']",3,aflow:df8b242db1e5fd9c,As1Ba1Pd1,"['As', 'Ba', 'Pd']",3
-mp-10616,BaLiAs,"['As', 'Ba', 'Li']",3,aflow:bdef8ab58e76c7a6,As1Ba1Li1,"['As', 'Ba', 'Li']",3
-mp-8606,BaSbPt,"['Ba', 'Pt', 'Sb']",3,aflow:28000e3a3774b90a,Ba1Pt1Sb1,"['Ba', 'Pt', 'Sb']",3
-mp-570677,Ba5Al5Sn,"['Al', 'Ba', 'Sn']",3,aflow:f9a0597b79f95701,Al5Ba5Sn1,"['Al', 'Ba', 'Sn']",3
-mp-16326,DyPPt,"['Dy', 'P', 'Pt']",3,aflow:f8e0aa93cf029501,Dy1P1Pt1,"['Dy', 'P', 'Pt']",3
-mp-24012,HoHSe,"['H', 'Ho', 'Se']",3,aflow:4c9a161d83bde5ee,H1Ho1Se1,"['H', 'Ho', 'Se']",3
-mp-219,MoP,"['Mo', 'P']",2,aflow:74c1c2f9814eded1,Mo1P1,"['Mo', 'P']",2
-mp-219,MoP,"['Mo', 'P']",2,aflow:bc507e8b07782981,Mo1P1,"['Mo', 'P']",2
-mp-2634,NbN,"['N', 'Nb']",2,aflow:3caef21d7715917b,N1Nb1,"['N', 'Nb']",2
-mp-2634,NbN,"['N', 'Nb']",2,aflow:4d2d79fe29e7a5ed,N1Nb1,"['N', 'Nb']",2
-mp-2634,NbN,"['N', 'Nb']",2,aflow:844b105937307111,N1Nb1,"['N', 'Nb']",2
-mp-974435,Re3N,"['N', 'Re']",2,aflow:f2647fd7e3481cc1,N1Re3,"['N', 'Re']",2
-mp-7168,TbPPt,"['P', 'Pt', 'Tb']",3,aflow:6c40cee89570a778,P1Pt1Tb1,"['P', 'Pt', 'Tb']",3
-mp-867290,TbTe,"['Tb', 'Te']",2,aflow:503a4fdfcf55d477,Tb1Te1,"['Tb', 'Te']",2
-mp-1017987,Tc3N,"['N', 'Tc']",2,aflow:4fd0dd6e94fc881e,N1Tc3,"['N', 'Tc']",2
-mp-9164,ThSiAu,"['Au', 'Si', 'Th']",3,aflow:8268c40e2a307c24,Au1Si1Th1,"['Au', 'Si', 'Th']",3
-mp-13311,SrAlGe,"['Al', 'Ge', 'Sr']",3,aflow:f573f77ca303f0e2,Al1Ge1Sr1,"['Al', 'Ge', 'Sr']",3
-mp-3698,SrAlSi,"['Al', 'Si', 'Sr']",3,aflow:8023faf5b757d0b6,Al1Si1Sr1,"['Al', 'Si', 'Sr']",3
-mp-1018028,TiS,"['S', 'Ti']",2,aflow:d8a5fb5a8ab18a87,S1Ti1,"['S', 'Ti']",2
-mp-28797,YHSe,"['H', 'Se', 'Y']",3,aflow:4bec122528e460be,H1Se1Y1,"['H', 'Se', 'Y']",3
-mp-16304,YPPt,"['P', 'Pt', 'Y']",3,aflow:7e4e5d0b03591281,P1Pt1Y1,"['P', 'Pt', 'Y']",3
-mp-865430,YTe,"['Te', 'Y']",2,aflow:5b984958dbe89502,Te1Y1,"['Te', 'Y']",2
-mp-1018027,VN,"['N', 'V']",2,aflow:11639813fd5fbe0a,N1V1,"['N', 'V']",2
-mp-1018027,VN,"['N', 'V']",2,aflow:aa89372868af03a8,N1V1,"['N', 'V']",2
-mp-1539,ZrTe,"['Te', 'Zr']",2,aflow:69a50dc8799998f2,Te1Zr1,"['Te', 'Zr']",2
-mp-567191,CaAlSi,"['Al', 'Ca', 'Si']",3,aflow:a2be57f97c3c3734,Al1Ca1Si1,"['Al', 'Ca', 'Si']",3
-mp-279,LiIr,"['Ir', 'Li']",2,aflow:e0125a96febb0b43,Ir1Li1,"['Ir', 'Li']",2
-mp-2744,LiPd,"['Li', 'Pd']",2,aflow:cbe4dab174b3e070,Li1Pd1,"['Li', 'Pd']",2
-mp-2744,LiPd,"['Li', 'Pd']",2,aflow:e123a44c21938b32,Li1Pd1,"['Li', 'Pd']",2
-mp-11807,LiPt,"['Li', 'Pt']",2,aflow:bb2e3ff52beb121c,Li1Pt1,"['Li', 'Pt']",2
-mp-2305,MoC,"['C', 'Mo']",2,aflow:877b232d6378c18e,C1Mo1,"['C', 'Mo']",2
-mp-2305,MoC,"['C', 'Mo']",2,aflow:e6168f280fcabded,C1Mo1,"['C', 'Mo']",2
-mp-2305,MoC,"['C', 'Mo']",2,aflow:f97128015d6366e7,C1Mo1,"['C', 'Mo']",2
-mp-1894,WC,"['C', 'W']",2,aflow:773f66d722ac2cab,C1W1,"['C', 'W']",2
-mp-1894,WC,"['C', 'W']",2,aflow:870b2f189ea048d2,C1W1,"['C', 'W']",2
-mp-1894,WC,"['C', 'W']",2,aflow:b9936db0261adaed,C1W1,"['C', 'W']",2
-mp-1894,WC,"['C', 'W']",2,aflow:feb595dc9ca641a2,C1W1,"['C', 'W']",2
-mp-23039,Er6MnBi2,"['Bi', 'Er', 'Mn']",3,aflow:01481e25e4e09b70,Bi2Er6Mn1,"['Bi', 'Er', 'Mn']",3
-mp-31383,Hf6CoBi2,"['Bi', 'Co', 'Hf']",3,aflow:2582fcb8a8d0c226,Bi2Co1Hf6,"['Bi', 'Co', 'Hf']",3
-mp-10446,Sc6NiTe2,"['Ni', 'Sc', 'Te']",3,aflow:e613bbb42012d1ca,Ni1Sc6Te2,"['Ni', 'Sc', 'Te']",3
-mp-4720,Si2Ni6B,"['B', 'Ni', 'Si']",3,aflow:d5bcd95c472ed381,B1Ni6Si2,"['B', 'Ni', 'Si']",3
-mp-1279,TaN,"['N', 'Ta']",2,aflow:0fbd269336705895,N1Ta1,"['N', 'Ta']",2
-mp-1279,TaN,"['N', 'Ta']",2,aflow:a8ac23d5ab62e1fe,N1Ta1,"['N', 'Ta']",2
-mp-1279,TaN,"['N', 'Ta']",2,aflow:dbcfb446e993083a,N1Ta1,"['N', 'Ta']",2
-mp-11073,Ti3In3Rh2,"['In', 'Rh', 'Ti']",3,aflow:4cc572d096054a5e,In3Rh2Ti3,"['In', 'Rh', 'Ti']",3
-mp-12760,Zr6Al2Co,"['Al', 'Co', 'Zr']",3,aflow:234f20d1a182fcd9,Al2Co1Zr6,"['Al', 'Co', 'Zr']",3
-mp-12962,Zr6FeSb2,"['Fe', 'Sb', 'Zr']",3,aflow:348433ef9c1b5e36,Fe1Sb2Zr6,"['Fe', 'Sb', 'Zr']",3
-mp-9381,Zr6FeTe2,"['Fe', 'Te', 'Zr']",3,aflow:57369194a17abdd8,Fe1Te2Zr6,"['Fe', 'Te', 'Zr']",3
-mp-22167,Zr6Ga2Co,"['Co', 'Ga', 'Zr']",3,aflow:45f4f2d78448eed1,Co1Ga2Zr6,"['Co', 'Ga', 'Zr']",3
-mp-12972,Zr6Sb2Pt,"['Pt', 'Sb', 'Zr']",3,aflow:64c3e0cc2134a59d,Pt1Sb2Zr6,"['Pt', 'Sb', 'Zr']",3
-mp-11593,CeB2Ir3,"['B', 'Ce', 'Ir']",3,aflow:13d4d51cec45ebe0,B2Ce1Ir3,"['B', 'Ce', 'Ir']",3
-mp-30363,BaAu2,"['Au', 'Ba']",2,aflow:822ff35409e2f917,Au2Ba1,"['Au', 'Ba']",2
-mp-1219,BaGa2,"['Ba', 'Ga']",2,aflow:2a8d0966bfe7ee51,Ba1Ga2,"['Ba', 'Ga']",2
-mp-811,BaPt5,"['Ba', 'Pt']",2,aflow:366eba3176381355,Ba1Pt5,"['Ba', 'Pt']",2
-mp-30621,DySi2Rh3,"['Dy', 'Rh', 'Si']",3,aflow:35f0695ac31d122e,Dy1Rh3Si2,"['Dy', 'Rh', 'Si']",3
-mp-11294,DyCd2,"['Cd', 'Dy']",2,aflow:ff3dd9800f8a9a53,Cd2Dy1,"['Cd', 'Dy']",2
-mp-1025223,Hf4Al3,"['Al', 'Hf']",2,aflow:adf8044883f8c0a1,Al3Hf4,"['Al', 'Hf']",2
-mp-1994,HfB2,"['B', 'Hf']",2,aflow:09457595b027e910,B2Hf1,"['B', 'Hf']",2
-mp-11301,HoCd2,"['Cd', 'Ho']",2,aflow:43169bfefe524ff3,Cd2Ho1,"['Cd', 'Ho']",2
-mp-1256,HoGa2,"['Ga', 'Ho']",2,aflow:ffaebd8498b9c195,Ga2Ho1,"['Ga', 'Ho']",2
-mp-571071,HoSi2Rh3,"['Ho', 'Rh', 'Si']",3,aflow:1fa8019c0a1f2bd6,Ho1Rh3Si2,"['Ho', 'Rh', 'Si']",3
-mp-19876,InNi,"['In', 'Ni']",2,aflow:1461b11ac6a4ad9d,In1Ni1,"['In', 'Ni']",2
-mp-30815,LaAl3Pd2,"['Al', 'La', 'Pd']",3,aflow:026d6e08c98dbea7,Al3La1Pd2,"['Al', 'La', 'Pd']",3
-mp-12055,LaCd2,"['Cd', 'La']",2,aflow:6ae8ed37072aa6dd,Cd2La1,"['Cd', 'La']",2
-mp-12055,LaCd2,"['Cd', 'La']",2,aflow:d78310bea3777178,Cd2La1,"['Cd', 'La']",2
-mp-30753,LaPd5,"['La', 'Pd']",2,aflow:c4a92728a41cbf95,La1Pd5,"['La', 'Pd']",2
-mp-1832,LaPt5,"['La', 'Pt']",2,aflow:07ca124e3b54ff2e,La1Pt5,"['La', 'Pt']",2
-mp-763,MgB2,"['B', 'Mg']",2,aflow:e2edff877e89347a,B2Mg1,"['B', 'Mg']",2
-mp-1140,NdCu5,"['Cu', 'Nd']",2,aflow:7f5f2aeb8ddd6aa8,Cu5Nd1,"['Cu', 'Nd']",2
-mp-1209,RbAu5,"['Au', 'Rb']",2,aflow:b42654f8412d6a9c,Au5Rb1,"['Au', 'Rb']",2
-mp-2252,ScB2,"['B', 'Sc']",2,aflow:1d788038cb5c444e,B2Sc1,"['B', 'Sc']",2
-mp-1108,TaB2,"['B', 'Ta']",2,aflow:51ca76509e4c5699,B2Ta1,"['B', 'Ta']",2
-mp-3186,TbB2Ru3,"['B', 'Ru', 'Tb']",3,aflow:81b1ef3fc2ca4c55,B2Ru3Tb1,"['B', 'Ru', 'Tb']",3
-mp-30497,TbCd2,"['Cd', 'Tb']",2,aflow:3ae9b6702a187c81,Cd2Tb1,"['Cd', 'Tb']",2
-mp-309,ThAg2,"['Ag', 'Th']",2,aflow:2f4b7a92fe4f70ca,Ag2Th1,"['Ag', 'Th']",2
-mp-669,ThAl2,"['Al', 'Th']",2,aflow:61bdf403b2bb8c80,Al2Th1,"['Al', 'Th']",2
-mp-30182,ThAl3Ni2,"['Al', 'Ni', 'Th']",3,aflow:5d3a891d1341c11f,Al3Ni2Th1,"['Al', 'Ni', 'Th']",3
-mp-1025,ThAu2,"['Au', 'Th']",2,aflow:d4fcfa0bda62b2b6,Au2Th1,"['Au', 'Th']",2
-mp-10115,ThB2Ir3,"['B', 'Ir', 'Th']",3,aflow:8abcebb53cd250d1,B2Ir3Th1,"['B', 'Ir', 'Th']",3
-mp-7497,ThSi2,"['Si', 'Th']",2,aflow:01f2970f2341e9d8,Si2Th1,"['Si', 'Th']",2
-mp-16491,SrAl9Co2,"['Al', 'Co', 'Sr']",3,aflow:4e1bfd5c51c6e7ab,Al9Co2Sr1,"['Al', 'Co', 'Sr']",3
-mp-1542,YB2,"['B', 'Y']",2,aflow:7ca6e19f28095b86,B2Y1,"['B', 'Y']",2
-mp-1914,YGa2,"['Ga', 'Y']",2,aflow:5d9027af1fa5b7fc,Ga2Y1,"['Ga', 'Y']",2
-mp-1491,VB2,"['B', 'V']",2,aflow:75a24ef7ad5fbf92,B2V1,"['B', 'V']",2
-mp-12752,Zr4Al3,"['Al', 'Zr']",2,aflow:78d63eb4195e54d7,Al3Zr4,"['Al', 'Zr']",2
-mp-1472,ZrB2,"['B', 'Zr']",2,aflow:08bf56bf0b207b22,B2Zr1,"['B', 'Zr']",2
-mp-11826,CaPd5,"['Ca', 'Pd']",2,aflow:85667eac3cb94c67,Ca1Pd5,"['Ca', 'Pd']",2
-mp-30481,CaPt5,"['Ca', 'Pt']",2,aflow:2bb0506c225e68cb,Ca1Pt5,"['Ca', 'Pt']",2
-mp-2025,HfBe5,"['Be', 'Hf']",2,aflow:9935daabda2d9ae8,Be5Hf1,"['Be', 'Hf']",2
-mp-728,Li2Pd,"['Li', 'Pd']",2,aflow:39fbb25ad81ea9a5,Li2Pd1,"['Li', 'Pd']",2
-mp-2170,Li2Pt,"['Li', 'Pt']",2,aflow:60bb980c6872ba9f,Li2Pt1,"['Li', 'Pt']",2
-mp-1606,NbAu2,"['Au', 'Nb']",2,aflow:03e66c089b82497c,Au2Nb1,"['Au', 'Nb']",2
-mp-11277,ScBe5,"['Be', 'Sc']",2,aflow:72ec133961a70c20,Be5Sc1,"['Be', 'Sc']",2
-mp-1145,TiB2,"['B', 'Ti']",2,aflow:32d72b1701a0a640,B2Ti1,"['B', 'Ti']",2
-mp-1331,YCd2,"['Cd', 'Y']",2,aflow:3471a605457dfc2f,Cd2Y1,"['Cd', 'Y']",2
-mp-30725,YHg2,"['Hg', 'Y']",2,aflow:72a284b911cfd4a1,Hg2Y1,"['Hg', 'Y']",2
-mp-984744,Ca3Tl,"['Ca', 'Tl']",2,aflow:50ba0e96d5272603,Ca3Tl1,"['Ca', 'Tl']",2
-mp-11284,CaGa2,"['Ca', 'Ga']",2,aflow:0c482f688086202e,Ca1Ga2,"['Ca', 'Ga']",2
-mp-13277,BaLiP,"['Ba', 'Li', 'P']",3,aflow:72b0cd273918804e,Ba1Li1P1,"['Ba', 'Li', 'P']",3
-mp-864995,DyAl3,"['Al', 'Dy']",2,aflow:58a455185bfb2e7e,Al3Dy1,"['Al', 'Dy']",2
-mp-864995,DyAl3,"['Al', 'Dy']",2,aflow:d50bd9aca24839f0,Al3Dy1,"['Al', 'Dy']",2
-mp-23029,Cs3Sb2I9,"['Cs', 'I', 'Sb']",3,aflow:27d05030276c6992,Cs3I9Sb2,"['Cs', 'I', 'Sb']",3
-mp-982557,HoGa3,"['Ga', 'Ho']",2,aflow:65d90d63b5017ced,Ga3Ho1,"['Ga', 'Ho']",2
-mp-7421,KZnAs,"['As', 'K', 'Zn']",3,aflow:4137db87245b8a28,As1K1Zn1,"['As', 'K', 'Zn']",3
-mp-12553,PrAl3,"['Al', 'Pr']",2,aflow:80202f2921a9ce3f,Al3Pr1,"['Al', 'Pr']",2
-mp-867246,TbGa3,"['Ga', 'Tb']",2,aflow:449c3c3d7624d5e1,Ga3Tb1,"['Ga', 'Tb']",2
-mp-13276,SrLiP,"['Li', 'P', 'Sr']",3,aflow:9e558bc257402650,Li1P1Sr1,"['Li', 'P', 'Sr']",3
-mp-865527,YAl3,"['Al', 'Y']",2,aflow:b309a907feaea8f9,Al3Y1,"['Al', 'Y']",2
-mp-865496,VIr3,"['Ir', 'V']",2,aflow:0f10c1ca4753d48d,Ir3V1,"['Ir', 'V']",2
-mp-1682,ZrAs,"['As', 'Zr']",2,aflow:12a3994f64b6856d,As1Zr1,"['As', 'Zr']",2
-mp-11345,ZrP,"['P', 'Zr']",2,aflow:7068d67e97f2ca12,P1Zr1,"['P', 'Zr']",2
-mp-30842,ZrPd3,"['Pd', 'Zr']",2,aflow:a94cbd0169e5270f,Pd3Zr1,"['Pd', 'Zr']",2
-mp-11453,HfPd3,"['Hf', 'Pd']",2,aflow:5605178d68a3050c,Hf1Pd3,"['Hf', 'Pd']",2
-mp-11456,HfPt3,"['Hf', 'Pt']",2,aflow:79fbdb28bd68ab29,Hf1Pt3,"['Hf', 'Pt']",2
-mp-7955,Li3Sb,"['Li', 'Sb']",2,aflow:03df7938ea1e3872,Li3Sb1,"['Li', 'Sb']",2
-mp-10172,Na,['Na'],1,aflow:c3ff1f234732327a,Na1,['Na'],1
-mp-139,Sr,['Sr'],1,aflow:4f01f9799983fd51,Sr1,['Sr'],1
-mp-113,Tc,['Tc'],1,aflow:6a87de99cc84ce75,Tc1,['Tc'],1
-mp-82,Tl,['Tl'],1,aflow:b097c396dc7bb87c,Tl1,['Tl'],1
-mp-56,Ba,['Ba'],1,aflow:7b2394cca289b7b1,Ba1,['Ba'],1
-mp-132,Ca,['Ca'],1,aflow:da235dae85798482,Ca1,['Ca'],1
-mp-11832,Cs,['Cs'],1,aflow:0b0765ce5f98b0d4,Cs1,['Cs'],1
-mp-11832,Cs,['Cs'],1,aflow:5acbf212d1783298,Cs1,['Cs'],1
-mp-639727,Cs,['Cs'],1,aflow:0b0765ce5f98b0d4,Cs1,['Cs'],1
-mp-639727,Cs,['Cs'],1,aflow:5acbf212d1783298,Cs1,['Cs'],1
-mp-1184755,K,['K'],1,aflow:3942a1cdbcb67731,K1,['K'],1
-mp-1184755,K,['K'],1,aflow:c45fd3cfd9ab3800,K1,['K'],1
-mp-604318,K,['K'],1,aflow:3942a1cdbcb67731,K1,['K'],1
-mp-604318,K,['K'],1,aflow:c45fd3cfd9ab3800,K1,['K'],1
-mp-982370,Na,['Na'],1,aflow:c3ff1f234732327a,Na1,['Na'],1
-mp-604321,Rb,['Rb'],1,aflow:a16df87dec15ee9c,Rb1,['Rb'],1
-mp-867202,Sr,['Sr'],1,aflow:4f01f9799983fd51,Sr1,['Sr'],1
-mp-867351,Tc,['Tc'],1,aflow:6a87de99cc84ce75,Tc1,['Tc'],1
-mp-2488,SiOs,"['Os', 'Si']",2,aflow:e1d28089643c20a9,Os1Si1,"['Os', 'Si']",2
-mp-7189,AlPd,"['Al', 'Pd']",2,aflow:ec7698ec73c32d7f,Al1Pd1,"['Al', 'Pd']",2
-mp-10904,AlPt,"['Al', 'Pt']",2,aflow:54f6d5d6a4038457,Al1Pt1,"['Al', 'Pt']",2
-mp-189,SiRu,"['Ru', 'Si']",2,aflow:880c8fef7f3b232b,Ru1Si1,"['Ru', 'Si']",2
-mp-542909,Mn,['Mn'],1,aflow:266a4c0484d78664,Mn1,['Mn'],1
-mp-568398,CaBiAu,"['Au', 'Bi', 'Ca']",3,aflow:d8658d45b42df8d1,Au1Bi1Ca1,"['Au', 'Bi', 'Ca']",3
-mp-4262,BeAlB,"['Al', 'B', 'Be']",3,aflow:7b87669d29858aed,Al1B1Be1,"['Al', 'B', 'Be']",3
-mp-422,BeS,"['Be', 'S']",2,aflow:6729a4957d69091a,Be1S1,"['Be', 'S']",2
-mp-422,BeS,"['Be', 'S']",2,aflow:c353667ba8b2596c,Be1S1,"['Be', 'S']",2
-mp-1541,BeSe,"['Be', 'Se']",2,aflow:213c549ca0805a87,Be1Se1,"['Be', 'Se']",2
-mp-1541,BeSe,"['Be', 'Se']",2,aflow:ac6b5aceace8d8aa,Be1Se1,"['Be', 'Se']",2
-mp-252,BeTe,"['Be', 'Te']",2,aflow:71f2b452c887d0bd,Be1Te1,"['Be', 'Te']",2
-mp-252,BeTe,"['Be', 'Te']",2,aflow:9c841f4bebd25fd6,Be1Te1,"['Be', 'Te']",2
-mp-30452,DyNiBi,"['Bi', 'Dy', 'Ni']",3,aflow:67d183a9e1a39d6a,Bi1Dy1Ni1,"['Bi', 'Dy', 'Ni']",3
-mp-4510,DyNiSb,"['Dy', 'Ni', 'Sb']",3,aflow:2c6a045b4fb1c8ba,Dy1Ni1Sb1,"['Dy', 'Ni', 'Sb']",3
-mp-16327,DySbPt,"['Dy', 'Pt', 'Sb']",3,aflow:3ce2fb5cea681593,Dy1Pt1Sb1,"['Dy', 'Pt', 'Sb']",3
-mp-30454,ErBiPt,"['Bi', 'Er', 'Pt']",3,aflow:52835ff38add18b5,Bi1Er1Pt1,"['Bi', 'Er', 'Pt']",3
-mp-12008,ErCdCu4,"['Cd', 'Cu', 'Er']",3,aflow:17ccd4fa6df38347,Cd1Cu4Er1,"['Cd', 'Cu', 'Er']",3
-mp-21272,ErNiSb,"['Er', 'Ni', 'Sb']",3,aflow:d76ed031097bc0bf,Er1Ni1Sb1,"['Er', 'Ni', 'Sb']",3
-mp-11836,ErSbPd,"['Er', 'Pd', 'Sb']",3,aflow:e68e587950e605f1,Er1Pd1Sb1,"['Er', 'Pd', 'Sb']",3
-mp-16329,ErSbPt,"['Er', 'Pt', 'Sb']",3,aflow:b406de0f2e1dff0c,Er1Pt1Sb1,"['Er', 'Pt', 'Sb']",3
-mp-22913,CuBr,"['Br', 'Cu']",2,aflow:7c4a6c85677fb393,Br1Cu1,"['Br', 'Cu']",2
-mp-22913,CuBr,"['Br', 'Cu']",2,aflow:9d9b873ee5316734,Br1Cu1,"['Br', 'Cu']",2
-mp-30453,DyBiPt,"['Bi', 'Dy', 'Pt']",3,aflow:99381ab3810479e9,Bi1Dy1Pt1,"['Bi', 'Dy', 'Pt']",3
-mp-1018126,GaBi,"['Bi', 'Ga']",2,aflow:9aa3384d3e062bfe,Bi1Ga1,"['Bi', 'Ga']",2
-mp-1123,HgS,"['Hg', 'S']",2,aflow:38f66e468b9ba830,Hg1S1,"['Hg', 'S']",2
-mp-1123,HgS,"['Hg', 'S']",2,aflow:8ede6eb4a13f2b99,Hg1S1,"['Hg', 'S']",2
-mp-2730,HgTe,"['Hg', 'Te']",2,aflow:180a54bb2831d9c4,Hg1Te1,"['Hg', 'Te']",2
-mp-2730,HgTe,"['Hg', 'Te']",2,aflow:c2384ec3a6ca5619,Hg1Te1,"['Hg', 'Te']",2
-mp-30455,HoBiPt,"['Bi', 'Ho', 'Pt']",3,aflow:4daeb41c79df1c90,Bi1Ho1Pt1,"['Bi', 'Ho', 'Pt']",3
-mp-1018139,HoNiBi,"['Bi', 'Ho', 'Ni']",3,aflow:91d77786125113a6,Bi1Ho1Ni1,"['Bi', 'Ho', 'Ni']",3
-mp-4174,HoNiSb,"['Ho', 'Ni', 'Sb']",3,aflow:e9f3790e5215f956,Ho1Ni1Sb1,"['Ho', 'Ni', 'Sb']",3
-mp-16376,HoSbPt,"['Ho', 'Pt', 'Sb']",3,aflow:29e5ab99c160a919,Ho1Pt1Sb1,"['Ho', 'Pt', 'Sb']",3
-mp-1001833,InBi,"['Bi', 'In']",2,aflow:2a186d2b32cb102c,Bi1In1,"['Bi', 'In']",2
-mp-20351,InP,"['In', 'P']",2,aflow:18323595c45920d6,In1P1,"['In', 'P']",2
-mp-20351,InP,"['In', 'P']",2,aflow:1e28681f94443780,In1P1,"['In', 'P']",2
-mp-20012,InSb,"['In', 'Sb']",2,aflow:7c15d020cb54055d,In1Sb1,"['In', 'Sb']",2
-mp-16238,Li2AgSb,"['Ag', 'Li', 'Sb']",3,aflow:f617cfebecd6bba0,Ag1Li2Sb1,"['Ag', 'Li', 'Sb']",3
-mp-30591,Li2CuSn,"['Cu', 'Li', 'Sn']",3,aflow:b6c0281c81dd8ed1,Cu1Li2Sn1,"['Cu', 'Li', 'Sn']",3
-mp-31441,Li2GaIr,"['Ga', 'Ir', 'Li']",3,aflow:3be04981f5c152ed,Ga1Ir1Li2,"['Ga', 'Ir', 'Li']",3
-mp-3201,Li2GaPd,"['Ga', 'Li', 'Pd']",3,aflow:2713c0e874f1f573,Ga1Li2Pd1,"['Ga', 'Li', 'Pd']",3
-mp-3726,Li2GaPt,"['Ga', 'Li', 'Pt']",3,aflow:d19f535bb9f1b963,Ga1Li2Pt1,"['Ga', 'Li', 'Pt']",3
-mp-30392,Li2InAu,"['Au', 'In', 'Li']",3,aflow:0d38a416d5089125,Au1In1Li2,"['Au', 'In', 'Li']",3
-mp-21029,Li2InPd,"['In', 'Li', 'Pd']",3,aflow:73993106a51bb58f,In1Li2Pd1,"['In', 'Li', 'Pd']",3
-mp-21026,Li2InPt,"['In', 'Li', 'Pt']",3,aflow:ed11f007d47ca411,In1Li2Pt1,"['In', 'Li', 'Pt']",3
-mp-5920,LiAlGe,"['Al', 'Ge', 'Li']",3,aflow:a16cd7474b3ebbab,Al1Ge1Li1,"['Al', 'Ge', 'Li']",3
-mp-1018135,LiCdAs,"['As', 'Cd', 'Li']",3,aflow:4da02ddaa8033149,As1Cd1Li1,"['As', 'Cd', 'Li']",3
-mp-1018135,LiCdAs,"['As', 'Cd', 'Li']",3,aflow:f818510c8952b114,As1Cd1Li1,"['As', 'Cd', 'Li']",3
-mp-16343,LiInGe,"['Ge', 'In', 'Li']",3,aflow:9c11c047c72df5c3,Ge1In1Li1,"['Ge', 'In', 'Li']",3
-mp-12558,LiMgAs,"['As', 'Li', 'Mg']",3,aflow:4031522cfc844fe8,As1Li1Mg1,"['As', 'Li', 'Mg']",3
-mp-570213,LiMgBi,"['Bi', 'Li', 'Mg']",3,aflow:5a8e615d2ad336d3,Bi1Li1Mg1,"['Bi', 'Li', 'Mg']",3
-mp-36111,LiMgP,"['Li', 'Mg', 'P']",3,aflow:96211fe3f6ead857,Li1Mg1P1,"['Li', 'Mg', 'P']",3
-mp-9124,LiZnAs,"['As', 'Li', 'Zn']",3,aflow:3813d81d018f7ced,As1Li1Zn1,"['As', 'Li', 'Zn']",3
-mp-7575,LiZnN,"['Li', 'N', 'Zn']",3,aflow:6b05d551697846cb,Li1N1Zn1,"['Li', 'N', 'Zn']",3
-mp-10182,LiZnP,"['Li', 'P', 'Zn']",3,aflow:be98529facd710aa,Li1P1Zn1,"['Li', 'P', 'Zn']",3
-mp-30457,LuNiBi,"['Bi', 'Lu', 'Ni']",3,aflow:6c673e29967a0a34,Bi1Lu1Ni1,"['Bi', 'Lu', 'Ni']",3
-mp-20185,LuNiSb,"['Lu', 'Ni', 'Sb']",3,aflow:35bb8c6d60e01291,Lu1Ni1Sb1,"['Lu', 'Ni', 'Sb']",3
-mp-10194,LuSbPt,"['Lu', 'Pt', 'Sb']",3,aflow:deaeb93166bef077,Lu1Pt1Sb1,"['Lu', 'Pt', 'Sb']",3
-mp-1008903,MgAgSb,"['Ag', 'Mg', 'Sb']",3,aflow:d63cc0a05a52c00f,Ag1Mg1Sb1,"['Ag', 'Mg', 'Sb']",3
-mp-29733,MgNiBi,"['Bi', 'Mg', 'Ni']",3,aflow:4973240dc8132d88,Bi1Mg1Ni1,"['Bi', 'Mg', 'Ni']",3
-mp-15778,MgNiSb,"['Mg', 'Ni', 'Sb']",3,aflow:db7fb2c0e9137069,Mg1Ni1Sb1,"['Mg', 'Ni', 'Sb']",3
-mp-13033,MgTe,"['Mg', 'Te']",2,aflow:2b705b860e8d18c0,Mg1Te1,"['Mg', 'Te']",2
-mp-13033,MgTe,"['Mg', 'Te']",2,aflow:634010f2eadb562d,Mg1Te1,"['Mg', 'Te']",2
-mp-1009222,MnTe,"['Mn', 'Te']",2,aflow:70733edbcdfdc0c8,Mn1Te1,"['Mn', 'Te']",2
-mp-1009222,MnTe,"['Mn', 'Te']",2,aflow:7834440c21af8537,Mn1Te1,"['Mn', 'Te']",2
-mp-20389,Na2CdPb,"['Cd', 'Na', 'Pb']",3,aflow:a5e69f3c807b1d34,Cd1Na2Pb1,"['Cd', 'Na', 'Pb']",3
-mp-9437,NbFeSb,"['Fe', 'Nb', 'Sb']",3,aflow:d8672314fbd6b47d,Fe1Nb1Sb1,"['Fe', 'Nb', 'Sb']",3
-mp-13240,ScInCu4,"['Cu', 'In', 'Sc']",3,aflow:2220aea41c938104,Cu4In1Sc1,"['Cu', 'In', 'Sc']",3
-mp-11808,ScNi4Sn,"['Ni', 'Sc', 'Sn']",3,aflow:84f1786fb6e41773,Ni4Sc1Sn1,"['Ni', 'Sc', 'Sn']",3
-mp-30459,ScNiBi,"['Bi', 'Ni', 'Sc']",3,aflow:bd5d9a64ba7b45c7,Bi1Ni1Sc1,"['Bi', 'Ni', 'Sc']",3
-mp-3432,ScNiSb,"['Ni', 'Sb', 'Sc']",3,aflow:e19454d38fe36448,Ni1Sb1Sc1,"['Ni', 'Sb', 'Sc']",3
-mp-7173,ScSbPt,"['Pt', 'Sb', 'Sc']",3,aflow:cee03421b2f2db1e,Pt1Sb1Sc1,"['Pt', 'Sb', 'Sc']",3
-mp-2894,ScSnAu,"['Au', 'Sc', 'Sn']",3,aflow:c4152f4391b750bb,Au1Sc1Sn1,"['Au', 'Sc', 'Sn']",3
-mp-31454,TaSbRu,"['Ru', 'Sb', 'Ta']",3,aflow:8b23a3f04d72a293,Ru1Sb1Ta1,"['Ru', 'Sb', 'Ta']",3
-mp-22229,TbInCu4,"['Cu', 'In', 'Tb']",3,aflow:06e0f2d2ba697393,Cu4In1Tb1,"['Cu', 'In', 'Tb']",3
-mp-3716,TbNiSb,"['Ni', 'Sb', 'Tb']",3,aflow:14a7482f5c050e0e,Ni1Sb1Tb1,"['Ni', 'Sb', 'Tb']",3
-mp-22786,ThNiSn,"['Ni', 'Sn', 'Th']",3,aflow:a97b18881d1a1d91,Ni1Sn1Th1,"['Ni', 'Sn', 'Th']",3
-mp-10623,ThSbRh,"['Rh', 'Sb', 'Th']",3,aflow:453454a74b86077a,Rh1Sb1Th1,"['Rh', 'Sb', 'Th']",3
-mp-19886,ThSnPt,"['Pt', 'Sn', 'Th']",3,aflow:8ca8aeed542f92be,Pt1Sn1Th1,"['Pt', 'Sn', 'Th']",3
-mp-5967,TiCoSb,"['Co', 'Sb', 'Ti']",3,aflow:866186c508a57c65,Co1Sb1Ti1,"['Co', 'Sb', 'Ti']",3
-mp-1008680,TiGePt,"['Ge', 'Pt', 'Ti']",3,aflow:c58a246f03486cd2,Ge1Pt1Ti1,"['Ge', 'Pt', 'Ti']",3
-mp-20952,TiNiSb,"['Ni', 'Sb', 'Ti']",3,aflow:2c598227e453c68b,Ni1Sb1Ti1,"['Ni', 'Sb', 'Ti']",3
-mp-924130,TiNiSn,"['Ni', 'Sn', 'Ti']",3,aflow:7bed936e9d5a44ca,Ni1Sn1Ti1,"['Ni', 'Sn', 'Ti']",3
-mp-30847,TiSnPt,"['Pt', 'Sn', 'Ti']",3,aflow:603931e40d73250b,Pt1Sn1Ti1,"['Pt', 'Sn', 'Ti']",3
-mp-30460,YNiBi,"['Bi', 'Ni', 'Y']",3,aflow:c40f2f44e48bdeb9,Bi1Ni1Y1,"['Bi', 'Ni', 'Y']",3
-mp-11520,YNiSb,"['Ni', 'Sb', 'Y']",3,aflow:35e6777f90fd2bc6,Ni1Sb1Y1,"['Ni', 'Sb', 'Y']",3
-mp-568931,YbNiSb,"['Ni', 'Sb', 'Yb']",3,aflow:fd22297be346932c,Ni1Sb1Yb1,"['Ni', 'Sb', 'Yb']",3
-mp-570014,YbSbPt,"['Pt', 'Sb', 'Yb']",3,aflow:c5d6762a8aad6f28,Pt1Sb1Yb1,"['Pt', 'Sb', 'Yb']",3
-mp-11621,ZnNiSb,"['Ni', 'Sb', 'Zn']",3,aflow:2b293d05bec63025,Ni1Sb1Zn1,"['Ni', 'Sb', 'Zn']",3
-mp-31451,ZrCoBi,"['Bi', 'Co', 'Zr']",3,aflow:bef60f5771d9c8ec,Bi1Co1Zr1,"['Bi', 'Co', 'Zr']",3
-mp-31457,ZrSbRu,"['Ru', 'Sb', 'Zr']",3,aflow:170073a359588a61,Ru1Sb1Zr1,"['Ru', 'Sb', 'Zr']",3
-mp-2172,AlAs,"['Al', 'As']",2,aflow:d1acbf7cd6bbd917,Al1As1,"['Al', 'As']",2
-mp-1550,AlP,"['Al', 'P']",2,aflow:bfe6fc7189a9a3a8,Al1P1,"['Al', 'P']",2
-mp-2624,AlSb,"['Al', 'Sb']",2,aflow:8efc0f655f5d4309,Al1Sb1,"['Al', 'Sb']",2
-mp-1479,BP,"['B', 'P']",2,aflow:598a7a7328a47d85,B1P1,"['B', 'P']",2
-mp-1220,Be5Au,"['Au', 'Be']",2,aflow:85891227116e3254,Au1Be5,"['Au', 'Be']",2
-mp-650,Be5Pd,"['Be', 'Pd']",2,aflow:a39b28d260fb0f68,Be5Pd1,"['Be', 'Pd']",2
-mp-406,CdTe,"['Cd', 'Te']",2,aflow:44db01b35234cb00,Cd1Te1,"['Cd', 'Te']",2
-mp-406,CdTe,"['Cd', 'Te']",2,aflow:db3c099649cd0199,Cd1Te1,"['Cd', 'Te']",2
-mp-2534,GaAs,"['As', 'Ga']",2,aflow:92aa3a9a55104303,As1Ga1,"['As', 'Ga']",2
-mp-2534,GaAs,"['As', 'Ga']",2,aflow:a9c6b29d70d7cbec,As1Ga1,"['As', 'Ga']",2
-mp-2490,GaP,"['Ga', 'P']",2,aflow:535d8da7d1cb1fff,Ga1P1,"['Ga', 'P']",2
-mp-2490,GaP,"['Ga', 'P']",2,aflow:f89e741dc545ab62,Ga1P1,"['Ga', 'P']",2
-mp-1156,GaSb,"['Ga', 'Sb']",2,aflow:c35317ab558919f6,Ga1Sb1,"['Ga', 'Sb']",2
-mp-11869,HfSnPd,"['Hf', 'Pd', 'Sn']",3,aflow:8f947e547738d0a3,Hf1Pd1Sn1,"['Hf', 'Pd', 'Sn']",3
-mp-20305,InAs,"['As', 'In']",2,aflow:661d95aacf6d8058,As1In1,"['As', 'In']",2
-mp-20305,InAs,"['As', 'In']",2,aflow:7ed8005c5c451034,As1In1,"['As', 'In']",2
-mp-30816,Li2AlPd,"['Al', 'Li', 'Pd']",3,aflow:13b198fe0b831c08,Al1Li2Pd1,"['Al', 'Li', 'Pd']",3
-mp-30818,Li2AlPt,"['Al', 'Li', 'Pt']",3,aflow:0f16af7b6fa2fe5c,Al1Li2Pt1,"['Al', 'Li', 'Pt']",3
-mp-30404,Li2SbAu,"['Au', 'Li', 'Sb']",3,aflow:d02fa8ced352ee4a,Au1Li2Sb1,"['Au', 'Li', 'Sb']",3
-mp-10180,Li2SbPd,"['Li', 'Pd', 'Sb']",3,aflow:065bc33863b0165a,Li2Pd1Sb1,"['Li', 'Pd', 'Sb']",3
-mp-30405,Li2SnAu,"['Au', 'Li', 'Sn']",3,aflow:dfeec91885f9fa30,Au1Li2Sn1,"['Au', 'Li', 'Sn']",3
-mp-3161,LiAlSi,"['Al', 'Li', 'Si']",3,aflow:c854f04be2146c1c,Al1Li1Si1,"['Al', 'Li', 'Si']",3
-mp-3676,MgCu4Sn,"['Cu', 'Mg', 'Sn']",3,aflow:e4ba4b074fab170b,Cu4Mg1Sn1,"['Cu', 'Mg', 'Sn']",3
-mp-3522,MgCuSb,"['Cu', 'Mg', 'Sb']",3,aflow:1e5384907ec9de3d,Cu1Mg1Sb1,"['Cu', 'Mg', 'Sb']",3
-mp-11361,MgCuSn,"['Cu', 'Mg', 'Sn']",3,aflow:7b8e0c206da5c1bf,Cu1Mg1Sn1,"['Cu', 'Mg', 'Sn']",3
-mp-11361,MgCuSn,"['Cu', 'Mg', 'Sn']",3,aflow:7fcb937706d474f8,Cu1Mg1Sn1,"['Cu', 'Mg', 'Sn']",3
-mp-10183,MgSbPd,"['Mg', 'Pd', 'Sb']",3,aflow:98f3a203422d16b0,Mg1Pd1Sb1,"['Mg', 'Pd', 'Sb']",3
-mp-10184,MgSbPt,"['Mg', 'Pt', 'Sb']",3,aflow:691b027393bb9c65,Mg1Pt1Sb1,"['Mg', 'Pt', 'Sb']",3
-mp-5549,MgSnAu,"['Au', 'Mg', 'Sn']",3,aflow:aa9a46b99e02dab5,Au1Mg1Sn1,"['Au', 'Mg', 'Sn']",3
-mp-505297,NbSbRu,"['Nb', 'Ru', 'Sb']",3,aflow:20a490e930b787a6,Nb1Ru1Sb1,"['Nb', 'Ru', 'Sb']",3
-mp-569779,ScSbPd,"['Pd', 'Sb', 'Sc']",3,aflow:3761d1952c1bd9bb,Pd1Sb1Sc1,"['Pd', 'Sb', 'Sc']",3
-mp-567636,VFeSb,"['Fe', 'Sb', 'V']",3,aflow:742f62c662140f06,Fe1Sb1V1,"['Fe', 'Sb', 'V']",3
-mp-4964,YSbPt,"['Pt', 'Sb', 'Y']",3,aflow:fd497baf16774851,Pt1Sb1Y1,"['Pt', 'Sb', 'Y']",3
-mp-1190,ZnSe,"['Se', 'Zn']",2,aflow:4792db85eaa107bf,Se1Zn1,"['Se', 'Zn']",2
-mp-2176,ZnTe,"['Te', 'Zn']",2,aflow:1f1ce1240bb82fe8,Te1Zn1,"['Te', 'Zn']",2
-mp-27294,Ca3AsBr3,"['As', 'Br', 'Ca']",3,aflow:490b50d631861556,As1Br3Ca3,"['As', 'Br', 'Ca']",3
-mp-28069,Ca3AsCl3,"['As', 'Ca', 'Cl']",3,aflow:d4d71d73b26b7913,As1Ca3Cl3,"['As', 'Ca', 'Cl']",3
-mp-11822,Ca3GeN,"['Ca', 'Ge', 'N']",3,aflow:67a702b1c6a16129,Ca3Ge1N1,"['Ca', 'Ge', 'N']",3
-mp-29342,Ca3PCl3,"['Ca', 'Cl', 'P']",3,aflow:95667da7a1a06f6e,Ca3Cl3P1,"['Ca', 'Cl', 'P']",3
-mp-11824,Ca3PN,"['Ca', 'N', 'P']",3,aflow:5f89de0c8b54e1c4,Ca3N1P1,"['Ca', 'N', 'P']",3
-mp-1013548,Ca3SbN,"['Ca', 'N', 'Sb']",3,aflow:6690ab96d0318cc4,Ca3N1Sb1,"['Ca', 'N', 'Sb']",3
-mp-29241,Ca3SnO,"['Ca', 'O', 'Sn']",3,aflow:947b9e40b4c130be,Ca3O1Sn1,"['Ca', 'O', 'Sn']",3
-mp-865,CaB6,"['B', 'Ca']",2,aflow:5c5618217287430a,B6Ca1,"['B', 'Ca']",2
-mp-2642,CdAg,"['Ag', 'Cd']",2,aflow:1a5594f050f5eeaa,Ag1Cd1,"['Ag', 'Cd']",2
-mp-1017554,CdNi3N,"['Cd', 'N', 'Ni']",3,aflow:9d470850bf9d725f,Cd1N1Ni3,"['Cd', 'N', 'Ni']",3
-mp-510376,CeBRh3,"['B', 'Ce', 'Rh']",3,aflow:51fd607704603e17,B1Ce1Rh3,"['B', 'Ce', 'Rh']",3
-mp-954,BaB6,"['B', 'Ba']",2,aflow:60403665ed82b47b,B6Ba1,"['B', 'Ba']",2
-mp-527,BaCd,"['Ba', 'Cd']",2,aflow:6d05d48201243e90,Ba1Cd1,"['Ba', 'Cd']",2
-mp-23818,BaLiH3,"['Ba', 'H', 'Li']",3,aflow:abe8b2c0bb692c91,Ba1H3Li1,"['Ba', 'H', 'Li']",3
-mp-23818,BaLiH3,"['Ba', 'H', 'Li']",3,aflow:eb724544dfdf1dd9,Ba1H3Li1,"['Ba', 'H', 'Li']",3
-mp-3020,BaNbO3,"['Ba', 'Nb', 'O']",3,aflow:7c69780c2804384a,Ba1Nb1O3,"['Ba', 'Nb', 'O']",3
-mp-8557,BaPaO3,"['Ba', 'O', 'Pa']",3,aflow:8ad40d8abfa74602,Ba1O3Pa1,"['Ba', 'O', 'Pa']",3
-mp-3163,BaSnO3,"['Ba', 'O', 'Sn']",3,aflow:0ddad19f04eadab1,Ba1O3Sn1,"['Ba', 'O', 'Sn']",3
-mp-29243,Ba3SnO,"['Ba', 'O', 'Sn']",3,aflow:ecb6504fa2a9c4ea,Ba3O1Sn1,"['Ba', 'O', 'Sn']",3
-mp-20225,CePb3,"['Ce', 'Pb']",2,aflow:dec09c04ffe4a551,Ce1Pb3,"['Ce', 'Pb']",2
-mp-1518,CeRh3,"['Ce', 'Rh']",2,aflow:e375ee6459a0b27c,Ce1Rh3,"['Ce', 'Rh']",2
-mp-2334,DyCu,"['Cu', 'Dy']",2,aflow:ec3c53433d5dfc02,Cu1Dy1,"['Cu', 'Dy']",2
-mp-2077,DyMg,"['Dy', 'Mg']",2,aflow:cb9594228183239e,Dy1Mg1,"['Dy', 'Mg']",2
-mp-2226,DyPd,"['Dy', 'Pd']",2,aflow:ee23a2c15420370c,Dy1Pd1,"['Dy', 'Pd']",2
-mp-797,DyPd3,"['Dy', 'Pd']",2,aflow:87074fb2cae564ce,Dy1Pd3,"['Dy', 'Pd']",2
-mp-2465,DyPt3,"['Dy', 'Pt']",2,aflow:863b0fb7f9eb8f5d,Dy1Pt3,"['Dy', 'Pt']",2
-mp-232,DyRh,"['Dy', 'Rh']",2,aflow:dc3395dafe10aed5,Dy1Rh1,"['Dy', 'Rh']",2
-mp-15856,DyRh3C,"['C', 'Dy', 'Rh']",3,aflow:a3a2bffdff1499bf,C1Dy1Rh3,"['C', 'Dy', 'Rh']",3
-mp-11374,DyTl,"['Dy', 'Tl']",2,aflow:38fefb0ffb8a0914,Dy1Tl1,"['Dy', 'Tl']",2
-mp-2303,DyZn,"['Dy', 'Zn']",2,aflow:0f529a0f57f0ae5a,Dy1Zn1,"['Dy', 'Zn']",2
-mp-2621,ErAg,"['Ag', 'Er']",2,aflow:d3311cbd31908b52,Ag1Er1,"['Ag', 'Er']",2
-mp-867,ErCd,"['Cd', 'Er']",2,aflow:77ba44fb28f61796,Cd1Er1,"['Cd', 'Er']",2
-mp-1955,ErCu,"['Cu', 'Er']",2,aflow:a2bd74b497aff555,Cu1Er1,"['Cu', 'Er']",2
-mp-1291,ErIn3,"['Er', 'In']",2,aflow:15a8361ad7c98923,Er1In3,"['Er', 'In']",2
-mp-2713,ErIr,"['Er', 'Ir']",2,aflow:b33cc3d793a8fb3e,Er1Ir1,"['Er', 'Ir']",2
-mp-2228,ErMg,"['Er', 'Mg']",2,aflow:56108ea12b0c6375,Er1Mg1,"['Er', 'Mg']",2
-mp-851,ErPd,"['Er', 'Pd']",2,aflow:0e26532e1f564764,Er1Pd1,"['Er', 'Pd']",2
-mp-2825,ErPd3,"['Er', 'Pd']",2,aflow:a60356bc997fa4fb,Er1Pd3,"['Er', 'Pd']",2
-mp-1913,ErPt3,"['Er', 'Pt']",2,aflow:a61105df9e09d3a2,Er1Pt3,"['Er', 'Pt']",2
-mp-2381,ErRh,"['Er', 'Rh']",2,aflow:1f6608fc2c872b00,Er1Rh1,"['Er', 'Rh']",2
-mp-2431,ErTl3,"['Er', 'Tl']",2,aflow:993875381dc84303,Er1Tl3,"['Er', 'Tl']",2
-mp-614013,CsSnI3,"['Cs', 'I', 'Sn']",3,aflow:6690d2784eb23567,Cs1I3Sn1,"['Cs', 'I', 'Sn']",3
-mp-1018029,CuPd,"['Cu', 'Pd']",2,aflow:eaca4c0a310db6de,Cu1Pd1,"['Cu', 'Pd']",2
-mp-2167,DyAg,"['Ag', 'Dy']",2,aflow:ad8b903eea462234,Ag1Dy1,"['Ag', 'Dy']",2
-mp-3183,DyBRh3,"['B', 'Dy', 'Rh']",3,aflow:7a2ea3479b8f5eae,B1Dy1Rh3,"['B', 'Dy', 'Rh']",3
-mp-2667,CsAu,"['Au', 'Cs']",2,aflow:536c2f463e4fff78,Au1Cs1,"['Au', 'Cs']",2
-mp-22906,CsBr,"['Br', 'Cs']",2,aflow:8fb97d56ef98f019,Br1Cs1,"['Br', 'Cs']",2
-mp-22906,CsBr,"['Br', 'Cs']",2,aflow:f999245f021a5bc3,Br1Cs1,"['Br', 'Cs']",2
-mp-7104,CsCaF3,"['Ca', 'Cs', 'F']",3,aflow:46ea4bf1ce81aefa,Ca1Cs1F3,"['Ca', 'Cs', 'F']",3
-mp-8399,CsCdF3,"['Cd', 'Cs', 'F']",3,aflow:7fbde1ff181ec772,Cd1Cs1F3,"['Cd', 'Cs', 'F']",3
-mp-22865,CsCl,"['Cl', 'Cs']",2,aflow:2904d0595c6c9cb0,Cl1Cs1,"['Cl', 'Cs']",2
-mp-22865,CsCl,"['Cl', 'Cs']",2,aflow:994aa0aa4d401c1a,Cl1Cs1,"['Cl', 'Cs']",2
-mp-11375,EuHg,"['Eu', 'Hg']",2,aflow:4a6557136108a3f7,Eu1Hg1,"['Eu', 'Hg']",2
-mp-11388,GaIr,"['Ga', 'Ir']",2,aflow:341c350b9d494069,Ga1Ir1,"['Ga', 'Ir']",2
-mp-2444,GaRh,"['Ga', 'Rh']",2,aflow:5bf4841f97a43dca,Ga1Rh1,"['Ga', 'Rh']",2
-mp-22266,GdB6,"['B', 'Gd']",2,aflow:5790962d15c6d5ff,B6Gd1,"['B', 'Gd']",2
-mp-1031,GdCd,"['Cd', 'Gd']",2,aflow:6b72dc0d3309fa68,Cd1Gd1,"['Cd', 'Gd']",2
-mp-2636,GdMg,"['Gd', 'Mg']",2,aflow:27ed5fb0514efc6d,Gd1Mg1,"['Gd', 'Mg']",2
-mp-1017578,HfBRh3,"['B', 'Hf', 'Rh']",3,aflow:4dcc43262f37534a,B1Hf1Rh3,"['B', 'Hf', 'Rh']",3
-mp-2778,HoAg,"['Ag', 'Ho']",2,aflow:2236cb624d741ca7,Ag1Ho1,"['Ag', 'Ho']",2
-mp-3710,HoBRh3,"['B', 'Ho', 'Rh']",3,aflow:237844b68936f516,B1Ho1Rh3,"['B', 'Ho', 'Rh']",3
-mp-1971,HoCu,"['Cu', 'Ho']",2,aflow:cae69c96fac06bdd,Cu1Ho1,"['Cu', 'Ho']",2
-mp-21431,HoIn3,"['Ho', 'In']",2,aflow:a69b8bddddf76762,Ho1In3,"['Ho', 'In']",2
-mp-11476,HoIr,"['Ho', 'Ir']",2,aflow:3ca3b19dbc5f1d8c,Ho1Ir1,"['Ho', 'Ir']",2
-mp-1199,HoMg,"['Ho', 'Mg']",2,aflow:726d2384643098a1,Ho1Mg1,"['Ho', 'Mg']",2
-mp-1979,HoPd3,"['Ho', 'Pd']",2,aflow:87aae3236e2dc972,Ho1Pd3,"['Ho', 'Pd']",2
-mp-195,HoPt3,"['Ho', 'Pt']",2,aflow:28fdd7e7a29c0a7d,Ho1Pt3,"['Ho', 'Pt']",2
-mp-2163,HoRh,"['Ho', 'Rh']",2,aflow:f0b6c125df886051,Ho1Rh1,"['Ho', 'Rh']",2
-mp-1540,HoTl,"['Ho', 'Tl']",2,aflow:cdda0a8539ee985a,Ho1Tl1,"['Ho', 'Tl']",2
-mp-9200,K3AuO,"['Au', 'K', 'O']",3,aflow:f40823291e45087f,Au1K3O1,"['Au', 'K', 'O']",3
-mp-1948,LaAg,"['Ag', 'La']",2,aflow:6f8934d40bc1c3b7,Ag1La1,"['Ag', 'La']",2
-mp-1948,LaAg,"['Ag', 'La']",2,aflow:fdbdd132b64b5e94,Ag1La1,"['Ag', 'La']",2
-mp-2680,LaB6,"['B', 'La']",2,aflow:f6d3e66aa99d7c98,B6La1,"['B', 'La']",2
-mp-3088,LaBRh3,"['B', 'La', 'Rh']",3,aflow:27070fbb5351e884,B1La1Rh3,"['B', 'La', 'Rh']",3
-mp-776,LaCd,"['Cd', 'La']",2,aflow:6a79b8d09c3fccbd,Cd1La1,"['Cd', 'La']",2
-mp-20582,LaIn,"['In', 'La']",2,aflow:73bb14353152382d,In1La1,"['In', 'La']",2
-mp-20729,LaIn3,"['In', 'La']",2,aflow:dc7926de3a9c5fc7,In3La1,"['In', 'La']",2
-mp-21432,LaPb3,"['La', 'Pb']",2,aflow:ab4dcaad9226a98c,La1Pb3,"['La', 'Pb']",2
-mp-674,LaPd3,"['La', 'Pd']",2,aflow:7c2eaa87a55401e3,La1Pd3,"['La', 'Pd']",2
-mp-633,LaSn3,"['La', 'Sn']",2,aflow:758a0eb25149c67d,La1Sn3,"['La', 'Sn']",2
-mp-11488,LaTl,"['La', 'Tl']",2,aflow:0d91f21f39bd0cb6,La1Tl1,"['La', 'Tl']",2
-mp-2001,LaTl3,"['La', 'Tl']",2,aflow:27cd67b2290ba1b4,La1Tl3,"['La', 'Tl']",2
-mp-2615,LaZn,"['La', 'Zn']",2,aflow:e2c52facf9221eb5,La1Zn1,"['La', 'Zn']",2
-mp-3448,KMgF3,"['F', 'K', 'Mg']",3,aflow:28d52b05be2e0cd5,F3K1Mg1,"['F', 'K', 'Mg']",3
-mp-23737,KMgH3,"['H', 'K', 'Mg']",3,aflow:33e3744c0a0f8246,H3K1Mg1,"['H', 'K', 'Mg']",3
-mp-3614,KTaO3,"['K', 'O', 'Ta']",3,aflow:33ed8f510f3a34ba,K1O3Ta1,"['K', 'O', 'Ta']",3
-mp-4126,KUO3,"['K', 'O', 'U']",3,aflow:ab1abd143b686f21,K1O3U1,"['K', 'O', 'U']",3
-mp-5878,KZnF3,"['F', 'K', 'Zn']",3,aflow:92e76957b12d595f,F3K1Zn1,"['F', 'K', 'Zn']",3
-mp-4505,La3AlN,"['Al', 'La', 'N']",3,aflow:21fa297fae2ad37f,Al1La3N1,"['Al', 'La', 'N']",3
-mp-30207,La3GaBr3,"['Br', 'Ga', 'La']",3,aflow:8fb8839ff8584586,Br3Ga1La3,"['Br', 'Ga', 'La']",3
-mp-20999,La3InN,"['In', 'La', 'N']",3,aflow:5a14a06a71776ca3,In1La3N1,"['In', 'La', 'N']",3
-mp-10611,La3PbC,"['C', 'La', 'Pb']",3,aflow:9c6f2b7fa35dcf8c,C1La3Pb1,"['C', 'La', 'Pb']",3
-mp-7159,La3TlC,"['C', 'La', 'Tl']",3,aflow:55d586841634d7d1,C1La3Tl1,"['C', 'La', 'Tl']",3
-mp-28166,K3BrO,"['Br', 'K', 'O']",3,aflow:037bff19ad42b82f,Br1K3O1,"['Br', 'K', 'O']",3
-mp-28171,K3IO,"['I', 'K', 'O']",3,aflow:81be40c35b3be745,I1K3O1,"['I', 'K', 'O']",3
-mp-1076,KB6,"['B', 'K']",2,aflow:bd33403a60f88c3e,B6K1,"['B', 'K']",2
-mp-2426,LiAg,"['Ag', 'Li']",2,aflow:4c10b43e69b72e7c,Ag1Li1,"['Ag', 'Li']",2
-mp-3717,LuBRh3,"['B', 'Lu', 'Rh']",3,aflow:ddd1e2e78cdc0fa7,B1Lu1Rh3,"['B', 'Lu', 'Rh']",3
-mp-977,LuIn3,"['In', 'Lu']",2,aflow:64f1672c65bc1cb5,In3Lu1,"['In', 'Lu']",2
-mp-790,LuPt3,"['Lu', 'Pt']",2,aflow:9a295f92980b2118,Lu1Pt3,"['Lu', 'Pt']",2
-mp-10699,LuRh3C,"['C', 'Lu', 'Rh']",3,aflow:c8bf0fc0acaf2a94,C1Lu1Rh3,"['C', 'Lu', 'Rh']",3
-mp-2696,MgAg,"['Ag', 'Mg']",2,aflow:88ed2152280d6868,Ag1Mg1,"['Ag', 'Mg']",2
-mp-1408,MgHg,"['Hg', 'Mg']",2,aflow:79a3ecfabd3d15de,Hg1Mg1,"['Hg', 'Mg']",2
-mp-11498,MgTl,"['Mg', 'Tl']",2,aflow:f6fa0908a0c1314a,Mg1Tl1,"['Mg', 'Tl']",2
-mp-28602,Na3ClO,"['Cl', 'Na', 'O']",3,aflow:d896b93f18da7085,Cl1Na3O1,"['Cl', 'Na', 'O']",3
-mp-2333,NdPd3,"['Nd', 'Pd']",2,aflow:210420f34712b216,Nd1Pd3,"['Nd', 'Pd']",2
-mp-11522,Ni3Sn,"['Ni', 'Sn']",2,aflow:46ae6df881810fc2,Ni3Sn1,"['Ni', 'Sn']",2
-mp-30741,PaIr3,"['Ir', 'Pa']",2,aflow:6a5764c23dd260e3,Ir3Pa1,"['Ir', 'Pa']",2
-mp-30825,PaRh3,"['Pa', 'Rh']",2,aflow:911e41333ff6910f,Pa1Rh3,"['Pa', 'Rh']",2
-mp-999298,Pd3Au,"['Au', 'Pd']",2,aflow:505a6d1ea13b8eb4,Au1Pd3,"['Au', 'Pd']",2
-mp-20849,Pd3Pb,"['Pb', 'Pd']",2,aflow:e4563510401c6a2b,Pb1Pd3,"['Pb', 'Pd']",2
-mp-20903,PrIn3,"['In', 'Pr']",2,aflow:7d7fbf11b3f748c5,In3Pr1,"['In', 'Pr']",2
-mp-20939,PrPb3,"['Pb', 'Pr']",2,aflow:abaa473b4fe74092,Pb3Pr1,"['Pb', 'Pr']",2
-mp-4405,Rb3AuO,"['Au', 'O', 'Rb']",3,aflow:3609d740c6208956,Au1O1Rb3,"['Au', 'O', 'Rb']",3
-mp-3654,RbCaF3,"['Ca', 'F', 'Rb']",3,aflow:45d7ecfe4fa68130,Ca1F3Rb1,"['Ca', 'F', 'Rb']",3
-mp-6951,RbCdF3,"['Cd', 'F', 'Rb']",3,aflow:e727d39461c4ebc5,Cd1F3Rb1,"['Cd', 'F', 'Rb']",3
-mp-7482,RbHgF3,"['F', 'Hg', 'Rb']",3,aflow:467bde830ed16a22,F3Hg1Rb1,"['F', 'Hg', 'Rb']",3
-mp-8402,RbMgF3,"['F', 'Mg', 'Rb']",3,aflow:cb5b728e11e82968,F3Mg1Rb1,"['F', 'Mg', 'Rb']",3
-mp-11775,RbUO3,"['O', 'Rb', 'U']",3,aflow:07af92e96c815589,O3Rb1U1,"['O', 'Rb', 'U']",3
-mp-10133,Sc3BPb,"['B', 'Pb', 'Sc']",3,aflow:1d58c9ee85044db1,B1Pb1Sc3,"['B', 'Pb', 'Sc']",3
-mp-31055,Sc3InN,"['In', 'N', 'Sc']",3,aflow:b9a1f0ab8466965f,In1N1Sc3,"['In', 'N', 'Sc']",3
-mp-21035,Sc3PbC,"['C', 'Pb', 'Sc']",3,aflow:33d7c27fdace9b26,C1Pb1Sc3,"['C', 'Pb', 'Sc']",3
-mp-10139,Sc3SnB,"['B', 'Sc', 'Sn']",3,aflow:85ac27d9965b5f0b,B1Sc3Sn1,"['B', 'Sc', 'Sn']",3
-mp-4230,Sc3TlC,"['C', 'Sc', 'Tl']",3,aflow:233b528bc4413ee0,C1Sc3Tl1,"['C', 'Sc', 'Tl']",3
-mp-11237,ScAg,"['Ag', 'Sc']",2,aflow:528f39089c3a8aaa,Ag1Sc1,"['Ag', 'Sc']",2
-mp-10113,ScBIr3,"['B', 'Ir', 'Sc']",3,aflow:e43d9b6dca4e6e49,B1Ir3Sc1,"['B', 'Ir', 'Sc']",3
-mp-569875,ScBRh3,"['B', 'Rh', 'Sc']",3,aflow:1af2e5b6859dc679,B1Rh3Sc1,"['B', 'Rh', 'Sc']",3
-mp-932,ScGa3,"['Ga', 'Sc']",2,aflow:3967538d7c5df002,Ga3Sc1,"['Ga', 'Sc']",2
-mp-11521,ScNi,"['Ni', 'Sc']",2,aflow:227780372a14df17,Ni1Sc1,"['Ni', 'Sc']",2
-mp-828,SiNi3,"['Ni', 'Si']",2,aflow:b31ddd42732eacdd,Ni3Si1,"['Ni', 'Si']",2
-mp-2434,SrTl,"['Sr', 'Tl']",2,aflow:fe4e8bc133dd6bd4,Sr1Tl1,"['Sr', 'Tl']",2
-mp-570822,Tb3AlC,"['Al', 'C', 'Tb']",3,aflow:b3744e8adac37cc5,Al1C1Tb3,"['Al', 'C', 'Tb']",3
-mp-570822,Tb3AlC,"['Al', 'C', 'Tb']",3,aflow:d8aa91de693b2f8a,Al1C1Tb3,"['Al', 'C', 'Tb']",3
-mp-2268,TbAg,"['Ag', 'Tb']",2,aflow:f0216227e77670e1,Ag1Tb1,"['Ag', 'Tb']",2
-mp-721,TbCd,"['Cd', 'Tb']",2,aflow:e30fcb2e97324626,Cd1Tb1,"['Cd', 'Tb']",2
-mp-1837,TbCu,"['Cu', 'Tb']",2,aflow:fbf9627e8b01199d,Cu1Tb1,"['Cu', 'Tb']",2
-mp-20920,TbIn3,"['In', 'Tb']",2,aflow:207d513946780fc2,In3Tb1,"['In', 'Tb']",2
-mp-1635,TbMg,"['Mg', 'Tb']",2,aflow:0ce177aa4bc71358,Mg1Tb1,"['Mg', 'Tb']",2
-mp-2747,TbPd3,"['Pd', 'Tb']",2,aflow:b9ec090c2d6605aa,Pd3Tb1,"['Pd', 'Tb']",2
-mp-1549,TbPt3,"['Pt', 'Tb']",2,aflow:db7c48749ff64360,Pt3Tb1,"['Pt', 'Tb']",2
-mp-11561,TbRh,"['Rh', 'Tb']",2,aflow:d870e9cabb74da98,Rh1Tb1,"['Rh', 'Tb']",2
-mp-542103,TbRh3C,"['C', 'Rh', 'Tb']",3,aflow:e1a168ca011f65ad,C1Rh3Tb1,"['C', 'Rh', 'Tb']",3
-mp-30878,TbTl,"['Tb', 'Tl']",2,aflow:6c26fad1d52c9da4,Tb1Tl1,"['Tb', 'Tl']",2
-mp-836,TbZn,"['Tb', 'Zn']",2,aflow:e23048d220081ed3,Tb1Zn1,"['Tb', 'Zn']",2
-mp-1756,ThB6,"['B', 'Th']",2,aflow:d852634bea6c15c2,B6Th1,"['B', 'Th']",2
-mp-20206,ThIn3,"['In', 'Th']",2,aflow:aae7f6bc01d6c603,In3Th1,"['In', 'Th']",2
-mp-21381,ThPb3,"['Pb', 'Th']",2,aflow:6df621acdc60187a,Pb3Th1,"['Pb', 'Th']",2
-mp-2509,ThRh3,"['Rh', 'Th']",2,aflow:0a51a21a7c15d877,Rh3Th1,"['Rh', 'Th']",2
-mp-22394,ThRu3C,"['C', 'Ru', 'Th']",3,aflow:0e1317893f59ee71,C1Ru3Th1,"['C', 'Ru', 'Th']",3
-mp-1921,ThTe,"['Te', 'Th']",2,aflow:a89a7c64bdfbb2eb,Te1Th1,"['Te', 'Th']",2
-mp-2061,ThTl3,"['Th', 'Tl']",2,aflow:1e89971673a1e76e,Th1Tl3,"['Th', 'Tl']",2
-mp-570008,Sr3BiN,"['Bi', 'N', 'Sr']",3,aflow:2b31f5084ef355c3,Bi1N1Sr3,"['Bi', 'N', 'Sr']",3
-mp-7752,Sr3SbN,"['N', 'Sb', 'Sr']",3,aflow:d80cdbcb68b4082e,N1Sb1Sr3,"['N', 'Sb', 'Sr']",3
-mp-7961,Sr3SnO,"['O', 'Sn', 'Sr']",3,aflow:f37d0b1f8f1ccdb8,O1Sn1Sr3,"['O', 'Sn', 'Sr']",3
-mp-242,SrB6,"['B', 'Sr']",2,aflow:f4874036e4939ad3,B6Sr1,"['B', 'Sr']",2
-mp-542,SrHg,"['Hg', 'Sr']",2,aflow:147609474cf3a8d3,Hg1Sr1,"['Hg', 'Sr']",2
-mp-2179,TiRe,"['Re', 'Ti']",2,aflow:6b78de2c3b4532ce,Re1Ti1,"['Re', 'Ti']",2
-mp-10601,Y3GaC,"['C', 'Ga', 'Y']",3,aflow:c39bb7e5c43a2690,C1Ga1Y3,"['C', 'Ga', 'Y']",3
-mp-19817,Y3InC,"['C', 'In', 'Y']",3,aflow:5a1b6fdffb2dde5d,C1In1Y3,"['C', 'In', 'Y']",3
-mp-9960,Y3TlC,"['C', 'Tl', 'Y']",3,aflow:ff2e821a5a105eeb,C1Tl1Y3,"['C', 'Tl', 'Y']",3
-mp-2474,YAg,"['Ag', 'Y']",2,aflow:f36e18a378d3536b,Ag1Y1,"['Ag', 'Y']",2
-mp-29725,YBRh3,"['B', 'Rh', 'Y']",3,aflow:dc0372b556662df4,B1Rh3Y1,"['B', 'Rh', 'Y']",3
-mp-22704,YIn,"['In', 'Y']",2,aflow:2fc467cf3aaec8cb,In1Y1,"['In', 'Y']",2
-mp-20131,YIn3,"['In', 'Y']",2,aflow:bdf0281f8f192f1f,In3Y1,"['In', 'Y']",2
-mp-2393,YTl3,"['Tl', 'Y']",2,aflow:c08b23695db01790,Tl3Y1,"['Tl', 'Y']",2
-mp-1259,YbAl3,"['Al', 'Yb']",2,aflow:bd9e08867b7e5d00,Al3Yb1,"['Al', 'Yb']",2
-mp-419,YbB6,"['B', 'Yb']",2,aflow:b564fd983e6ad2e2,B6Yb1,"['B', 'Yb']",2
-mp-1857,YbCd,"['Cd', 'Yb']",2,aflow:9dca02934916b5f5,Cd1Yb1,"['Cd', 'Yb']",2
-mp-2459,YbIn,"['In', 'Yb']",2,aflow:9b97c23e6352e08b,In1Yb1,"['In', 'Yb']",2
-mp-20469,YbIn3,"['In', 'Yb']",2,aflow:3e99a8522e295b39,In3Yb1,"['In', 'Yb']",2
-mp-568705,YbIr,"['Ir', 'Yb']",2,aflow:643740d81b353d90,Ir1Yb1,"['Ir', 'Yb']",2
-mp-1723,UAl3,"['Al', 'U']",2,aflow:7a9452c1aff2f407,Al3U1,"['Al', 'U']",2
-mp-20941,UIn3,"['In', 'U']",2,aflow:89046aa43a11c6ce,In3U1,"['In', 'U']",2
-mp-1044,UIr3,"['Ir', 'U']",2,aflow:9af60c5a7274d323,Ir3U1,"['Ir', 'U']",2
-mp-1263,URu3,"['Ru', 'U']",2,aflow:cd335767e53fce83,Ru3U1,"['Ru', 'U']",2
-mp-21430,YbPb3,"['Pb', 'Yb']",2,aflow:0132ab6b9cddd429,Pb3Yb1,"['Pb', 'Yb']",2
-mp-2391,YbPd3,"['Pd', 'Yb']",2,aflow:903274808a8dc703,Pd3Yb1,"['Pd', 'Yb']",2
-mp-300,YbPt3,"['Pt', 'Yb']",2,aflow:2b5b4263126741e1,Pt3Yb1,"['Pt', 'Yb']",2
-mp-567089,YbRh,"['Rh', 'Yb']",2,aflow:7f89de06268eaf14,Rh1Yb1,"['Rh', 'Yb']",2
-mp-10716,YbRh3C,"['C', 'Rh', 'Yb']",3,aflow:a38e4109ef4d22e1,C1Rh3Yb1,"['C', 'Rh', 'Yb']",3
-mp-11576,YbTl,"['Tl', 'Yb']",2,aflow:9c68d753a5c1b840,Tl1Yb1,"['Tl', 'Yb']",2
-mp-1684,ZnAu,"['Au', 'Zn']",2,aflow:932366769d6016ef,Au1Zn1,"['Au', 'Zn']",2
-mp-987,ZnCu,"['Cu', 'Zn']",2,aflow:d948b9cda2010f3b,Cu1Zn1,"['Cu', 'Zn']",2
-mp-1471,Zr3Al,"['Al', 'Zr']",2,aflow:d5adc38fa8b953cf,Al1Zr3,"['Al', 'Zr']",2
-mp-20695,Zr3In,"['In', 'Zr']",2,aflow:7d01de55b4372b7a,In1Zr3,"['In', 'Zr']",2
-mp-11313,ZrCd3,"['Cd', 'Zr']",2,aflow:e8ba7d7c937e89b9,Cd3Zr1,"['Cd', 'Zr']",2
-mp-2283,ZrCo,"['Co', 'Zr']",2,aflow:a165b280f0c37787,Co1Zr1,"['Co', 'Zr']",2
-mp-1438,ZrIr3,"['Ir', 'Zr']",2,aflow:3449b10658b69dd3,Ir3Zr1,"['Ir', 'Zr']",2
-mp-11541,ZrOs,"['Os', 'Zr']",2,aflow:a36bd88304037b89,Os1Zr1,"['Os', 'Zr']",2
-mp-229,ZrRh3,"['Rh', 'Zr']",2,aflow:b6449ed4840e19f6,Rh3Zr1,"['Rh', 'Zr']",2
-mp-570276,ZrZn,"['Zn', 'Zr']",2,aflow:2cb00cb797720fc7,Zn1Zr1,"['Zn', 'Zr']",2
-mp-1885,AlIr,"['Al', 'Ir']",2,aflow:7372464395d0b3c6,Al1Ir1,"['Al', 'Ir']",2
-mp-1487,AlNi,"['Al', 'Ni']",2,aflow:ad9bb3ce8c34c78e,Al1Ni1,"['Al', 'Ni']",2
-mp-364,AlRh,"['Al', 'Rh']",2,aflow:359263f19d0d546e,Al1Rh1,"['Al', 'Rh']",2
-mp-542569,AlRu,"['Al', 'Ru']",2,aflow:0748412c3a3db28b,Al1Ru1,"['Al', 'Ru']",2
-mp-2773,BeCo,"['Be', 'Co']",2,aflow:b3e8d1368b95ed0d,Be1Co1,"['Be', 'Co']",2
-mp-11276,BeRh,"['Be', 'Rh']",2,aflow:0d4c2a40fe143a57,Be1Rh1,"['Be', 'Rh']",2
-mp-11290,CaSn3,"['Ca', 'Sn']",2,aflow:c4fc7a005d06a30b,Ca1Sn3,"['Ca', 'Sn']",2
-mp-1073,CaCd,"['Ca', 'Cd']",2,aflow:68fb7c17a24ef7ef,Ca1Cd1,"['Ca', 'Cd']",2
-mp-11286,CaHg,"['Ca', 'Hg']",2,aflow:e1226cf0e66c1033,Ca1Hg1,"['Ca', 'Hg']",2
-mp-12585,CrRh3,"['Cr', 'Rh']",2,aflow:28847c37c6fa69ea,Cr1Rh3,"['Cr', 'Rh']",2
-mp-2258,Cu3Au,"['Au', 'Cu']",2,aflow:e7e21be634245737,Au1Cu3,"['Au', 'Cu']",2
-mp-12086,Cu3Pt,"['Cu', 'Pt']",2,aflow:2b4ab77dda6ab20f,Cu3Pt1,"['Cu', 'Pt']",2
-mp-2027,HfCo,"['Co', 'Hf']",2,aflow:c5b17da66c84aaf6,Co1Hf1,"['Co', 'Hf']",2
-mp-2126,HfIr3,"['Hf', 'Ir']",2,aflow:fe2c6fc4804c26c3,Hf1Ir3,"['Hf', 'Ir']",2
-mp-11452,HfOs,"['Hf', 'Os']",2,aflow:e958030590a0d0bd,Hf1Os1,"['Hf', 'Os']",2
-mp-1027,HfRh3,"['Hf', 'Rh']",2,aflow:c38c54f6fd9ccec1,Hf1Rh3,"['Hf', 'Rh']",2
-mp-2802,HfRu,"['Hf', 'Ru']",2,aflow:6f3e9a62beed10fe,Hf1Ru1,"['Hf', 'Ru']",2
-mp-11460,HfTc,"['Hf', 'Tc']",2,aflow:3e45dbfa7d475634,Hf1Tc1,"['Hf', 'Tc']",2
-mp-11248,LiAu3,"['Au', 'Li']",2,aflow:c95606e8cb3cef5a,Au3Li1,"['Au', 'Li']",2
-mp-2012,LiHg,"['Hg', 'Li']",2,aflow:07f268d309e600b2,Hg1Li1,"['Hg', 'Li']",2
-mp-437,MgAu,"['Au', 'Mg']",2,aflow:12adf10b63fa2334,Au1Mg1,"['Au', 'Mg']",2
-mp-1172,MgRh,"['Mg', 'Rh']",2,aflow:c87705861b1e6915,Mg1Rh1,"['Mg', 'Rh']",2
-mp-12674,MnAu,"['Au', 'Mn']",2,aflow:a655aeef53046339,Au1Mn1,"['Au', 'Mn']",2
-mp-417,MnRh,"['Mn', 'Rh']",2,aflow:b46359d8e0dcc980,Mn1Rh1,"['Mn', 'Rh']",2
-mp-316,MnV,"['Mn', 'V']",2,aflow:c6d068e985f2a15e,Mn1V1,"['Mn', 'V']",2
-mp-953,NbZn3,"['Nb', 'Zn']",2,aflow:33384eefa2607528,Nb1Zn3,"['Nb', 'Zn']",2
-mp-718,SnPd3,"['Pd', 'Sn']",2,aflow:23b6d94f767fd2cd,Pd3Sn1,"['Pd', 'Sn']",2
-mp-20971,SnPt3,"['Pt', 'Sn']",2,aflow:6be90e0b1e703b4d,Pt3Sn1,"['Pt', 'Sn']",2
-mp-4079,Sc3AlC,"['Al', 'C', 'Sc']",3,aflow:d7486a814fe4eaea,Al1C1Sc3,"['Al', 'C', 'Sc']",3
-mp-16297,Sc3SnC,"['C', 'Sc', 'Sn']",3,aflow:4ad542786ef28db2,C1Sc3Sn1,"['C', 'Sc', 'Sn']",3
-mp-331,ScAl,"['Al', 'Sc']",2,aflow:bc6d6d2126b11c3f,Al1Sc1,"['Al', 'Sc']",2
-mp-2121,ScAl3,"['Al', 'Sc']",2,aflow:5331b9c8e0d5267d,Al3Sc1,"['Al', 'Sc']",2
-mp-2121,ScAl3,"['Al', 'Sc']",2,aflow:6fbcea392322eda3,Al3Sc1,"['Al', 'Sc']",2
-mp-11256,ScAu,"['Au', 'Sc']",2,aflow:bb1785238190c409,Au1Sc1,"['Au', 'Sc']",2
-mp-1211,ScCd,"['Cd', 'Sc']",2,aflow:96f7b5f72a5fe798,Cd1Sc1,"['Cd', 'Sc']",2
-mp-2212,ScCo,"['Co', 'Sc']",2,aflow:9782d5248273d419,Co1Sc1,"['Co', 'Sc']",2
-mp-1169,ScCu,"['Cu', 'Sc']",2,aflow:ee85245cde3ed6c7,Cu1Sc1,"['Cu', 'Sc']",2
-mp-11471,ScHg,"['Hg', 'Sc']",2,aflow:f4d96a33ab291275,Hg1Sc1,"['Hg', 'Sc']",2
-mp-1129,ScIr,"['Ir', 'Sc']",2,aflow:1ac49c8e5e124ef8,Ir1Sc1,"['Ir', 'Sc']",2
-mp-12593,ScIr3,"['Ir', 'Sc']",2,aflow:c05f2543a2e6b0f9,Ir3Sc1,"['Ir', 'Sc']",2
-mp-2781,ScPd,"['Pd', 'Sc']",2,aflow:2d8425a06ab1611d,Pd1Sc1,"['Pd', 'Sc']",2
-mp-2677,ScPd3,"['Pd', 'Sc']",2,aflow:2e2a4cca86d236fb,Pd3Sc1,"['Pd', 'Sc']",2
-mp-892,ScPt,"['Pt', 'Sc']",2,aflow:ed23ecf0e217e549,Pt1Sc1,"['Pt', 'Sc']",2
-mp-481,ScPt3,"['Pt', 'Sc']",2,aflow:3fdc47a5a166d5dd,Pt3Sc1,"['Pt', 'Sc']",2
-mp-1780,ScRh,"['Rh', 'Sc']",2,aflow:1da926caa9bd3298,Rh1Sc1,"['Rh', 'Sc']",2
-mp-635,ScRh3,"['Rh', 'Sc']",2,aflow:ea4b129585b040c4,Rh3Sc1,"['Rh', 'Sc']",2
-mp-10712,ScRh3C,"['C', 'Rh', 'Sc']",3,aflow:d5b672c7928a8d6a,C1Rh3Sc1,"['C', 'Rh', 'Sc']",3
-mp-30867,ScRu,"['Ru', 'Sc']",2,aflow:c33a14007399064d,Ru1Sc1,"['Ru', 'Sc']",2
-mp-7130,ScRu3C,"['C', 'Ru', 'Sc']",3,aflow:6969ed5a893c0533,C1Ru3Sc1,"['C', 'Ru', 'Sc']",3
-mp-11566,ScZn,"['Sc', 'Zn']",2,aflow:336873381da1c2de,Sc1Zn1,"['Sc', 'Zn']",2
-mp-3271,Ti3AlC,"['Al', 'C', 'Ti']",3,aflow:4d8faf470aa227b6,Al1C1Ti3,"['Al', 'C', 'Ti']",3
-mp-265,TaIr3,"['Ir', 'Ta']",2,aflow:0b20629a915a4c54,Ir3Ta1,"['Ir', 'Ta']",2
-mp-1020,TaRh3,"['Rh', 'Ta']",2,aflow:1cc19369e172f540,Rh3Ta1,"['Rh', 'Ta']",2
-mp-11572,TaTc,"['Ta', 'Tc']",2,aflow:4636a6353e82ddee,Ta1Tc1,"['Ta', 'Tc']",2
-mp-823,TiCo,"['Co', 'Ti']",2,aflow:7f97787e67d5dd51,Co1Ti1,"['Co', 'Ti']",2
-mp-305,TiFe,"['Fe', 'Ti']",2,aflow:5a670b4d513577ba,Fe1Ti1,"['Fe', 'Ti']",2
-mp-1089,TiIr3,"['Ir', 'Ti']",2,aflow:6138a1f196c1c245,Ir3Ti1,"['Ir', 'Ti']",2
-mp-291,TiOs,"['Os', 'Ti']",2,aflow:0bf997c48fac9fb0,Os1Ti1,"['Os', 'Ti']",2
-mp-1152,TiRh3,"['Rh', 'Ti']",2,aflow:2912c3468b1bd6b8,Rh3Ti1,"['Rh', 'Ti']",2
-mp-592,TiRu,"['Ru', 'Ti']",2,aflow:80cba77e1024009d,Ru1Ti1,"['Ru', 'Ti']",2
-mp-11573,TiTc,"['Tc', 'Ti']",2,aflow:f2bf1c69bbb4ccdc,Tc1Ti1,"['Tc', 'Ti']",2
-mp-12778,VOs,"['Os', 'V']",2,aflow:ac232fbf28827cdb,Os1V1,"['Os', 'V']",2
-mp-568711,VPd3,"['Pd', 'V']",2,aflow:ed0e3797e656f67a,Pd3V1,"['Pd', 'V']",2
-mp-372,VPt3,"['Pt', 'V']",2,aflow:070d1a4de1bb3fe4,Pt3V1,"['Pt', 'V']",2
-mp-372,VPt3,"['Pt', 'V']",2,aflow:bda48bfbdd63e454,Pt3V1,"['Pt', 'V']",2
-mp-1395,VRu,"['Ru', 'V']",2,aflow:2cd188952f1402e7,Ru1V1,"['Ru', 'V']",2
-mp-2540,VTc,"['Tc', 'V']",2,aflow:f79a697dd14b142c,Tc1V1,"['Tc', 'V']",2
-mp-11578,VZn3,"['V', 'Zn']",2,aflow:ac085a73c29ce947,V1Zn3,"['V', 'Zn']",2
-mp-4448,Y3AlC,"['Al', 'C', 'Y']",3,aflow:a873c04ce401162f,Al1C1Y3,"['Al', 'C', 'Y']",3
-mp-10608,Y3SnC,"['C', 'Sn', 'Y']",3,aflow:e6c9ac980101c7a9,C1Sn1Y3,"['C', 'Sn', 'Y']",3
-mp-915,YCd,"['Cd', 'Y']",2,aflow:9c697bbcdaca44b5,Cd1Y1,"['Cd', 'Y']",2
-mp-2399,YHg,"['Hg', 'Y']",2,aflow:1f7c5feab515be03,Hg1Y1,"['Hg', 'Y']",2
-mp-30746,YIr,"['Ir', 'Y']",2,aflow:f69f9fe91f97079b,Ir1Y1,"['Ir', 'Y']",2
-mp-615,YMg,"['Mg', 'Y']",2,aflow:582d36d531b92b8c,Mg1Y1,"['Mg', 'Y']",2
-mp-559,YPd3,"['Pd', 'Y']",2,aflow:a9dd7a99cc37634d,Pd3Y1,"['Pd', 'Y']",2
-mp-2403,YPt3,"['Pt', 'Y']",2,aflow:e3faf75fedf889c3,Pt3Y1,"['Pt', 'Y']",2
-mp-191,YRh,"['Rh', 'Y']",2,aflow:02f0db62eca4baea,Rh1Y1,"['Rh', 'Y']",2
-mp-22120,YRh3C,"['C', 'Rh', 'Y']",3,aflow:1272279fc87ba14e,C1Rh3Y1,"['C', 'Rh', 'Y']",3
-mp-2516,YZn,"['Y', 'Zn']",2,aflow:440eed1fe4e9897b,Y1Zn1,"['Y', 'Zn']",2
-mp-30856,ZnPt3,"['Pt', 'Zn']",2,aflow:b6222a2c31f1c887,Pt3Zn1,"['Pt', 'Zn']",2
-mp-6938,ZnRh,"['Rh', 'Zn']",2,aflow:b8eac8765fab9bed,Rh1Zn1,"['Rh', 'Zn']",2
-mp-214,ZrRu,"['Ru', 'Zr']",2,aflow:f22c703bcdb00e01,Ru1Zr1,"['Ru', 'Zr']",2
-mp-10,As,['As'],1,aflow:a997e20f53ed2acb,As1,['As'],1
-mp-567597,Bi,['Bi'],1,aflow:27bbd51ad4827863,Bi1,['Bi'],1
-mp-133,Sb,['Sb'],1,aflow:462bb5f411a8e076,Sb1,['Sb'],1
-mp-2211,V3Pt,"['Pt', 'V']",2,aflow:519921b1a82b1a1a,Pt1V3,"['Pt', 'V']",2
-mp-11334,W,['W'],1,aflow:b36865785bd06095,W1,['W'],1
-mp-24147,AcH2,"['Ac', 'H']",2,aflow:903e65521a6472cd,Ac1H2,"['Ac', 'H']",2
-mp-22922,AgCl,"['Ag', 'Cl']",2,aflow:59bce60e4ed76f05,Ag1Cl1,"['Ag', 'Cl']",2
-mp-2302,AsRh2,"['As', 'Rh']",2,aflow:01a40028ad8815a4,As1Rh2,"['As', 'Rh']",2
-mp-1009733,Ca2Si,"['Ca', 'Si']",2,aflow:d42847d039d9c6d9,Ca2Si1,"['Ca', 'Si']",2
-mp-20463,CaPbF6,"['Ca', 'F', 'Pb']",3,aflow:a21b02f100736b23,Ca1F6Pb1,"['Ca', 'F', 'Pb']",3
-mp-1672,CaS,"['Ca', 'S']",2,aflow:007edcc20ee1c898,Ca1S1,"['Ca', 'S']",2
-mp-1415,CaSe,"['Ca', 'Se']",2,aflow:7a5d981a5d714afb,Ca1Se1,"['Ca', 'Se']",2
-mp-1415,CaSe,"['Ca', 'Se']",2,aflow:b167bafb684ed8c2,Ca1Se1,"['Ca', 'Se']",2
-mp-1519,CaTe,"['Ca', 'Te']",2,aflow:f51506e74f2ec57e,Ca1Te1,"['Ca', 'Te']",2
-mp-241,CdF2,"['Cd', 'F']",2,aflow:c63288c8bd0530ac,Cd1F2,"['Cd', 'F']",2
-mp-1132,CdO,"['Cd', 'O']",2,aflow:83e90de1a2af0519,Cd1O1,"['Cd', 'O']",2
-mp-568662,BaCl2,"['Ba', 'Cl']",2,aflow:6a9703b2d7b80183,Ba1Cl2,"['Ba', 'Cl']",2
-mp-1253,BaSe,"['Ba', 'Se']",2,aflow:20c956c82d61d753,Ba1Se1,"['Ba', 'Se']",2
-mp-1253,BaSe,"['Ba', 'Se']",2,aflow:cf0f068c99c6f727,Ba1Se1,"['Ba', 'Se']",2
-mp-1000,BaTe,"['Ba', 'Te']",2,aflow:e00b430dded98dba,Ba1Te1,"['Ba', 'Te']",2
-mp-1000,BaTe,"['Ba', 'Te']",2,aflow:f92c7225e1387152,Ba1Te1,"['Ba', 'Te']",2
-mp-20194,CeO2,"['Ce', 'O']",2,aflow:aa6ceeb12511471b,Ce1O2,"['Ce', 'O']",2
-mp-2154,CeP,"['Ce', 'P']",2,aflow:969e8091cd9da8c9,Ce1P1,"['Ce', 'P']",2
-mp-2563,CeSe,"['Ce', 'Se']",2,aflow:29355c7ad0a3aee5,Ce1Se1,"['Ce', 'Se']",2
-mp-2563,CeSe,"['Ce', 'Se']",2,aflow:2cd52c20880b93f8,Ce1Se1,"['Ce', 'Se']",2
-mp-24151,DyH2,"['Dy', 'H']",2,aflow:55bf312c44071d54,Dy1H2,"['Dy', 'H']",2
-mp-20898,DyInAg2,"['Ag', 'Dy', 'In']",3,aflow:dcf9e6bc36e20b6d,Ag2Dy1In1,"['Ag', 'Dy', 'In']",3
-mp-30374,DyInAu2,"['Au', 'Dy', 'In']",3,aflow:e56edcb230715dcf,Au2Dy1In1,"['Au', 'Dy', 'In']",3
-mp-1546,DyMg3,"['Dy', 'Mg']",2,aflow:aa05095e36513fca,Dy1Mg3,"['Dy', 'Mg']",2
-mp-1410,DyN,"['Dy', 'N']",2,aflow:8f3e0c3e671cf4a9,Dy1N1,"['Dy', 'N']",2
-mp-2014,DyP,"['Dy', 'P']",2,aflow:440c7849ab8be110,Dy1P1,"['Dy', 'P']",2
-mp-2470,DyS,"['Dy', 'S']",2,aflow:2debadc28b817473,Dy1S1,"['Dy', 'S']",2
-mp-1007,DySb,"['Dy', 'Sb']",2,aflow:91dcf2c2ffad7d2d,Dy1Sb1,"['Dy', 'Sb']",2
-mp-814,DySe,"['Dy', 'Se']",2,aflow:cf3ef46b038e70fa,Dy1Se1,"['Dy', 'Se']",2
-mp-2159,DyTe,"['Dy', 'Te']",2,aflow:c784ea573c0e2ee7,Dy1Te1,"['Dy', 'Te']",2
-mp-1688,ErAs,"['As', 'Er']",2,aflow:a7617b1c7ed6d859,As1Er1,"['As', 'Er']",2
-mp-23245,ErBi,"['Bi', 'Er']",2,aflow:8927893ffc054168,Bi1Er1,"['Bi', 'Er']",2
-mp-24192,ErH2,"['Er', 'H']",2,aflow:42bc9c43b5da2a39,Er1H2,"['Er', 'H']",2
-mp-30340,ErInAg2,"['Ag', 'Er', 'In']",3,aflow:22494371b35a87c6,Ag2Er1In1,"['Ag', 'Er', 'In']",3
-mp-1623,ErS,"['Er', 'S']",2,aflow:e81a0ba1ec4da6b1,Er1S1,"['Er', 'S']",2
-mp-2191,ErSb,"['Er', 'Sb']",2,aflow:b932c6b738cf237f,Er1Sb1,"['Er', 'Sb']",2
-mp-2491,ErSe,"['Er', 'Se']",2,aflow:a910c394f6b05eb5,Er1Se1,"['Er', 'Se']",2
-mp-2627,DyAs,"['As', 'Dy']",2,aflow:abf5b7fa198a8dc2,As1Dy1,"['As', 'Dy']",2
-mp-22907,DyBi,"['Bi', 'Dy']",2,aflow:4dcf1adffdb1e365,Bi1Dy1,"['Bi', 'Dy']",2
-mp-540957,Cs2TeI6,"['Cs', 'I', 'Te']",3,aflow:6dc2e902a1372f65,Cs2I6Te1,"['Cs', 'I', 'Te']",3
-mp-1784,CsF,"['Cs', 'F']",2,aflow:71951baeb9deaf95,Cs1F1,"['Cs', 'F']",2
-mp-1784,CsF,"['Cs', 'F']",2,aflow:ff3e8a3ebb991d74,Cs1F1,"['Cs', 'F']",2
-mp-1057286,CsH,"['Cs', 'H']",2,aflow:66d73577b08ad09d,Cs1H1,"['Cs', 'H']",2
-mp-1057286,CsH,"['Cs', 'H']",2,aflow:c39a60600679c372,Cs1H1,"['Cs', 'H']",2
-mp-581024,CsK2Sb,"['Cs', 'K', 'Sb']",3,aflow:1e79095987894d8e,Cs1K2Sb1,"['Cs', 'K', 'Sb']",3
-mp-504731,EuF2,"['Eu', 'F']",2,aflow:c3c3b4f96a8f89d4,Eu1F2,"['Eu', 'F']",2
-mp-542583,EuTe,"['Eu', 'Te']",2,aflow:e0a2a056eb854a75,Eu1Te1,"['Eu', 'Te']",2
-mp-3464,FeSiRu2,"['Fe', 'Ru', 'Si']",3,aflow:5516c55915dd7282,Fe1Ru2Si1,"['Fe', 'Ru', 'Si']",3
-mp-2776,Ga2Au,"['Au', 'Ga']",2,aflow:ad6f64d685ae95e7,Au1Ga2,"['Au', 'Ga']",2
-mp-22095,Ga2Pt,"['Ga', 'Pt']",2,aflow:230c711fe243b5af,Ga2Pt1,"['Ga', 'Pt']",2
-mp-30551,GaFeCo2,"['Co', 'Fe', 'Ga']",3,aflow:66c24085ff2e8c69,Co2Fe1Ga1,"['Co', 'Fe', 'Ga']",3
-mp-510374,GdAs,"['As', 'Gd']",2,aflow:ec99c2c4de2255c2,As1Gd1,"['As', 'Gd']",2
-mp-510402,GdS,"['Gd', 'S']",2,aflow:855438e43a9a0d2e,Gd1S1,"['Gd', 'S']",2
-mp-510404,GdSe,"['Gd', 'Se']",2,aflow:36f700f79ac36078,Gd1Se1,"['Gd', 'Se']",2
-mp-5748,HfAlNi2,"['Al', 'Hf', 'Ni']",3,aflow:c20eee5b3bd9d78c,Al1Hf1Ni2,"['Al', 'Hf', 'Ni']",3
-mp-3576,HfGaCo2,"['Co', 'Ga', 'Hf']",3,aflow:70e694f77ce2bdc1,Co2Ga1Hf1,"['Co', 'Ga', 'Hf']",3
-mp-600125,HfInCu2,"['Cu', 'Hf', 'In']",3,aflow:e4037d5debb3f095,Cu2Hf1In1,"['Cu', 'Hf', 'In']",3
-mp-2828,HfN,"['Hf', 'N']",2,aflow:2ac33a1cfde8ab4b,Hf1N1,"['Hf', 'N']",2
-mp-2828,HfN,"['Hf', 'N']",2,aflow:a3ef546736421603,Hf1N1,"['Hf', 'N']",2
-mp-295,HoAs,"['As', 'Ho']",2,aflow:15deecb330c335d7,As1Ho1,"['As', 'Ho']",2
-mp-22866,HoBi,"['Bi', 'Ho']",2,aflow:7239eb435c5ec897,Bi1Ho1,"['Bi', 'Ho']",2
-mp-24152,HoH2,"['H', 'Ho']",2,aflow:b4eb1cc7864a4da6,H2Ho1,"['H', 'Ho']",2
-mp-30342,HoInAg2,"['Ag', 'Ho', 'In']",3,aflow:afa6e5dc6e33e138,Ag2Ho1In1,"['Ag', 'Ho', 'In']",3
-mp-30586,HoInCu2,"['Cu', 'Ho', 'In']",3,aflow:5e0f55e7c54d3257,Cu2Ho1In1,"['Cu', 'Ho', 'In']",3
-mp-883,HoN,"['Ho', 'N']",2,aflow:427343e52e422912,Ho1N1,"['Ho', 'N']",2
-mp-744,HoP,"['Ho', 'P']",2,aflow:f19bc59154a5f3fc,Ho1P1,"['Ho', 'P']",2
-mp-1240,HoS,"['Ho', 'S']",2,aflow:47edb17dac296aad,Ho1S1,"['Ho', 'S']",2
-mp-2050,HoSb,"['Ho', 'Sb']",2,aflow:b841f96236469afc,Ho1Sb1,"['Ho', 'Sb']",2
-mp-464,HoSe,"['Ho', 'Se']",2,aflow:39e2230d9b5ece5a,Ho1Se1,"['Ho', 'Se']",2
-mp-30731,HoSnPd2,"['Ho', 'Pd', 'Sn']",3,aflow:8383aa70ee692642,Ho1Pd2Sn1,"['Ho', 'Pd', 'Sn']",3
-mp-919,HoTe,"['Ho', 'Te']",2,aflow:17798e37f2678015,Ho1Te1,"['Ho', 'Te']",2
-mp-22154,In2Au,"['Au', 'In']",2,aflow:0c443f85eacd3890,Au1In2,"['Au', 'In']",2
-mp-22682,In2Pt,"['In', 'Pt']",2,aflow:56df4b5282549a79,In2Pt1,"['In', 'Pt']",2
-mp-1022,K2S,"['K', 'S']",2,aflow:e4dd36659b848305,K2S1,"['K', 'S']",2
-mp-8426,K2Se,"['K', 'Se']",2,aflow:3746bf32a1781888,K2Se1,"['K', 'Se']",2
-mp-1747,K2Te,"['K', 'Te']",2,aflow:5a624ba9e35af61b,K2Te1,"['K', 'Te']",2
-mp-708,LaAs,"['As', 'La']",2,aflow:9a676bbe152cef9c,As1La1,"['As', 'La']",2
-mp-568917,LaInAg2,"['Ag', 'In', 'La']",3,aflow:737af44395bdd9e5,Ag2In1La1,"['Ag', 'In', 'La']",3
-mp-256,LaN,"['La', 'N']",2,aflow:7d317ef38e0f8728,La1N1,"['La', 'N']",2
-mp-2384,LaP,"['La', 'P']",2,aflow:9d043d56c74364e9,La1P1,"['La', 'P']",2
-mp-2350,LaS,"['La', 'S']",2,aflow:03c11dea6b39bb41,La1S1,"['La', 'S']",2
-mp-2350,LaS,"['La', 'S']",2,aflow:ba5eb87a4148029c,La1S1,"['La', 'S']",2
-mp-1065,LaSb,"['La', 'Sb']",2,aflow:a22a842e9d3d6dd2,La1Sb1,"['La', 'Sb']",2
-mp-1560,LaTe,"['La', 'Te']",2,aflow:06699819a26d36e6,La1Te1,"['La', 'Te']",2
-mp-1560,LaTe,"['La', 'Te']",2,aflow:3db1c6bb651f859d,La1Te1,"['La', 'Te']",2
-mp-12128,Li2MgIn,"['In', 'Li', 'Mg']",3,aflow:dbd517cc423f7034,In1Li2Mg1,"['In', 'Li', 'Mg']",3
-mp-1153,Li2S,"['Li', 'S']",2,aflow:23c730c679e041bf,Li2S1,"['Li', 'S']",2
-mp-2286,Li2Se,"['Li', 'Se']",2,aflow:01a70da6b0c35513,Li2Se1,"['Li', 'Se']",2
-mp-2530,Li2Te,"['Li', 'Te']",2,aflow:f237511d90939265,Li2Te1,"['Li', 'Te']",2
-mp-15724,KNa2Sb,"['K', 'Na', 'Sb']",3,aflow:5d6d0cc05e18b116,K1Na2Sb1,"['K', 'Na', 'Sb']",3
-mp-24084,KH,"['H', 'K']",2,aflow:c18b48bc9c6f4df9,H1K1,"['H', 'K']",2
-mp-11247,Li3Au,"['Au', 'Li']",2,aflow:5891782b644338f2,Au1Li3,"['Au', 'Li']",2
-mp-23222,Li3Bi,"['Bi', 'Li']",2,aflow:a347088e4932106b,Bi1Li3,"['Bi', 'Li']",2
-mp-9472,LiAg2Ge,"['Ag', 'Ge', 'Li']",3,aflow:0fe4e83557076b65,Ag2Ge1Li1,"['Ag', 'Ge', 'Li']",3
-mp-2927,LiAg2Sn,"['Ag', 'Li', 'Sn']",3,aflow:d176291d7c976b5c,Ag2Li1Sn1,"['Ag', 'Li', 'Sn']",3
-mp-567097,LiCu2Ge,"['Cu', 'Ge', 'Li']",3,aflow:3cb72890f73b7821,Cu2Ge1Li1,"['Cu', 'Ge', 'Li']",3
-mp-13322,LiGeRh2,"['Ge', 'Li', 'Rh']",3,aflow:3eb9b5f8dc58315f,Ge1Li1Rh2,"['Ge', 'Li', 'Rh']",3
-mp-31208,LiIn2Ir,"['In', 'Ir', 'Li']",3,aflow:cfcaed811a14588c,In2Ir1Li1,"['In', 'Ir', 'Li']",3
-mp-20801,LiIn2Pd,"['In', 'Li', 'Pd']",3,aflow:d18edb1550aa79c9,In2Li1Pd1,"['In', 'Li', 'Pd']",3
-mp-13396,LiIn2Rh,"['In', 'Li', 'Rh']",3,aflow:814c94a11ccd5a2a,In2Li1Rh1,"['In', 'Li', 'Rh']",3
-mp-567787,LiInAg2,"['Ag', 'In', 'Li']",3,aflow:a19cdea5f11fd86f,Ag2In1Li1,"['Ag', 'In', 'Li']",3
-mp-16349,LiNi2Ge,"['Ge', 'Li', 'Ni']",3,aflow:5d9ecf64519f93d7,Ge1Li1Ni2,"['Ge', 'Li', 'Ni']",3
-mp-7243,LiSnPd2,"['Li', 'Pd', 'Sn']",3,aflow:f03d3b055bd7c0f8,Li1Pd2Sn1,"['Li', 'Pd', 'Sn']",3
-mp-4972,LuInCu2,"['Cu', 'In', 'Lu']",3,aflow:e090cc03d970ae93,Cu2In1Lu1,"['Cu', 'In', 'Lu']",3
-mp-23804,Mg2FeH6,"['Fe', 'H', 'Mg']",3,aflow:8aeca263b3732fb3,Fe1H6Mg2,"['Fe', 'H', 'Mg']",3
-mp-408,Mg2Ge,"['Ge', 'Mg']",2,aflow:c3369be780358d85,Ge1Mg2,"['Ge', 'Mg']",2
-mp-20724,Mg2Pb,"['Mg', 'Pb']",2,aflow:1099c86fed89ce26,Mg2Pb1,"['Mg', 'Pb']",2
-mp-973088,MgInAg2,"['Ag', 'In', 'Mg']",3,aflow:83250739661cf4ba,Ag2In1Mg1,"['Ag', 'In', 'Mg']",3
-mp-30774,MgNi2Sn,"['Mg', 'Ni', 'Sn']",3,aflow:8dbf2001b9aa573a,Mg1Ni2Sn1,"['Mg', 'Ni', 'Sn']",3
-mp-1315,MgS,"['Mg', 'S']",2,aflow:661e554798910f22,Mg1S1,"['Mg', 'S']",2
-mp-1315,MgS,"['Mg', 'S']",2,aflow:a46892f0377def6d,Mg1S1,"['Mg', 'S']",2
-mp-865027,Mn3Ge,"['Ge', 'Mn']",2,aflow:9d82c12a9f3d8d82,Ge1Mn3,"['Ge', 'Mn']",2
-mp-5491,MnAlAu2,"['Al', 'Au', 'Mn']",3,aflow:965af7a3b7f3edc0,Al1Au2Mn1,"['Al', 'Au', 'Mn']",3
-mp-4922,MnAlNi2,"['Al', 'Mn', 'Ni']",3,aflow:c282c70d0c61a7c2,Al1Mn1Ni2,"['Al', 'Mn', 'Ni']",3
-mp-10894,MnAlRh2,"['Al', 'Mn', 'Rh']",3,aflow:6ebc0063762139e1,Al1Mn1Rh2,"['Al', 'Mn', 'Rh']",3
-mp-19850,MnCo2Ge,"['Co', 'Ge', 'Mn']",3,aflow:799112d927e1e790,Co2Ge1Mn1,"['Co', 'Ge', 'Mn']",3
-mp-21171,MnGaCo2,"['Co', 'Ga', 'Mn']",3,aflow:0c1fb44885f5bf88,Co2Ga1Mn1,"['Co', 'Ga', 'Mn']",3
-mp-2065,MnS,"['Mn', 'S']",2,aflow:42bcb1caacd2e497,Mn1S1,"['Mn', 'S']",2
-mp-2065,MnS,"['Mn', 'S']",2,aflow:4bba13075e97f394,Mn1S1,"['Mn', 'S']",2
-mp-20481,MnSnPd2,"['Mn', 'Pd', 'Sn']",3,aflow:59ba3fe3ff6e783a,Mn1Pd2Sn1,"['Mn', 'Pd', 'Sn']",3
-mp-4990,MnSnRh2,"['Mn', 'Rh', 'Sn']",3,aflow:6cacc67ee04755fc,Mn1Rh2Sn1,"['Mn', 'Rh', 'Sn']",3
-mp-648,Na2S,"['Na', 'S']",2,aflow:eceefbe0f5d07d00,Na2S1,"['Na', 'S']",2
-mp-1266,Na2Se,"['Na', 'Se']",2,aflow:5477ab0c5a3ac253,Na2Se1,"['Na', 'Se']",2
-mp-2784,Na2Te,"['Na', 'Te']",2,aflow:90eddf11eef225fb,Na2Te1,"['Na', 'Te']",2
-mp-5077,NaLi2Sb,"['Li', 'Na', 'Sb']",3,aflow:ffd8d4a125d06b15,Li2Na1Sb1,"['Li', 'Na', 'Sb']",3
-mp-3640,Nb6Si7Ni16,"['Nb', 'Ni', 'Si']",3,aflow:91d0bb4f802940b0,Nb6Ni16Si7,"['Nb', 'Ni', 'Si']",3
-mp-24154,NbH2,"['H', 'Nb']",2,aflow:585337a2c5893256,H2Nb1,"['H', 'Nb']",2
-mp-2602,NdAs,"['As', 'Nd']",2,aflow:8ea65c835ef92761,As1Nd1,"['As', 'Nd']",2
-mp-23300,NdBi,"['Bi', 'Nd']",2,aflow:ec4dd6314db205a2,Bi1Nd1,"['Bi', 'Nd']",2
-mp-2823,NdP,"['Nd', 'P']",2,aflow:bcfaf2bb33aa3677,Nd1P1,"['Nd', 'P']",2
-mp-24719,NiH,"['H', 'Ni']",2,aflow:412bf0dc20f54c7b,H1Ni1,"['H', 'Ni']",2
-mp-2082,PIr2,"['Ir', 'P']",2,aflow:98b6647c644f91af,Ir2P1,"['Ir', 'P']",2
-mp-2732,PRh2,"['P', 'Rh']",2,aflow:4ca2b630d8cbb6dd,P1Rh2,"['P', 'Rh']",2
-mp-15694,PaAs,"['As', 'Pa']",2,aflow:93c8fd0c34e5501b,As1Pa1,"['As', 'Pa']",2
-mp-567580,PaC,"['C', 'Pa']",2,aflow:fb1cd92584ed214f,C1Pa1,"['C', 'Pa']",2
-mp-1009545,PaN,"['N', 'Pa']",2,aflow:94a7e01d9960eb16,N1Pa1,"['N', 'Pa']",2
-mp-2364,PaO2,"['O', 'Pa']",2,aflow:613f851a6f86dd5b,O2Pa1,"['O', 'Pa']",2
-mp-315,PbF2,"['F', 'Pb']",2,aflow:8bd83352cb002f9c,F2Pb1,"['F', 'Pb']",2
-mp-21276,PbS,"['Pb', 'S']",2,aflow:0eba6b16a3d9271f,Pb1S1,"['Pb', 'S']",2
-mp-21276,PbS,"['Pb', 'S']",2,aflow:f716dece2bf898a1,Pb1S1,"['Pb', 'S']",2
-mp-21276,PbS,"['Pb', 'S']",2,aflow:fa88375bedf272e8,Pb1S1,"['Pb', 'S']",2
-mp-2201,PbSe,"['Pb', 'Se']",2,aflow:37d22335d6f94c61,Pb1Se1,"['Pb', 'Se']",2
-mp-2201,PbSe,"['Pb', 'Se']",2,aflow:fc52354a1b50ff61,Pb1Se1,"['Pb', 'Se']",2
-mp-2532,PrTe,"['Pr', 'Te']",2,aflow:872d5be6bd5ef7c7,Pr1Te1,"['Pr', 'Te']",2
-mp-2548,PuAs,"['As', 'Pu']",2,aflow:50d5839c8ba06083,As1Pu1,"['As', 'Pu']",2
-mp-2548,PuAs,"['As', 'Pu']",2,aflow:e2d31b24625f4223,As1Pu1,"['As', 'Pu']",2
-mp-1719,PuN,"['N', 'Pu']",2,aflow:5952bc520d57d141,N1Pu1,"['N', 'Pu']",2
-mp-11327,Rb2Se,"['Rb', 'Se']",2,aflow:bc2372a6d49f86aa,Rb2Se1,"['Rb', 'Se']",2
-mp-441,Rb2Te,"['Rb', 'Te']",2,aflow:e7c5c7c5b4f9a113,Rb2Te1,"['Rb', 'Te']",2
-mp-11718,RbF,"['F', 'Rb']",2,aflow:2c17cb0ad30f0780,F1Rb1,"['F', 'Rb']",2
-mp-11718,RbF,"['F', 'Rb']",2,aflow:94dbdbbca7eb0cb7,F1Rb1,"['F', 'Rb']",2
-mp-24721,RbH,"['H', 'Rb']",2,aflow:f7e872c3f33e6b8f,H1Rb1,"['H', 'Rb']",2
-mp-31169,ScAlAg2,"['Ag', 'Al', 'Sc']",3,aflow:ab6f8d92be6bad9f,Ag2Al1Sc1,"['Ag', 'Al', 'Sc']",3
-mp-2052,ScAs,"['As', 'Sc']",2,aflow:c3a17a59395aa4a7,As1Sc1,"['As', 'Sc']",2
-mp-570632,ScBi,"['Bi', 'Sc']",2,aflow:88c83a8148c7f64e,Bi1Sc1,"['Bi', 'Sc']",2
-mp-11360,ScGaCu2,"['Cu', 'Ga', 'Sc']",3,aflow:cf2155c717288f48,Cu2Ga1Sc1,"['Cu', 'Ga', 'Sc']",3
-mp-30661,ScGaPd2,"['Ga', 'Pd', 'Sc']",3,aflow:004419866f33d7b2,Ga1Pd2Sc1,"['Ga', 'Pd', 'Sc']",3
-mp-30347,ScInAg2,"['Ag', 'In', 'Sc']",3,aflow:e680940d09ac6cbb,Ag2In1Sc1,"['Ag', 'In', 'Sc']",3
-mp-21301,ScInNi2,"['In', 'Ni', 'Sc']",3,aflow:10153648a10f9068,In1Ni2Sc1,"['In', 'Ni', 'Sc']",3
-mp-31339,ScInPd2,"['In', 'Pd', 'Sc']",3,aflow:2dc34d6d0fc3bf2c,In1Pd2Sc1,"['In', 'Pd', 'Sc']",3
-mp-20521,ScInPt2,"['In', 'Pt', 'Sc']",3,aflow:4198963c6d7c4357,In1Pt2Sc1,"['In', 'Pt', 'Sc']",3
-mp-2857,ScN,"['N', 'Sc']",2,aflow:7d7ed697ff51323e,N1Sc1,"['N', 'Sc']",2
-mp-4536,ScNi2Sn,"['Ni', 'Sc', 'Sn']",3,aflow:752c69d9417b7048,Ni2Sc1Sn1,"['Ni', 'Sc', 'Sn']",3
-mp-2807,ScP,"['P', 'Sc']",2,aflow:96269a7acab8653a,P1Sc1,"['P', 'Sc']",2
-mp-1476,ScS,"['S', 'Sc']",2,aflow:6de070d552770c06,S1Sc1,"['S', 'Sc']",2
-mp-1782,ScSe,"['Sc', 'Se']",2,aflow:48d06cd57e3bde76,Sc1Se1,"['Sc', 'Se']",2
-mp-2291,Si2Ni,"['Ni', 'Si']",2,aflow:fa067fd045772391,Ni1Si2,"['Ni', 'Si']",2
-mp-1087,SrS,"['S', 'Sr']",2,aflow:9b521ccd2e03a6dd,S1Sr1,"['S', 'Sr']",2
-mp-1087,SrS,"['S', 'Sr']",2,aflow:fde5530a17dea6e1,S1Sr1,"['S', 'Sr']",2
-mp-2758,SrSe,"['Se', 'Sr']",2,aflow:8451928b649b9e7f,Se1Sr1,"['Se', 'Sr']",2
-mp-1958,SrTe,"['Sr', 'Te']",2,aflow:866a544848305c9a,Sr1Te1,"['Sr', 'Te']",2
-mp-1958,SrTe,"['Sr', 'Te']",2,aflow:cb1f9acfa0aecb58,Sr1Te1,"['Sr', 'Te']",2
-mp-30555,TaGaCo2,"['Co', 'Ga', 'Ta']",3,aflow:e3950f9c6f25331e,Co2Ga1Ta1,"['Co', 'Ga', 'Ta']",3
-mp-24723,TaH2,"['H', 'Ta']",2,aflow:602f0c87edd34f36,H2Ta1,"['H', 'Ta']",2
-mp-2640,TbAs,"['As', 'Tb']",2,aflow:35eb4e1d72958b91,As1Tb1,"['As', 'Tb']",2
-mp-22921,TbBi,"['Bi', 'Tb']",2,aflow:1e182d013d03c39f,Bi1Tb1,"['Bi', 'Tb']",2
-mp-567210,TbInAu2,"['Au', 'In', 'Tb']",3,aflow:a5b6a4c476ad49ff,Au2In1Tb1,"['Au', 'In', 'Tb']",3
-mp-7381,TbMg3,"['Mg', 'Tb']",2,aflow:d89a17f151da8d1f,Mg3Tb1,"['Mg', 'Tb']",2
-mp-2117,TbN,"['N', 'Tb']",2,aflow:6ba20edeb60275d9,N1Tb1,"['N', 'Tb']",2
-mp-645,TbP,"['P', 'Tb']",2,aflow:9e0f114b1fdd2355,P1Tb1,"['P', 'Tb']",2
-mp-1610,TbS,"['S', 'Tb']",2,aflow:0a3f61db91adc40b,S1Tb1,"['S', 'Tb']",2
-mp-2724,TbSb,"['Sb', 'Tb']",2,aflow:234233835529eb17,Sb1Tb1,"['Sb', 'Tb']",2
-mp-1561,TbSe,"['Se', 'Tb']",2,aflow:125099e83f37f854,Se1Tb1,"['Se', 'Tb']",2
-mp-19717,TePb,"['Pb', 'Te']",2,aflow:bb46abee42773b80,Pb1Te1,"['Pb', 'Te']",2
-mp-19717,TePb,"['Pb', 'Te']",2,aflow:dcdbde34e53a534d,Pb1Te1,"['Pb', 'Te']",2
-mp-1753,ThAs,"['As', 'Th']",2,aflow:74df3b9b6759a28e,As1Th1,"['As', 'Th']",2
-mp-1753,ThAs,"['As', 'Th']",2,aflow:aa7739a42d917bcf,As1Th1,"['As', 'Th']",2
-mp-1164,ThC,"['C', 'Th']",2,aflow:4e03466d19a9aba3,C1Th1,"['C', 'Th']",2
-mp-1093,ThGe,"['Ge', 'Th']",2,aflow:a00160fc5a955500,Ge1Th1,"['Ge', 'Th']",2
-mp-622041,ThInAu2,"['Au', 'In', 'Th']",3,aflow:1752b716519862db,Au2In1Th1,"['Au', 'In', 'Th']",3
-mp-834,ThN,"['N', 'Th']",2,aflow:5fbd191795ae6aaa,N1Th1,"['N', 'Th']",2
-mp-643,ThO2,"['O', 'Th']",2,aflow:1c78bb7df13625db,O2Th1,"['O', 'Th']",2
-mp-931,ThP,"['P', 'Th']",2,aflow:8a69ea34def2d194,P1Th1,"['P', 'Th']",2
-mp-503,ThS,"['S', 'Th']",2,aflow:c1de3a48addb6e86,S1Th1,"['S', 'Th']",2
-mp-1751,ThSb,"['Sb', 'Th']",2,aflow:20cd22d9d9abd84e,Sb1Th1,"['Sb', 'Th']",2
-mp-1751,ThSb,"['Sb', 'Th']",2,aflow:fead581553bff06e,Sb1Th1,"['Sb', 'Th']",2
-mp-2183,ThSe,"['Se', 'Th']",2,aflow:9edb425107166776,Se1Th1,"['Se', 'Th']",2
-mp-571126,Ti2BRh6,"['B', 'Rh', 'Ti']",3,aflow:8af29b635e51b3f7,B1Rh6Ti2,"['B', 'Rh', 'Ti']",3
-mp-23209,SrCl2,"['Cl', 'Sr']",2,aflow:bea65ca25419a241,Cl2Sr1,"['Cl', 'Sr']",2
-mp-866375,TiFe2Ge,"['Fe', 'Ge', 'Ti']",3,aflow:cd5e871a1c5af012,Fe2Ge1Ti1,"['Fe', 'Ge', 'Ti']",3
-mp-22725,TiInCu2,"['Cu', 'In', 'Ti']",3,aflow:2670645cbe129c86,Cu2In1Ti1,"['Cu', 'In', 'Ti']",3
-mp-492,TiN,"['N', 'Ti']",2,aflow:6cbb3552b5a8b20a,N1Ti1,"['N', 'Ti']",2
-mp-571102,TlI,"['I', 'Tl']",2,aflow:3128a4b9547d3c3d,I1Tl1,"['I', 'Tl']",2
-mp-571102,TlI,"['I', 'Tl']",2,aflow:7131de623c28cebc,I1Tl1,"['I', 'Tl']",2
-mp-933,YAs,"['As', 'Y']",2,aflow:2b8d1079f7096770,As1Y1,"['As', 'Y']",2
-mp-23241,YBi,"['Bi', 'Y']",2,aflow:c526fe4983dfcffa,Bi1Y1,"['Bi', 'Y']",2
-mp-24650,YH2,"['H', 'Y']",2,aflow:6c75f60af7364972,H2Y1,"['H', 'Y']",2
-mp-22493,YInAu2,"['Au', 'In', 'Y']",3,aflow:ea83ff99ce49e301,Au2In1Y1,"['Au', 'In', 'Y']",3
-mp-2114,YN,"['N', 'Y']",2,aflow:63e256b4afba7919,N1Y1,"['N', 'Y']",2
-mp-2114,YN,"['N', 'Y']",2,aflow:b0fc3de4383a8be6,N1Y1,"['N', 'Y']",2
-mp-994,YP,"['P', 'Y']",2,aflow:916e0611d77b56f6,P1Y1,"['P', 'Y']",2
-mp-1534,YS,"['S', 'Y']",2,aflow:f5e210fbc72a9837,S1Y1,"['S', 'Y']",2
-mp-2637,YSe,"['Se', 'Y']",2,aflow:6675449ac1e1c290,Se1Y1,"['Se', 'Y']",2
-mp-22319,UB12,"['B', 'U']",2,aflow:b4c17e51ae055188,B12U1,"['B', 'U']",2
-mp-1776,UN2,"['N', 'U']",2,aflow:6ff5ead0224a7725,N2U1,"['N', 'U']",2
-mp-2011,UP,"['P', 'U']",2,aflow:6662f1dc461916ad,P1U1,"['P', 'U']",2
-mp-21883,VGaFe2,"['Fe', 'Ga', 'V']",3,aflow:1346268dae1d4e13,Fe2Ga1V1,"['Fe', 'Ga', 'V']",3
-mp-570899,YbNi2Sn,"['Ni', 'Sn', 'Yb']",3,aflow:7b7c072ca150e580,Ni2Sn1Yb1,"['Ni', 'Sn', 'Yb']",3
-mp-1820,YbS,"['S', 'Yb']",2,aflow:2a776b7905136491,S1Yb1,"['S', 'Yb']",2
-mp-1779,YbTe,"['Te', 'Yb']",2,aflow:cbe40e42e756b9e5,Te1Yb1,"['Te', 'Yb']",2
-mp-31171,Zn2AgAu,"['Ag', 'Au', 'Zn']",3,aflow:1304e00dd260415a,Ag1Au1Zn2,"['Ag', 'Au', 'Zn']",3
-mp-2795,ZrC,"['C', 'Zr']",2,aflow:05e1e26d2863644d,C1Zr1,"['C', 'Zr']",2
-mp-2795,ZrC,"['C', 'Zr']",2,aflow:b652e182b2677f30,C1Zr1,"['C', 'Zr']",2
-mp-11293,ZrCdCu2,"['Cd', 'Cu', 'Zr']",3,aflow:b73bfee99124e275,Cd1Cu2Zr1,"['Cd', 'Cu', 'Zr']",3
-mp-22503,ZrCo2Sn,"['Co', 'Sn', 'Zr']",3,aflow:c678ea2fec2066ee,Co2Sn1Zr1,"['Co', 'Sn', 'Zr']",3
-mp-623134,ZrInCu2,"['Cu', 'In', 'Zr']",3,aflow:9e3577fb21874572,Cu2In1Zr1,"['Cu', 'In', 'Zr']",3
-mp-20744,ZrInNi2,"['In', 'Ni', 'Zr']",3,aflow:e877f641919ada5e,In1Ni2Zr1,"['In', 'Ni', 'Zr']",3
-mp-1352,ZrN,"['N', 'Zr']",2,aflow:b20c8ae03dde80bb,N1Zr1,"['N', 'Zr']",2
-mp-1352,ZrN,"['N', 'Zr']",2,aflow:cdfdcf7fda69670c,N1Zr1,"['N', 'Zr']",2
-mp-1352,ZrN,"['N', 'Zr']",2,aflow:cfad5bdff5d83557,N1Zr1,"['N', 'Zr']",2
-mp-1352,ZrN,"['N', 'Zr']",2,aflow:e917b3e6c78be74b,N1Zr1,"['N', 'Zr']",2
-mp-11366,ZrZnCu2,"['Cu', 'Zn', 'Zr']",3,aflow:0e1ce6e7356b1d0b,Cu2Zn1Zr1,"['Cu', 'Zn', 'Zr']",3
-mp-23231,AgBr,"['Ag', 'Br']",2,aflow:acc935168652beb5,Ag1Br1,"['Ag', 'Br']",2
-mp-2647,Al2Au,"['Al', 'Au']",2,aflow:1054a8325a9e105f,Al2Au1,"['Al', 'Au']",2
-mp-1502,Al2Pt,"['Al', 'Pt']",2,aflow:8360370e565093d1,Al2Pt1,"['Al', 'Pt']",2
-mp-5778,AlVFe2,"['Al', 'Fe', 'V']",3,aflow:7f1780b1dbf49454,Al1Fe2V1,"['Al', 'Fe', 'V']",3
-mp-1029,BaF2,"['Ba', 'F']",2,aflow:c0f032a787b91baf,Ba1F2,"['Ba', 'F']",2
-mp-1342,BaO,"['Ba', 'O']",2,aflow:ca2b185ba242da1e,Ba1O1,"['Ba', 'O']",2
-mp-1500,BaS,"['Ba', 'S']",2,aflow:549edbf033109acf,Ba1S1,"['Ba', 'S']",2
-mp-45,Ca,['Ca'],1,aflow:da235dae85798482,Ca1,['Ca'],1
-mp-2741,CaF2,"['Ca', 'F']",2,aflow:3215930607bd4762,Ca1F2,"['Ca', 'F']",2
-mp-2741,CaF2,"['Ca', 'F']",2,aflow:6a63c942f2a41c09,Ca1F2,"['Ca', 'F']",2
-mp-2605,CaO,"['Ca', 'O']",2,aflow:9bc8de62e0d0e0ea,Ca1O1,"['Ca', 'O']",2
-mp-2379,CoSi2,"['Co', 'Si']",2,aflow:192166aa1a44ba49,Co1Si2,"['Co', 'Si']",2
-mp-614603,CsI,"['Cs', 'I']",2,aflow:3cfd4805f7728ac7,Cs1I1,"['Cs', 'I']",2
-mp-614603,CsI,"['Cs', 'I']",2,aflow:e0fc6d7a170c6558,Cs1I1,"['Cs', 'I']",2
-mp-12608,CuPt7,"['Cu', 'Pt']",2,aflow:52e2ca0d6eb63c1d,Cu1Pt7,"['Cu', 'Pt']",2
-mp-30595,CuSnRh2,"['Cu', 'Rh', 'Sn']",3,aflow:ce4acf66f2425d3e,Cu1Rh2Sn1,"['Cu', 'Rh', 'Sn']",3
-mp-10887,HfAlCu2,"['Al', 'Cu', 'Hf']",3,aflow:b35052e7872de0d1,Al1Cu2Hf1,"['Al', 'Cu', 'Hf']",3
-mp-16501,HfAlPd2,"['Al', 'Hf', 'Pd']",3,aflow:c7e4f6937e0696c1,Al1Hf1Pd2,"['Al', 'Hf', 'Pd']",3
-mp-21075,HfC,"['C', 'Hf']",2,aflow:29c35aa38b84cf85,C1Hf1,"['C', 'Hf']",2
-mp-21075,HfC,"['C', 'Hf']",2,aflow:b47a366c761301a7,C1Hf1,"['C', 'Hf']",2
-mp-20730,HfCo2Sn,"['Co', 'Hf', 'Sn']",3,aflow:be0f30005c2762fb,Co2Hf1Sn1,"['Co', 'Hf', 'Sn']",3
-mp-971,K2O,"['K', 'O']",2,aflow:02918067ce677bf4,K2O1,"['K', 'O']",2
-mp-971,K2O,"['K', 'O']",2,aflow:9e183a9afc990944,K2O1,"['K', 'O']",2
-mp-23251,KBr,"['Br', 'K']",2,aflow:9388b0cb77be29c5,Br1K1,"['Br', 'K']",2
-mp-23251,KBr,"['Br', 'K']",2,aflow:e02e6c6748e87324,Br1K1,"['Br', 'K']",2
-mp-23193,KCl,"['Cl', 'K']",2,aflow:28e41ffe3fada8e0,Cl1K1,"['Cl', 'K']",2
-mp-23193,KCl,"['Cl', 'K']",2,aflow:d5d8c218ad74d303,Cl1K1,"['Cl', 'K']",2
-mp-463,KF,"['F', 'K']",2,aflow:53d5a5933de2bde4,F1K1,"['F', 'K']",2
-mp-463,KF,"['F', 'K']",2,aflow:dee45e93103a3db1,F1K1,"['F', 'K']",2
-mp-22898,KI,"['I', 'K']",2,aflow:a652b12baeddf43f,I1K1,"['I', 'K']",2
-mp-22898,KI,"['I', 'K']",2,aflow:c5c59a10fed69262,I1K1,"['I', 'K']",2
-mp-11512,LiAl2Ir,"['Al', 'Ir', 'Li']",3,aflow:b255d4ebb43a1bc4,Al2Ir1Li1,"['Al', 'Ir', 'Li']",3
-mp-30819,LiAl2Pt,"['Al', 'Li', 'Pt']",3,aflow:1f1367160a7b806c,Al2Li1Pt1,"['Al', 'Li', 'Pt']",3
-mp-30821,LiAl2Rh,"['Al', 'Li', 'Rh']",3,aflow:58bd0b5d47b44b34,Al2Li1Rh1,"['Al', 'Li', 'Rh']",3
-mp-7473,LiCu2Si,"['Cu', 'Li', 'Si']",3,aflow:a534862f0707d9ed,Cu2Li1Si1,"['Cu', 'Li', 'Si']",3
-mp-30765,LiPt7,"['Li', 'Pt']",2,aflow:ced3dcb9433e147f,Li1Pt7,"['Li', 'Pt']",2
-mp-1367,Mg2Si,"['Mg', 'Si']",2,aflow:5b5f6e28c8f6fcae,Mg2Si1,"['Mg', 'Si']",2
-mp-2343,Mg2Sn,"['Mg', 'Sn']",2,aflow:e6e5181d91589f15,Mg2Sn1,"['Mg', 'Sn']",2
-mp-1265,MgO,"['Mg', 'O']",2,aflow:23344abad821b348,Mg1O1,"['Mg', 'O']",2
-mp-20840,MnCo2Sn,"['Co', 'Mn', 'Sn']",3,aflow:a541ee0810cffe1a,Co2Mn1Sn1,"['Co', 'Mn', 'Sn']",3
-mp-2352,Na2O,"['Na', 'O']",2,aflow:74c981a95255f67e,Na2O1,"['Na', 'O']",2
-mp-22916,NaBr,"['Br', 'Na']",2,aflow:81af8c617774153e,Br1Na1,"['Br', 'Na']",2
-mp-22862,NaCl,"['Cl', 'Na']",2,aflow:d0c93a9396dc599e,Cl1Na1,"['Cl', 'Na']",2
-mp-682,NaF,"['F', 'Na']",2,aflow:4590fc6b74283e3d,F1Na1,"['F', 'Na']",2
-mp-23268,NaI,"['I', 'Na']",2,aflow:484aa4aa291e7238,I1Na1,"['I', 'Na']",2
-mp-5149,NbAlCo2,"['Al', 'Co', 'Nb']",3,aflow:e3653e7c2fdd34bf,Al1Co2Nb1,"['Al', 'Co', 'Nb']",3
-mp-2083,Sn2Ir,"['Ir', 'Sn']",2,aflow:0f7397e9ad37bd23,Ir1Sn2,"['Ir', 'Sn']",2
-mp-19962,Sn2Pt,"['Pt', 'Sn']",2,aflow:ca9cdc800c9391c4,Pt1Sn2,"['Pt', 'Sn']",2
-mp-1883,SnTe,"['Sn', 'Te']",2,aflow:13e3d03ca28ef02a,Sn1Te1,"['Sn', 'Te']",2
-mp-16497,ScAlCu2,"['Al', 'Cu', 'Sc']",3,aflow:4c8b8683b4cb36a1,Al1Cu2Sc1,"['Al', 'Cu', 'Sc']",3
-mp-3791,ScCo2Sn,"['Co', 'Sc', 'Sn']",3,aflow:c935637c522664f6,Co2Sc1Sn1,"['Co', 'Sc', 'Sn']",3
-mp-549,ScSb,"['Sb', 'Sc']",2,aflow:fd0d3f1dd667d640,Sb1Sc1,"['Sb', 'Sc']",2
-mp-4897,ScSnPd2,"['Pd', 'Sc', 'Sn']",3,aflow:0ee5160408c4d9f2,Pd2Sc1Sn1,"['Pd', 'Sc', 'Sn']",3
-mp-981,SrF2,"['F', 'Sr']",2,aflow:deb58b05551cb76b,F2Sr1,"['F', 'Sr']",2
-mp-2472,SrO,"['O', 'Sr']",2,aflow:e5529db498f2af80,O1Sr1,"['O', 'Sr']",2
-mp-4771,TiAlCu2,"['Al', 'Cu', 'Ti']",3,aflow:6ea3320001d10d87,Al1Cu2Ti1,"['Al', 'Cu', 'Ti']",3
-mp-3340,TaAlCo2,"['Al', 'Co', 'Ta']",3,aflow:e422af1b9062df16,Al1Co2Ta1,"['Al', 'Co', 'Ta']",3
-mp-1086,TaC,"['C', 'Ta']",2,aflow:d2ab410fef99ea61,C1Ta1,"['C', 'Ta']",2
-mp-1086,TaC,"['C', 'Ta']",2,aflow:f7ea0322a74d7f61,C1Ta1,"['C', 'Ta']",2
-mp-1086,TaC,"['C', 'Ta']",2,aflow:fa86f8c9aa68d247,C1Ta1,"['C', 'Ta']",2
-mp-631,TiC,"['C', 'Ti']",2,aflow:dd9ba1426a59901e,C1Ti1,"['C', 'Ti']",2
-mp-21467,TiCo2Sn,"['Co', 'Sn', 'Ti']",3,aflow:bed8c7f2b91ac5b8,Co2Sn1Ti1,"['Co', 'Sn', 'Ti']",3
-mp-215,YSb,"['Sb', 'Y']",2,aflow:c4c839a3ba80c695,Sb1Y1,"['Sb', 'Y']",2
-mp-5538,YSnPd2,"['Pd', 'Sn', 'Y']",3,aflow:caa88b714d13abcc,Pd2Sn1Y1,"['Pd', 'Sn', 'Y']",3
-mp-10157,K,['K'],1,aflow:3942a1cdbcb67731,K1,['K'],1
-mp-10157,K,['K'],1,aflow:c45fd3cfd9ab3800,K1,['K'],1
-mp-8634,Mn,['Mn'],1,aflow:266a4c0484d78664,Mn1,['Mn'],1
-mp-974558,Na,['Na'],1,aflow:c3ff1f234732327a,Na1,['Na'],1
-mp-674158,P,['P'],1,aflow:57cecbf3dc26e974,P1,['P'],1
-mp-12628,Rb,['Rb'],1,aflow:a16df87dec15ee9c,Rb1,['Rb'],1
-mp-76,Sr,['Sr'],1,aflow:4f01f9799983fd51,Sr1,['Sr'],1
-mp-8638,Tc,['Tc'],1,aflow:6a87de99cc84ce75,Tc1,['Tc'],1
-mp-162,Yb,['Yb'],1,aflow:1cc72a1218ae7cc5,Yb1,['Yb'],1
-mp-122,Ba,['Ba'],1,aflow:7b2394cca289b7b1,Ba1,['Ba'],1
-mp-936,Hg4Pt,"['Hg', 'Pt']",2,aflow:1d2f797ec7f13895,Hg4Pt1,"['Hg', 'Pt']",2
-mp-91,W,['W'],1,aflow:b36865785bd06095,W1,['W'],1
-mp-568610,Bi,['Bi'],1,aflow:27bbd51ad4827863,Bi1,['Bi'],1
-mp-1,Cs,['Cs'],1,aflow:0b0765ce5f98b0d4,Cs1,['Cs'],1
-mp-1,Cs,['Cs'],1,aflow:5acbf212d1783298,Cs1,['Cs'],1
-mp-70,Rb,['Rb'],1,aflow:a16df87dec15ee9c,Rb1,['Rb'],1
-mp-95,Sr,['Sr'],1,aflow:4f01f9799983fd51,Sr1,['Sr'],1
-mp-71,Yb,['Yb'],1,aflow:1cc72a1218ae7cc5,Yb1,['Yb'],1
+﻿MP_id,MP_formula,MP_sg,MP_species,MP_NA,AFLOW_id,AFLOW_formula,AFLOW_sg,AFLOW_species,AFLOW_NA
+mp-2733,Al8Mo3,12,"['Al', 'Mo']",11,aflow:2758cc57bfa5c5ea,Al8Mo3,12,"['Al', 'Mo']",2
+mp-24082,Ta2H,21,"['H', 'Ta']",2,aflow:33d8042193c43c8f,H1Ta2,21,"['H', 'Ta']",2
+mp-5154,HoNiC2,38,"['C', 'Ho', 'Ni']",3,aflow:bc59337055eb36e8,C2Ho1Ni1,38,"['C', 'Ho', 'Ni']",3
+mp-5106,TbCoC2,38,"['C', 'Co', 'Tb']",3,aflow:ef2a772d79509a04,C2Co1Tb1,38,"['C', 'Co', 'Tb']",3
+mp-3061,TbNiC2,38,"['C', 'Ni', 'Tb']",3,aflow:d95968e06facc9bd,C2Ni1Tb1,38,"['C', 'Ni', 'Tb']",3
+mp-999088,ThCoC2,38,"['C', 'Co', 'Th']",3,aflow:e00e76841156aae9,C2Co1Th1,38,"['C', 'Co', 'Th']",3
+mp-974455,Re3Ru,44,"['Re', 'Ru']",2,aflow:e7c45a3ae6fc7c66,Re3Ru1,44,"['Re', 'Ru']",2
+mp-865166,HfPd5,65,"['Hf', 'Pd']",2,aflow:7b2d94bf10189f78,Hf1Pd5,65,"['Hf', 'Pd']",2
+mp-28629,Ta5B6,65,"['B', 'Ta']",2,aflow:9971b568135d5bf9,B6Ta5,65,"['B', 'Ta']",2
+mp-8700,K2Au3,71,"['Au', 'K']",2,aflow:6a88ba550e5d3b86,Au3K2,71,"['Au', 'K']",2
+mp-10255,Nb3B4,71,"['B', 'Nb']",2,aflow:8f41f9108042804d,B4Nb3,71,"['B', 'Nb']",2
+mp-1018151,NbPd2,71,"['Nb', 'Pd']",2,aflow:d08800926a9f9cb1,Nb1Pd2,71,"['Nb', 'Pd']",2
+mp-10142,Ta3B4,71,"['B', 'Ta']",2,aflow:be99dfb51a1405cc,B4Ta3,71,"['B', 'Ta']",2
+mp-1025170,Ti3B4,71,"['B', 'Ti']",2,aflow:9bf188e5fb78ea9c,B4Ti3,71,"['B', 'Ti']",2
+mp-569270,V3B4,71,"['B', 'V']",2,aflow:da95f17820b9c395,B4V3,71,"['B', 'V']",2
+mp-952,MoPt2,71,"['Mo', 'Pt']",3,aflow:cdbe97e96d2d1cf1,Mo1Pt2,71,"['Mo', 'Pt']",2
+mp-11514,NbPt2,71,"['Nb', 'Pt']",3,aflow:64e5939b95330a2f,Nb1Pt2,71,"['Nb', 'Pt']",2
+mp-30835,TaPd2,71,"['Pd', 'Ta']",3,aflow:1311b90ba3307354,Pd2Ta1,71,"['Pd', 'Ta']",2
+mp-7909,Al2CdTe4,82,"['Al', 'Cd', 'Te']",3,aflow:74c0b1109069d665,Al2Cd1Te4,82,"['Al', 'Cd', 'Te']",3
+mp-7910,Al2HgTe4,82,"['Al', 'Hg', 'Te']",3,aflow:9ac7d0ab226ef604,Al2Hg1Te4,82,"['Al', 'Hg', 'Te']",3
+mp-7908,Al2ZnTe4,82,"['Al', 'Te', 'Zn']",3,aflow:f271f31b7b56d2c5,Al2Te4Zn1,82,"['Al', 'Te', 'Zn']",3
+mp-16337,Ga2HgTe4,82,"['Ga', 'Hg', 'Te']",3,aflow:8a1c8954bd7a16a8,Ga2Hg1Te4,82,"['Ga', 'Hg', 'Te']",3
+mp-1743,Mo5As4,87,"['As', 'Mo']",2,aflow:9058b69a69cdda4b,As4Mo5,87,"['As', 'Mo']",2
+mp-1743,Mo5As4,87,"['As', 'Mo']",2,aflow:af60a19ee4cb3953,As4Mo5,87,"['As', 'Mo']",2
+mp-12635,TiAu4,87,"['Au', 'Ti']",5,aflow:f3528bce37f6d71f,Au4Ti1,87,"['Au', 'Ti']",2
+mp-2598,Ta5Sb4,87,"['Sb', 'Ta']",9,aflow:c51285e5e6e00f21,Sb4Ta5,87,"['Sb', 'Ta']",2
+mp-1069604,CaSi3Pt,107,"['Ca', 'Pt', 'Si']",3,aflow:4b5f9e4adb19ff87,Ca1Pt1Si3,107,"['Ca', 'Pt', 'Si']",3
+mp-22346,BaGe3Pt,107,"['Ba', 'Ge', 'Pt']",3,aflow:0869312088931792,Ba1Ge3Pt1,107,"['Ba', 'Ge', 'Pt']",3
+mp-11879,BaNiSn3,107,"['Ba', 'Ni', 'Sn']",3,aflow:a98fc872dd915b7f,Ba1Ni1Sn3,107,"['Ba', 'Ni', 'Sn']",3
+mp-11269,BaSn3Pd,107,"['Ba', 'Pd', 'Sn']",3,aflow:156ede75c61452f5,Ba1Pd1Sn3,107,"['Ba', 'Pd', 'Sn']",3
+mp-30433,BaSn3Pt,107,"['Ba', 'Pt', 'Sn']",3,aflow:131e8de7e237a3e8,Ba1Pt1Sn3,107,"['Ba', 'Pt', 'Sn']",3
+mp-2914,LaSi3Ir,107,"['Ir', 'La', 'Si']",3,aflow:cb23330d734db36f,Ir1La1Si3,107,"['Ir', 'La', 'Si']",3
+mp-30834,SrSn3Pd,107,"['Pd', 'Sn', 'Sr']",3,aflow:6c37e0e2ec89b24a,Pd1Sn3Sr1,107,"['Pd', 'Sn', 'Sr']",3
+mp-978987,SrGe3Pd,107,"['Ge', 'Pd', 'Sr']",3,aflow:74cfc4a2106e68da,Ge3Pd1Sr1,107,"['Ge', 'Pd', 'Sr']",3
+mp-8311,Si3NiP4,121,"['Ni', 'P', 'Si']",3,aflow:57eda7013d19d919,Ni1P4Si3,121,"['Ni', 'P', 'Si']",3
+mp-20034,CaPb,123,"['Ca', 'Pb']",2,aflow:92d8c47bba9fe7a3,Ca1Pb1,123,"['Ca', 'Pb']",2
+mp-1025311,CdAsPt5,123,"['As', 'Cd', 'Pt']",3,aflow:09ce06dcdb3ef9e0,As1Cd1Pt5,123,"['As', 'Cd', 'Pt']",3
+mp-1025187,CdPPt5,123,"['Cd', 'P', 'Pt']",3,aflow:c07cb317ee589630,Cd1P1Pt5,123,"['Cd', 'P', 'Pt']",3
+mp-505517,BaNb4O6,123,"['Ba', 'Nb', 'O']",3,aflow:dfd1cf4ad506de91,Ba1Nb4O6,123,"['Ba', 'Nb', 'O']",3
+mp-11359,Ga2Cu,123,"['Cu', 'Ga']",2,aflow:9c568924a7b67651,Cu1Ga2,123,"['Cu', 'Ga']",2
+mp-644280,GaCuPt2,123,"['Cu', 'Ga', 'Pt']",3,aflow:be4da014690a3d11,Cu1Ga1Pt2,123,"['Cu', 'Ga', 'Pt']",3
+mp-1025270,GaPPt5,123,"['Ga', 'P', 'Pt']",3,aflow:25528b361849601b,Ga1P1Pt5,123,"['Ga', 'P', 'Pt']",3
+mp-1025302,HgPPd5,123,"['Hg', 'P', 'Pd']",3,aflow:d047bbe542b179c3,Hg1P1Pd5,123,"['Hg', 'P', 'Pd']",3
+mp-1025212,InAsPt5,123,"['As', 'In', 'Pt']",3,aflow:9a904c0549818196,As1In1Pt5,123,"['As', 'In', 'Pt']",3
+mp-1025161,InPPd5,123,"['In', 'P', 'Pd']",3,aflow:2a1ee1e12784c93d,In1P1Pd5,123,"['In', 'P', 'Pd']",3
+mp-1025213,InPPt5,123,"['In', 'P', 'Pt']",3,aflow:0558951a7db02a0b,In1P1Pt5,123,"['In', 'P', 'Pt']",3
+mp-1025370,InSiPt5,123,"['In', 'Pt', 'Si']",3,aflow:8bc3f85e7c49bcd2,In1Pt5Si1,123,"['In', 'Pt', 'Si']",3
+mp-865146,MgAsPt5,123,"['As', 'Mg', 'Pt']",3,aflow:1cf082788321992c,As1Mg1Pt5,123,"['As', 'Mg', 'Pt']",3
+mp-1025261,MgPPd5,123,"['Mg', 'P', 'Pd']",3,aflow:3301d0c6f9cfb671,Mg1P1Pd5,123,"['Mg', 'P', 'Pd']",3
+mp-15780,MgPPt5,123,"['Mg', 'P', 'Pt']",3,aflow:633c61cbece8044f,Mg1P1Pt5,123,"['Mg', 'P', 'Pt']",3
+mp-22924,NaBi,123,"['Bi', 'Na']",2,aflow:d3618ed7c3ce4ee7,Bi1Na1,123,"['Bi', 'Na']",2
+mp-945,NiPt,123,"['Ni', 'Pt']",2,aflow:660d210acd5499cc,Ni1Pt1,123,"['Ni', 'Pt']",2
+mp-29889,Tl2PdCl4,123,"['Cl', 'Pd', 'Tl']",3,aflow:84d743b78ac98ce6,Cl4Pd1Tl2,123,"['Cl', 'Pd', 'Tl']",3
+mp-11873,TlAsPd5,123,"['As', 'Pd', 'Tl']",3,aflow:cb4224749669c8a3,As1Pd5Tl1,123,"['As', 'Pd', 'Tl']",3
+mp-1025348,TlPPd5,123,"['P', 'Pd', 'Tl']",3,aflow:93eea2d34ba1512c,P1Pd5Tl1,123,"['P', 'Pd', 'Tl']",3
+mp-1025356,ZnAsPt5,123,"['As', 'Pt', 'Zn']",3,aflow:5db348e13594ac27,As1Pt5Zn1,123,"['As', 'Pt', 'Zn']",3
+mp-429,ZnNi,123,"['Ni', 'Zn']",2,aflow:48827b3227344479,Ni1Zn1,123,"['Ni', 'Zn']",2
+mp-1025272,ZnPPt5,123,"['P', 'Pt', 'Zn']",3,aflow:9ab0972f231a4427,P1Pt5Zn1,123,"['P', 'Pt', 'Zn']",3
+mp-1696,CdPd,123,"['Cd', 'Pd']",2,aflow:108d4b907ff03a21,Cd1Pd1,123,"['Cd', 'Pd']",2
+mp-1194,CdPt,123,"['Cd', 'Pt']",2,aflow:685ad71b4f7bc14f,Cd1Pt1,123,"['Cd', 'Pt']",2
+mp-11870,Hg2Rh,123,"['Hg', 'Rh']",3,aflow:734548737c6aa01c,Hg2Rh1,123,"['Hg', 'Rh']",2
+mp-2685,HgPd,123,"['Hg', 'Pd']",2,aflow:80c1aa22035c5210,Hg1Pd1,123,"['Hg', 'Pd']",2
+mp-1670,MnPt,123,"['Mn', 'Pt']",2,aflow:2853d0b5425aef23,Mn1Pt1,123,"['Mn', 'Pt']",2
+mp-1359,NbIr,123,"['Ir', 'Nb']",2,aflow:d11e5747fb179dd4,Ir1Nb1,123,"['Ir', 'Nb']",2
+mp-1963,NbRh,123,"['Nb', 'Rh']",2,aflow:6672c8d58bf571b2,Nb1Rh1,123,"['Nb', 'Rh']",2
+mp-1953,TiAl,123,"['Al', 'Ti']",2,aflow:24f9d0cd72c1f0e5,Al1Ti1,123,"['Al', 'Ti']",2
+mp-1235,TiIr,123,"['Ir', 'Ti']",2,aflow:2de2986ed2aaa8f8,Ir1Ti1,123,"['Ir', 'Ti']",2
+mp-30493,ZnCdPt2,123,"['Cd', 'Pt', 'Zn']",4,aflow:d43fa03e0143372f,Cd1Pt2Zn1,123,"['Cd', 'Pt', 'Zn']",3
+mp-1652,ZnPd,123,"['Pd', 'Zn']",2,aflow:f4d5b4f82bfad53e,Pd1Zn1,123,"['Pd', 'Zn']",2
+mp-894,ZnPt,123,"['Pt', 'Zn']",2,aflow:5d94f15ba424becd,Pt1Zn1,123,"['Pt', 'Zn']",2
+mp-1018166,AlTc2,139,"['Al', 'Tc']",2,aflow:2333c0f263184005,Al1Tc2,139,"['Al', 'Tc']",2
+mp-8818,Ca2ZnN2,139,"['Ca', 'N', 'Zn']",3,aflow:40c9a9dbe6d94437,Ca2N2Zn1,139,"['Ca', 'N', 'Zn']",3
+mp-1903,BaAl4,139,"['Al', 'Ba']",2,aflow:089db02d79e92ef6,Al4Ba1,139,"['Al', 'Ba']",2
+mp-335,BaGa4,139,"['Ba', 'Ga']",2,aflow:c67b818b8f839e87,Ba1Ga4,139,"['Ba', 'Ga']",2
+mp-22687,BaIn4,139,"['Ba', 'In']",2,aflow:348b8fa1616f2ea1,Ba1In4,139,"['Ba', 'In']",2
+mp-552098,Bi2SeO2,139,"['Bi', 'O', 'Se']",3,aflow:bd39fcd8abd8e251,Bi2O2Se1,139,"['Bi', 'O', 'Se']",3
+mp-8093,Ba2Cd,139,"['Ba', 'Cd']",2,aflow:0bc4e2ff418c3658,Ba2Cd1,139,"['Ba', 'Cd']",2
+mp-9321,Ba2HfS4,139,"['Ba', 'Hf', 'S']",3,aflow:ba6be901fe06b58d,Ba2Hf1S4,139,"['Ba', 'Hf', 'S']",3
+mp-8094,Ba2Hg,139,"['Ba', 'Hg']",2,aflow:5d5d9f727e2fbf3a,Ba2Hg1,139,"['Ba', 'Hg']",2
+mp-9307,Ba2ZnN2,139,"['Ba', 'N', 'Zn']",3,aflow:8fd289702e4f6b8f,Ba2N2Zn1,139,"['Ba', 'N', 'Zn']",3
+mp-8335,Ba2ZrO4,139,"['Ba', 'O', 'Zr']",3,aflow:cc9a5a5a57fa9414,Ba2O4Zr1,139,"['Ba', 'O', 'Zr']",3
+mp-8937,CrSi2,139,"['Cr', 'Si']",2,aflow:6fac4436ce11af4d,Cr1Si2,139,"['Cr', 'Si']",2
+mp-30339,ErAg2,139,"['Ag', 'Er']",2,aflow:f19f7d6d2d7a3b7f,Ag2Er1,139,"['Ag', 'Er']",2
+mp-2466,ErAu2,139,"['Au', 'Er']",2,aflow:4526d8f300eaf61a,Au2Er1,139,"['Au', 'Er']",2
+mp-2618,DyAg2,139,"['Ag', 'Dy']",2,aflow:7b84ba6979e466a2,Ag2Dy1,139,"['Ag', 'Dy']",2
+mp-13155,Hf2Ag,139,"['Ag', 'Hf']",2,aflow:bbfa0d883212ae9f,Ag1Hf2,139,"['Ag', 'Hf']",2
+mp-1018154,Hf2Hg,139,"['Hf', 'Hg']",2,aflow:f85891c2a99e5be2,Hf2Hg1,139,"['Hf', 'Hg']",2
+mp-1014231,Hf2Zn,139,"['Hf', 'Zn']",2,aflow:8edb02477ff643e9,Hf2Zn1,139,"['Hf', 'Zn']",2
+mp-11387,HfGa3,139,"['Ga', 'Hf']",2,aflow:a9053c964a25e231,Ga3Hf1,139,"['Ga', 'Hf']",2
+mp-27731,HfH2,139,"['H', 'Hf']",2,aflow:68396dc8ff75fb17,H2Hf1,139,"['H', 'Hf']",2
+mp-2120,HoAg2,139,"['Ag', 'Ho']",2,aflow:b76039d9d889a419,Ag2Ho1,139,"['Ag', 'Ho']",2
+mp-990,HoAu2,139,"['Au', 'Ho']",2,aflow:61be49548ff7b362,Au2Ho1,139,"['Au', 'Ho']",2
+mp-27207,K2MgCl4,139,"['Cl', 'K', 'Mg']",3,aflow:88d04db0ca52280a,Cl4K2Mg1,139,"['Cl', 'K', 'Mg']",3
+mp-31212,K2MgF4,139,"['F', 'K', 'Mg']",3,aflow:2bc02570aae29c7c,F4K2Mg1,139,"['F', 'K', 'Mg']",3
+mp-9583,K2ZnF4,139,"['F', 'K', 'Zn']",3,aflow:55285999858648e4,F4K2Zn1,139,"['F', 'K', 'Zn']",3
+mp-2367,LaC2,139,"['C', 'La']",2,aflow:235e67dbb6942937,C2La1,139,"['C', 'La']",2
+mp-12716,LiTlPd2,139,"['Li', 'Pd', 'Tl']",3,aflow:1c331e13da810623,Li1Pd2Tl1,139,"['Li', 'Pd', 'Tl']",3
+mp-5072,Rb2HgO2,139,"['Hg', 'O', 'Rb']",3,aflow:62d74a601aac5fea,Hg1O2Rb2,139,"['Hg', 'O', 'Rb']",3
+mp-8861,Rb2MgF4,139,"['F', 'Mg', 'Rb']",3,aflow:4d347c2e6d4e5228,F4Mg1Rb2,139,"['F', 'Mg', 'Rb']",3
+mp-10343,Sc2BC2,139,"['B', 'C', 'Sc']",3,aflow:a784a9c254d3c96e,B1C2Sc2,139,"['B', 'C', 'Sc']",3
+mp-1018128,ScAg2,139,"['Ag', 'Sc']",2,aflow:efede5d94aeda377,Ag2Sc1,139,"['Ag', 'Sc']",2
+mp-1018148,ScAu2,139,"['Au', 'Sc']",2,aflow:810fafde07d827ec,Au2Sc1,139,"['Au', 'Sc']",2
+mp-1018149,ScCu2,139,"['Cu', 'Sc']",2,aflow:b3e48f3f8939997d,Cu2Sc1,139,"['Cu', 'Sc']",2
+mp-16036,Tb2TeO2,139,"['O', 'Tb', 'Te']",3,aflow:64014758907b8038,O2Tb2Te1,139,"['O', 'Tb', 'Te']",3
+mp-30358,TbAg2,139,"['Ag', 'Tb']",2,aflow:ce620ffad6e99ca9,Ag2Tb1,139,"['Ag', 'Tb']",2
+mp-570179,TbAu2,139,"['Au', 'Tb']",2,aflow:d747bd4ffc1c3a31,Au2Tb1,139,"['Au', 'Tb']",2
+mp-2119,TbC2,139,"['C', 'Tb']",2,aflow:d97a0bdb9ebbf74f,C2Tb1,139,"['C', 'Tb']",2
+mp-7523,Th2TeN2,139,"['N', 'Te', 'Th']",3,aflow:4d95fa3c731857a2,N2Te1Th2,139,"['N', 'Te', 'Th']",3
+mp-24291,ThH2,139,"['H', 'Th']",2,aflow:d93c48d123874c8a,H2Th1,139,"['H', 'Th']",2
+mp-979115,Ti2Ag,139,"['Ag', 'Ti']",2,aflow:cd218b45a20c9d02,Ag1Ti2,139,"['Ag', 'Ti']",2
+mp-1018124,Ti2Rh,139,"['Rh', 'Ti']",2,aflow:97205066b95a758f,Rh1Ti2,139,"['Rh', 'Ti']",2
+mp-1014229,Ti2Zn,139,"['Ti', 'Zn']",2,aflow:5041054f48131a6f,Ti2Zn1,139,"['Ti', 'Zn']",2
+mp-9306,Sr2ZnN2,139,"['N', 'Sr', 'Zn']",3,aflow:7360abaaae420e0c,N2Sr2Zn1,139,"['N', 'Sr', 'Zn']",3
+mp-1827,SrGa4,139,"['Ga', 'Sr']",2,aflow:942bb28649d360da,Ga4Sr1,139,"['Ga', 'Sr']",2
+mp-2697,SrO2,139,"['O', 'Sr']",2,aflow:3a8b7ba885be1cf7,O2Sr1,139,"['O', 'Sr']",2
+mp-1008617,YbAg2,139,"['Ag', 'Yb']",2,aflow:8e92a5daf4083c8c,Ag2Yb1,139,"['Ag', 'Yb']",2
+mp-2221,Zr2Ag,139,"['Ag', 'Zr']",2,aflow:0096426c57ae3f16,Ag1Zr2,139,"['Ag', 'Zr']",2
+mp-2348,Zr2Au,139,"['Au', 'Zr']",2,aflow:b7be5681f4e86792,Au1Zr2,139,"['Au', 'Zr']",2
+mp-1018104,Zr2Cd,139,"['Cd', 'Zr']",2,aflow:a41ed4d2c3fc119a,Cd1Zr2,139,"['Cd', 'Zr']",2
+mp-193,Zr2Cu,139,"['Cu', 'Zr']",2,aflow:d7cf31af15fb72a8,Cu1Zr2,139,"['Cu', 'Zr']",2
+mp-266,Zr2Pd,139,"['Pd', 'Zr']",2,aflow:0262e761a2b03f0f,Pd1Zr2,139,"['Pd', 'Zr']",2
+mp-24286,ZrH2,139,"['H', 'Zr']",2,aflow:d0e80731a317f7d6,H2Zr1,139,"['H', 'Zr']",2
+mp-570578,ZrIn3,139,"['In', 'Zr']",2,aflow:0637de345cdce557,In3Zr1,139,"['In', 'Zr']",2
+mp-7188,Al2Os,139,"['Al', 'Os']",3,aflow:31dd23ac86927f7a,Al2Os1,139,"['Al', 'Os']",2
+mp-2554,Al3V,139,"['Al', 'V']",4,aflow:dd93dda0b9957fba,Al3V1,139,"['Al', 'V']",2
+mp-10909,AlRe2,139,"['Al', 'Re']",3,aflow:ed75ba31d09c3ba7,Al1Re2,139,"['Al', 'Re']",2
+mp-1105,BaO2,139,"['Ba', 'O']",3,aflow:46261cca37eaf3ba,Ba1O2,139,"['Ba', 'O']",2
+mp-12761,BeAu2,139,"['Au', 'Be']",3,aflow:da9e30cd2712e2a0,Au2Be1,139,"['Au', 'Be']",2
+mp-13452,BePd2,139,"['Be', 'Pd']",3,aflow:859d0f1b6c94e526,Be1Pd2,139,"['Be', 'Pd']",2
+mp-30383,Hf2Au,139,"['Au', 'Hf']",3,aflow:b9aa9e3ae8a13d37,Au1Hf2,139,"['Au', 'Hf']",2
+mp-30581,Hf2Cu,139,"['Cu', 'Hf']",3,aflow:60bae3d49726c297,Cu1Hf2,139,"['Cu', 'Hf']",2
+mp-11454,Hf2Pd,139,"['Hf', 'Pd']",3,aflow:7dc34f909dee2c1f,Hf2Pd1,139,"['Hf', 'Pd']",2
+mp-568718,HfAl3,139,"['Al', 'Hf']",4,aflow:c4358a51c19fcdd9,Al3Hf1,139,"['Al', 'Hf']",2
+mp-12693,Mg2Rh,139,"['Mg', 'Rh']",3,aflow:d225fa42d1b8aadd,Mg2Rh1,139,"['Mg', 'Rh']",2
+mp-11252,MnAu2,139,"['Au', 'Mn']",3,aflow:34b1e81ce8d9666d,Au2Mn1,139,"['Au', 'Mn']",2
+mp-2123,Nb3Au2,139,"['Au', 'Nb']",5,aflow:3a36523e268b82dc,Au2Nb3,139,"['Au', 'Nb']",2
+mp-1842,NbAl3,139,"['Al', 'Nb']",4,aflow:23f797ad294f2dfc,Al3Nb1,139,"['Al', 'Nb']",2
+mp-2592,Si2Mo,139,"['Mo', 'Si']",3,aflow:884e7137b28e7dbf,Mo1Si2,139,"['Mo', 'Si']",2
+mp-1620,Si2W,139,"['Si', 'W']",3,aflow:2d039e1be6afed3b,Si2W1,139,"['Si', 'W']",2
+mp-1299,SiPt2,139,"['Pt', 'Si']",3,aflow:3ea0d57ff7b5eec3,Pt2Si1,139,"['Pt', 'Si']",2
+mp-742,Ti2Cu,139,"['Cu', 'Ti']",3,aflow:102ebc4a73bc6c10,Cu1Ti2,139,"['Cu', 'Ti']",2
+mp-13164,Ti2Pd,139,"['Pd', 'Ti']",3,aflow:36d63ab952f0878a,Pd1Ti2,139,"['Pd', 'Ti']",2
+mp-869,TaAl3,139,"['Al', 'Ta']",4,aflow:75c784b9418b08b5,Al3Ta1,139,"['Al', 'Ta']",2
+mp-30836,TaPd3,139,"['Pd', 'Ta']",4,aflow:e3a096724df20a7e,Pd3Ta1,139,"['Pd', 'Ta']",2
+mp-11397,Ga3Ni2,164,"['Ga', 'Ni']",2,aflow:364819176d015d5e,Ga3Ni2,164,"['Ga', 'Ni']",2
+mp-21385,In3Ni2,164,"['In', 'Ni']",2,aflow:6e69637536c49b52,In3Ni2,164,"['In', 'Ni']",2
+mp-510437,In3Pd2,164,"['In', 'Pd']",2,aflow:d6c99e9be3bdcc51,In3Pd2,164,"['In', 'Pd']",2
+mp-1057,Al3Ni2,164,"['Al', 'Ni']",5,aflow:77177d4fd54105fc,Al3Ni2,164,"['Al', 'Ni']",2
+mp-505825,Cs2PtC2,164,"['C', 'Cs', 'Pt']",5,aflow:76e523ddd6535395,C2Cs2Pt1,164,"['C', 'Cs', 'Pt']",3
+mp-997617,BOs,187,"['B', 'Os']",2,aflow:b771a4d99e7ddec1,B1Os1,187,"['B', 'Os']",2
+mp-13272,BaAlGe,187,"['Al', 'Ba', 'Ge']",3,aflow:e5990f43d042239c,Al1Ba1Ge1,187,"['Al', 'Ba', 'Ge']",3
+mp-13149,BaAlSi,187,"['Al', 'Ba', 'Si']",3,aflow:0655bb1b738565e8,Al1Ba1Si1,187,"['Al', 'Ba', 'Si']",3
+mp-9744,BaAsPd,187,"['As', 'Ba', 'Pd']",3,aflow:df8b242db1e5fd9c,As1Ba1Pd1,187,"['As', 'Ba', 'Pd']",3
+mp-10616,BaLiAs,187,"['As', 'Ba', 'Li']",3,aflow:bdef8ab58e76c7a6,As1Ba1Li1,187,"['As', 'Ba', 'Li']",3
+mp-8606,BaSbPt,187,"['Ba', 'Pt', 'Sb']",3,aflow:28000e3a3774b90a,Ba1Pt1Sb1,187,"['Ba', 'Pt', 'Sb']",3
+mp-570677,Ba5Al5Sn,187,"['Al', 'Ba', 'Sn']",3,aflow:f9a0597b79f95701,Al5Ba5Sn1,187,"['Al', 'Ba', 'Sn']",3
+mp-16326,DyPPt,187,"['Dy', 'P', 'Pt']",3,aflow:f8e0aa93cf029501,Dy1P1Pt1,187,"['Dy', 'P', 'Pt']",3
+mp-24012,HoHSe,187,"['H', 'Ho', 'Se']",3,aflow:4c9a161d83bde5ee,H1Ho1Se1,187,"['H', 'Ho', 'Se']",3
+mp-219,MoP,187,"['Mo', 'P']",2,aflow:74c1c2f9814eded1,Mo1P1,187,"['Mo', 'P']",2
+mp-2634,NbN,187,"['N', 'Nb']",2,aflow:844b105937307111,N1Nb1,187,"['N', 'Nb']",2
+mp-974435,Re3N,187,"['N', 'Re']",2,aflow:f2647fd7e3481cc1,N1Re3,187,"['N', 'Re']",2
+mp-7168,TbPPt,187,"['P', 'Pt', 'Tb']",3,aflow:6c40cee89570a778,P1Pt1Tb1,187,"['P', 'Pt', 'Tb']",3
+mp-1017987,Tc3N,187,"['N', 'Tc']",2,aflow:4fd0dd6e94fc881e,N1Tc3,187,"['N', 'Tc']",2
+mp-9164,ThSiAu,187,"['Au', 'Si', 'Th']",3,aflow:8268c40e2a307c24,Au1Si1Th1,187,"['Au', 'Si', 'Th']",3
+mp-13311,SrAlGe,187,"['Al', 'Ge', 'Sr']",3,aflow:f573f77ca303f0e2,Al1Ge1Sr1,187,"['Al', 'Ge', 'Sr']",3
+mp-3698,SrAlSi,187,"['Al', 'Si', 'Sr']",3,aflow:8023faf5b757d0b6,Al1Si1Sr1,187,"['Al', 'Si', 'Sr']",3
+mp-1018028,TiS,187,"['S', 'Ti']",2,aflow:d8a5fb5a8ab18a87,S1Ti1,187,"['S', 'Ti']",2
+mp-28797,YHSe,187,"['H', 'Se', 'Y']",3,aflow:4bec122528e460be,H1Se1Y1,187,"['H', 'Se', 'Y']",3
+mp-16304,YPPt,187,"['P', 'Pt', 'Y']",3,aflow:7e4e5d0b03591281,P1Pt1Y1,187,"['P', 'Pt', 'Y']",3
+mp-1018027,VN,187,"['N', 'V']",2,aflow:aa89372868af03a8,N1V1,187,"['N', 'V']",2
+mp-1539,ZrTe,187,"['Te', 'Zr']",2,aflow:69a50dc8799998f2,Te1Zr1,187,"['Te', 'Zr']",2
+mp-567191,CaAlSi,187,"['Al', 'Ca', 'Si']",3,aflow:a2be57f97c3c3734,Al1Ca1Si1,187,"['Al', 'Ca', 'Si']",3
+mp-279,LiIr,187,"['Ir', 'Li']",2,aflow:e0125a96febb0b43,Ir1Li1,187,"['Ir', 'Li']",2
+mp-2744,LiPd,187,"['Li', 'Pd']",2,aflow:e123a44c21938b32,Li1Pd1,187,"['Li', 'Pd']",2
+mp-11807,LiPt,187,"['Li', 'Pt']",2,aflow:bb2e3ff52beb121c,Li1Pt1,187,"['Li', 'Pt']",2
+mp-2305,MoC,187,"['C', 'Mo']",2,aflow:877b232d6378c18e,C1Mo1,187,"['C', 'Mo']",2
+mp-1894,WC,187,"['C', 'W']",2,aflow:feb595dc9ca641a2,C1W1,187,"['C', 'W']",2
+mp-23039,Er6MnBi2,189,"['Bi', 'Er', 'Mn']",3,aflow:01481e25e4e09b70,Bi2Er6Mn1,189,"['Bi', 'Er', 'Mn']",3
+mp-31383,Hf6CoBi2,189,"['Bi', 'Co', 'Hf']",3,aflow:2582fcb8a8d0c226,Bi2Co1Hf6,189,"['Bi', 'Co', 'Hf']",3
+mp-10446,Sc6NiTe2,189,"['Ni', 'Sc', 'Te']",3,aflow:e613bbb42012d1ca,Ni1Sc6Te2,189,"['Ni', 'Sc', 'Te']",3
+mp-4720,Si2Ni6B,189,"['B', 'Ni', 'Si']",3,aflow:d5bcd95c472ed381,B1Ni6Si2,189,"['B', 'Ni', 'Si']",3
+mp-11073,Ti3In3Rh2,189,"['In', 'Rh', 'Ti']",3,aflow:4cc572d096054a5e,In3Rh2Ti3,189,"['In', 'Rh', 'Ti']",3
+mp-12760,Zr6Al2Co,189,"['Al', 'Co', 'Zr']",3,aflow:234f20d1a182fcd9,Al2Co1Zr6,189,"['Al', 'Co', 'Zr']",3
+mp-12962,Zr6FeSb2,189,"['Fe', 'Sb', 'Zr']",3,aflow:348433ef9c1b5e36,Fe1Sb2Zr6,189,"['Fe', 'Sb', 'Zr']",3
+mp-9381,Zr6FeTe2,189,"['Fe', 'Te', 'Zr']",3,aflow:57369194a17abdd8,Fe1Te2Zr6,189,"['Fe', 'Te', 'Zr']",3
+mp-22167,Zr6Ga2Co,189,"['Co', 'Ga', 'Zr']",3,aflow:45f4f2d78448eed1,Co1Ga2Zr6,189,"['Co', 'Ga', 'Zr']",3
+mp-12972,Zr6Sb2Pt,189,"['Pt', 'Sb', 'Zr']",3,aflow:64c3e0cc2134a59d,Pt1Sb2Zr6,189,"['Pt', 'Sb', 'Zr']",3
+mp-11593,CeB2Ir3,191,"['B', 'Ce', 'Ir']",3,aflow:13d4d51cec45ebe0,B2Ce1Ir3,191,"['B', 'Ce', 'Ir']",3
+mp-30363,BaAu2,191,"['Au', 'Ba']",2,aflow:822ff35409e2f917,Au2Ba1,191,"['Au', 'Ba']",2
+mp-1219,BaGa2,191,"['Ba', 'Ga']",2,aflow:2a8d0966bfe7ee51,Ba1Ga2,191,"['Ba', 'Ga']",2
+mp-811,BaPt5,191,"['Ba', 'Pt']",2,aflow:366eba3176381355,Ba1Pt5,191,"['Ba', 'Pt']",2
+mp-30621,DySi2Rh3,191,"['Dy', 'Rh', 'Si']",3,aflow:35f0695ac31d122e,Dy1Rh3Si2,191,"['Dy', 'Rh', 'Si']",3
+mp-11294,DyCd2,191,"['Cd', 'Dy']",2,aflow:ff3dd9800f8a9a53,Cd2Dy1,191,"['Cd', 'Dy']",2
+mp-1025223,Hf4Al3,191,"['Al', 'Hf']",2,aflow:adf8044883f8c0a1,Al3Hf4,191,"['Al', 'Hf']",2
+mp-1994,HfB2,191,"['B', 'Hf']",2,aflow:09457595b027e910,B2Hf1,191,"['B', 'Hf']",2
+mp-11301,HoCd2,191,"['Cd', 'Ho']",2,aflow:43169bfefe524ff3,Cd2Ho1,191,"['Cd', 'Ho']",2
+mp-1256,HoGa2,191,"['Ga', 'Ho']",2,aflow:ffaebd8498b9c195,Ga2Ho1,191,"['Ga', 'Ho']",2
+mp-571071,HoSi2Rh3,191,"['Ho', 'Rh', 'Si']",3,aflow:1fa8019c0a1f2bd6,Ho1Rh3Si2,191,"['Ho', 'Rh', 'Si']",3
+mp-30815,LaAl3Pd2,191,"['Al', 'La', 'Pd']",3,aflow:026d6e08c98dbea7,Al3La1Pd2,191,"['Al', 'La', 'Pd']",3
+mp-30753,LaPd5,191,"['La', 'Pd']",2,aflow:c4a92728a41cbf95,La1Pd5,191,"['La', 'Pd']",2
+mp-1832,LaPt5,191,"['La', 'Pt']",2,aflow:07ca124e3b54ff2e,La1Pt5,191,"['La', 'Pt']",2
+mp-763,MgB2,191,"['B', 'Mg']",2,aflow:e2edff877e89347a,B2Mg1,191,"['B', 'Mg']",2
+mp-1140,NdCu5,191,"['Cu', 'Nd']",2,aflow:7f5f2aeb8ddd6aa8,Cu5Nd1,191,"['Cu', 'Nd']",2
+mp-1209,RbAu5,191,"['Au', 'Rb']",2,aflow:b42654f8412d6a9c,Au5Rb1,191,"['Au', 'Rb']",2
+mp-2252,ScB2,191,"['B', 'Sc']",2,aflow:1d788038cb5c444e,B2Sc1,191,"['B', 'Sc']",2
+mp-1108,TaB2,191,"['B', 'Ta']",2,aflow:51ca76509e4c5699,B2Ta1,191,"['B', 'Ta']",2
+mp-3186,TbB2Ru3,191,"['B', 'Ru', 'Tb']",3,aflow:81b1ef3fc2ca4c55,B2Ru3Tb1,191,"['B', 'Ru', 'Tb']",3
+mp-30497,TbCd2,191,"['Cd', 'Tb']",2,aflow:3ae9b6702a187c81,Cd2Tb1,191,"['Cd', 'Tb']",2
+mp-309,ThAg2,191,"['Ag', 'Th']",2,aflow:2f4b7a92fe4f70ca,Ag2Th1,191,"['Ag', 'Th']",2
+mp-669,ThAl2,191,"['Al', 'Th']",2,aflow:61bdf403b2bb8c80,Al2Th1,191,"['Al', 'Th']",2
+mp-30182,ThAl3Ni2,191,"['Al', 'Ni', 'Th']",3,aflow:5d3a891d1341c11f,Al3Ni2Th1,191,"['Al', 'Ni', 'Th']",3
+mp-1025,ThAu2,191,"['Au', 'Th']",2,aflow:d4fcfa0bda62b2b6,Au2Th1,191,"['Au', 'Th']",2
+mp-10115,ThB2Ir3,191,"['B', 'Ir', 'Th']",3,aflow:8abcebb53cd250d1,B2Ir3Th1,191,"['B', 'Ir', 'Th']",3
+mp-7497,ThSi2,191,"['Si', 'Th']",2,aflow:01f2970f2341e9d8,Si2Th1,191,"['Si', 'Th']",2
+mp-16491,SrAl9Co2,191,"['Al', 'Co', 'Sr']",3,aflow:4e1bfd5c51c6e7ab,Al9Co2Sr1,191,"['Al', 'Co', 'Sr']",3
+mp-1542,YB2,191,"['B', 'Y']",2,aflow:7ca6e19f28095b86,B2Y1,191,"['B', 'Y']",2
+mp-1914,YGa2,191,"['Ga', 'Y']",2,aflow:5d9027af1fa5b7fc,Ga2Y1,191,"['Ga', 'Y']",2
+mp-1491,VB2,191,"['B', 'V']",2,aflow:75a24ef7ad5fbf92,B2V1,191,"['B', 'V']",2
+mp-12752,Zr4Al3,191,"['Al', 'Zr']",2,aflow:78d63eb4195e54d7,Al3Zr4,191,"['Al', 'Zr']",2
+mp-1472,ZrB2,191,"['B', 'Zr']",2,aflow:08bf56bf0b207b22,B2Zr1,191,"['B', 'Zr']",2
+mp-11826,CaPd5,191,"['Ca', 'Pd']",6,aflow:85667eac3cb94c67,Ca1Pd5,191,"['Ca', 'Pd']",2
+mp-30481,CaPt5,191,"['Ca', 'Pt']",6,aflow:2bb0506c225e68cb,Ca1Pt5,191,"['Ca', 'Pt']",2
+mp-2025,HfBe5,191,"['Be', 'Hf']",6,aflow:9935daabda2d9ae8,Be5Hf1,191,"['Be', 'Hf']",2
+mp-728,Li2Pd,191,"['Li', 'Pd']",3,aflow:39fbb25ad81ea9a5,Li2Pd1,191,"['Li', 'Pd']",2
+mp-2170,Li2Pt,191,"['Li', 'Pt']",3,aflow:60bb980c6872ba9f,Li2Pt1,191,"['Li', 'Pt']",2
+mp-1606,NbAu2,191,"['Au', 'Nb']",3,aflow:03e66c089b82497c,Au2Nb1,191,"['Au', 'Nb']",2
+mp-11277,ScBe5,191,"['Be', 'Sc']",6,aflow:72ec133961a70c20,Be5Sc1,191,"['Be', 'Sc']",2
+mp-1145,TiB2,191,"['B', 'Ti']",3,aflow:32d72b1701a0a640,B2Ti1,191,"['B', 'Ti']",2
+mp-30725,YHg2,191,"['Hg', 'Y']",3,aflow:72a284b911cfd4a1,Hg2Y1,191,"['Hg', 'Y']",2
+mp-568398,CaBiAu,216,"['Au', 'Bi', 'Ca']",3,aflow:d8658d45b42df8d1,Au1Bi1Ca1,216,"['Au', 'Bi', 'Ca']",3
+mp-4262,BeAlB,216,"['Al', 'B', 'Be']",3,aflow:7b87669d29858aed,Al1B1Be1,216,"['Al', 'B', 'Be']",3
+mp-422,BeS,216,"['Be', 'S']",2,aflow:6729a4957d69091a,Be1S1,216,"['Be', 'S']",2
+mp-1541,BeSe,216,"['Be', 'Se']",2,aflow:ac6b5aceace8d8aa,Be1Se1,216,"['Be', 'Se']",2
+mp-252,BeTe,216,"['Be', 'Te']",2,aflow:9c841f4bebd25fd6,Be1Te1,216,"['Be', 'Te']",2
+mp-30452,DyNiBi,216,"['Bi', 'Dy', 'Ni']",3,aflow:67d183a9e1a39d6a,Bi1Dy1Ni1,216,"['Bi', 'Dy', 'Ni']",3
+mp-4510,DyNiSb,216,"['Dy', 'Ni', 'Sb']",3,aflow:2c6a045b4fb1c8ba,Dy1Ni1Sb1,216,"['Dy', 'Ni', 'Sb']",3
+mp-16327,DySbPt,216,"['Dy', 'Pt', 'Sb']",3,aflow:3ce2fb5cea681593,Dy1Pt1Sb1,216,"['Dy', 'Pt', 'Sb']",3
+mp-30454,ErBiPt,216,"['Bi', 'Er', 'Pt']",3,aflow:52835ff38add18b5,Bi1Er1Pt1,216,"['Bi', 'Er', 'Pt']",3
+mp-12008,ErCdCu4,216,"['Cd', 'Cu', 'Er']",3,aflow:17ccd4fa6df38347,Cd1Cu4Er1,216,"['Cd', 'Cu', 'Er']",3
+mp-21272,ErNiSb,216,"['Er', 'Ni', 'Sb']",3,aflow:d76ed031097bc0bf,Er1Ni1Sb1,216,"['Er', 'Ni', 'Sb']",3
+mp-11836,ErSbPd,216,"['Er', 'Pd', 'Sb']",3,aflow:e68e587950e605f1,Er1Pd1Sb1,216,"['Er', 'Pd', 'Sb']",3
+mp-16329,ErSbPt,216,"['Er', 'Pt', 'Sb']",3,aflow:b406de0f2e1dff0c,Er1Pt1Sb1,216,"['Er', 'Pt', 'Sb']",3
+mp-22913,CuBr,216,"['Br', 'Cu']",2,aflow:7c4a6c85677fb393,Br1Cu1,216,"['Br', 'Cu']",2
+mp-30453,DyBiPt,216,"['Bi', 'Dy', 'Pt']",3,aflow:99381ab3810479e9,Bi1Dy1Pt1,216,"['Bi', 'Dy', 'Pt']",3
+mp-1018126,GaBi,216,"['Bi', 'Ga']",2,aflow:9aa3384d3e062bfe,Bi1Ga1,216,"['Bi', 'Ga']",2
+mp-1123,HgS,216,"['Hg', 'S']",2,aflow:8ede6eb4a13f2b99,Hg1S1,216,"['Hg', 'S']",2
+mp-2730,HgTe,216,"['Hg', 'Te']",2,aflow:c2384ec3a6ca5619,Hg1Te1,216,"['Hg', 'Te']",2
+mp-30455,HoBiPt,216,"['Bi', 'Ho', 'Pt']",3,aflow:4daeb41c79df1c90,Bi1Ho1Pt1,216,"['Bi', 'Ho', 'Pt']",3
+mp-1018139,HoNiBi,216,"['Bi', 'Ho', 'Ni']",3,aflow:91d77786125113a6,Bi1Ho1Ni1,216,"['Bi', 'Ho', 'Ni']",3
+mp-4174,HoNiSb,216,"['Ho', 'Ni', 'Sb']",3,aflow:e9f3790e5215f956,Ho1Ni1Sb1,216,"['Ho', 'Ni', 'Sb']",3
+mp-16376,HoSbPt,216,"['Ho', 'Pt', 'Sb']",3,aflow:29e5ab99c160a919,Ho1Pt1Sb1,216,"['Ho', 'Pt', 'Sb']",3
+mp-1001833,InBi,216,"['Bi', 'In']",2,aflow:2a186d2b32cb102c,Bi1In1,216,"['Bi', 'In']",2
+mp-20351,InP,216,"['In', 'P']",2,aflow:18323595c45920d6,In1P1,216,"['In', 'P']",2
+mp-20012,InSb,216,"['In', 'Sb']",2,aflow:7c15d020cb54055d,In1Sb1,216,"['In', 'Sb']",2
+mp-16238,Li2AgSb,216,"['Ag', 'Li', 'Sb']",3,aflow:f617cfebecd6bba0,Ag1Li2Sb1,216,"['Ag', 'Li', 'Sb']",3
+mp-30591,Li2CuSn,216,"['Cu', 'Li', 'Sn']",3,aflow:b6c0281c81dd8ed1,Cu1Li2Sn1,216,"['Cu', 'Li', 'Sn']",3
+mp-31441,Li2GaIr,216,"['Ga', 'Ir', 'Li']",3,aflow:3be04981f5c152ed,Ga1Ir1Li2,216,"['Ga', 'Ir', 'Li']",3
+mp-3201,Li2GaPd,216,"['Ga', 'Li', 'Pd']",3,aflow:2713c0e874f1f573,Ga1Li2Pd1,216,"['Ga', 'Li', 'Pd']",3
+mp-3726,Li2GaPt,216,"['Ga', 'Li', 'Pt']",3,aflow:d19f535bb9f1b963,Ga1Li2Pt1,216,"['Ga', 'Li', 'Pt']",3
+mp-30392,Li2InAu,216,"['Au', 'In', 'Li']",3,aflow:0d38a416d5089125,Au1In1Li2,216,"['Au', 'In', 'Li']",3
+mp-21029,Li2InPd,216,"['In', 'Li', 'Pd']",3,aflow:73993106a51bb58f,In1Li2Pd1,216,"['In', 'Li', 'Pd']",3
+mp-21026,Li2InPt,216,"['In', 'Li', 'Pt']",3,aflow:ed11f007d47ca411,In1Li2Pt1,216,"['In', 'Li', 'Pt']",3
+mp-5920,LiAlGe,216,"['Al', 'Ge', 'Li']",3,aflow:a16cd7474b3ebbab,Al1Ge1Li1,216,"['Al', 'Ge', 'Li']",3
+mp-1018135,LiCdAs,216,"['As', 'Cd', 'Li']",3,aflow:4da02ddaa8033149,As1Cd1Li1,216,"['As', 'Cd', 'Li']",3
+mp-1018135,LiCdAs,216,"['As', 'Cd', 'Li']",3,aflow:f818510c8952b114,As1Cd1Li1,216,"['As', 'Cd', 'Li']",3
+mp-16343,LiInGe,216,"['Ge', 'In', 'Li']",3,aflow:9c11c047c72df5c3,Ge1In1Li1,216,"['Ge', 'In', 'Li']",3
+mp-12558,LiMgAs,216,"['As', 'Li', 'Mg']",3,aflow:4031522cfc844fe8,As1Li1Mg1,216,"['As', 'Li', 'Mg']",3
+mp-570213,LiMgBi,216,"['Bi', 'Li', 'Mg']",3,aflow:5a8e615d2ad336d3,Bi1Li1Mg1,216,"['Bi', 'Li', 'Mg']",3
+mp-36111,LiMgP,216,"['Li', 'Mg', 'P']",3,aflow:96211fe3f6ead857,Li1Mg1P1,216,"['Li', 'Mg', 'P']",3
+mp-9124,LiZnAs,216,"['As', 'Li', 'Zn']",3,aflow:3813d81d018f7ced,As1Li1Zn1,216,"['As', 'Li', 'Zn']",3
+mp-7575,LiZnN,216,"['Li', 'N', 'Zn']",3,aflow:6b05d551697846cb,Li1N1Zn1,216,"['Li', 'N', 'Zn']",3
+mp-10182,LiZnP,216,"['Li', 'P', 'Zn']",3,aflow:be98529facd710aa,Li1P1Zn1,216,"['Li', 'P', 'Zn']",3
+mp-30457,LuNiBi,216,"['Bi', 'Lu', 'Ni']",3,aflow:6c673e29967a0a34,Bi1Lu1Ni1,216,"['Bi', 'Lu', 'Ni']",3
+mp-20185,LuNiSb,216,"['Lu', 'Ni', 'Sb']",3,aflow:35bb8c6d60e01291,Lu1Ni1Sb1,216,"['Lu', 'Ni', 'Sb']",3
+mp-10194,LuSbPt,216,"['Lu', 'Pt', 'Sb']",3,aflow:deaeb93166bef077,Lu1Pt1Sb1,216,"['Lu', 'Pt', 'Sb']",3
+mp-1008903,MgAgSb,216,"['Ag', 'Mg', 'Sb']",3,aflow:d63cc0a05a52c00f,Ag1Mg1Sb1,216,"['Ag', 'Mg', 'Sb']",3
+mp-29733,MgNiBi,216,"['Bi', 'Mg', 'Ni']",3,aflow:4973240dc8132d88,Bi1Mg1Ni1,216,"['Bi', 'Mg', 'Ni']",3
+mp-15778,MgNiSb,216,"['Mg', 'Ni', 'Sb']",3,aflow:db7fb2c0e9137069,Mg1Ni1Sb1,216,"['Mg', 'Ni', 'Sb']",3
+mp-13033,MgTe,216,"['Mg', 'Te']",2,aflow:2b705b860e8d18c0,Mg1Te1,216,"['Mg', 'Te']",2
+mp-1009222,MnTe,216,"['Mn', 'Te']",2,aflow:70733edbcdfdc0c8,Mn1Te1,216,"['Mn', 'Te']",2
+mp-20389,Na2CdPb,216,"['Cd', 'Na', 'Pb']",3,aflow:a5e69f3c807b1d34,Cd1Na2Pb1,216,"['Cd', 'Na', 'Pb']",3
+mp-9437,NbFeSb,216,"['Fe', 'Nb', 'Sb']",3,aflow:d8672314fbd6b47d,Fe1Nb1Sb1,216,"['Fe', 'Nb', 'Sb']",3
+mp-13240,ScInCu4,216,"['Cu', 'In', 'Sc']",3,aflow:2220aea41c938104,Cu4In1Sc1,216,"['Cu', 'In', 'Sc']",3
+mp-11808,ScNi4Sn,216,"['Ni', 'Sc', 'Sn']",3,aflow:84f1786fb6e41773,Ni4Sc1Sn1,216,"['Ni', 'Sc', 'Sn']",3
+mp-30459,ScNiBi,216,"['Bi', 'Ni', 'Sc']",3,aflow:bd5d9a64ba7b45c7,Bi1Ni1Sc1,216,"['Bi', 'Ni', 'Sc']",3
+mp-3432,ScNiSb,216,"['Ni', 'Sb', 'Sc']",3,aflow:e19454d38fe36448,Ni1Sb1Sc1,216,"['Ni', 'Sb', 'Sc']",3
+mp-7173,ScSbPt,216,"['Pt', 'Sb', 'Sc']",3,aflow:cee03421b2f2db1e,Pt1Sb1Sc1,216,"['Pt', 'Sb', 'Sc']",3
+mp-2894,ScSnAu,216,"['Au', 'Sc', 'Sn']",3,aflow:c4152f4391b750bb,Au1Sc1Sn1,216,"['Au', 'Sc', 'Sn']",3
+mp-31454,TaSbRu,216,"['Ru', 'Sb', 'Ta']",3,aflow:8b23a3f04d72a293,Ru1Sb1Ta1,216,"['Ru', 'Sb', 'Ta']",3
+mp-22229,TbInCu4,216,"['Cu', 'In', 'Tb']",3,aflow:06e0f2d2ba697393,Cu4In1Tb1,216,"['Cu', 'In', 'Tb']",3
+mp-3716,TbNiSb,216,"['Ni', 'Sb', 'Tb']",3,aflow:14a7482f5c050e0e,Ni1Sb1Tb1,216,"['Ni', 'Sb', 'Tb']",3
+mp-22786,ThNiSn,216,"['Ni', 'Sn', 'Th']",3,aflow:a97b18881d1a1d91,Ni1Sn1Th1,216,"['Ni', 'Sn', 'Th']",3
+mp-10623,ThSbRh,216,"['Rh', 'Sb', 'Th']",3,aflow:453454a74b86077a,Rh1Sb1Th1,216,"['Rh', 'Sb', 'Th']",3
+mp-19886,ThSnPt,216,"['Pt', 'Sn', 'Th']",3,aflow:8ca8aeed542f92be,Pt1Sn1Th1,216,"['Pt', 'Sn', 'Th']",3
+mp-5967,TiCoSb,216,"['Co', 'Sb', 'Ti']",3,aflow:866186c508a57c65,Co1Sb1Ti1,216,"['Co', 'Sb', 'Ti']",3
+mp-1008680,TiGePt,216,"['Ge', 'Pt', 'Ti']",3,aflow:c58a246f03486cd2,Ge1Pt1Ti1,216,"['Ge', 'Pt', 'Ti']",3
+mp-20952,TiNiSb,216,"['Ni', 'Sb', 'Ti']",3,aflow:2c598227e453c68b,Ni1Sb1Ti1,216,"['Ni', 'Sb', 'Ti']",3
+mp-924130,TiNiSn,216,"['Ni', 'Sn', 'Ti']",3,aflow:7bed936e9d5a44ca,Ni1Sn1Ti1,216,"['Ni', 'Sn', 'Ti']",3
+mp-30847,TiSnPt,216,"['Pt', 'Sn', 'Ti']",3,aflow:603931e40d73250b,Pt1Sn1Ti1,216,"['Pt', 'Sn', 'Ti']",3
+mp-30460,YNiBi,216,"['Bi', 'Ni', 'Y']",3,aflow:c40f2f44e48bdeb9,Bi1Ni1Y1,216,"['Bi', 'Ni', 'Y']",3
+mp-11520,YNiSb,216,"['Ni', 'Sb', 'Y']",3,aflow:35e6777f90fd2bc6,Ni1Sb1Y1,216,"['Ni', 'Sb', 'Y']",3
+mp-568931,YbNiSb,216,"['Ni', 'Sb', 'Yb']",3,aflow:fd22297be346932c,Ni1Sb1Yb1,216,"['Ni', 'Sb', 'Yb']",3
+mp-570014,YbSbPt,216,"['Pt', 'Sb', 'Yb']",3,aflow:c5d6762a8aad6f28,Pt1Sb1Yb1,216,"['Pt', 'Sb', 'Yb']",3
+mp-11621,ZnNiSb,216,"['Ni', 'Sb', 'Zn']",3,aflow:2b293d05bec63025,Ni1Sb1Zn1,216,"['Ni', 'Sb', 'Zn']",3
+mp-31451,ZrCoBi,216,"['Bi', 'Co', 'Zr']",3,aflow:bef60f5771d9c8ec,Bi1Co1Zr1,216,"['Bi', 'Co', 'Zr']",3
+mp-31457,ZrSbRu,216,"['Ru', 'Sb', 'Zr']",3,aflow:170073a359588a61,Ru1Sb1Zr1,216,"['Ru', 'Sb', 'Zr']",3
+mp-2172,AlAs,216,"['Al', 'As']",2,aflow:d1acbf7cd6bbd917,Al1As1,216,"['Al', 'As']",2
+mp-1550,AlP,216,"['Al', 'P']",2,aflow:bfe6fc7189a9a3a8,Al1P1,216,"['Al', 'P']",2
+mp-2624,AlSb,216,"['Al', 'Sb']",2,aflow:8efc0f655f5d4309,Al1Sb1,216,"['Al', 'Sb']",2
+mp-1479,BP,216,"['B', 'P']",2,aflow:598a7a7328a47d85,B1P1,216,"['B', 'P']",2
+mp-1220,Be5Au,216,"['Au', 'Be']",6,aflow:85891227116e3254,Au1Be5,216,"['Au', 'Be']",2
+mp-650,Be5Pd,216,"['Be', 'Pd']",6,aflow:a39b28d260fb0f68,Be5Pd1,216,"['Be', 'Pd']",2
+mp-406,CdTe,216,"['Cd', 'Te']",2,aflow:db3c099649cd0199,Cd1Te1,216,"['Cd', 'Te']",2
+mp-2534,GaAs,216,"['As', 'Ga']",2,aflow:a9c6b29d70d7cbec,As1Ga1,216,"['As', 'Ga']",2
+mp-2490,GaP,216,"['Ga', 'P']",2,aflow:535d8da7d1cb1fff,Ga1P1,216,"['Ga', 'P']",2
+mp-1156,GaSb,216,"['Ga', 'Sb']",2,aflow:c35317ab558919f6,Ga1Sb1,216,"['Ga', 'Sb']",2
+mp-11869,HfSnPd,216,"['Hf', 'Pd', 'Sn']",3,aflow:8f947e547738d0a3,Hf1Pd1Sn1,216,"['Hf', 'Pd', 'Sn']",3
+mp-20305,InAs,216,"['As', 'In']",2,aflow:7ed8005c5c451034,As1In1,216,"['As', 'In']",2
+mp-30816,Li2AlPd,216,"['Al', 'Li', 'Pd']",4,aflow:13b198fe0b831c08,Al1Li2Pd1,216,"['Al', 'Li', 'Pd']",3
+mp-30818,Li2AlPt,216,"['Al', 'Li', 'Pt']",4,aflow:0f16af7b6fa2fe5c,Al1Li2Pt1,216,"['Al', 'Li', 'Pt']",3
+mp-30404,Li2SbAu,216,"['Au', 'Li', 'Sb']",4,aflow:d02fa8ced352ee4a,Au1Li2Sb1,216,"['Au', 'Li', 'Sb']",3
+mp-10180,Li2SbPd,216,"['Li', 'Pd', 'Sb']",4,aflow:065bc33863b0165a,Li2Pd1Sb1,216,"['Li', 'Pd', 'Sb']",3
+mp-30405,Li2SnAu,216,"['Au', 'Li', 'Sn']",4,aflow:dfeec91885f9fa30,Au1Li2Sn1,216,"['Au', 'Li', 'Sn']",3
+mp-3161,LiAlSi,216,"['Al', 'Li', 'Si']",3,aflow:c854f04be2146c1c,Al1Li1Si1,216,"['Al', 'Li', 'Si']",3
+mp-3676,MgCu4Sn,216,"['Cu', 'Mg', 'Sn']",6,aflow:e4ba4b074fab170b,Cu4Mg1Sn1,216,"['Cu', 'Mg', 'Sn']",3
+mp-3522,MgCuSb,216,"['Cu', 'Mg', 'Sb']",3,aflow:1e5384907ec9de3d,Cu1Mg1Sb1,216,"['Cu', 'Mg', 'Sb']",3
+mp-11361,MgCuSn,216,"['Cu', 'Mg', 'Sn']",3,aflow:7b8e0c206da5c1bf,Cu1Mg1Sn1,216,"['Cu', 'Mg', 'Sn']",3
+mp-11361,MgCuSn,216,"['Cu', 'Mg', 'Sn']",3,aflow:7fcb937706d474f8,Cu1Mg1Sn1,216,"['Cu', 'Mg', 'Sn']",3
+mp-10183,MgSbPd,216,"['Mg', 'Pd', 'Sb']",3,aflow:98f3a203422d16b0,Mg1Pd1Sb1,216,"['Mg', 'Pd', 'Sb']",3
+mp-10184,MgSbPt,216,"['Mg', 'Pt', 'Sb']",3,aflow:691b027393bb9c65,Mg1Pt1Sb1,216,"['Mg', 'Pt', 'Sb']",3
+mp-5549,MgSnAu,216,"['Au', 'Mg', 'Sn']",3,aflow:aa9a46b99e02dab5,Au1Mg1Sn1,216,"['Au', 'Mg', 'Sn']",3
+mp-505297,NbSbRu,216,"['Nb', 'Ru', 'Sb']",3,aflow:20a490e930b787a6,Nb1Ru1Sb1,216,"['Nb', 'Ru', 'Sb']",3
+mp-569779,ScSbPd,216,"['Pd', 'Sb', 'Sc']",3,aflow:3761d1952c1bd9bb,Pd1Sb1Sc1,216,"['Pd', 'Sb', 'Sc']",3
+mp-567636,VFeSb,216,"['Fe', 'Sb', 'V']",3,aflow:742f62c662140f06,Fe1Sb1V1,216,"['Fe', 'Sb', 'V']",3
+mp-4964,YSbPt,216,"['Pt', 'Sb', 'Y']",3,aflow:fd497baf16774851,Pt1Sb1Y1,216,"['Pt', 'Sb', 'Y']",3
+mp-1190,ZnSe,216,"['Se', 'Zn']",2,aflow:4792db85eaa107bf,Se1Zn1,216,"['Se', 'Zn']",2
+mp-2176,ZnTe,216,"['Te', 'Zn']",2,aflow:1f1ce1240bb82fe8,Te1Zn1,216,"['Te', 'Zn']",2
+mp-27294,Ca3AsBr3,221,"['As', 'Br', 'Ca']",3,aflow:490b50d631861556,As1Br3Ca3,221,"['As', 'Br', 'Ca']",3
+mp-28069,Ca3AsCl3,221,"['As', 'Ca', 'Cl']",3,aflow:d4d71d73b26b7913,As1Ca3Cl3,221,"['As', 'Ca', 'Cl']",3
+mp-11822,Ca3GeN,221,"['Ca', 'Ge', 'N']",3,aflow:67a702b1c6a16129,Ca3Ge1N1,221,"['Ca', 'Ge', 'N']",3
+mp-29342,Ca3PCl3,221,"['Ca', 'Cl', 'P']",3,aflow:95667da7a1a06f6e,Ca3Cl3P1,221,"['Ca', 'Cl', 'P']",3
+mp-11824,Ca3PN,221,"['Ca', 'N', 'P']",3,aflow:5f89de0c8b54e1c4,Ca3N1P1,221,"['Ca', 'N', 'P']",3
+mp-1013548,Ca3SbN,221,"['Ca', 'N', 'Sb']",3,aflow:6690ab96d0318cc4,Ca3N1Sb1,221,"['Ca', 'N', 'Sb']",3
+mp-29241,Ca3SnO,221,"['Ca', 'O', 'Sn']",3,aflow:947b9e40b4c130be,Ca3O1Sn1,221,"['Ca', 'O', 'Sn']",3
+mp-865,CaB6,221,"['B', 'Ca']",2,aflow:5c5618217287430a,B6Ca1,221,"['B', 'Ca']",2
+mp-2642,CdAg,221,"['Ag', 'Cd']",2,aflow:1a5594f050f5eeaa,Ag1Cd1,221,"['Ag', 'Cd']",2
+mp-1017554,CdNi3N,221,"['Cd', 'N', 'Ni']",3,aflow:9d470850bf9d725f,Cd1N1Ni3,221,"['Cd', 'N', 'Ni']",3
+mp-510376,CeBRh3,221,"['B', 'Ce', 'Rh']",3,aflow:51fd607704603e17,B1Ce1Rh3,221,"['B', 'Ce', 'Rh']",3
+mp-954,BaB6,221,"['B', 'Ba']",2,aflow:60403665ed82b47b,B6Ba1,221,"['B', 'Ba']",2
+mp-527,BaCd,221,"['Ba', 'Cd']",2,aflow:6d05d48201243e90,Ba1Cd1,221,"['Ba', 'Cd']",2
+mp-23818,BaLiH3,221,"['Ba', 'H', 'Li']",3,aflow:abe8b2c0bb692c91,Ba1H3Li1,221,"['Ba', 'H', 'Li']",3
+mp-23818,BaLiH3,221,"['Ba', 'H', 'Li']",3,aflow:eb724544dfdf1dd9,Ba1H3Li1,221,"['Ba', 'H', 'Li']",3
+mp-3020,BaNbO3,221,"['Ba', 'Nb', 'O']",3,aflow:7c69780c2804384a,Ba1Nb1O3,221,"['Ba', 'Nb', 'O']",3
+mp-8557,BaPaO3,221,"['Ba', 'O', 'Pa']",3,aflow:8ad40d8abfa74602,Ba1O3Pa1,221,"['Ba', 'O', 'Pa']",3
+mp-3163,BaSnO3,221,"['Ba', 'O', 'Sn']",3,aflow:0ddad19f04eadab1,Ba1O3Sn1,221,"['Ba', 'O', 'Sn']",3
+mp-29243,Ba3SnO,221,"['Ba', 'O', 'Sn']",3,aflow:ecb6504fa2a9c4ea,Ba3O1Sn1,221,"['Ba', 'O', 'Sn']",3
+mp-20225,CePb3,221,"['Ce', 'Pb']",2,aflow:dec09c04ffe4a551,Ce1Pb3,221,"['Ce', 'Pb']",2
+mp-1518,CeRh3,221,"['Ce', 'Rh']",2,aflow:e375ee6459a0b27c,Ce1Rh3,221,"['Ce', 'Rh']",2
+mp-2334,DyCu,221,"['Cu', 'Dy']",2,aflow:ec3c53433d5dfc02,Cu1Dy1,221,"['Cu', 'Dy']",2
+mp-2077,DyMg,221,"['Dy', 'Mg']",2,aflow:cb9594228183239e,Dy1Mg1,221,"['Dy', 'Mg']",2
+mp-2226,DyPd,221,"['Dy', 'Pd']",2,aflow:ee23a2c15420370c,Dy1Pd1,221,"['Dy', 'Pd']",2
+mp-797,DyPd3,221,"['Dy', 'Pd']",2,aflow:87074fb2cae564ce,Dy1Pd3,221,"['Dy', 'Pd']",2
+mp-2465,DyPt3,221,"['Dy', 'Pt']",2,aflow:863b0fb7f9eb8f5d,Dy1Pt3,221,"['Dy', 'Pt']",2
+mp-232,DyRh,221,"['Dy', 'Rh']",2,aflow:dc3395dafe10aed5,Dy1Rh1,221,"['Dy', 'Rh']",2
+mp-15856,DyRh3C,221,"['C', 'Dy', 'Rh']",3,aflow:a3a2bffdff1499bf,C1Dy1Rh3,221,"['C', 'Dy', 'Rh']",3
+mp-11374,DyTl,221,"['Dy', 'Tl']",2,aflow:38fefb0ffb8a0914,Dy1Tl1,221,"['Dy', 'Tl']",2
+mp-2303,DyZn,221,"['Dy', 'Zn']",2,aflow:0f529a0f57f0ae5a,Dy1Zn1,221,"['Dy', 'Zn']",2
+mp-2621,ErAg,221,"['Ag', 'Er']",2,aflow:d3311cbd31908b52,Ag1Er1,221,"['Ag', 'Er']",2
+mp-867,ErCd,221,"['Cd', 'Er']",2,aflow:77ba44fb28f61796,Cd1Er1,221,"['Cd', 'Er']",2
+mp-1955,ErCu,221,"['Cu', 'Er']",2,aflow:a2bd74b497aff555,Cu1Er1,221,"['Cu', 'Er']",2
+mp-1291,ErIn3,221,"['Er', 'In']",2,aflow:15a8361ad7c98923,Er1In3,221,"['Er', 'In']",2
+mp-2713,ErIr,221,"['Er', 'Ir']",2,aflow:b33cc3d793a8fb3e,Er1Ir1,221,"['Er', 'Ir']",2
+mp-2228,ErMg,221,"['Er', 'Mg']",2,aflow:56108ea12b0c6375,Er1Mg1,221,"['Er', 'Mg']",2
+mp-851,ErPd,221,"['Er', 'Pd']",2,aflow:0e26532e1f564764,Er1Pd1,221,"['Er', 'Pd']",2
+mp-2825,ErPd3,221,"['Er', 'Pd']",2,aflow:a60356bc997fa4fb,Er1Pd3,221,"['Er', 'Pd']",2
+mp-1913,ErPt3,221,"['Er', 'Pt']",2,aflow:a61105df9e09d3a2,Er1Pt3,221,"['Er', 'Pt']",2
+mp-2381,ErRh,221,"['Er', 'Rh']",2,aflow:1f6608fc2c872b00,Er1Rh1,221,"['Er', 'Rh']",2
+mp-2431,ErTl3,221,"['Er', 'Tl']",2,aflow:993875381dc84303,Er1Tl3,221,"['Er', 'Tl']",2
+mp-614013,CsSnI3,221,"['Cs', 'I', 'Sn']",3,aflow:6690d2784eb23567,Cs1I3Sn1,221,"['Cs', 'I', 'Sn']",3
+mp-1018029,CuPd,221,"['Cu', 'Pd']",2,aflow:eaca4c0a310db6de,Cu1Pd1,221,"['Cu', 'Pd']",2
+mp-2167,DyAg,221,"['Ag', 'Dy']",2,aflow:ad8b903eea462234,Ag1Dy1,221,"['Ag', 'Dy']",2
+mp-3183,DyBRh3,221,"['B', 'Dy', 'Rh']",3,aflow:7a2ea3479b8f5eae,B1Dy1Rh3,221,"['B', 'Dy', 'Rh']",3
+mp-2667,CsAu,221,"['Au', 'Cs']",2,aflow:536c2f463e4fff78,Au1Cs1,221,"['Au', 'Cs']",2
+mp-22906,CsBr,221,"['Br', 'Cs']",2,aflow:f999245f021a5bc3,Br1Cs1,221,"['Br', 'Cs']",2
+mp-7104,CsCaF3,221,"['Ca', 'Cs', 'F']",3,aflow:46ea4bf1ce81aefa,Ca1Cs1F3,221,"['Ca', 'Cs', 'F']",3
+mp-8399,CsCdF3,221,"['Cd', 'Cs', 'F']",3,aflow:7fbde1ff181ec772,Cd1Cs1F3,221,"['Cd', 'Cs', 'F']",3
+mp-22865,CsCl,221,"['Cl', 'Cs']",2,aflow:994aa0aa4d401c1a,Cl1Cs1,221,"['Cl', 'Cs']",2
+mp-11375,EuHg,221,"['Eu', 'Hg']",2,aflow:4a6557136108a3f7,Eu1Hg1,221,"['Eu', 'Hg']",2
+mp-11388,GaIr,221,"['Ga', 'Ir']",2,aflow:341c350b9d494069,Ga1Ir1,221,"['Ga', 'Ir']",2
+mp-2444,GaRh,221,"['Ga', 'Rh']",2,aflow:5bf4841f97a43dca,Ga1Rh1,221,"['Ga', 'Rh']",2
+mp-22266,GdB6,221,"['B', 'Gd']",2,aflow:5790962d15c6d5ff,B6Gd1,221,"['B', 'Gd']",2
+mp-1031,GdCd,221,"['Cd', 'Gd']",2,aflow:6b72dc0d3309fa68,Cd1Gd1,221,"['Cd', 'Gd']",2
+mp-2636,GdMg,221,"['Gd', 'Mg']",2,aflow:27ed5fb0514efc6d,Gd1Mg1,221,"['Gd', 'Mg']",2
+mp-1017578,HfBRh3,221,"['B', 'Hf', 'Rh']",3,aflow:4dcc43262f37534a,B1Hf1Rh3,221,"['B', 'Hf', 'Rh']",3
+mp-2778,HoAg,221,"['Ag', 'Ho']",2,aflow:2236cb624d741ca7,Ag1Ho1,221,"['Ag', 'Ho']",2
+mp-3710,HoBRh3,221,"['B', 'Ho', 'Rh']",3,aflow:237844b68936f516,B1Ho1Rh3,221,"['B', 'Ho', 'Rh']",3
+mp-1971,HoCu,221,"['Cu', 'Ho']",2,aflow:cae69c96fac06bdd,Cu1Ho1,221,"['Cu', 'Ho']",2
+mp-21431,HoIn3,221,"['Ho', 'In']",2,aflow:a69b8bddddf76762,Ho1In3,221,"['Ho', 'In']",2
+mp-11476,HoIr,221,"['Ho', 'Ir']",2,aflow:3ca3b19dbc5f1d8c,Ho1Ir1,221,"['Ho', 'Ir']",2
+mp-1199,HoMg,221,"['Ho', 'Mg']",2,aflow:726d2384643098a1,Ho1Mg1,221,"['Ho', 'Mg']",2
+mp-1979,HoPd3,221,"['Ho', 'Pd']",2,aflow:87aae3236e2dc972,Ho1Pd3,221,"['Ho', 'Pd']",2
+mp-195,HoPt3,221,"['Ho', 'Pt']",2,aflow:28fdd7e7a29c0a7d,Ho1Pt3,221,"['Ho', 'Pt']",2
+mp-2163,HoRh,221,"['Ho', 'Rh']",2,aflow:f0b6c125df886051,Ho1Rh1,221,"['Ho', 'Rh']",2
+mp-1540,HoTl,221,"['Ho', 'Tl']",2,aflow:cdda0a8539ee985a,Ho1Tl1,221,"['Ho', 'Tl']",2
+mp-9200,K3AuO,221,"['Au', 'K', 'O']",3,aflow:f40823291e45087f,Au1K3O1,221,"['Au', 'K', 'O']",3
+mp-1948,LaAg,221,"['Ag', 'La']",2,aflow:6f8934d40bc1c3b7,Ag1La1,221,"['Ag', 'La']",2
+mp-2680,LaB6,221,"['B', 'La']",2,aflow:f6d3e66aa99d7c98,B6La1,221,"['B', 'La']",2
+mp-3088,LaBRh3,221,"['B', 'La', 'Rh']",3,aflow:27070fbb5351e884,B1La1Rh3,221,"['B', 'La', 'Rh']",3
+mp-776,LaCd,221,"['Cd', 'La']",2,aflow:6a79b8d09c3fccbd,Cd1La1,221,"['Cd', 'La']",2
+mp-20582,LaIn,221,"['In', 'La']",2,aflow:73bb14353152382d,In1La1,221,"['In', 'La']",2
+mp-20729,LaIn3,221,"['In', 'La']",2,aflow:dc7926de3a9c5fc7,In3La1,221,"['In', 'La']",2
+mp-21432,LaPb3,221,"['La', 'Pb']",2,aflow:ab4dcaad9226a98c,La1Pb3,221,"['La', 'Pb']",2
+mp-674,LaPd3,221,"['La', 'Pd']",2,aflow:7c2eaa87a55401e3,La1Pd3,221,"['La', 'Pd']",2
+mp-633,LaSn3,221,"['La', 'Sn']",2,aflow:758a0eb25149c67d,La1Sn3,221,"['La', 'Sn']",2
+mp-11488,LaTl,221,"['La', 'Tl']",2,aflow:0d91f21f39bd0cb6,La1Tl1,221,"['La', 'Tl']",2
+mp-2001,LaTl3,221,"['La', 'Tl']",2,aflow:27cd67b2290ba1b4,La1Tl3,221,"['La', 'Tl']",2
+mp-2615,LaZn,221,"['La', 'Zn']",2,aflow:e2c52facf9221eb5,La1Zn1,221,"['La', 'Zn']",2
+mp-3448,KMgF3,221,"['F', 'K', 'Mg']",3,aflow:28d52b05be2e0cd5,F3K1Mg1,221,"['F', 'K', 'Mg']",3
+mp-23737,KMgH3,221,"['H', 'K', 'Mg']",3,aflow:33e3744c0a0f8246,H3K1Mg1,221,"['H', 'K', 'Mg']",3
+mp-3614,KTaO3,221,"['K', 'O', 'Ta']",3,aflow:33ed8f510f3a34ba,K1O3Ta1,221,"['K', 'O', 'Ta']",3
+mp-4126,KUO3,221,"['K', 'O', 'U']",3,aflow:ab1abd143b686f21,K1O3U1,221,"['K', 'O', 'U']",3
+mp-5878,KZnF3,221,"['F', 'K', 'Zn']",3,aflow:92e76957b12d595f,F3K1Zn1,221,"['F', 'K', 'Zn']",3
+mp-4505,La3AlN,221,"['Al', 'La', 'N']",3,aflow:21fa297fae2ad37f,Al1La3N1,221,"['Al', 'La', 'N']",3
+mp-30207,La3GaBr3,221,"['Br', 'Ga', 'La']",3,aflow:8fb8839ff8584586,Br3Ga1La3,221,"['Br', 'Ga', 'La']",3
+mp-20999,La3InN,221,"['In', 'La', 'N']",3,aflow:5a14a06a71776ca3,In1La3N1,221,"['In', 'La', 'N']",3
+mp-10611,La3PbC,221,"['C', 'La', 'Pb']",3,aflow:9c6f2b7fa35dcf8c,C1La3Pb1,221,"['C', 'La', 'Pb']",3
+mp-7159,La3TlC,221,"['C', 'La', 'Tl']",3,aflow:55d586841634d7d1,C1La3Tl1,221,"['C', 'La', 'Tl']",3
+mp-28166,K3BrO,221,"['Br', 'K', 'O']",3,aflow:037bff19ad42b82f,Br1K3O1,221,"['Br', 'K', 'O']",3
+mp-28171,K3IO,221,"['I', 'K', 'O']",3,aflow:81be40c35b3be745,I1K3O1,221,"['I', 'K', 'O']",3
+mp-1076,KB6,221,"['B', 'K']",2,aflow:bd33403a60f88c3e,B6K1,221,"['B', 'K']",2
+mp-2426,LiAg,221,"['Ag', 'Li']",2,aflow:4c10b43e69b72e7c,Ag1Li1,221,"['Ag', 'Li']",2
+mp-3717,LuBRh3,221,"['B', 'Lu', 'Rh']",3,aflow:ddd1e2e78cdc0fa7,B1Lu1Rh3,221,"['B', 'Lu', 'Rh']",3
+mp-977,LuIn3,221,"['In', 'Lu']",2,aflow:64f1672c65bc1cb5,In3Lu1,221,"['In', 'Lu']",2
+mp-790,LuPt3,221,"['Lu', 'Pt']",2,aflow:9a295f92980b2118,Lu1Pt3,221,"['Lu', 'Pt']",2
+mp-10699,LuRh3C,221,"['C', 'Lu', 'Rh']",3,aflow:c8bf0fc0acaf2a94,C1Lu1Rh3,221,"['C', 'Lu', 'Rh']",3
+mp-2696,MgAg,221,"['Ag', 'Mg']",2,aflow:88ed2152280d6868,Ag1Mg1,221,"['Ag', 'Mg']",2
+mp-1408,MgHg,221,"['Hg', 'Mg']",2,aflow:79a3ecfabd3d15de,Hg1Mg1,221,"['Hg', 'Mg']",2
+mp-11498,MgTl,221,"['Mg', 'Tl']",2,aflow:f6fa0908a0c1314a,Mg1Tl1,221,"['Mg', 'Tl']",2
+mp-28602,Na3ClO,221,"['Cl', 'Na', 'O']",3,aflow:d896b93f18da7085,Cl1Na3O1,221,"['Cl', 'Na', 'O']",3
+mp-2333,NdPd3,221,"['Nd', 'Pd']",2,aflow:210420f34712b216,Nd1Pd3,221,"['Nd', 'Pd']",2
+mp-11522,Ni3Sn,221,"['Ni', 'Sn']",2,aflow:46ae6df881810fc2,Ni3Sn1,221,"['Ni', 'Sn']",2
+mp-30741,PaIr3,221,"['Ir', 'Pa']",2,aflow:6a5764c23dd260e3,Ir3Pa1,221,"['Ir', 'Pa']",2
+mp-30825,PaRh3,221,"['Pa', 'Rh']",2,aflow:911e41333ff6910f,Pa1Rh3,221,"['Pa', 'Rh']",2
+mp-999298,Pd3Au,221,"['Au', 'Pd']",2,aflow:505a6d1ea13b8eb4,Au1Pd3,221,"['Au', 'Pd']",2
+mp-20849,Pd3Pb,221,"['Pb', 'Pd']",2,aflow:e4563510401c6a2b,Pb1Pd3,221,"['Pb', 'Pd']",2
+mp-20903,PrIn3,221,"['In', 'Pr']",2,aflow:7d7fbf11b3f748c5,In3Pr1,221,"['In', 'Pr']",2
+mp-20939,PrPb3,221,"['Pb', 'Pr']",2,aflow:abaa473b4fe74092,Pb3Pr1,221,"['Pb', 'Pr']",2
+mp-4405,Rb3AuO,221,"['Au', 'O', 'Rb']",3,aflow:3609d740c6208956,Au1O1Rb3,221,"['Au', 'O', 'Rb']",3
+mp-3654,RbCaF3,221,"['Ca', 'F', 'Rb']",3,aflow:45d7ecfe4fa68130,Ca1F3Rb1,221,"['Ca', 'F', 'Rb']",3
+mp-6951,RbCdF3,221,"['Cd', 'F', 'Rb']",3,aflow:e727d39461c4ebc5,Cd1F3Rb1,221,"['Cd', 'F', 'Rb']",3
+mp-7482,RbHgF3,221,"['F', 'Hg', 'Rb']",3,aflow:467bde830ed16a22,F3Hg1Rb1,221,"['F', 'Hg', 'Rb']",3
+mp-8402,RbMgF3,221,"['F', 'Mg', 'Rb']",3,aflow:cb5b728e11e82968,F3Mg1Rb1,221,"['F', 'Mg', 'Rb']",3
+mp-11775,RbUO3,221,"['O', 'Rb', 'U']",3,aflow:07af92e96c815589,O3Rb1U1,221,"['O', 'Rb', 'U']",3
+mp-10133,Sc3BPb,221,"['B', 'Pb', 'Sc']",3,aflow:1d58c9ee85044db1,B1Pb1Sc3,221,"['B', 'Pb', 'Sc']",3
+mp-31055,Sc3InN,221,"['In', 'N', 'Sc']",3,aflow:b9a1f0ab8466965f,In1N1Sc3,221,"['In', 'N', 'Sc']",3
+mp-21035,Sc3PbC,221,"['C', 'Pb', 'Sc']",3,aflow:33d7c27fdace9b26,C1Pb1Sc3,221,"['C', 'Pb', 'Sc']",3
+mp-10139,Sc3SnB,221,"['B', 'Sc', 'Sn']",3,aflow:85ac27d9965b5f0b,B1Sc3Sn1,221,"['B', 'Sc', 'Sn']",3
+mp-4230,Sc3TlC,221,"['C', 'Sc', 'Tl']",3,aflow:233b528bc4413ee0,C1Sc3Tl1,221,"['C', 'Sc', 'Tl']",3
+mp-11237,ScAg,221,"['Ag', 'Sc']",2,aflow:528f39089c3a8aaa,Ag1Sc1,221,"['Ag', 'Sc']",2
+mp-10113,ScBIr3,221,"['B', 'Ir', 'Sc']",3,aflow:e43d9b6dca4e6e49,B1Ir3Sc1,221,"['B', 'Ir', 'Sc']",3
+mp-569875,ScBRh3,221,"['B', 'Rh', 'Sc']",3,aflow:1af2e5b6859dc679,B1Rh3Sc1,221,"['B', 'Rh', 'Sc']",3
+mp-932,ScGa3,221,"['Ga', 'Sc']",2,aflow:3967538d7c5df002,Ga3Sc1,221,"['Ga', 'Sc']",2
+mp-11521,ScNi,221,"['Ni', 'Sc']",2,aflow:227780372a14df17,Ni1Sc1,221,"['Ni', 'Sc']",2
+mp-828,SiNi3,221,"['Ni', 'Si']",2,aflow:b31ddd42732eacdd,Ni3Si1,221,"['Ni', 'Si']",2
+mp-2434,SrTl,221,"['Sr', 'Tl']",2,aflow:fe4e8bc133dd6bd4,Sr1Tl1,221,"['Sr', 'Tl']",2
+mp-570822,Tb3AlC,221,"['Al', 'C', 'Tb']",3,aflow:b3744e8adac37cc5,Al1C1Tb3,221,"['Al', 'C', 'Tb']",3
+mp-570822,Tb3AlC,221,"['Al', 'C', 'Tb']",3,aflow:d8aa91de693b2f8a,Al1C1Tb3,221,"['Al', 'C', 'Tb']",3
+mp-2268,TbAg,221,"['Ag', 'Tb']",2,aflow:f0216227e77670e1,Ag1Tb1,221,"['Ag', 'Tb']",2
+mp-721,TbCd,221,"['Cd', 'Tb']",2,aflow:e30fcb2e97324626,Cd1Tb1,221,"['Cd', 'Tb']",2
+mp-1837,TbCu,221,"['Cu', 'Tb']",2,aflow:fbf9627e8b01199d,Cu1Tb1,221,"['Cu', 'Tb']",2
+mp-20920,TbIn3,221,"['In', 'Tb']",2,aflow:207d513946780fc2,In3Tb1,221,"['In', 'Tb']",2
+mp-1635,TbMg,221,"['Mg', 'Tb']",2,aflow:0ce177aa4bc71358,Mg1Tb1,221,"['Mg', 'Tb']",2
+mp-2747,TbPd3,221,"['Pd', 'Tb']",2,aflow:b9ec090c2d6605aa,Pd3Tb1,221,"['Pd', 'Tb']",2
+mp-1549,TbPt3,221,"['Pt', 'Tb']",2,aflow:db7c48749ff64360,Pt3Tb1,221,"['Pt', 'Tb']",2
+mp-11561,TbRh,221,"['Rh', 'Tb']",2,aflow:d870e9cabb74da98,Rh1Tb1,221,"['Rh', 'Tb']",2
+mp-542103,TbRh3C,221,"['C', 'Rh', 'Tb']",3,aflow:e1a168ca011f65ad,C1Rh3Tb1,221,"['C', 'Rh', 'Tb']",3
+mp-30878,TbTl,221,"['Tb', 'Tl']",2,aflow:6c26fad1d52c9da4,Tb1Tl1,221,"['Tb', 'Tl']",2
+mp-836,TbZn,221,"['Tb', 'Zn']",2,aflow:e23048d220081ed3,Tb1Zn1,221,"['Tb', 'Zn']",2
+mp-1756,ThB6,221,"['B', 'Th']",2,aflow:d852634bea6c15c2,B6Th1,221,"['B', 'Th']",2
+mp-20206,ThIn3,221,"['In', 'Th']",2,aflow:aae7f6bc01d6c603,In3Th1,221,"['In', 'Th']",2
+mp-21381,ThPb3,221,"['Pb', 'Th']",2,aflow:6df621acdc60187a,Pb3Th1,221,"['Pb', 'Th']",2
+mp-2509,ThRh3,221,"['Rh', 'Th']",2,aflow:0a51a21a7c15d877,Rh3Th1,221,"['Rh', 'Th']",2
+mp-22394,ThRu3C,221,"['C', 'Ru', 'Th']",3,aflow:0e1317893f59ee71,C1Ru3Th1,221,"['C', 'Ru', 'Th']",3
+mp-1921,ThTe,221,"['Te', 'Th']",2,aflow:a89a7c64bdfbb2eb,Te1Th1,221,"['Te', 'Th']",2
+mp-2061,ThTl3,221,"['Th', 'Tl']",2,aflow:1e89971673a1e76e,Th1Tl3,221,"['Th', 'Tl']",2
+mp-570008,Sr3BiN,221,"['Bi', 'N', 'Sr']",3,aflow:2b31f5084ef355c3,Bi1N1Sr3,221,"['Bi', 'N', 'Sr']",3
+mp-7752,Sr3SbN,221,"['N', 'Sb', 'Sr']",3,aflow:d80cdbcb68b4082e,N1Sb1Sr3,221,"['N', 'Sb', 'Sr']",3
+mp-7961,Sr3SnO,221,"['O', 'Sn', 'Sr']",3,aflow:f37d0b1f8f1ccdb8,O1Sn1Sr3,221,"['O', 'Sn', 'Sr']",3
+mp-242,SrB6,221,"['B', 'Sr']",2,aflow:f4874036e4939ad3,B6Sr1,221,"['B', 'Sr']",2
+mp-542,SrHg,221,"['Hg', 'Sr']",2,aflow:147609474cf3a8d3,Hg1Sr1,221,"['Hg', 'Sr']",2
+mp-2179,TiRe,221,"['Re', 'Ti']",2,aflow:6b78de2c3b4532ce,Re1Ti1,221,"['Re', 'Ti']",2
+mp-10601,Y3GaC,221,"['C', 'Ga', 'Y']",3,aflow:c39bb7e5c43a2690,C1Ga1Y3,221,"['C', 'Ga', 'Y']",3
+mp-19817,Y3InC,221,"['C', 'In', 'Y']",3,aflow:5a1b6fdffb2dde5d,C1In1Y3,221,"['C', 'In', 'Y']",3
+mp-9960,Y3TlC,221,"['C', 'Tl', 'Y']",3,aflow:ff2e821a5a105eeb,C1Tl1Y3,221,"['C', 'Tl', 'Y']",3
+mp-2474,YAg,221,"['Ag', 'Y']",2,aflow:f36e18a378d3536b,Ag1Y1,221,"['Ag', 'Y']",2
+mp-29725,YBRh3,221,"['B', 'Rh', 'Y']",3,aflow:dc0372b556662df4,B1Rh3Y1,221,"['B', 'Rh', 'Y']",3
+mp-22704,YIn,221,"['In', 'Y']",2,aflow:2fc467cf3aaec8cb,In1Y1,221,"['In', 'Y']",2
+mp-20131,YIn3,221,"['In', 'Y']",2,aflow:bdf0281f8f192f1f,In3Y1,221,"['In', 'Y']",2
+mp-2393,YTl3,221,"['Tl', 'Y']",2,aflow:c08b23695db01790,Tl3Y1,221,"['Tl', 'Y']",2
+mp-1259,YbAl3,221,"['Al', 'Yb']",2,aflow:bd9e08867b7e5d00,Al3Yb1,221,"['Al', 'Yb']",2
+mp-419,YbB6,221,"['B', 'Yb']",2,aflow:b564fd983e6ad2e2,B6Yb1,221,"['B', 'Yb']",2
+mp-1857,YbCd,221,"['Cd', 'Yb']",2,aflow:9dca02934916b5f5,Cd1Yb1,221,"['Cd', 'Yb']",2
+mp-2459,YbIn,221,"['In', 'Yb']",2,aflow:9b97c23e6352e08b,In1Yb1,221,"['In', 'Yb']",2
+mp-20469,YbIn3,221,"['In', 'Yb']",2,aflow:3e99a8522e295b39,In3Yb1,221,"['In', 'Yb']",2
+mp-568705,YbIr,221,"['Ir', 'Yb']",2,aflow:643740d81b353d90,Ir1Yb1,221,"['Ir', 'Yb']",2
+mp-1723,UAl3,221,"['Al', 'U']",2,aflow:7a9452c1aff2f407,Al3U1,221,"['Al', 'U']",2
+mp-20941,UIn3,221,"['In', 'U']",2,aflow:89046aa43a11c6ce,In3U1,221,"['In', 'U']",2
+mp-1044,UIr3,221,"['Ir', 'U']",2,aflow:9af60c5a7274d323,Ir3U1,221,"['Ir', 'U']",2
+mp-1263,URu3,221,"['Ru', 'U']",2,aflow:cd335767e53fce83,Ru3U1,221,"['Ru', 'U']",2
+mp-21430,YbPb3,221,"['Pb', 'Yb']",2,aflow:0132ab6b9cddd429,Pb3Yb1,221,"['Pb', 'Yb']",2
+mp-2391,YbPd3,221,"['Pd', 'Yb']",2,aflow:903274808a8dc703,Pd3Yb1,221,"['Pd', 'Yb']",2
+mp-300,YbPt3,221,"['Pt', 'Yb']",2,aflow:2b5b4263126741e1,Pt3Yb1,221,"['Pt', 'Yb']",2
+mp-567089,YbRh,221,"['Rh', 'Yb']",2,aflow:7f89de06268eaf14,Rh1Yb1,221,"['Rh', 'Yb']",2
+mp-10716,YbRh3C,221,"['C', 'Rh', 'Yb']",3,aflow:a38e4109ef4d22e1,C1Rh3Yb1,221,"['C', 'Rh', 'Yb']",3
+mp-11576,YbTl,221,"['Tl', 'Yb']",2,aflow:9c68d753a5c1b840,Tl1Yb1,221,"['Tl', 'Yb']",2
+mp-1684,ZnAu,221,"['Au', 'Zn']",2,aflow:932366769d6016ef,Au1Zn1,221,"['Au', 'Zn']",2
+mp-987,ZnCu,221,"['Cu', 'Zn']",2,aflow:d948b9cda2010f3b,Cu1Zn1,221,"['Cu', 'Zn']",2
+mp-1471,Zr3Al,221,"['Al', 'Zr']",2,aflow:d5adc38fa8b953cf,Al1Zr3,221,"['Al', 'Zr']",2
+mp-20695,Zr3In,221,"['In', 'Zr']",2,aflow:7d01de55b4372b7a,In1Zr3,221,"['In', 'Zr']",2
+mp-2283,ZrCo,221,"['Co', 'Zr']",2,aflow:a165b280f0c37787,Co1Zr1,221,"['Co', 'Zr']",2
+mp-1438,ZrIr3,221,"['Ir', 'Zr']",2,aflow:3449b10658b69dd3,Ir3Zr1,221,"['Ir', 'Zr']",2
+mp-11541,ZrOs,221,"['Os', 'Zr']",2,aflow:a36bd88304037b89,Os1Zr1,221,"['Os', 'Zr']",2
+mp-229,ZrRh3,221,"['Rh', 'Zr']",2,aflow:b6449ed4840e19f6,Rh3Zr1,221,"['Rh', 'Zr']",2
+mp-570276,ZrZn,221,"['Zn', 'Zr']",2,aflow:2cb00cb797720fc7,Zn1Zr1,221,"['Zn', 'Zr']",2
+mp-1885,AlIr,221,"['Al', 'Ir']",2,aflow:7372464395d0b3c6,Al1Ir1,221,"['Al', 'Ir']",2
+mp-1487,AlNi,221,"['Al', 'Ni']",2,aflow:ad9bb3ce8c34c78e,Al1Ni1,221,"['Al', 'Ni']",2
+mp-364,AlRh,221,"['Al', 'Rh']",2,aflow:359263f19d0d546e,Al1Rh1,221,"['Al', 'Rh']",2
+mp-542569,AlRu,221,"['Al', 'Ru']",2,aflow:0748412c3a3db28b,Al1Ru1,221,"['Al', 'Ru']",2
+mp-2773,BeCo,221,"['Be', 'Co']",2,aflow:b3e8d1368b95ed0d,Be1Co1,221,"['Be', 'Co']",2
+mp-11276,BeRh,221,"['Be', 'Rh']",2,aflow:0d4c2a40fe143a57,Be1Rh1,221,"['Be', 'Rh']",2
+mp-11290,CaSn3,221,"['Ca', 'Sn']",4,aflow:c4fc7a005d06a30b,Ca1Sn3,221,"['Ca', 'Sn']",2
+mp-1073,CaCd,221,"['Ca', 'Cd']",2,aflow:68fb7c17a24ef7ef,Ca1Cd1,221,"['Ca', 'Cd']",2
+mp-11286,CaHg,221,"['Ca', 'Hg']",2,aflow:e1226cf0e66c1033,Ca1Hg1,221,"['Ca', 'Hg']",2
+mp-12585,CrRh3,221,"['Cr', 'Rh']",4,aflow:28847c37c6fa69ea,Cr1Rh3,221,"['Cr', 'Rh']",2
+mp-2258,Cu3Au,221,"['Au', 'Cu']",4,aflow:e7e21be634245737,Au1Cu3,221,"['Au', 'Cu']",2
+mp-12086,Cu3Pt,221,"['Cu', 'Pt']",4,aflow:2b4ab77dda6ab20f,Cu3Pt1,221,"['Cu', 'Pt']",2
+mp-2027,HfCo,221,"['Co', 'Hf']",2,aflow:c5b17da66c84aaf6,Co1Hf1,221,"['Co', 'Hf']",2
+mp-2126,HfIr3,221,"['Hf', 'Ir']",4,aflow:fe2c6fc4804c26c3,Hf1Ir3,221,"['Hf', 'Ir']",2
+mp-11452,HfOs,221,"['Hf', 'Os']",2,aflow:e958030590a0d0bd,Hf1Os1,221,"['Hf', 'Os']",2
+mp-1027,HfRh3,221,"['Hf', 'Rh']",4,aflow:c38c54f6fd9ccec1,Hf1Rh3,221,"['Hf', 'Rh']",2
+mp-2802,HfRu,221,"['Hf', 'Ru']",2,aflow:6f3e9a62beed10fe,Hf1Ru1,221,"['Hf', 'Ru']",2
+mp-11460,HfTc,221,"['Hf', 'Tc']",2,aflow:3e45dbfa7d475634,Hf1Tc1,221,"['Hf', 'Tc']",2
+mp-11248,LiAu3,221,"['Au', 'Li']",4,aflow:c95606e8cb3cef5a,Au3Li1,221,"['Au', 'Li']",2
+mp-2012,LiHg,221,"['Hg', 'Li']",2,aflow:07f268d309e600b2,Hg1Li1,221,"['Hg', 'Li']",2
+mp-437,MgAu,221,"['Au', 'Mg']",2,aflow:12adf10b63fa2334,Au1Mg1,221,"['Au', 'Mg']",2
+mp-1172,MgRh,221,"['Mg', 'Rh']",2,aflow:c87705861b1e6915,Mg1Rh1,221,"['Mg', 'Rh']",2
+mp-12674,MnAu,221,"['Au', 'Mn']",2,aflow:a655aeef53046339,Au1Mn1,221,"['Au', 'Mn']",2
+mp-417,MnRh,221,"['Mn', 'Rh']",2,aflow:b46359d8e0dcc980,Mn1Rh1,221,"['Mn', 'Rh']",2
+mp-316,MnV,221,"['Mn', 'V']",2,aflow:c6d068e985f2a15e,Mn1V1,221,"['Mn', 'V']",2
+mp-953,NbZn3,221,"['Nb', 'Zn']",4,aflow:33384eefa2607528,Nb1Zn3,221,"['Nb', 'Zn']",2
+mp-718,SnPd3,221,"['Pd', 'Sn']",4,aflow:23b6d94f767fd2cd,Pd3Sn1,221,"['Pd', 'Sn']",2
+mp-20971,SnPt3,221,"['Pt', 'Sn']",4,aflow:6be90e0b1e703b4d,Pt3Sn1,221,"['Pt', 'Sn']",2
+mp-4079,Sc3AlC,221,"['Al', 'C', 'Sc']",5,aflow:d7486a814fe4eaea,Al1C1Sc3,221,"['Al', 'C', 'Sc']",3
+mp-16297,Sc3SnC,221,"['C', 'Sc', 'Sn']",5,aflow:4ad542786ef28db2,C1Sc3Sn1,221,"['C', 'Sc', 'Sn']",3
+mp-331,ScAl,221,"['Al', 'Sc']",2,aflow:bc6d6d2126b11c3f,Al1Sc1,221,"['Al', 'Sc']",2
+mp-2121,ScAl3,221,"['Al', 'Sc']",4,aflow:5331b9c8e0d5267d,Al3Sc1,221,"['Al', 'Sc']",2
+mp-11256,ScAu,221,"['Au', 'Sc']",2,aflow:bb1785238190c409,Au1Sc1,221,"['Au', 'Sc']",2
+mp-1211,ScCd,221,"['Cd', 'Sc']",2,aflow:96f7b5f72a5fe798,Cd1Sc1,221,"['Cd', 'Sc']",2
+mp-2212,ScCo,221,"['Co', 'Sc']",2,aflow:9782d5248273d419,Co1Sc1,221,"['Co', 'Sc']",2
+mp-1169,ScCu,221,"['Cu', 'Sc']",2,aflow:ee85245cde3ed6c7,Cu1Sc1,221,"['Cu', 'Sc']",2
+mp-11471,ScHg,221,"['Hg', 'Sc']",2,aflow:f4d96a33ab291275,Hg1Sc1,221,"['Hg', 'Sc']",2
+mp-1129,ScIr,221,"['Ir', 'Sc']",2,aflow:1ac49c8e5e124ef8,Ir1Sc1,221,"['Ir', 'Sc']",2
+mp-12593,ScIr3,221,"['Ir', 'Sc']",4,aflow:c05f2543a2e6b0f9,Ir3Sc1,221,"['Ir', 'Sc']",2
+mp-2781,ScPd,221,"['Pd', 'Sc']",2,aflow:2d8425a06ab1611d,Pd1Sc1,221,"['Pd', 'Sc']",2
+mp-2677,ScPd3,221,"['Pd', 'Sc']",4,aflow:2e2a4cca86d236fb,Pd3Sc1,221,"['Pd', 'Sc']",2
+mp-892,ScPt,221,"['Pt', 'Sc']",2,aflow:ed23ecf0e217e549,Pt1Sc1,221,"['Pt', 'Sc']",2
+mp-481,ScPt3,221,"['Pt', 'Sc']",4,aflow:3fdc47a5a166d5dd,Pt3Sc1,221,"['Pt', 'Sc']",2
+mp-1780,ScRh,221,"['Rh', 'Sc']",2,aflow:1da926caa9bd3298,Rh1Sc1,221,"['Rh', 'Sc']",2
+mp-635,ScRh3,221,"['Rh', 'Sc']",4,aflow:ea4b129585b040c4,Rh3Sc1,221,"['Rh', 'Sc']",2
+mp-10712,ScRh3C,221,"['C', 'Rh', 'Sc']",5,aflow:d5b672c7928a8d6a,C1Rh3Sc1,221,"['C', 'Rh', 'Sc']",3
+mp-30867,ScRu,221,"['Ru', 'Sc']",2,aflow:c33a14007399064d,Ru1Sc1,221,"['Ru', 'Sc']",2
+mp-7130,ScRu3C,221,"['C', 'Ru', 'Sc']",5,aflow:6969ed5a893c0533,C1Ru3Sc1,221,"['C', 'Ru', 'Sc']",3
+mp-11566,ScZn,221,"['Sc', 'Zn']",2,aflow:336873381da1c2de,Sc1Zn1,221,"['Sc', 'Zn']",2
+mp-3271,Ti3AlC,221,"['Al', 'C', 'Ti']",5,aflow:4d8faf470aa227b6,Al1C1Ti3,221,"['Al', 'C', 'Ti']",3
+mp-265,TaIr3,221,"['Ir', 'Ta']",4,aflow:0b20629a915a4c54,Ir3Ta1,221,"['Ir', 'Ta']",2
+mp-1020,TaRh3,221,"['Rh', 'Ta']",4,aflow:1cc19369e172f540,Rh3Ta1,221,"['Rh', 'Ta']",2
+mp-11572,TaTc,221,"['Ta', 'Tc']",2,aflow:4636a6353e82ddee,Ta1Tc1,221,"['Ta', 'Tc']",2
+mp-823,TiCo,221,"['Co', 'Ti']",2,aflow:7f97787e67d5dd51,Co1Ti1,221,"['Co', 'Ti']",2
+mp-305,TiFe,221,"['Fe', 'Ti']",2,aflow:5a670b4d513577ba,Fe1Ti1,221,"['Fe', 'Ti']",2
+mp-1089,TiIr3,221,"['Ir', 'Ti']",4,aflow:6138a1f196c1c245,Ir3Ti1,221,"['Ir', 'Ti']",2
+mp-291,TiOs,221,"['Os', 'Ti']",2,aflow:0bf997c48fac9fb0,Os1Ti1,221,"['Os', 'Ti']",2
+mp-1152,TiRh3,221,"['Rh', 'Ti']",4,aflow:2912c3468b1bd6b8,Rh3Ti1,221,"['Rh', 'Ti']",2
+mp-592,TiRu,221,"['Ru', 'Ti']",2,aflow:80cba77e1024009d,Ru1Ti1,221,"['Ru', 'Ti']",2
+mp-11573,TiTc,221,"['Tc', 'Ti']",2,aflow:f2bf1c69bbb4ccdc,Tc1Ti1,221,"['Tc', 'Ti']",2
+mp-12778,VOs,221,"['Os', 'V']",2,aflow:ac232fbf28827cdb,Os1V1,221,"['Os', 'V']",2
+mp-372,VPt3,221,"['Pt', 'V']",4,aflow:070d1a4de1bb3fe4,Pt3V1,221,"['Pt', 'V']",2
+mp-1395,VRu,221,"['Ru', 'V']",2,aflow:2cd188952f1402e7,Ru1V1,221,"['Ru', 'V']",2
+mp-2540,VTc,221,"['Tc', 'V']",2,aflow:f79a697dd14b142c,Tc1V1,221,"['Tc', 'V']",2
+mp-11578,VZn3,221,"['V', 'Zn']",4,aflow:ac085a73c29ce947,V1Zn3,221,"['V', 'Zn']",2
+mp-4448,Y3AlC,221,"['Al', 'C', 'Y']",5,aflow:a873c04ce401162f,Al1C1Y3,221,"['Al', 'C', 'Y']",3
+mp-10608,Y3SnC,221,"['C', 'Sn', 'Y']",5,aflow:e6c9ac980101c7a9,C1Sn1Y3,221,"['C', 'Sn', 'Y']",3
+mp-915,YCd,221,"['Cd', 'Y']",2,aflow:9c697bbcdaca44b5,Cd1Y1,221,"['Cd', 'Y']",2
+mp-2399,YHg,221,"['Hg', 'Y']",2,aflow:1f7c5feab515be03,Hg1Y1,221,"['Hg', 'Y']",2
+mp-30746,YIr,221,"['Ir', 'Y']",2,aflow:f69f9fe91f97079b,Ir1Y1,221,"['Ir', 'Y']",2
+mp-615,YMg,221,"['Mg', 'Y']",2,aflow:582d36d531b92b8c,Mg1Y1,221,"['Mg', 'Y']",2
+mp-559,YPd3,221,"['Pd', 'Y']",4,aflow:a9dd7a99cc37634d,Pd3Y1,221,"['Pd', 'Y']",2
+mp-2403,YPt3,221,"['Pt', 'Y']",4,aflow:e3faf75fedf889c3,Pt3Y1,221,"['Pt', 'Y']",2
+mp-191,YRh,221,"['Rh', 'Y']",2,aflow:02f0db62eca4baea,Rh1Y1,221,"['Rh', 'Y']",2
+mp-22120,YRh3C,221,"['C', 'Rh', 'Y']",5,aflow:1272279fc87ba14e,C1Rh3Y1,221,"['C', 'Rh', 'Y']",3
+mp-2516,YZn,221,"['Y', 'Zn']",2,aflow:440eed1fe4e9897b,Y1Zn1,221,"['Y', 'Zn']",2
+mp-30856,ZnPt3,221,"['Pt', 'Zn']",4,aflow:b6222a2c31f1c887,Pt3Zn1,221,"['Pt', 'Zn']",2
+mp-6938,ZnRh,221,"['Rh', 'Zn']",2,aflow:b8eac8765fab9bed,Rh1Zn1,221,"['Rh', 'Zn']",2
+mp-214,ZrRu,221,"['Ru', 'Zr']",2,aflow:f22c703bcdb00e01,Ru1Zr1,221,"['Ru', 'Zr']",2
+mp-10,As,221,['As'],1,aflow:a997e20f53ed2acb,As1,221,['As'],1
+mp-567597,Bi,221,['Bi'],1,aflow:27bbd51ad4827863,Bi1,221,['Bi'],1
+mp-133,Sb,221,['Sb'],1,aflow:462bb5f411a8e076,Sb1,221,['Sb'],1
+mp-24147,AcH2,225,"['Ac', 'H']",2,aflow:903e65521a6472cd,Ac1H2,225,"['Ac', 'H']",2
+mp-22922,AgCl,225,"['Ag', 'Cl']",2,aflow:59bce60e4ed76f05,Ag1Cl1,225,"['Ag', 'Cl']",2
+mp-2302,AsRh2,225,"['As', 'Rh']",2,aflow:01a40028ad8815a4,As1Rh2,225,"['As', 'Rh']",2
+mp-1009733,Ca2Si,225,"['Ca', 'Si']",2,aflow:d42847d039d9c6d9,Ca2Si1,225,"['Ca', 'Si']",2
+mp-20463,CaPbF6,225,"['Ca', 'F', 'Pb']",3,aflow:a21b02f100736b23,Ca1F6Pb1,225,"['Ca', 'F', 'Pb']",3
+mp-1672,CaS,225,"['Ca', 'S']",2,aflow:007edcc20ee1c898,Ca1S1,225,"['Ca', 'S']",2
+mp-1415,CaSe,225,"['Ca', 'Se']",2,aflow:7a5d981a5d714afb,Ca1Se1,225,"['Ca', 'Se']",2
+mp-1519,CaTe,225,"['Ca', 'Te']",2,aflow:f51506e74f2ec57e,Ca1Te1,225,"['Ca', 'Te']",2
+mp-241,CdF2,225,"['Cd', 'F']",2,aflow:c63288c8bd0530ac,Cd1F2,225,"['Cd', 'F']",2
+mp-1132,CdO,225,"['Cd', 'O']",2,aflow:83e90de1a2af0519,Cd1O1,225,"['Cd', 'O']",2
+mp-568662,BaCl2,225,"['Ba', 'Cl']",2,aflow:6a9703b2d7b80183,Ba1Cl2,225,"['Ba', 'Cl']",2
+mp-1253,BaSe,225,"['Ba', 'Se']",2,aflow:20c956c82d61d753,Ba1Se1,225,"['Ba', 'Se']",2
+mp-1000,BaTe,225,"['Ba', 'Te']",2,aflow:f92c7225e1387152,Ba1Te1,225,"['Ba', 'Te']",2
+mp-20194,CeO2,225,"['Ce', 'O']",2,aflow:aa6ceeb12511471b,Ce1O2,225,"['Ce', 'O']",2
+mp-2154,CeP,225,"['Ce', 'P']",2,aflow:969e8091cd9da8c9,Ce1P1,225,"['Ce', 'P']",2
+mp-2563,CeSe,225,"['Ce', 'Se']",2,aflow:2cd52c20880b93f8,Ce1Se1,225,"['Ce', 'Se']",2
+mp-24151,DyH2,225,"['Dy', 'H']",2,aflow:55bf312c44071d54,Dy1H2,225,"['Dy', 'H']",2
+mp-20898,DyInAg2,225,"['Ag', 'Dy', 'In']",3,aflow:dcf9e6bc36e20b6d,Ag2Dy1In1,225,"['Ag', 'Dy', 'In']",3
+mp-30374,DyInAu2,225,"['Au', 'Dy', 'In']",3,aflow:e56edcb230715dcf,Au2Dy1In1,225,"['Au', 'Dy', 'In']",3
+mp-1546,DyMg3,225,"['Dy', 'Mg']",2,aflow:aa05095e36513fca,Dy1Mg3,225,"['Dy', 'Mg']",2
+mp-1410,DyN,225,"['Dy', 'N']",2,aflow:8f3e0c3e671cf4a9,Dy1N1,225,"['Dy', 'N']",2
+mp-2014,DyP,225,"['Dy', 'P']",2,aflow:440c7849ab8be110,Dy1P1,225,"['Dy', 'P']",2
+mp-2470,DyS,225,"['Dy', 'S']",2,aflow:2debadc28b817473,Dy1S1,225,"['Dy', 'S']",2
+mp-1007,DySb,225,"['Dy', 'Sb']",2,aflow:91dcf2c2ffad7d2d,Dy1Sb1,225,"['Dy', 'Sb']",2
+mp-814,DySe,225,"['Dy', 'Se']",2,aflow:cf3ef46b038e70fa,Dy1Se1,225,"['Dy', 'Se']",2
+mp-2159,DyTe,225,"['Dy', 'Te']",2,aflow:c784ea573c0e2ee7,Dy1Te1,225,"['Dy', 'Te']",2
+mp-1688,ErAs,225,"['As', 'Er']",2,aflow:a7617b1c7ed6d859,As1Er1,225,"['As', 'Er']",2
+mp-23245,ErBi,225,"['Bi', 'Er']",2,aflow:8927893ffc054168,Bi1Er1,225,"['Bi', 'Er']",2
+mp-24192,ErH2,225,"['Er', 'H']",2,aflow:42bc9c43b5da2a39,Er1H2,225,"['Er', 'H']",2
+mp-30340,ErInAg2,225,"['Ag', 'Er', 'In']",3,aflow:22494371b35a87c6,Ag2Er1In1,225,"['Ag', 'Er', 'In']",3
+mp-1623,ErS,225,"['Er', 'S']",2,aflow:e81a0ba1ec4da6b1,Er1S1,225,"['Er', 'S']",2
+mp-2191,ErSb,225,"['Er', 'Sb']",2,aflow:b932c6b738cf237f,Er1Sb1,225,"['Er', 'Sb']",2
+mp-2491,ErSe,225,"['Er', 'Se']",2,aflow:a910c394f6b05eb5,Er1Se1,225,"['Er', 'Se']",2
+mp-2627,DyAs,225,"['As', 'Dy']",2,aflow:abf5b7fa198a8dc2,As1Dy1,225,"['As', 'Dy']",2
+mp-22907,DyBi,225,"['Bi', 'Dy']",2,aflow:4dcf1adffdb1e365,Bi1Dy1,225,"['Bi', 'Dy']",2
+mp-540957,Cs2TeI6,225,"['Cs', 'I', 'Te']",3,aflow:6dc2e902a1372f65,Cs2I6Te1,225,"['Cs', 'I', 'Te']",3
+mp-1784,CsF,225,"['Cs', 'F']",2,aflow:71951baeb9deaf95,Cs1F1,225,"['Cs', 'F']",2
+mp-1057286,CsH,225,"['Cs', 'H']",2,aflow:c39a60600679c372,Cs1H1,225,"['Cs', 'H']",2
+mp-581024,CsK2Sb,225,"['Cs', 'K', 'Sb']",3,aflow:1e79095987894d8e,Cs1K2Sb1,225,"['Cs', 'K', 'Sb']",3
+mp-504731,EuF2,225,"['Eu', 'F']",2,aflow:c3c3b4f96a8f89d4,Eu1F2,225,"['Eu', 'F']",2
+mp-3464,FeSiRu2,225,"['Fe', 'Ru', 'Si']",3,aflow:5516c55915dd7282,Fe1Ru2Si1,225,"['Fe', 'Ru', 'Si']",3
+mp-2776,Ga2Au,225,"['Au', 'Ga']",2,aflow:ad6f64d685ae95e7,Au1Ga2,225,"['Au', 'Ga']",2
+mp-22095,Ga2Pt,225,"['Ga', 'Pt']",2,aflow:230c711fe243b5af,Ga2Pt1,225,"['Ga', 'Pt']",2
+mp-30551,GaFeCo2,225,"['Co', 'Fe', 'Ga']",3,aflow:66c24085ff2e8c69,Co2Fe1Ga1,225,"['Co', 'Fe', 'Ga']",3
+mp-510374,GdAs,225,"['As', 'Gd']",2,aflow:ec99c2c4de2255c2,As1Gd1,225,"['As', 'Gd']",2
+mp-510402,GdS,225,"['Gd', 'S']",2,aflow:855438e43a9a0d2e,Gd1S1,225,"['Gd', 'S']",2
+mp-510404,GdSe,225,"['Gd', 'Se']",2,aflow:36f700f79ac36078,Gd1Se1,225,"['Gd', 'Se']",2
+mp-5748,HfAlNi2,225,"['Al', 'Hf', 'Ni']",3,aflow:c20eee5b3bd9d78c,Al1Hf1Ni2,225,"['Al', 'Hf', 'Ni']",3
+mp-3576,HfGaCo2,225,"['Co', 'Ga', 'Hf']",3,aflow:70e694f77ce2bdc1,Co2Ga1Hf1,225,"['Co', 'Ga', 'Hf']",3
+mp-600125,HfInCu2,225,"['Cu', 'Hf', 'In']",3,aflow:e4037d5debb3f095,Cu2Hf1In1,225,"['Cu', 'Hf', 'In']",3
+mp-2828,HfN,225,"['Hf', 'N']",2,aflow:a3ef546736421603,Hf1N1,225,"['Hf', 'N']",2
+mp-295,HoAs,225,"['As', 'Ho']",2,aflow:15deecb330c335d7,As1Ho1,225,"['As', 'Ho']",2
+mp-22866,HoBi,225,"['Bi', 'Ho']",2,aflow:7239eb435c5ec897,Bi1Ho1,225,"['Bi', 'Ho']",2
+mp-24152,HoH2,225,"['H', 'Ho']",2,aflow:b4eb1cc7864a4da6,H2Ho1,225,"['H', 'Ho']",2
+mp-30342,HoInAg2,225,"['Ag', 'Ho', 'In']",3,aflow:afa6e5dc6e33e138,Ag2Ho1In1,225,"['Ag', 'Ho', 'In']",3
+mp-30586,HoInCu2,225,"['Cu', 'Ho', 'In']",3,aflow:5e0f55e7c54d3257,Cu2Ho1In1,225,"['Cu', 'Ho', 'In']",3
+mp-883,HoN,225,"['Ho', 'N']",2,aflow:427343e52e422912,Ho1N1,225,"['Ho', 'N']",2
+mp-744,HoP,225,"['Ho', 'P']",2,aflow:f19bc59154a5f3fc,Ho1P1,225,"['Ho', 'P']",2
+mp-1240,HoS,225,"['Ho', 'S']",2,aflow:47edb17dac296aad,Ho1S1,225,"['Ho', 'S']",2
+mp-2050,HoSb,225,"['Ho', 'Sb']",2,aflow:b841f96236469afc,Ho1Sb1,225,"['Ho', 'Sb']",2
+mp-464,HoSe,225,"['Ho', 'Se']",2,aflow:39e2230d9b5ece5a,Ho1Se1,225,"['Ho', 'Se']",2
+mp-30731,HoSnPd2,225,"['Ho', 'Pd', 'Sn']",3,aflow:8383aa70ee692642,Ho1Pd2Sn1,225,"['Ho', 'Pd', 'Sn']",3
+mp-919,HoTe,225,"['Ho', 'Te']",2,aflow:17798e37f2678015,Ho1Te1,225,"['Ho', 'Te']",2
+mp-22154,In2Au,225,"['Au', 'In']",2,aflow:0c443f85eacd3890,Au1In2,225,"['Au', 'In']",2
+mp-22682,In2Pt,225,"['In', 'Pt']",2,aflow:56df4b5282549a79,In2Pt1,225,"['In', 'Pt']",2
+mp-1022,K2S,225,"['K', 'S']",2,aflow:e4dd36659b848305,K2S1,225,"['K', 'S']",2
+mp-8426,K2Se,225,"['K', 'Se']",2,aflow:3746bf32a1781888,K2Se1,225,"['K', 'Se']",2
+mp-1747,K2Te,225,"['K', 'Te']",2,aflow:5a624ba9e35af61b,K2Te1,225,"['K', 'Te']",2
+mp-708,LaAs,225,"['As', 'La']",2,aflow:9a676bbe152cef9c,As1La1,225,"['As', 'La']",2
+mp-568917,LaInAg2,225,"['Ag', 'In', 'La']",3,aflow:737af44395bdd9e5,Ag2In1La1,225,"['Ag', 'In', 'La']",3
+mp-256,LaN,225,"['La', 'N']",2,aflow:7d317ef38e0f8728,La1N1,225,"['La', 'N']",2
+mp-2384,LaP,225,"['La', 'P']",2,aflow:9d043d56c74364e9,La1P1,225,"['La', 'P']",2
+mp-2350,LaS,225,"['La', 'S']",2,aflow:ba5eb87a4148029c,La1S1,225,"['La', 'S']",2
+mp-1065,LaSb,225,"['La', 'Sb']",2,aflow:a22a842e9d3d6dd2,La1Sb1,225,"['La', 'Sb']",2
+mp-1560,LaTe,225,"['La', 'Te']",2,aflow:3db1c6bb651f859d,La1Te1,225,"['La', 'Te']",2
+mp-12128,Li2MgIn,225,"['In', 'Li', 'Mg']",3,aflow:dbd517cc423f7034,In1Li2Mg1,225,"['In', 'Li', 'Mg']",3
+mp-1153,Li2S,225,"['Li', 'S']",2,aflow:23c730c679e041bf,Li2S1,225,"['Li', 'S']",2
+mp-2286,Li2Se,225,"['Li', 'Se']",2,aflow:01a70da6b0c35513,Li2Se1,225,"['Li', 'Se']",2
+mp-2530,Li2Te,225,"['Li', 'Te']",2,aflow:f237511d90939265,Li2Te1,225,"['Li', 'Te']",2
+mp-15724,KNa2Sb,225,"['K', 'Na', 'Sb']",3,aflow:5d6d0cc05e18b116,K1Na2Sb1,225,"['K', 'Na', 'Sb']",3
+mp-24084,KH,225,"['H', 'K']",2,aflow:c18b48bc9c6f4df9,H1K1,225,"['H', 'K']",2
+mp-11247,Li3Au,225,"['Au', 'Li']",2,aflow:5891782b644338f2,Au1Li3,225,"['Au', 'Li']",2
+mp-23222,Li3Bi,225,"['Bi', 'Li']",2,aflow:a347088e4932106b,Bi1Li3,225,"['Bi', 'Li']",2
+mp-9472,LiAg2Ge,225,"['Ag', 'Ge', 'Li']",3,aflow:0fe4e83557076b65,Ag2Ge1Li1,225,"['Ag', 'Ge', 'Li']",3
+mp-2927,LiAg2Sn,225,"['Ag', 'Li', 'Sn']",3,aflow:d176291d7c976b5c,Ag2Li1Sn1,225,"['Ag', 'Li', 'Sn']",3
+mp-567097,LiCu2Ge,225,"['Cu', 'Ge', 'Li']",3,aflow:3cb72890f73b7821,Cu2Ge1Li1,225,"['Cu', 'Ge', 'Li']",3
+mp-13322,LiGeRh2,225,"['Ge', 'Li', 'Rh']",3,aflow:3eb9b5f8dc58315f,Ge1Li1Rh2,225,"['Ge', 'Li', 'Rh']",3
+mp-31208,LiIn2Ir,225,"['In', 'Ir', 'Li']",3,aflow:cfcaed811a14588c,In2Ir1Li1,225,"['In', 'Ir', 'Li']",3
+mp-20801,LiIn2Pd,225,"['In', 'Li', 'Pd']",3,aflow:d18edb1550aa79c9,In2Li1Pd1,225,"['In', 'Li', 'Pd']",3
+mp-13396,LiIn2Rh,225,"['In', 'Li', 'Rh']",3,aflow:814c94a11ccd5a2a,In2Li1Rh1,225,"['In', 'Li', 'Rh']",3
+mp-567787,LiInAg2,225,"['Ag', 'In', 'Li']",3,aflow:a19cdea5f11fd86f,Ag2In1Li1,225,"['Ag', 'In', 'Li']",3
+mp-16349,LiNi2Ge,225,"['Ge', 'Li', 'Ni']",3,aflow:5d9ecf64519f93d7,Ge1Li1Ni2,225,"['Ge', 'Li', 'Ni']",3
+mp-7243,LiSnPd2,225,"['Li', 'Pd', 'Sn']",3,aflow:f03d3b055bd7c0f8,Li1Pd2Sn1,225,"['Li', 'Pd', 'Sn']",3
+mp-4972,LuInCu2,225,"['Cu', 'In', 'Lu']",3,aflow:e090cc03d970ae93,Cu2In1Lu1,225,"['Cu', 'In', 'Lu']",3
+mp-23804,Mg2FeH6,225,"['Fe', 'H', 'Mg']",3,aflow:8aeca263b3732fb3,Fe1H6Mg2,225,"['Fe', 'H', 'Mg']",3
+mp-408,Mg2Ge,225,"['Ge', 'Mg']",2,aflow:c3369be780358d85,Ge1Mg2,225,"['Ge', 'Mg']",2
+mp-20724,Mg2Pb,225,"['Mg', 'Pb']",2,aflow:1099c86fed89ce26,Mg2Pb1,225,"['Mg', 'Pb']",2
+mp-973088,MgInAg2,225,"['Ag', 'In', 'Mg']",3,aflow:83250739661cf4ba,Ag2In1Mg1,225,"['Ag', 'In', 'Mg']",3
+mp-30774,MgNi2Sn,225,"['Mg', 'Ni', 'Sn']",3,aflow:8dbf2001b9aa573a,Mg1Ni2Sn1,225,"['Mg', 'Ni', 'Sn']",3
+mp-1315,MgS,225,"['Mg', 'S']",2,aflow:a46892f0377def6d,Mg1S1,225,"['Mg', 'S']",2
+mp-5491,MnAlAu2,225,"['Al', 'Au', 'Mn']",3,aflow:965af7a3b7f3edc0,Al1Au2Mn1,225,"['Al', 'Au', 'Mn']",3
+mp-4922,MnAlNi2,225,"['Al', 'Mn', 'Ni']",3,aflow:c282c70d0c61a7c2,Al1Mn1Ni2,225,"['Al', 'Mn', 'Ni']",3
+mp-10894,MnAlRh2,225,"['Al', 'Mn', 'Rh']",3,aflow:6ebc0063762139e1,Al1Mn1Rh2,225,"['Al', 'Mn', 'Rh']",3
+mp-19850,MnCo2Ge,225,"['Co', 'Ge', 'Mn']",3,aflow:799112d927e1e790,Co2Ge1Mn1,225,"['Co', 'Ge', 'Mn']",3
+mp-21171,MnGaCo2,225,"['Co', 'Ga', 'Mn']",3,aflow:0c1fb44885f5bf88,Co2Ga1Mn1,225,"['Co', 'Ga', 'Mn']",3
+mp-2065,MnS,225,"['Mn', 'S']",2,aflow:42bcb1caacd2e497,Mn1S1,225,"['Mn', 'S']",2
+mp-20481,MnSnPd2,225,"['Mn', 'Pd', 'Sn']",3,aflow:59ba3fe3ff6e783a,Mn1Pd2Sn1,225,"['Mn', 'Pd', 'Sn']",3
+mp-4990,MnSnRh2,225,"['Mn', 'Rh', 'Sn']",3,aflow:6cacc67ee04755fc,Mn1Rh2Sn1,225,"['Mn', 'Rh', 'Sn']",3
+mp-648,Na2S,225,"['Na', 'S']",2,aflow:eceefbe0f5d07d00,Na2S1,225,"['Na', 'S']",2
+mp-1266,Na2Se,225,"['Na', 'Se']",2,aflow:5477ab0c5a3ac253,Na2Se1,225,"['Na', 'Se']",2
+mp-2784,Na2Te,225,"['Na', 'Te']",2,aflow:90eddf11eef225fb,Na2Te1,225,"['Na', 'Te']",2
+mp-5077,NaLi2Sb,225,"['Li', 'Na', 'Sb']",3,aflow:ffd8d4a125d06b15,Li2Na1Sb1,225,"['Li', 'Na', 'Sb']",3
+mp-3640,Nb6Si7Ni16,225,"['Nb', 'Ni', 'Si']",3,aflow:91d0bb4f802940b0,Nb6Ni16Si7,225,"['Nb', 'Ni', 'Si']",3
+mp-24154,NbH2,225,"['H', 'Nb']",2,aflow:585337a2c5893256,H2Nb1,225,"['H', 'Nb']",2
+mp-2602,NdAs,225,"['As', 'Nd']",2,aflow:8ea65c835ef92761,As1Nd1,225,"['As', 'Nd']",2
+mp-23300,NdBi,225,"['Bi', 'Nd']",2,aflow:ec4dd6314db205a2,Bi1Nd1,225,"['Bi', 'Nd']",2
+mp-2823,NdP,225,"['Nd', 'P']",2,aflow:bcfaf2bb33aa3677,Nd1P1,225,"['Nd', 'P']",2
+mp-24719,NiH,225,"['H', 'Ni']",2,aflow:412bf0dc20f54c7b,H1Ni1,225,"['H', 'Ni']",2
+mp-2082,PIr2,225,"['Ir', 'P']",2,aflow:98b6647c644f91af,Ir2P1,225,"['Ir', 'P']",2
+mp-2732,PRh2,225,"['P', 'Rh']",2,aflow:4ca2b630d8cbb6dd,P1Rh2,225,"['P', 'Rh']",2
+mp-15694,PaAs,225,"['As', 'Pa']",2,aflow:93c8fd0c34e5501b,As1Pa1,225,"['As', 'Pa']",2
+mp-567580,PaC,225,"['C', 'Pa']",2,aflow:fb1cd92584ed214f,C1Pa1,225,"['C', 'Pa']",2
+mp-1009545,PaN,225,"['N', 'Pa']",2,aflow:94a7e01d9960eb16,N1Pa1,225,"['N', 'Pa']",2
+mp-2364,PaO2,225,"['O', 'Pa']",2,aflow:613f851a6f86dd5b,O2Pa1,225,"['O', 'Pa']",2
+mp-315,PbF2,225,"['F', 'Pb']",2,aflow:8bd83352cb002f9c,F2Pb1,225,"['F', 'Pb']",2
+mp-21276,PbS,225,"['Pb', 'S']",2,aflow:0eba6b16a3d9271f,Pb1S1,225,"['Pb', 'S']",2
+mp-2201,PbSe,225,"['Pb', 'Se']",2,aflow:fc52354a1b50ff61,Pb1Se1,225,"['Pb', 'Se']",2
+mp-2548,PuAs,225,"['As', 'Pu']",2,aflow:50d5839c8ba06083,As1Pu1,225,"['As', 'Pu']",2
+mp-1719,PuN,225,"['N', 'Pu']",2,aflow:5952bc520d57d141,N1Pu1,225,"['N', 'Pu']",2
+mp-11327,Rb2Se,225,"['Rb', 'Se']",2,aflow:bc2372a6d49f86aa,Rb2Se1,225,"['Rb', 'Se']",2
+mp-441,Rb2Te,225,"['Rb', 'Te']",2,aflow:e7c5c7c5b4f9a113,Rb2Te1,225,"['Rb', 'Te']",2
+mp-11718,RbF,225,"['F', 'Rb']",2,aflow:94dbdbbca7eb0cb7,F1Rb1,225,"['F', 'Rb']",2
+mp-24721,RbH,225,"['H', 'Rb']",2,aflow:f7e872c3f33e6b8f,H1Rb1,225,"['H', 'Rb']",2
+mp-31169,ScAlAg2,225,"['Ag', 'Al', 'Sc']",3,aflow:ab6f8d92be6bad9f,Ag2Al1Sc1,225,"['Ag', 'Al', 'Sc']",3
+mp-2052,ScAs,225,"['As', 'Sc']",2,aflow:c3a17a59395aa4a7,As1Sc1,225,"['As', 'Sc']",2
+mp-570632,ScBi,225,"['Bi', 'Sc']",2,aflow:88c83a8148c7f64e,Bi1Sc1,225,"['Bi', 'Sc']",2
+mp-11360,ScGaCu2,225,"['Cu', 'Ga', 'Sc']",3,aflow:cf2155c717288f48,Cu2Ga1Sc1,225,"['Cu', 'Ga', 'Sc']",3
+mp-30661,ScGaPd2,225,"['Ga', 'Pd', 'Sc']",3,aflow:004419866f33d7b2,Ga1Pd2Sc1,225,"['Ga', 'Pd', 'Sc']",3
+mp-30347,ScInAg2,225,"['Ag', 'In', 'Sc']",3,aflow:e680940d09ac6cbb,Ag2In1Sc1,225,"['Ag', 'In', 'Sc']",3
+mp-21301,ScInNi2,225,"['In', 'Ni', 'Sc']",3,aflow:10153648a10f9068,In1Ni2Sc1,225,"['In', 'Ni', 'Sc']",3
+mp-31339,ScInPd2,225,"['In', 'Pd', 'Sc']",3,aflow:2dc34d6d0fc3bf2c,In1Pd2Sc1,225,"['In', 'Pd', 'Sc']",3
+mp-20521,ScInPt2,225,"['In', 'Pt', 'Sc']",3,aflow:4198963c6d7c4357,In1Pt2Sc1,225,"['In', 'Pt', 'Sc']",3
+mp-2857,ScN,225,"['N', 'Sc']",2,aflow:7d7ed697ff51323e,N1Sc1,225,"['N', 'Sc']",2
+mp-4536,ScNi2Sn,225,"['Ni', 'Sc', 'Sn']",3,aflow:752c69d9417b7048,Ni2Sc1Sn1,225,"['Ni', 'Sc', 'Sn']",3
+mp-2807,ScP,225,"['P', 'Sc']",2,aflow:96269a7acab8653a,P1Sc1,225,"['P', 'Sc']",2
+mp-1476,ScS,225,"['S', 'Sc']",2,aflow:6de070d552770c06,S1Sc1,225,"['S', 'Sc']",2
+mp-1782,ScSe,225,"['Sc', 'Se']",2,aflow:48d06cd57e3bde76,Sc1Se1,225,"['Sc', 'Se']",2
+mp-2291,Si2Ni,225,"['Ni', 'Si']",2,aflow:fa067fd045772391,Ni1Si2,225,"['Ni', 'Si']",2
+mp-1087,SrS,225,"['S', 'Sr']",2,aflow:fde5530a17dea6e1,S1Sr1,225,"['S', 'Sr']",2
+mp-2758,SrSe,225,"['Se', 'Sr']",2,aflow:8451928b649b9e7f,Se1Sr1,225,"['Se', 'Sr']",2
+mp-1958,SrTe,225,"['Sr', 'Te']",2,aflow:cb1f9acfa0aecb58,Sr1Te1,225,"['Sr', 'Te']",2
+mp-30555,TaGaCo2,225,"['Co', 'Ga', 'Ta']",3,aflow:e3950f9c6f25331e,Co2Ga1Ta1,225,"['Co', 'Ga', 'Ta']",3
+mp-24723,TaH2,225,"['H', 'Ta']",2,aflow:602f0c87edd34f36,H2Ta1,225,"['H', 'Ta']",2
+mp-2640,TbAs,225,"['As', 'Tb']",2,aflow:35eb4e1d72958b91,As1Tb1,225,"['As', 'Tb']",2
+mp-22921,TbBi,225,"['Bi', 'Tb']",2,aflow:1e182d013d03c39f,Bi1Tb1,225,"['Bi', 'Tb']",2
+mp-567210,TbInAu2,225,"['Au', 'In', 'Tb']",3,aflow:a5b6a4c476ad49ff,Au2In1Tb1,225,"['Au', 'In', 'Tb']",3
+mp-7381,TbMg3,225,"['Mg', 'Tb']",2,aflow:d89a17f151da8d1f,Mg3Tb1,225,"['Mg', 'Tb']",2
+mp-2117,TbN,225,"['N', 'Tb']",2,aflow:6ba20edeb60275d9,N1Tb1,225,"['N', 'Tb']",2
+mp-645,TbP,225,"['P', 'Tb']",2,aflow:9e0f114b1fdd2355,P1Tb1,225,"['P', 'Tb']",2
+mp-1610,TbS,225,"['S', 'Tb']",2,aflow:0a3f61db91adc40b,S1Tb1,225,"['S', 'Tb']",2
+mp-2724,TbSb,225,"['Sb', 'Tb']",2,aflow:234233835529eb17,Sb1Tb1,225,"['Sb', 'Tb']",2
+mp-1561,TbSe,225,"['Se', 'Tb']",2,aflow:125099e83f37f854,Se1Tb1,225,"['Se', 'Tb']",2
+mp-19717,TePb,225,"['Pb', 'Te']",2,aflow:dcdbde34e53a534d,Pb1Te1,225,"['Pb', 'Te']",2
+mp-1753,ThAs,225,"['As', 'Th']",2,aflow:74df3b9b6759a28e,As1Th1,225,"['As', 'Th']",2
+mp-1164,ThC,225,"['C', 'Th']",2,aflow:4e03466d19a9aba3,C1Th1,225,"['C', 'Th']",2
+mp-1093,ThGe,225,"['Ge', 'Th']",2,aflow:a00160fc5a955500,Ge1Th1,225,"['Ge', 'Th']",2
+mp-622041,ThInAu2,225,"['Au', 'In', 'Th']",3,aflow:1752b716519862db,Au2In1Th1,225,"['Au', 'In', 'Th']",3
+mp-834,ThN,225,"['N', 'Th']",2,aflow:5fbd191795ae6aaa,N1Th1,225,"['N', 'Th']",2
+mp-643,ThO2,225,"['O', 'Th']",2,aflow:1c78bb7df13625db,O2Th1,225,"['O', 'Th']",2
+mp-931,ThP,225,"['P', 'Th']",2,aflow:8a69ea34def2d194,P1Th1,225,"['P', 'Th']",2
+mp-503,ThS,225,"['S', 'Th']",2,aflow:c1de3a48addb6e86,S1Th1,225,"['S', 'Th']",2
+mp-1751,ThSb,225,"['Sb', 'Th']",2,aflow:20cd22d9d9abd84e,Sb1Th1,225,"['Sb', 'Th']",2
+mp-571126,Ti2BRh6,225,"['B', 'Rh', 'Ti']",3,aflow:8af29b635e51b3f7,B1Rh6Ti2,225,"['B', 'Rh', 'Ti']",3
+mp-23209,SrCl2,225,"['Cl', 'Sr']",2,aflow:bea65ca25419a241,Cl2Sr1,225,"['Cl', 'Sr']",2
+mp-866375,TiFe2Ge,225,"['Fe', 'Ge', 'Ti']",3,aflow:cd5e871a1c5af012,Fe2Ge1Ti1,225,"['Fe', 'Ge', 'Ti']",3
+mp-22725,TiInCu2,225,"['Cu', 'In', 'Ti']",3,aflow:2670645cbe129c86,Cu2In1Ti1,225,"['Cu', 'In', 'Ti']",3
+mp-492,TiN,225,"['N', 'Ti']",2,aflow:6cbb3552b5a8b20a,N1Ti1,225,"['N', 'Ti']",2
+mp-571102,TlI,225,"['I', 'Tl']",2,aflow:3128a4b9547d3c3d,I1Tl1,225,"['I', 'Tl']",2
+mp-933,YAs,225,"['As', 'Y']",2,aflow:2b8d1079f7096770,As1Y1,225,"['As', 'Y']",2
+mp-23241,YBi,225,"['Bi', 'Y']",2,aflow:c526fe4983dfcffa,Bi1Y1,225,"['Bi', 'Y']",2
+mp-24650,YH2,225,"['H', 'Y']",2,aflow:6c75f60af7364972,H2Y1,225,"['H', 'Y']",2
+mp-22493,YInAu2,225,"['Au', 'In', 'Y']",3,aflow:ea83ff99ce49e301,Au2In1Y1,225,"['Au', 'In', 'Y']",3
+mp-2114,YN,225,"['N', 'Y']",2,aflow:63e256b4afba7919,N1Y1,225,"['N', 'Y']",2
+mp-994,YP,225,"['P', 'Y']",2,aflow:916e0611d77b56f6,P1Y1,225,"['P', 'Y']",2
+mp-1534,YS,225,"['S', 'Y']",2,aflow:f5e210fbc72a9837,S1Y1,225,"['S', 'Y']",2
+mp-2637,YSe,225,"['Se', 'Y']",2,aflow:6675449ac1e1c290,Se1Y1,225,"['Se', 'Y']",2
+mp-22319,UB12,225,"['B', 'U']",2,aflow:b4c17e51ae055188,B12U1,225,"['B', 'U']",2
+mp-1776,UN2,225,"['N', 'U']",2,aflow:6ff5ead0224a7725,N2U1,225,"['N', 'U']",2
+mp-2011,UP,225,"['P', 'U']",2,aflow:6662f1dc461916ad,P1U1,225,"['P', 'U']",2
+mp-21883,VGaFe2,225,"['Fe', 'Ga', 'V']",3,aflow:1346268dae1d4e13,Fe2Ga1V1,225,"['Fe', 'Ga', 'V']",3
+mp-570899,YbNi2Sn,225,"['Ni', 'Sn', 'Yb']",3,aflow:7b7c072ca150e580,Ni2Sn1Yb1,225,"['Ni', 'Sn', 'Yb']",3
+mp-1820,YbS,225,"['S', 'Yb']",2,aflow:2a776b7905136491,S1Yb1,225,"['S', 'Yb']",2
+mp-1779,YbTe,225,"['Te', 'Yb']",2,aflow:cbe40e42e756b9e5,Te1Yb1,225,"['Te', 'Yb']",2
+mp-31171,Zn2AgAu,225,"['Ag', 'Au', 'Zn']",3,aflow:1304e00dd260415a,Ag1Au1Zn2,225,"['Ag', 'Au', 'Zn']",3
+mp-2795,ZrC,225,"['C', 'Zr']",2,aflow:b652e182b2677f30,C1Zr1,225,"['C', 'Zr']",2
+mp-11293,ZrCdCu2,225,"['Cd', 'Cu', 'Zr']",3,aflow:b73bfee99124e275,Cd1Cu2Zr1,225,"['Cd', 'Cu', 'Zr']",3
+mp-22503,ZrCo2Sn,225,"['Co', 'Sn', 'Zr']",3,aflow:c678ea2fec2066ee,Co2Sn1Zr1,225,"['Co', 'Sn', 'Zr']",3
+mp-623134,ZrInCu2,225,"['Cu', 'In', 'Zr']",3,aflow:9e3577fb21874572,Cu2In1Zr1,225,"['Cu', 'In', 'Zr']",3
+mp-20744,ZrInNi2,225,"['In', 'Ni', 'Zr']",3,aflow:e877f641919ada5e,In1Ni2Zr1,225,"['In', 'Ni', 'Zr']",3
+mp-1352,ZrN,225,"['N', 'Zr']",2,aflow:cfad5bdff5d83557,N1Zr1,225,"['N', 'Zr']",2
+mp-11366,ZrZnCu2,225,"['Cu', 'Zn', 'Zr']",3,aflow:0e1ce6e7356b1d0b,Cu2Zn1Zr1,225,"['Cu', 'Zn', 'Zr']",3
+mp-23231,AgBr,225,"['Ag', 'Br']",2,aflow:acc935168652beb5,Ag1Br1,225,"['Ag', 'Br']",2
+mp-2647,Al2Au,225,"['Al', 'Au']",3,aflow:1054a8325a9e105f,Al2Au1,225,"['Al', 'Au']",2
+mp-1502,Al2Pt,225,"['Al', 'Pt']",3,aflow:8360370e565093d1,Al2Pt1,225,"['Al', 'Pt']",2
+mp-5778,AlVFe2,225,"['Al', 'Fe', 'V']",4,aflow:7f1780b1dbf49454,Al1Fe2V1,225,"['Al', 'Fe', 'V']",3
+mp-1029,BaF2,225,"['Ba', 'F']",3,aflow:c0f032a787b91baf,Ba1F2,225,"['Ba', 'F']",2
+mp-1342,BaO,225,"['Ba', 'O']",2,aflow:ca2b185ba242da1e,Ba1O1,225,"['Ba', 'O']",2
+mp-1500,BaS,225,"['Ba', 'S']",2,aflow:549edbf033109acf,Ba1S1,225,"['Ba', 'S']",2
+mp-45,Ca,225,['Ca'],1,aflow:da235dae85798482,Ca1,225,['Ca'],1
+mp-2741,CaF2,225,"['Ca', 'F']",3,aflow:3215930607bd4762,Ca1F2,225,"['Ca', 'F']",2
+mp-2605,CaO,225,"['Ca', 'O']",2,aflow:9bc8de62e0d0e0ea,Ca1O1,225,"['Ca', 'O']",2
+mp-2379,CoSi2,225,"['Co', 'Si']",3,aflow:192166aa1a44ba49,Co1Si2,225,"['Co', 'Si']",2
+mp-614603,CsI,225,"['Cs', 'I']",2,aflow:e0fc6d7a170c6558,Cs1I1,225,"['Cs', 'I']",2
+mp-12608,CuPt7,225,"['Cu', 'Pt']",8,aflow:52e2ca0d6eb63c1d,Cu1Pt7,225,"['Cu', 'Pt']",2
+mp-30595,CuSnRh2,225,"['Cu', 'Rh', 'Sn']",4,aflow:ce4acf66f2425d3e,Cu1Rh2Sn1,225,"['Cu', 'Rh', 'Sn']",3
+mp-10887,HfAlCu2,225,"['Al', 'Cu', 'Hf']",4,aflow:b35052e7872de0d1,Al1Cu2Hf1,225,"['Al', 'Cu', 'Hf']",3
+mp-16501,HfAlPd2,225,"['Al', 'Hf', 'Pd']",4,aflow:c7e4f6937e0696c1,Al1Hf1Pd2,225,"['Al', 'Hf', 'Pd']",3
+mp-21075,HfC,225,"['C', 'Hf']",2,aflow:b47a366c761301a7,C1Hf1,225,"['C', 'Hf']",2
+mp-20730,HfCo2Sn,225,"['Co', 'Hf', 'Sn']",4,aflow:be0f30005c2762fb,Co2Hf1Sn1,225,"['Co', 'Hf', 'Sn']",3
+mp-971,K2O,225,"['K', 'O']",3,aflow:02918067ce677bf4,K2O1,225,"['K', 'O']",2
+mp-971,K2O,225,"['K', 'O']",3,aflow:9e183a9afc990944,K2O1,225,"['K', 'O']",2
+mp-23251,KBr,225,"['Br', 'K']",2,aflow:e02e6c6748e87324,Br1K1,225,"['Br', 'K']",2
+mp-23193,KCl,225,"['Cl', 'K']",2,aflow:28e41ffe3fada8e0,Cl1K1,225,"['Cl', 'K']",2
+mp-463,KF,225,"['F', 'K']",2,aflow:dee45e93103a3db1,F1K1,225,"['F', 'K']",2
+mp-22898,KI,225,"['I', 'K']",2,aflow:c5c59a10fed69262,I1K1,225,"['I', 'K']",2
+mp-11512,LiAl2Ir,225,"['Al', 'Ir', 'Li']",4,aflow:b255d4ebb43a1bc4,Al2Ir1Li1,225,"['Al', 'Ir', 'Li']",3
+mp-30819,LiAl2Pt,225,"['Al', 'Li', 'Pt']",4,aflow:1f1367160a7b806c,Al2Li1Pt1,225,"['Al', 'Li', 'Pt']",3
+mp-30821,LiAl2Rh,225,"['Al', 'Li', 'Rh']",4,aflow:58bd0b5d47b44b34,Al2Li1Rh1,225,"['Al', 'Li', 'Rh']",3
+mp-7473,LiCu2Si,225,"['Cu', 'Li', 'Si']",4,aflow:a534862f0707d9ed,Cu2Li1Si1,225,"['Cu', 'Li', 'Si']",3
+mp-30765,LiPt7,225,"['Li', 'Pt']",8,aflow:ced3dcb9433e147f,Li1Pt7,225,"['Li', 'Pt']",2
+mp-1367,Mg2Si,225,"['Mg', 'Si']",3,aflow:5b5f6e28c8f6fcae,Mg2Si1,225,"['Mg', 'Si']",2
+mp-2343,Mg2Sn,225,"['Mg', 'Sn']",3,aflow:e6e5181d91589f15,Mg2Sn1,225,"['Mg', 'Sn']",2
+mp-1265,MgO,225,"['Mg', 'O']",2,aflow:23344abad821b348,Mg1O1,225,"['Mg', 'O']",2
+mp-20840,MnCo2Sn,225,"['Co', 'Mn', 'Sn']",4,aflow:a541ee0810cffe1a,Co2Mn1Sn1,225,"['Co', 'Mn', 'Sn']",3
+mp-2352,Na2O,225,"['Na', 'O']",3,aflow:74c981a95255f67e,Na2O1,225,"['Na', 'O']",2
+mp-22916,NaBr,225,"['Br', 'Na']",2,aflow:81af8c617774153e,Br1Na1,225,"['Br', 'Na']",2
+mp-22862,NaCl,225,"['Cl', 'Na']",2,aflow:d0c93a9396dc599e,Cl1Na1,225,"['Cl', 'Na']",2
+mp-682,NaF,225,"['F', 'Na']",2,aflow:4590fc6b74283e3d,F1Na1,225,"['F', 'Na']",2
+mp-23268,NaI,225,"['I', 'Na']",2,aflow:484aa4aa291e7238,I1Na1,225,"['I', 'Na']",2
+mp-5149,NbAlCo2,225,"['Al', 'Co', 'Nb']",4,aflow:e3653e7c2fdd34bf,Al1Co2Nb1,225,"['Al', 'Co', 'Nb']",3
+mp-2083,Sn2Ir,225,"['Ir', 'Sn']",3,aflow:0f7397e9ad37bd23,Ir1Sn2,225,"['Ir', 'Sn']",2
+mp-19962,Sn2Pt,225,"['Pt', 'Sn']",3,aflow:ca9cdc800c9391c4,Pt1Sn2,225,"['Pt', 'Sn']",2
+mp-1883,SnTe,225,"['Sn', 'Te']",2,aflow:13e3d03ca28ef02a,Sn1Te1,225,"['Sn', 'Te']",2
+mp-16497,ScAlCu2,225,"['Al', 'Cu', 'Sc']",4,aflow:4c8b8683b4cb36a1,Al1Cu2Sc1,225,"['Al', 'Cu', 'Sc']",3
+mp-3791,ScCo2Sn,225,"['Co', 'Sc', 'Sn']",4,aflow:c935637c522664f6,Co2Sc1Sn1,225,"['Co', 'Sc', 'Sn']",3
+mp-549,ScSb,225,"['Sb', 'Sc']",2,aflow:fd0d3f1dd667d640,Sb1Sc1,225,"['Sb', 'Sc']",2
+mp-4897,ScSnPd2,225,"['Pd', 'Sc', 'Sn']",4,aflow:0ee5160408c4d9f2,Pd2Sc1Sn1,225,"['Pd', 'Sc', 'Sn']",3
+mp-981,SrF2,225,"['F', 'Sr']",3,aflow:deb58b05551cb76b,F2Sr1,225,"['F', 'Sr']",2
+mp-2472,SrO,225,"['O', 'Sr']",2,aflow:e5529db498f2af80,O1Sr1,225,"['O', 'Sr']",2
+mp-4771,TiAlCu2,225,"['Al', 'Cu', 'Ti']",4,aflow:6ea3320001d10d87,Al1Cu2Ti1,225,"['Al', 'Cu', 'Ti']",3
+mp-3340,TaAlCo2,225,"['Al', 'Co', 'Ta']",4,aflow:e422af1b9062df16,Al1Co2Ta1,225,"['Al', 'Co', 'Ta']",3
+mp-1086,TaC,225,"['C', 'Ta']",2,aflow:d2ab410fef99ea61,C1Ta1,225,"['C', 'Ta']",2
+mp-631,TiC,225,"['C', 'Ti']",2,aflow:dd9ba1426a59901e,C1Ti1,225,"['C', 'Ti']",2
+mp-21467,TiCo2Sn,225,"['Co', 'Sn', 'Ti']",4,aflow:bed8c7f2b91ac5b8,Co2Sn1Ti1,225,"['Co', 'Sn', 'Ti']",3
+mp-215,YSb,225,"['Sb', 'Y']",2,aflow:c4c839a3ba80c695,Sb1Y1,225,"['Sb', 'Y']",2
+mp-5538,YSnPd2,225,"['Pd', 'Sn', 'Y']",4,aflow:caa88b714d13abcc,Pd2Sn1Y1,225,"['Pd', 'Sn', 'Y']",3
+mp-10157,K,225,['K'],1,aflow:c45fd3cfd9ab3800,K1,225,['K'],1
+mp-8634,Mn,225,['Mn'],1,aflow:266a4c0484d78664,Mn1,225,['Mn'],1
+mp-76,Sr,225,['Sr'],1,aflow:4f01f9799983fd51,Sr1,225,['Sr'],1
+mp-8638,Tc,225,['Tc'],1,aflow:6a87de99cc84ce75,Tc1,225,['Tc'],1
+mp-936,Hg4Pt,229,"['Hg', 'Pt']",5,aflow:1d2f797ec7f13895,Hg4Pt1,229,"['Hg', 'Pt']",2
+mp-91,W,229,['W'],1,aflow:b36865785bd06095,W1,229,['W'],1
+mp-1,Cs,229,['Cs'],1,aflow:5acbf212d1783298,Cs1,229,['Cs'],1
+mp-70,Rb,229,['Rb'],1,aflow:a16df87dec15ee9c,Rb1,229,['Rb'],1
+mp-71,Yb,229,['Yb'],1,aflow:1cc72a1218ae7cc5,Yb1,229,['Yb'],1

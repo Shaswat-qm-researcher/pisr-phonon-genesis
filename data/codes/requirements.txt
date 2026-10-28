@@ -1,0 +1,16 @@
+# Materials Project/AFLOW data downloader - dependencies
+# Tested with Python 3.12.12 (mp-api requires a recent Python 3; 3.10+ recommended)
+#
+# Install with:  pip install -r requirements.txt
+# (On HPC: use a virtualenv/conda env, or `pip install --user -r requirements.txt`)
+#
+# Versions below are the minimum tested versions (>=). To reproduce the exact
+# tested environment, replace ">=" with "==".
+mp-api>=0.46.5
+emmet-core>=0.87.2
+pandas>=2.2.3
+numpy>=2.4.4
+openpyxl>=3.1.2
+tqdm>=4.67.3
+ipykernel>=7.1.0
+jupyter>=1.1.1
