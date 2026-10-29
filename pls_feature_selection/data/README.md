@@ -22,6 +22,7 @@ This directory contains input data for **Partial Least Squares Regression (PLS)*
   - **Magnetic**: `TM`, `MSITE`
   - **Mechanical**: `BM`, `SM`, `YM`, `PR`, `PUGR`, `IPUGR`
   - **Vibrational**: `DT`, `vs`, `vl`, `vm`
+  - **Lable Source**: `Debye_temperature_source` (⚠️ MUST DROP)
 
 #### **AFLOW_cleaned_dataset.csv**
 - **Source**: AFLOW Consortium Database

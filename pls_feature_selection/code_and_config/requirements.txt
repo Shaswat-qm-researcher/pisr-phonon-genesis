@@ -1,0 +1,19 @@
+# PLS Feature Selection - dependencies
+# Tested with Python 3.12.12
+# Last Updated: 29-10-2026
+# Install with:  pip install -r requirements.txt
+# (On HPC: use a virtualenv/conda env, or `pip install --user -r requirements.txt`)
+
+numpy==2.0.1
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+openpyxl==3.1.2
+statsmodels==0.14.1
+tqdm==4.66.1
+jupyter>=1.1.1
+jupyterlab>=4.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0

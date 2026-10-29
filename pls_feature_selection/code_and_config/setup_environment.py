@@ -117,8 +117,6 @@ def install_in_colab():
         "scikit-learn==1.5.2",
         "matplotlib==3.9.2",
         "openpyxl==3.1.2",
-        "statsmodels==0.14.1",
-        "tqdm==4.66.1"
     ]
     
     print(f"{CYAN}Installing required packages...{RESET}")
@@ -143,8 +141,6 @@ def install_in_jupyter():
         "scikit-learn==1.5.2",
         "matplotlib==3.9.2",
         "openpyxl==3.1.2",
-        "statsmodels==0.14.1",
-        "tqdm"
     ]
     
     print(f"{CYAN}Installing packages in current kernel...{RESET}")
@@ -214,7 +210,6 @@ def setup_conda_environment():
         "scikit-learn=1.5.2",
         "matplotlib=3.9.2",
         "openpyxl=3.1.2",
-        "statsmodels=0.14.1",
         "jupyter",
         "ipykernel",
         "notebook",
@@ -228,12 +223,6 @@ def setup_conda_environment():
             f"conda install -n {env_name} {pkg} -y",
             f"Installing {pkg_name}"
         )
-    
-    # Install additional packages with pip
-    run_command(
-        f"conda run -n {env_name} pip install tqdm",
-        "Installing tqdm"
-    )
     
     # Setup Jupyter kernel
     setup_jupyter_kernel(env_name, None, "conda")
@@ -296,8 +285,6 @@ def setup_venv_environment():
         "scikit-learn==1.5.2",
         "matplotlib==3.9.2",
         "openpyxl==3.1.2",
-        "statsmodels==0.14.1",
-        "tqdm",
         "jupyter",
         "jupyterlab",
         "notebook",
@@ -338,8 +325,6 @@ def install_current_environment():
         "scikit-learn==1.5.2",
         "matplotlib==3.9.2",
         "openpyxl==3.1.2",
-        "statsmodels==0.14.1",
-        "tqdm",
         "jupyter",
         "jupyterlab",
         "notebook",

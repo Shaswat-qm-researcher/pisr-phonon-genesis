@@ -1,9 +1,9 @@
 {
   "metadata": {
     "description": "Configuration file for PLS-based feature selection for thermodynamic property prediction",
-    "version": "1.0",
-    "last_updated": "2026-04-08",
-    "application": "Dimensionality reduction from latent space to uncover physical variable for property prediciton: Θ_D, C_p, κ, and other thermodynamic/transport properties"
+    "version": "2.0",
+    "last_updated": "2026-10-29",
+    "application": "Dimensionality reduction from latent space to uncover physical variables for property prediction: Θ_D, C_p, κ, and other thermodynamic/transport properties"
   },
 
   "default_parameters": {
@@ -17,13 +17,25 @@
       "value": 0.10,
       "description": "Minimum absolute loading value for feature retention (|L| > threshold)",
       "range": [0.05, 0.30],
-      "recommendation": "0.10 balances feature sparsity and predictive power. Can try 0.20 for stricter feature extaction."
+      "recommendation": "0.10 balances feature sparsity and predictive power. Can try 0.20 for stricter feature extraction."
     },
     "incremental_r2_threshold": {
       "value": 0.05,
       "description": "Minimum incremental R² contribution for component significance (ΔR² > threshold)",
       "range": [0.01, 0.15],
       "recommendation": "0.05 ensures only meaningful components are retained"
+    },
+    "nlr_relative_gain_threshold": {
+      "value": 0.05,
+      "description": "NLR feature-retention criterion: a feature is retained if its addition removes at least this fraction of the variance still unexplained before it was added, i.e. ΔR² / (1 - R²_previous). Works uniformly whether R² is at 0.5 or already at 0.99.",
+      "range": [0.10, 0.50],
+      "recommendation": "0.05 (5% of remaining error removed); raise to 0.10–0.20 for stricter selection"
+    },
+    "nlr_delta_r2_floor": {
+      "value": 0.001,
+      "description": "NLR noise guard: absolute ΔR² gains smaller than this are ignored regardless of relative gain",
+      "range": [0.0005, 0.005],
+      "recommendation": "0.001 suppresses spurious micro-gains; lower to 0.0005 on very large datasets"
     },
     "scale_features": {
       "value": true,
@@ -67,20 +79,38 @@
     }
   },
 
+  "foldwise_stability_check": {
+    "folds": {
+      "value": 5,
+      "description": "K-fold splits per repeat: the full selection pipeline (scaling, PLS, component screening, loading screening, NLR) is run inside each training fold",
+      "recommendation": "5 matches the GridSearch CV folds"
+    },
+    "repeats": {
+      "value": 10,
+      "description": "Number of full K-fold repetitions (total runs = folds × repeats)",
+      "recommendation": "10 repeats give 50 runs, sufficient to estimate selection frequency reliably"
+    },
+    "description": "Validates that the NLR-retained feature set is stable across data splits. The exact-match fraction reports how often a fold-wise run recovers the same retained set as the full-data run."
+  },
+
   "prediction_results_and_property_specific_configs": {
     "debye_temperature": {
       "target_column": ["DT", "DT_AGL"],
       "pls_recommended_features": ["SM", "YM", "VPA", "D", "BM", "PR"],
       "n_components": 5,
       "loading_threshold": 0.10,
+      "nlr_relative_gain_threshold": 0.05,
+      "nlr_delta_r2_floor": 0.001,
       "expected_top_features": 4,
-      "notes": "Debye temperature have strong linear correlation with elastic moduli"
+      "notes": "Debye temperature has strong linear correlation with elastic moduli. NLR typically retains SM, YM, VPA, D."
     },
     "heat_capacity": {
       "target_column": ["Cp_300", "Cv_300"],
       "pls_recommended_features": ["NA", "PR", "PUGR", "VPA", "SM", "YM"],
       "n_components": 5,
       "loading_threshold": 0.10,
+      "nlr_relative_gain_threshold": 0.05,
+      "nlr_delta_r2_floor": 0.001,
       "expected_top_features": 6,
       "notes": "Heat capacity depends on number of atoms (Dulong-Petit) and bonding character"
     },
@@ -89,6 +119,8 @@
       "pls_recommended_features": ["gruneisen", "BM", "VPA", "D", "EPA"],
       "n_components": 5,
       "loading_threshold": 0.10,
+      "nlr_relative_gain_threshold": 0.05,
+      "nlr_delta_r2_floor": 0.001,
       "expected_top_features": 5,
       "notes": "Thermal expansion requires Grüneisen parameter for anharmonicity"
     },
@@ -97,14 +129,18 @@
       "pls_recommended_features": ["SM", "YM", "NA", "NE", "D"],
       "n_components": 5,
       "loading_threshold": 0.10,
+      "nlr_relative_gain_threshold": 0.05,
+      "nlr_delta_r2_floor": 0.001,
       "expected_top_features": 5,
-      "notes": "Thermal conductivity depends on stiffness, and structural complexity"
+      "notes": "Thermal conductivity depends on stiffness and structural complexity"
     },
     "acoustic_debye_temperature": {
       "target_column": ["DT_A_AGL"],
       "recommended_features": ["SM", "YM", "VPA", "D", "NA", "NE"],
       "n_components": 5,
       "loading_threshold": 0.10,
+      "nlr_relative_gain_threshold": 0.05,
+      "nlr_delta_r2_floor": 0.001,
       "expected_top_features": 6,
       "notes": "Acoustic Debye temperature focuses on low-frequency phonon modes"
     }
@@ -177,14 +213,24 @@
   "output_settings": {
     "save_plots": true,
     "plot_dpi": 600,
-    "plot_format": "png/pdf",
+    "plot_format": "pdf",
     "save_excel": true,
     "excel_sheets": [
-      "PLS_Summary",
-      "Selected_Features",
-      "PLS_Loadings",
-      "Metadata",
-      "GridSearch_Results"
+      "Metadata and Grid search",
+      "PLS Component Summary",
+      "PLS Loadings (All)",
+      "PLS Loadings (Selected)",
+      "NLR Feature Selection",
+      "Foldwise Selection Freq",
+      "Foldwise Runs",
+      "Foldwise Summary"
+    ],
+    "output_plots": [
+      "<prefix>_1_pls_component_analysis.pdf",
+      "<prefix>_2_loading_heatmap.pdf",
+      "<prefix>_3_feature_contributions.pdf",
+      "<prefix>_4_nlr_relative_gain.pdf",
+      "<prefix>_5_foldwise_selection_frequency.pdf"
     ],
     "verbose": true
   },
@@ -199,14 +245,17 @@
     "best_practices": [
       "✓ Start with default parameters, then fine-tune",
       "✓ Validate on independent test set (80/20 split)",
-      "✓ Compare PLS results with correlation analysis",
+      "✓ Use the fold-wise stability check to confirm NLR-retained features are not data-split artefacts",
+      "✓ An exact-match fraction of 100% (all fold-wise runs recover the full-data retained set) is strong evidence of a stable selection",
       "✓ Document property-specific configurations for reproducibility"
     ],
     "troubleshooting": {
       "low_r2": "Increase n_components or lower loading_threshold",
       "convergence_warnings": "Increase max_iter to [2000, 5000]",
-      "too_many_features": "Increase loading_threshold to 0.15-0.20",
-      "too_few_features": "Decrease loading_threshold to 0.05-0.08"
+      "too_many_features_after_nlr": "Raise nlr_relative_gain_threshold to 0.10–0.20",
+      "too_few_features_after_nlr": "Lower nlr_relative_gain_threshold to 0.02–0.03 or lower nlr_delta_r2_floor",
+      "too_many_features_after_pls": "Increase loading_threshold to 0.15–0.20",
+      "too_few_features_after_pls": "Decrease loading_threshold to 0.05–0.08"
     }
   },
 

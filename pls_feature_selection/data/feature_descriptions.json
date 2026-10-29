@@ -255,7 +255,15 @@
       "type": "float",
       "physical_significance": "PRIMARY TARGET - Maximum phonon frequency cutoff, determines low-T heat capacity (C_v ∝ T³ for T<<Θ_D), thermal conductivity scaling (κ ∝ Θ_D³), and vibrational entropy",
       "example": 547.94,
-      "calculation_method": "DFPT phonon DOS from Materials Project"
+      "calculation_method": "DFT phonon DOS and Sound velocity approximation from Materials Project"
+    },
+      "label_source": {
+    "debye_temperature_source": {
+      "full_name": "debye_temperature_source",
+      "description": "Label for where the Debye temperature is sorced from",
+      "type": "string",
+      "usage": "Drop before training - used only for categorizing Debye temperature",
+      "example": "phonon_PDOS"
     },
     "DT_AGL": {
       "full_name": "Debye Temperature (AGL Method)",
