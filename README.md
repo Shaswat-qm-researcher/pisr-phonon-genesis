@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Anaconda-Compatible-44A833?logo=anaconda&logoColor=white"/>
   <img src="https://img.shields.io/badge/Framework-XAI%20%7C%20Symbolic%20Regression-teal"/>
-  <img src="https://img.shields.io/badge/Properties-Θ_D%20%7C%20C_v%20%7C%20κ-orange"/>
+  <img src="https://img.shields.io/badge/Properties-Θ_D%20%7C%20C_p%20%7C%20κ-orange"/>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey"/>
 </p>
 
