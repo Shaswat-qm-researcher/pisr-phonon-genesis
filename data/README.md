@@ -28,7 +28,8 @@ Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-
 │       ├── MP_cleaned_dataset.csv          # Cleaned & renamed MP features
 │       ├── MP_cleaned_dataset_stable.csv   # MP features filtered to stable compounds only
 │       ├── common_compounds.csv            # Compounds matched across both databases
-│       └── symbol_conversion.txt          # Feature abbreviations, LaTeX symbols & definitions
+│       ├── feature_descriptions.json       # Feature description for processed data coloums
+│       └── symbol_conversion.txt           # Feature abbreviations, LaTeX symbols & definitions
 ├── figures/
 │   ├── data_comparison.pdf                 # Bar chart: MP vs AFLOW compound counts
 │   └── venn_diagram.pdf                    # Venn diagram: shared vs unique compounds
@@ -56,7 +57,7 @@ Physics-Informed-Symbolic-Regression-for-Phonon-Related-Property-Prediction-and-
 
 ## Feature Abbreviations
 
-All cleaned files use short abbreviations defined in `symbol_conversion.txt`. Key ones:
+All cleaned files use short abbreviations defined in `symbol_conversion.txt` and detailed in `feature_descriptions.json`. Key ones:
 
 | Abbreviation | Property | Unit |
 |---|---|---|

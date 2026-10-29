@@ -1,0 +1,378 @@
+{
+  "metadata": {
+    "description": "Comprehensive feature descriptions for PLS-based feature selection",
+    "databases": ["Materials Project", "AFLOW"],
+    "total_unique_features": 36,
+    "total_useful_features": 33,
+    "structural_features": 5,
+    "electronic_features": 5,
+    "magnetic_features": 3,
+    "mechanical_features": 7,
+    "vibrational/transport_features": 4,
+    "thermodynamic_(MP/AFLOW)": 8,
+    "used_input_properties": 20,
+    "predicted_target_properties": 3,
+    "target_property": ["Debye Temperature (DT/DT_AGL)", "Heat Capacity at Constant Pressure (Cp_300)", "Thermal Conductivity (TC_300)"],
+    "note": "ID and formula columns must be dropped before PLS training"
+  },
+  
+  "identifier_columns": {
+    "MP_ID": {
+      "full_name": "Materials Project ID",
+      "description": "Unique identifier from Materials Project database",
+      "type": "string",
+      "usage": "Drop before training - used only for material identification",
+      "example": "mp-24390"
+    },
+    "auid": {
+      "full_name": "AFLOW Unique Identifier",
+      "description": "Unique identifier from AFLOW database",
+      "type": "string",
+      "usage": "Drop before training - used only for material identification",
+      "example": "aflow:001a4bbb607a30b0"
+    },
+    "formula": {
+      "full_name": "Chemical Formula",
+      "description": "Chemical composition of the material",
+      "type": "string",
+      "usage": "Drop before training - non-numerical descriptor",
+      "example": "CaPHO4"
+    }
+  },
+
+  "structural_features": {
+    "NE": {
+      "full_name": "Number of Elements",
+      "description": "Total number of unique chemical elements in the compound",
+      "unit": "dimensionless",
+      "type": "integer",
+      "physical_significance": "Chemical complexity - affects phonon scattering channels",
+      "example": 3
+    },
+    "NA": {
+      "full_name": "Number of Atoms",
+      "description": "Total number of atoms per unit cell",
+      "unit": "atoms/cell",
+      "type": "integer",
+      "physical_significance": "Determines number of phonon modes (3×NA), affects heat capacity via Dulong-Petit law",
+      "example": 28
+    },
+    "V": {
+      "full_name": "Volume",
+      "description": "Total volume of the unit cell",
+      "unit": "Å³",
+      "type": "float",
+      "physical_significance": "Unit cell size - affects Brillouin zone dimensions and phonon dispersion",
+      "example": 306.64
+    },
+    "VPA": {
+      "full_name": "Volume Per Atom",
+      "description": "Average volume occupied by each atom in the structure",
+      "unit": "Å³/atom",
+      "type": "float",
+      "physical_significance": "Interatomic distance indicator - inversely related to bond strength and phonon frequencies (Θ_D ∝ V_atom^(-1/3))",
+      "example": 10.95,
+    },
+    "D": {
+      "full_name": "Mass Density",
+      "description": "Mass per unit volume of the material",
+      "unit": "g/cm³",
+      "type": "float",
+      "physical_significance": "Inertial mass in phonon frequencies (ω ∝ ρ^(-1/2)), affects sound velocity (v ∝ ρ^(-1/2))",
+      "example": 2.95,
+      }
+  },
+
+  "electronic_features": {
+    "BGAP": {
+      "full_name": "Electronic Band Gap",
+      "description": "Energy difference between valence and conduction bands",
+      "unit": "eV",
+      "type": "float",
+      "physical_significance": "Distinguishes metals (0 eV) from semiconductors/insulators (>0 eV), affects electron-phonon coupling",
+      "example": 5.43
+    },
+    "EPA": {
+      "full_name": "Total Energy Per Atom",
+      "description": "DFT-calculated total energy normalized by number of atoms",
+      "unit": "eV/atom",
+      "type": "float",
+      "physical_significance": "Ground state electronic energy - relates to bond strength",
+      "example": -7.17
+    },
+    "FEPA": {
+      "full_name": "Formation Energy Per Atom",
+      "description": "Thermodynamic stability relative to elemental reference states",
+      "unit": "eV/atom",
+      "type": "float",
+      "physical_significance": "Bond strength indicator (negative = stable) - stronger bonds → higher Θ_D",
+      "example": -2.80
+    },
+    "EFMR": {
+      "full_name": "Fermi Energy",
+      "description": "Electronic chemical potential at T=0K",
+      "unit": "eV",
+      "type": "float",
+      "physical_significance": "Electronic structure indicator - affects screening of ionic interactions",
+      "example": 1.60
+    },
+    "ENPA": {
+      "full_name": "Enthalpy Per Atom",
+      "description": "Thermodynamic enthalpy normalized per atom (AFLOW database)",
+      "unit": "eV/atom",
+      "type": "float",
+      "physical_significance": "Total energy including PV work term",
+      "example": -7.32
+    }
+  },
+
+  "magnetic_features": {
+    "TM": {
+      "full_name": "Total Magnetization",
+      "description": "Net magnetic moment per formula unit",
+      "unit": "μB/f.u.",
+      "type": "float",
+      "physical_significance": "Magnetic ordering - spin-lattice coupling can affect phonon lifetimes",
+      "example": 0.11
+    },
+    "MSITE": {
+      "full_name": "Number of Unique Magnetic Sites",
+      "description": "Count of crystallographically distinct magnetic atoms",
+      "unit": "dimensionless",
+      "type": "integer",
+      "physical_significance": "Magnetic complexity - affects magnon-phonon scattering",
+      "example": 0
+    },
+    "ASPIN": {
+      "full_name": "Atomic Spin / Magnetization Per Atom",
+      "description": "Average magnetic moment per atom (AFLOW database)",
+      "unit": "μB/atom",
+      "type": "float",
+      "physical_significance": "Local magnetic moment - affects spin-phonon coupling",
+      "example": 0
+    }
+  },
+
+  "mechanical_features": {
+    "BM": {
+      "full_name": "Bulk Modulus (Voigt-Reuss-Hill)",
+      "description": "Resistance to uniform compression, averaged using VRH scheme",
+      "unit": "GPa",
+      "type": "float",
+      "physical_significance": "Controls longitudinal sound velocity (v_l ∝ √(B/ρ)), related to Debye temperature through acoustic phonon branches",
+      "example": 72.68,
+    },
+    "SM": {
+      "full_name": "Shear Modulus (Voigt-Reuss-Hill)",
+      "description": "Resistance to shear deformation (shape change at constant volume)",
+      "unit": "GPa",
+      "type": "float",
+      "physical_significance": "Controls transverse sound velocity (v_t ∝ √(G/ρ)), DOMINANT role in Θ_D (SISSO: Θ_D ∝ G^1)",
+      "example": 39.17,
+    },
+    "YM": {
+      "full_name": "Young's Modulus (Voigt-Reuss-Hill)",
+      "description": "Tensile/compressive stiffness along single axis",
+      "unit": "GPa",
+      "type": "float",
+      "physical_significance": "Related to average elastic stiffness, linked to mean sound velocity (SISSO: Θ_D ∝ E^(1/2))",
+      "example": 99.66,
+    },
+    "PR": {
+      "full_name": "Poisson's Ratio",
+      "description": "Ratio of transverse to axial strain under uniaxial stress (ν = -ε_trans/ε_axial)",
+      "unit": "dimensionless",
+      "type": "float",
+      "physical_significance": "Bonding character indicator (covalent: ~0.1-0.25, metallic: ~0.3-0.4), relates to v_l/v_t ratio",
+      "example": 0.27,
+    },
+    "PUGR": {
+      "full_name": "Pugh's Ratio",
+      "description": "Shear-to-bulk modulus ratio (G/B)",
+      "unit": "dimensionless",
+      "type": "float",
+      "physical_significance": "Brittleness criterion: G/B>0.57 (brittle), G/B<0.57 (ductile); correlates with anharmonicity",
+      "example": 0.54,
+    },
+    "IPUGR": {
+      "full_name": "Inverse Pugh's Ratio",
+      "description": "Bulk-to-shear modulus ratio (B/G)",
+      "unit": "dimensionless",
+      "type": "float",
+      "physical_significance": "Ductility indicator - inverse of PUGR",
+      "example": 1.86,
+    },
+    "ANI": {
+      "full_name": "Elastic Anisotropy",
+      "description": "Measure of directional variation in elastic properties",
+      "unit": "dimensionless",
+      "type": "float",
+      "physical_significance": "Anisotropy in phonon group velocities - affects thermal conductivity directionality",
+      "example": 0.5,
+    }
+  },
+
+  "vibrational_transport_features": {
+    "vs": {
+      "full_name": "Transverse Speed of Sound",
+      "description": "Shear/transverse acoustic wave velocity (v_t = √(G/ρ))",
+      "unit": "m/s",
+      "type": "float",
+      "physical_significance": "Related to transverse acoustic phonon group velocity - two degenerate modes",
+      "example": 3724.75,
+    },
+    "vl": {
+      "full_name": "Longitudinal Speed of Sound",
+      "description": "Longitudinal acoustic wave velocity (v_l = √((B+4G/3)/ρ))",
+      "unit": "m/s",
+      "type": "float",
+      "physical_significance": "Related to longitudinal acoustic phonon group velocity - one mode",
+      "example": 6651.19,
+    },
+    "vm": {
+      "full_name": "Average Speed of Sound",
+      "description": "Harmonic mean of acoustic velocities: v_m = [1/3(2/v_t³ + 1/v_l³)]^(-1/3)",
+      "unit": "m/s",
+      "type": "float",
+      "physical_significance": "Directly proportional to Debye temperature in classical theory (Θ_D ∝ v_m)",
+      "example": 4145.81,
+    },
+    "gruneisen": {
+      "full_name": "Grüneisen Parameter",
+      "description": "Anharmonicity parameter (γ = -∂lnω/∂lnV) measuring volume dependence of phonon frequencies",
+      "unit": "dimensionless",
+      "type": "float",
+      "physical_significance": "Controls thermal expansion (α ∝ γC_v/BV) and thermal conductivity (κ ∝ 1/γ²) - essential for predicting α and κ",
+      "example": 1.97,
+    }
+  },
+
+  "thermodynamic_features_MP/aflow": {
+      "DT": {
+      "full_name": "Debye Temperature",
+      "description": "Characteristic temperature marking transition from quantum to classical lattice behavior (ℏω_max = k_B Θ_D)",
+      "unit": "K",
+      "type": "float",
+      "physical_significance": "PRIMARY TARGET - Maximum phonon frequency cutoff, determines low-T heat capacity (C_v ∝ T³ for T<<Θ_D), thermal conductivity scaling (κ ∝ Θ_D³), and vibrational entropy",
+      "example": 547.94,
+      "calculation_method": "DFT phonon DOS and Sound velocity approximation from Materials Project"
+    },
+      "label_source": {
+    "debye_temperature_source": {
+      "full_name": "debye_temperature_source",
+      "description": "Label for where the Debye temperature is sorced from",
+      "type": "string",
+      "usage": "Drop before training - used only for categorizing Debye temperature",
+      "example": "phonon_PDOS"
+    },
+    "DT_AGL": {
+      "full_name": "Debye Temperature (AGL Method)",
+      "description": "Debye temperature calculated using Automatic Gibbs Library quasi-harmonic approximation",
+      "unit": "K",
+      "type": "float",
+      "physical_significance": "PRIMARY TARGET - Same as DT but calculated with QHA including thermal expansion effects",
+      "example": 469.05,
+      "calculation_method": "AGL quasi-harmonic Debye approximation from AFLOW"
+    },
+    "DT_A_AGL": {
+      "full_name": "Acoustic Debye Temperature (AGL)",
+      "description": "Low-frequency acoustic phonon branch contribution to Debye temperature",
+      "unit": "K",
+      "type": "float",
+      "physical_significance": "Acoustic mode limit, dominates low-T thermal transport",
+      "example": 295.45,
+      "calculation_method": "AGL approximation focusing on acoustic branches"
+    },
+    "Cv_300": {
+      "full_name": "Heat Capacity at Constant Volume (300K)",
+      "description": "Lattice vibrational contribution to heat capacity at fixed volume",
+      "unit": "kB/cell",
+      "type": "float",
+      "physical_significance": "Related to phonon density of states - approaches Dulong-Petit limit (3N_A k_B) at high T",
+      "example": 10.67,
+      "note": "AFLOW database only"
+    },
+    "Cp_300": {
+      "full_name": "Heat Capacity at Constant Pressure (300K)",
+      "description": "Experimentally accessible heat capacity including anharmonic PV work term",
+      "unit": "kB/cell",
+      "type": "float",
+      "physical_significance": "SECONDARY TARGET - C_p = C_v + α²BVT (Nernst-Lindemann relation)",
+      "example": 10.84,
+      "note": "AFLOW database only"
+    },
+    "TEX_300": {
+      "full_name": "Thermal Expansion Coefficient (300K)",
+      "description": "Volumetric thermal expansion rate (α = (1/V)(∂V/∂T)_P)",
+      "unit": "K⁻¹",
+      "type": "float",
+      "physical_significance": "Anharmonic property: α ∝ γC_v/(BV), measures lattice expansion with temperature",
+      "example": 2.77e-5,
+      "note": "AFLOW database only"
+    },
+    "TC_300": {
+      "full_name": "Thermal Conductivity (300K)",
+      "description": "Lattice thermal conductivity via phonon transport",
+      "unit": "W/(m·K)",
+      "type": "float",
+      "physical_significance": "SECONDARY TARGET - Phonon heat transport: κ ∝ C_v v_m² τ, Julian-Slack: κ ∝ Θ_D³/(γ²T)",
+      "example": 16.88,
+      "note": "AFLOW database only"
+    },
+    "VIB_EN_300": {
+      "full_name": "Vibrational Entropy (300K)",
+      "description": "Phonon contribution to entropy per atom at 300K",
+      "unit": "meV/(K·atom)",
+      "type": "float",
+      "physical_significance": "Temperature-dependent disorder from lattice vibrations - S_vib = k_B Σ[ln(1-e^(-ℏω/kT))]",
+      "example": 0.246,
+      "note": "AFLOW database only"
+    },
+    "VIB_FE_300": {
+      "full_name": "Vibrational Free Energy (300K)",
+      "description": "Helmholtz free energy contribution from phonons at 300K",
+      "unit": "meV/atom",
+      "type": "float",
+      "physical_significance": "F_vib = E_vib - TS_vib, determines temperature-dependent phase stability",
+      "example": 12.99,
+      "note": "AFLOW database only"
+    }
+  },
+
+  "usage_notes": {
+    "preprocessing_steps": [
+      "1. Drop identifier columns: MP_ID/auid and formula",
+      "2. Check for missing values (impute or remove)",
+      "3. Standardize all features: μ=0, σ=1 (StandardScaler)",
+      "4. Verify units are consistent across databases",
+      "5. Optional: Remove outliers (>3σ) for robust training"
+    ],
+    "critical_warnings": [
+      "⚠️ MUST DROP 'MP_ID'/'auid' and 'formula' before PLS training",
+      "⚠️ Features like vs, vl, vm are derived from BM, SM, D - creates multicollinearity",
+      "⚠️ Materials Project and AFLOW have different column names - harmonize before merging"
+    ],
+    "database_differences": {
+      "Materials_Project": {
+        "ID_column": "MP_ID",
+        "debye_column": "DT",
+        "additional_features": ["EFMR", "TM", "MSITE", "V"],
+        "missing_features": ["gruneisen", "Cp_300", "TEX_300", "TC_300"]
+      },
+      "AFLOW": {
+        "ID_column": "auid",
+        "debye_column": "DT_AGL",
+        "additional_features": ["ASPIN", "ENPA", "ANI", "DT_A_AGL", "gruneisen", "Cv_300", "Cp_300", "TEX_300", "TC_300", "VIB_EN_300", "VIB_FE_300"],
+        "missing_features": ["EFMR", "TM", "MSITE", "V"]
+      }
+    }
+  },
+
+  "references": {
+    "debye_theory": "Debye, P. (1912). Ann. Phys. 344(14), 789-839",
+    "anderson_approximation": "Anderson, O.L. (1963). J. Phys. Chem. Solids 24(7), 909-917",
+    "materials_project": "Jain, A. et al. (2013). APL Materials 1(1), 011002",
+    "aflow": "Curtarolo, S. et al. (2012). Comp. Mater. Sci. 58, 227-235",
+    "elastic_constants": "Hill, R. (1952). Proc. Phys. Soc. A 65(5), 349"
+  }
+}
