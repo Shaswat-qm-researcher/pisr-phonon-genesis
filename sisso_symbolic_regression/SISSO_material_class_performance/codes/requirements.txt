@@ -1,0 +1,12 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Material Compound Classifier — Python dependencies
+# Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+
+numpy>=1.24
+pandas>=2.0
+openpyxl>=3.1          # required for .xlsx read/write
+xlrd>=2.0              # required for legacy .xls read
+
+# Optional — only needed for Jupyter display (styled summary table)
+ipython>=8.0
