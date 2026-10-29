@@ -42,7 +42,7 @@ It implements a fully **explainable AI (XAI)** pipeline that moves from high-dim
 
 $$\Theta_D = f\ \left(G_{VRH},\ E,\ V_{\mathrm{atom}},\ \rho\right)$$
 
-Every step — from feature selection to the final regression formula — is transparent, auditable, and grounded in condensed-matter physics. The framework is demonstrated on **Debye temperature** ($\Theta_D$) and extends naturally to **specific heat** ($C_v$) and **lattice thermal conductivity** ($\kappa$).
+Every step — from feature selection to the final regression formula — is transparent, auditable, and grounded in condensed-matter physics. The framework is demonstrated on **Debye temperature** ($\Theta_D$) and extends naturally to **specific heat** ($C_p$) and **lattice thermal conductivity** ($\kappa$).
 
 
 <p align="center">
@@ -129,7 +129,7 @@ PLS Feature Selection
       |  Latent-variable regression — rank descriptors by target relevance
       v
 SISSO Symbolic Regression
-      |  Sparse expression search — output: analytical formula for Θ_D / Cv / κ
+      |  Sparse expression search — output: analytical formula for Θ_D / Cp / κ
       v
 Critical Regime Analysis
       |  Regime partitioning — dominance scoring — tunability mapping
@@ -146,10 +146,10 @@ Interpretable Scaling Relations + Materials Design Rules
 | Property | Symbol | Unit | Source |
 |---|---|---|---|
 | Debye Temperature | $\Theta_D$ | K | Materials Project, AFLOW |
-| Specific Heat (const. volume) | $C_v$ | J/(cell·K) | AFLOW AGL |
+| Specific Heat (const. pressure) | $C_p$ | J/(cell·kb) | AFLOW AGL |
 | Lattice Thermal Conductivity | $\kappa$ | W/(m·K) | AFLOW AGL |
 
-The symbolic descriptors discovered for $\Theta_D$ are validated against DFT-computed values and assessed for transferability to $C_v$ and $\kappa$, demonstrating that the framework learns physically general latent structure rather than property-specific correlations.
+The symbolic descriptors discovered for $\Theta_D$ are validated against DFT-computed values and assessed for transferability to $C_p$ and $\kappa$, demonstrating that the framework learns physically general latent structure rather than property-specific correlations.
 
 ---
 
@@ -218,3 +218,6 @@ If you use **pisr-phonon-genesis** in your research, please cite this repository
 }
 ```
 If you use data from the **Materials Project** or **AFLOW**, please also cite the corresponding references.
+
+---
+**Last Updated**: 29-10-2026
