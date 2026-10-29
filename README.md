@@ -103,7 +103,7 @@ Real materials do not behave uniformly across property space. CRA partitions the
 ├── 📁 assets/
 │   └── 🖼️  logo.png                       # Repository header image
 │
-├── 📁 new_predicted_materials/            # DFT input files and outputs
+├── 📁 new_predicted_materials/            # DFT input files, post-processing codes, and outputs
 │   └── 📄 README.md                      ← configuration and usage
 │
 ├── 📁 supporting_information/             # Supporting Excel files and figure for research paper
